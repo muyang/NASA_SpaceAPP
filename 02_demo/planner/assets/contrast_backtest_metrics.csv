@@ -1,5 +1,0 @@
-crop,baseline,training_years,held_out_years,held_out_n_years,prediction_delta_bu_ac,RMSE_delta_bu_ac,MAE_delta_bu_ac,bias_delta_bu_ac,scope
-corn,no_change,2006–2011,2012–2017,6,0.00000000,13.73419918,10.64970490,-10.21678578,Historical annual 3y–2y contrast only; no absolute-yield or process-model validation
-corn,training_mean_contrast,2006–2011,2012–2017,6,7.80751447,9.48947331,7.08664076,-2.40927131,Historical annual 3y–2y contrast only; no absolute-yield or process-model validation
-soybean,no_change,2006–2011,2012–2017,6,0.00000000,7.07596430,6.22083333,-6.17083333,Historical annual 3y–2y contrast only; no absolute-yield or process-model validation
-soybean,training_mean_contrast,2006–2011,2012–2017,6,4.46666667,3.85930963,3.27361111,-1.70416667,Historical annual 3y–2y contrast only; no absolute-yield or process-model validation

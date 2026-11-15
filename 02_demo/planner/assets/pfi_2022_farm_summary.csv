@@ -1,6 +1,0 @@
-farm,town,crop,cover_species,rye_lb_ac,pea_lb_ac,cover_yield_bu_ac,control_yield_bu_ac,reported_lsd_bu_ac,reported_significant,plant_date,plant_population_seeds_ac,row_spacing_in,harvest_date,seeding_date_table1,seeding_date_table2,termination_date_table1,termination_date_table2,biomass_lb_ac,sensor_usable,soil_water_pattern,matches_S1_soy_phase,delta_bu_ac,management_date_conflict
-Brown,New Providence,corn,rye + winter peas,30,20,205,205,34,False,2022-05-16,32000,30,2022-11-01,2021-10-04,2021-10-14,2022-05-18,2022-05-18,2546,True,Drier in June; wetter beginning mid-July through late season,False,0,True
-Cannon,Prairie City,soybean,rye,60,0,70,69,1,True,2022-05-07,145000,15,2022-09-22,2021-11-04,2021-11-04,2022-06-04,2022-06-04,628,True,No consistent difference reported,True,1,False
-Gustafson,Boone,soybean,rye,56,0,65,63,4,False,2022-05-24,140000,30,2022-10-11,2021-10-15,2021-10-15,2022-05-31,2022-05-22,645,True,Drier under cover during the reported summer sensor period,True,2,True
-Lehman,Polk City,soybean,rye,60,0,78,77,4,False,2022-06-03,150000,30,2022-10-07,2021-09-26,2021-09-26,2022-05-21,2022-05-19,756,False,Sensor failure; not available,True,1,True
-Ose,Williams,corn,rye,60,0,212,223,2,True,2022-05-13,34000,30,2022-10-22,2021-09-29,2021-09-29,2022-04-26,2022-04-26,574,False,Sensor failure; not available,False,-11,False
