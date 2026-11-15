@@ -1,0 +1,21 @@
+{
+  "protocol_version": "1.0",
+  "created_date": "2026-11-15",
+  "scope": "Historical public trial outcome reanalysis; not validation of the independent Rust process model or a farmer-specific forecast",
+  "primary_comparison": "Marsden 3-year system minus 2-year system, corn and soybean phases separately",
+  "years": {"training": [2006, 2011], "held_out": [2012, 2017]},
+  "reason": "Oats replaced triticale starting in 2006; common coverage for existing corn and soybean records; six chronological years on each side",
+  "corn_unit": "Verify author-processed dry Mg/ha against pinned raw workbook; divide by (1-0.155) to express grain at 15.5% moisture, then use 0.06277 Mg/ha per bu/ac where needed",
+  "soy_unit": "Reported bu/ac at 13% moisture; retain source conversion 0.06719 Mg/ha per bu/ac",
+  "pairing": "Same crop, year and replicate block, exactly one record per system after declared author subplot aggregation",
+  "management": "Whole management-system contrasts, including manure/fertilizer/herbicide/tillage and subplot aggregation; not an isolated clover or rotation-sequence causal effect",
+  "historical_contrast_baselines": ["Predict held-out annual contrast as zero", "Predict held-out annual contrast as mean paired annual difference in training years"],
+  "metrics": ["annual contrast RMSE", "annual contrast MAE", "annual contrast bias", "observed year range", "fraction of years with positive contrast"],
+  "uncertainty": "Descriptive percentile bootstrap of whole years (10000 resamples, seed 7112026), averaging all four blocks before resampling. Conditional on one experiment and its four blocks, not a field prediction interval or full site-to-site uncertainty.",
+  "holdout_rule": "No parameter changes or train/test ratio changes after held-out contrast scores are calculated",
+  "pfi_role": "Independent published 2022 strip-trial summaries with four replicated strips per treatment; no fabricated raw replicates or p-values; original LSD and significance labels retained",
+  "water_rule": "Moisture state and qualitative seasonal patterns are not ET, irrigation saving or a water balance. Sensor failures and conflicting dates remain explicit.",
+  "economics_rule": "Published historic net returns retain their definition and vintage; no transfer to current farm profit. Any new break-even calculation uses explicit conditional costs and prices, separate from observed trial effects.",
+  "NASA_role": "Existing POWER historical regional context may stratify descriptive weather exposure only. No exact field coordinates invented for public farms and no satellite proxy relabeled as ground truth.",
+  "human_testing": "Not performed; real farmer participation unavailable in this round. Supply protocol, blank records, facilitator tool and analysis without synthetic human results."
+}

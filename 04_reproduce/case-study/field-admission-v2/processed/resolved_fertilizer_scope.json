@@ -1,0 +1,13 @@
+{
+  "2013_June28": {
+    "C2_lb_N_ac": 100,
+    "C3_lb_N_ac": 75,
+    "C4_lb_N_ac": 50,
+    "C4_is_not_75_plus_50": true,
+    "source_file": "raw/field-logs/Field-activities-Marsden_2001-2017.xlsx",
+    "sheet": "Dates-all",
+    "source_row": 764
+  },
+  "2014_C2_main_N_kg_ha": 168.12767340000002,
+  "residual_note": "Spray/adjuvant UAN recorded separately; density and subplot basis are not silently resolved. Main events are not claimed to be the complete all-N ledger."
+}

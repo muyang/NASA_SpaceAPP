@@ -1,0 +1,17 @@
+{
+ "scope":"Diagnostic replay of 2014 Marsden 2-year corn plot-years, not a new validated recommendation engine",
+ "version":"1.0",
+ "field_year":2014,
+ "plots":[13,24,34,44],
+ "management":"2014-04-21 100 lb N/ac; 2014-04-22 sowing; 2014-06-11 50 lb N/ac; 2014-10-06 recorded harvest",
+ "soil":"Measured plot-specific 2014 BD/texture/SOC/N; LL and DUL from declared texture/OM PTF priors; two OC/OM conversion assumptions (0.50,0.58). No substitution of sensor calibration readings for SAT.",
+ "forcing":"Existing Boone NASA POWER daily extraction; regional forcing, not measured field weather",
+ "crop_parameters":"Frozen v0.2 county-fitted crop parameters; no new fitting to these four plot yields",
+ "initial_water_fractions":[0.2,0.4,0.6,0.8],
+ "initial_N_kg_ha":50,
+ "initial_state_limit":"Measured 2014 bulk organic stocks treated as a diagnostic start-of-year proxy, exact sampling/start-date mismatch retained; mineral N and residues remain declared model assumptions",
+ "water_comparison":"Conditional g/g-to-volume observations for same 2014 plots, using explicitly mapped layer BD; exclude ambiguous aggregate and year-conflicting observations. Treat repeated dates as dependent.",
+ "selection_rule":"No parameter selection or best-case reporting. Show the complete initial-water/OC-to-OM scenario range. Do not call range a confidence interval.",
+ "baseline":"Compare model water to a descriptive per-plot same-period constant mean; this is an in-sample reference, not a forecast baseline",
+ "gate":"Technical mass balance is necessary but insufficient; no field recommendation rank is authorized by this diagnostic alone. All missing and unsupported processes remain explicit."
+}

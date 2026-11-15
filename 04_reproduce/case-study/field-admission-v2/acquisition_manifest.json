@@ -1,0 +1,153 @@
+{
+  "repository": "https://github.com/vanichols/maRsden",
+  "commit": "01476a18c01115f70f154cf7e94c1951205fbda1",
+  "jobs": [
+    {
+      "path": "data-raw/field-logs/Field-activities-Marsden_2001-2017.xlsx",
+      "file": "raw/field-logs/Field-activities-Marsden_2001-2017.xlsx",
+      "sha": "fa63511889f58ec1501ca188bac517beeb013a15",
+      "bytes": 81098,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/field-logs/Field-activities-Marsden_2001-2017.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/field-logs/Marsden-field-activities-Woods-2013-2018.xlsx",
+      "file": "raw/field-logs/Marsden-field-activities-Woods-2013-2018.xlsx",
+      "sha": "f15ac9fd41ade21978c90af6a134614015ed21f3",
+      "bytes": 276435,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/field-logs/Marsden-field-activities-Woods-2013-2018.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/field-logs/Marsden-field-activities-Woods-2019.xlsx",
+      "file": "raw/field-logs/Marsden-field-activities-Woods-2019.xlsx",
+      "sha": "5224a01baa9121ba533f79f01b8f68a3f53e54a6",
+      "bytes": 17383,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/field-logs/Marsden-field-activities-Woods-2019.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/field-logs/Marsden-field-activities-Woods-2020.xlsx",
+      "file": "raw/field-logs/Marsden-field-activities-Woods-2020.xlsx",
+      "sha": "dcbc8280c21d7afba2aff4afcc5ac859aee4029e",
+      "bytes": 13517,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/field-logs/Marsden-field-activities-Woods-2020.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/field-logs/2013-2020_corn-plant-harv-dates.xlsx",
+      "file": "raw/field-logs/2013-2020_corn-plant-harv-dates.xlsx",
+      "sha": "0b10c19dfcb0185203bc3228a35dd1a8dc88b67b",
+      "bytes": 8409,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/field-logs/2013-2020_corn-plant-harv-dates.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/apsim_mgmt/Marsden-activites-for-apsim-WW-0805.xlsx",
+      "file": "raw/apsim_mgmt/Marsden-activites-for-apsim-WW-0805.xlsx",
+      "sha": "75eabe20be9f9091aff083553b932e1e8f60e979",
+      "bytes": 32238,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/apsim_mgmt/Marsden-activites-for-apsim-WW-0805.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/apsim_mgmt/Marsden-activites-for-apsim-WW-0716.xlsx",
+      "file": "raw/apsim_mgmt/Marsden-activites-for-apsim-WW-0716.xlsx",
+      "sha": "3e799c5b950bfb4925e09e71799c53fce5f62839",
+      "bytes": 23648,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/apsim_mgmt/Marsden-activites-for-apsim-WW-0716.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/apsim_mgmt/Assumed-tillage-vals.xlsx",
+      "file": "raw/apsim_mgmt/Assumed-tillage-vals.xlsx",
+      "sha": "3dc3ce1566749d4e4030ef6aa23607b4e4b2661d",
+      "bytes": 10490,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/apsim_mgmt/Assumed-tillage-vals.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/soil_tests/rd_mars-soil_nutrients.xlsx",
+      "file": "raw/soil_tests/rd_mars-soil_nutrients.xlsx",
+      "sha": "14757cefed51f90c94bb22b090985a81e2986dde",
+      "bytes": 13566,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/soil_tests/rd_mars-soil_nutrients.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/soil_tests/2018-AgSource_Results.pdf",
+      "file": "raw/soil_tests/2018-AgSource_Results.pdf",
+      "sha": "e1ee8edf1bc1c177e7c8bd47bf89382c657b4ad5",
+      "bytes": 283069,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/soil_tests/2018-AgSource_Results.pdf?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/soil_tests/mrs_nutrients18.csv",
+      "file": "raw/soil_tests/mrs_nutrients18.csv",
+      "sha": "5a36175e85b8c31fbd75a8d80452fd318320c9be",
+      "bytes": 83109,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/soil_tests/mrs_nutrients18.csv?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/soiltexture/rd_texture2009.csv",
+      "file": "raw/soiltexture/rd_texture2009.csv",
+      "sha": "4f938ad215ab09330f0c862837f00547d6c47521",
+      "bytes": 1562,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/soiltexture/rd_texture2009.csv?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/soiltexture/rd_texture2014.csv",
+      "file": "raw/soiltexture/rd_texture2014.csv",
+      "sha": "89cfcd7587c31211d1549494b1175c4975c31ce4",
+      "bytes": 10278,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/soiltexture/rd_texture2014.csv?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/penetrom/rd_penetrometer-soilmois-20180509.xlsx",
+      "file": "raw/penetrom/rd_penetrometer-soilmois-20180509.xlsx",
+      "sha": "45209be47297a5f9c30a7e54ad9e7fd94bb4083c",
+      "bytes": 15157,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/penetrom/rd_penetrometer-soilmois-20180509.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/rootdist_ml/2020-data-from-matt/soil area and volume calculations.xlsx",
+      "file": "raw/rootdist_ml/2020-data-from-matt/soil area and volume calculations.xlsx",
+      "sha": "0cb780f4401d7d32138640784a854bacb03a8ec5",
+      "bytes": 10508,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/rootdist_ml/2020-data-from-matt/soil%20area%20and%20volume%20calculations.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/rootdist_ml/2020-data-from-matt/Marsden 2019 Root Biomass Data.xlsx",
+      "file": "raw/rootdist_ml/2020-data-from-matt/Marsden 2019 Root Biomass Data.xlsx",
+      "sha": "a1a4a602a04b7abf2bc107f74c6fa99d8ef2dca5",
+      "bytes": 33500,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/rootdist_ml/2020-data-from-matt/Marsden%202019%20Root%20Biomass%20Data.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/rootdist_ml/2020-data-from-matt/Marsden 2020 Root Biomass Data_12Feb2021.xlsx",
+      "file": "raw/rootdist_ml/2020-data-from-matt/Marsden 2020 Root Biomass Data_12Feb2021.xlsx",
+      "sha": "0fa2e1c9c1811dd7feccc6bb18c66ee5f7a47308",
+      "bytes": 37872,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/rootdist_ml/2020-data-from-matt/Marsden%202020%20Root%20Biomass%20Data_12Feb2021.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/_unprocessed/Short comm_Full dataset_ml.xlsx",
+      "file": "raw/_unprocessed/Short comm_Full dataset_ml.xlsx",
+      "sha": "bbe28c3c82fde6f06c61d565cd974b6cdcdc3d2c",
+      "bytes": 126282,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/_unprocessed/Short%20comm_Full%20dataset_ml.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/soilsensors/rd_mars-soil_sensor-install.xlsx",
+      "file": "raw/soilsensors/rd_mars-soil_sensor-install.xlsx",
+      "sha": "fe3f7d729a7fcd87fe1892568ba736ec4ab06f45",
+      "bytes": 13274,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/soilsensors/rd_mars-soil_sensor-install.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/soilsensors/soilsensors.csv",
+      "file": "raw/soilsensors/soilsensors.csv",
+      "sha": "01b97c7df0d053e6f2ffd7d50a0fc0f0cd99e579",
+      "bytes": 715069,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/soilsensors/soilsensors.csv?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    },
+    {
+      "path": "data-raw/soilsensors/logger-data-template-field.xlsx",
+      "file": "raw/soilsensors/logger-data-template-field.xlsx",
+      "sha": "f96e1ad0caa382cbf0e93e08e3ea37704dc0287f",
+      "bytes": 12089,
+      "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/soilsensors/logger-data-template-field.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "scope": "source-driven field diagnostic, no newly fitted crop or hydraulic coefficients",
+  "runs": 32,
+  "corn_plot_years": 4,
+  "same_weather_years": 1,
+  "conditional_water_plot_dates": 64,
+  "year": 2014,
+  "yield_RMSE_bu_ac_range": [
+    11.0756426170042,
+    16.61773942816923
+  ],
+  "yield_bias_bu_ac_range": [
+    -14.997341720076967,
+    -9.500369312593257
+  ],
+  "observed_corn_mean_bu_ac": 203.78201355941152,
+  "predicted_corn_mean_bu_ac_range": [
+    188.78467183933455,
+    194.28164424681825
+  ],
+  "water_RMSE_mm_range": [
+    19.182787717638153,
+    19.651614817116894
+  ],
+  "water_bias_mm_range": [
+    13.163792086093757,
+    14.004428312031255
+  ],
+  "same_period_plot_mean_water_in_sample_baseline": {
+    "RMSE": 12.105301662457807,
+    "MAE": 8.72052759765625,
+    "bias": 1.5543122344752192e-15
+  },
+  "mass_balances_passed": true,
+  "range_is_confidence_interval": false,
+  "field_model_validated": false,
+  "reasons": [
+    "Initial state date, mineral N and residue conditions not verified; organic stocks are a 2014-to-January proxy.",
+    "PTF retention is estimated, not a measured retention curve; conditional water depth mapping remains.",
+    "Single year, four repeated blocks, regional weather; this is not independent multi-year climate validation.",
+    "Source seeding rate, hybrid, tillage, P/K, incidental spray N, pests and tile/water-table processes are not all represented in the reduced model.",
+    "This diagnostic does not validate rye, clover, oat or cross-strategy economic effects."
+  ]
+}

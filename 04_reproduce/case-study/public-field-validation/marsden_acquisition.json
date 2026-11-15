@@ -1,0 +1,37 @@
+[
+  {
+    "file": "marsden/code_proc-historical-yields.R",
+    "url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/code_proc-historical-yields.R",
+    "git_blob_sha": "7064094047e977a87832410dceb81c5c4513acd1"
+  },
+  {
+    "file": "marsden/code_proc-yields.R",
+    "url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/code_proc-yields.R",
+    "git_blob_sha": "7673655ebfbc316fe28e9f0f3c586b975560661f"
+  },
+  {
+    "file": "marsden/Marsden 2018 Corn-Soybean Yields.xlsx",
+    "url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/raw/Marsden%202018%20Corn-Soybean%20Yields.xlsx",
+    "git_blob_sha": "eb717391c8db2a8fbcef74e1985eeeffe41af77a"
+  },
+  {
+    "file": "marsden/Marsden 2019 Corn-Soybean Yields.xlsx",
+    "url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/raw/Marsden%202019%20Corn-Soybean%20Yields.xlsx",
+    "git_blob_sha": "df00a84a4e438478d8d393237298792132b323ec"
+  },
+  {
+    "file": "marsden/Marsden 2020 Corn-Soybean Yields_ml.xlsx",
+    "url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/raw/Marsden%202020%20Corn-Soybean%20Yields_ml.xlsx",
+    "git_blob_sha": "392a68ef16d6ad8681508a1b4a852bb211494bf2"
+  },
+  {
+    "file": "marsden/Corn yield 2002-2020.xlsx",
+    "url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/raw/raw-from-ML/Corn%20yield%202002-2020.xlsx",
+    "git_blob_sha": "a05f903655da23f99588d0927f33866d24114f0c"
+  },
+  {
+    "file": "marsden/Split plot management_2008-2020.xlsx",
+    "url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/raw/raw-from-ML/Split%20plot%20management_2008-2020.xlsx",
+    "git_blob_sha": "50724f01b9c646cd71f741f30fce530d762f27bd"
+  }
+]

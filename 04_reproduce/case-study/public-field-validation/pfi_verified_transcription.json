@@ -1,0 +1,24 @@
+{
+  "source": "https://practicalfarmers.org/wp-content/uploads/2026/03/22.FC_.CC.-Cover-crop-soil-water.pdf",
+  "title": "Cover Crop Effect on Soil Water",
+  "trial_year": 2022,
+  "publication_year": 2023,
+  "transcription_check": "Tables 1–3 visually checked against PDF pages 2–3 on 2026-11-15; one analyst, not an independent double extraction",
+  "design": "Alternating paired strips, four replications of each treatment on each farm. Random allocation is not established by the report. Raw replicate yields and sensor time series were not acquired.",
+  "yield_basis": {"corn": "bu/ac at 15.5% moisture", "soybean": "bu/ac at 13% moisture"},
+  "farms": [
+    {"farm":"Brown","town":"New Providence","crop":"corn","cover_species":"rye + winter peas","rye_lb_ac":30,"pea_lb_ac":20,"cover_yield_bu_ac":205,"control_yield_bu_ac":205,"reported_lsd_bu_ac":34,"reported_significant":false,"plant_date":"2022-05-16","plant_population_seeds_ac":32000,"row_spacing_in":30,"harvest_date":"2022-11-01","seeding_date_table1":"2021-10-04","seeding_date_table2":"2021-10-14","termination_date_table1":"2022-05-18","termination_date_table2":"2022-05-18","biomass_lb_ac":2546,"sensor_usable":true,"soil_water_pattern":"Drier in June; wetter beginning mid-July through late season","matches_S1_soy_phase":false},
+    {"farm":"Cannon","town":"Prairie City","crop":"soybean","cover_species":"rye","rye_lb_ac":60,"pea_lb_ac":0,"cover_yield_bu_ac":70,"control_yield_bu_ac":69,"reported_lsd_bu_ac":1,"reported_significant":true,"plant_date":"2022-05-07","plant_population_seeds_ac":145000,"row_spacing_in":15,"harvest_date":"2022-09-22","seeding_date_table1":"2021-11-04","seeding_date_table2":"2021-11-04","termination_date_table1":"2022-06-04","termination_date_table2":"2022-06-04","biomass_lb_ac":628,"sensor_usable":true,"soil_water_pattern":"No consistent difference reported","matches_S1_soy_phase":true},
+    {"farm":"Gustafson","town":"Boone","crop":"soybean","cover_species":"rye","rye_lb_ac":56,"pea_lb_ac":0,"cover_yield_bu_ac":65,"control_yield_bu_ac":63,"reported_lsd_bu_ac":4,"reported_significant":false,"plant_date":"2022-05-24","plant_population_seeds_ac":140000,"row_spacing_in":30,"harvest_date":"2022-10-11","seeding_date_table1":"2021-10-15","seeding_date_table2":"2021-10-15","termination_date_table1":"2022-05-31","termination_date_table2":"2022-05-22","biomass_lb_ac":645,"sensor_usable":true,"soil_water_pattern":"Drier under cover during the reported summer sensor period","matches_S1_soy_phase":true},
+    {"farm":"Lehman","town":"Polk City","crop":"soybean","cover_species":"rye","rye_lb_ac":60,"pea_lb_ac":0,"cover_yield_bu_ac":78,"control_yield_bu_ac":77,"reported_lsd_bu_ac":4,"reported_significant":false,"plant_date":"2022-06-03","plant_population_seeds_ac":150000,"row_spacing_in":30,"harvest_date":"2022-10-07","seeding_date_table1":"2021-09-26","seeding_date_table2":"2021-09-26","termination_date_table1":"2022-05-21","termination_date_table2":"2022-05-19","biomass_lb_ac":756,"sensor_usable":false,"soil_water_pattern":"Sensor failure; not available","matches_S1_soy_phase":true},
+    {"farm":"Ose","town":"Williams","crop":"corn","cover_species":"rye","rye_lb_ac":60,"pea_lb_ac":0,"cover_yield_bu_ac":212,"control_yield_bu_ac":223,"reported_lsd_bu_ac":2,"reported_significant":true,"plant_date":"2022-05-13","plant_population_seeds_ac":34000,"row_spacing_in":30,"harvest_date":"2022-10-22","seeding_date_table1":"2021-09-29","seeding_date_table2":"2021-09-29","termination_date_table1":"2022-04-26","termination_date_table2":"2022-04-26","biomass_lb_ac":574,"sensor_usable":false,"soil_water_pattern":"Sensor failure; not available","matches_S1_soy_phase":false}
+  ],
+  "source_conflicts": [
+    "Brown cover seeding is October 4 in Table 1 and October 14 in Table 2.",
+    "Gustafson termination is May 31 in Table 1 and May 22 in Table 2; this changes before/after soybean planting classification.",
+    "Lehman termination is May 21 in Table 1 and May 19 in Table 2.",
+    "The conclusion's Ose no-yield-effect statement conflicts with Table 3 and the Results, which report a significant 11 bu/ac corn reduction. Retain Table 3 values and flag the contradiction.",
+    "Cannon's rounded difference and LSD both equal 1 bu/ac while the table marks significance. Retain the author's label; rounded summaries cannot recreate the original test."
+  ],
+  "excluded_inferences": ["No positive saving in irrigation or ET inferred from soil moisture", "Nonsignificance is not proof of equivalence", "No new p-values or confidence intervals from unavailable raw strips", "No prescription of chemical products or termination timing", "No raw field-level simulation or current profit validation"]
+}

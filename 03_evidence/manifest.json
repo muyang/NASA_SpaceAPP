@@ -1,0 +1,1277 @@
+{
+  "selection": "One current briefing, one current app, final evidence tables and minimal reproducible diagnostic; no winner selected from candidate simulations.",
+  "files": [
+    {
+      "path": ".DS_Store",
+      "bytes": 6148,
+      "sha256": "207154e8ce873e22ad655132293366ddcf94e0c23705b879862975d1eb6ff5a2",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "01_briefing/Research_Brief_CN.md",
+      "bytes": 7408,
+      "sha256": "06c2b8053211ba276256fb64f7f900fc9d35a4cbffb64d97d26d59d6fa935f45",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "01_briefing/Research_Briefing_EN.pptx",
+      "bytes": 472617,
+      "sha256": "558ec45e9ecf26b3c6f7305ebcdbf81cee6ede7bdfb01303a2c6bfcedf035224",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "01_briefing/Speaker_Notes_CN.md",
+      "bytes": 1499,
+      "sha256": "e89e12829bd335d3bf375d4835d0512ec5fe5ef27cc8af2ce0a7c27a962eae81",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "02_demo/.DS_Store",
+      "bytes": 6148,
+      "sha256": "f594558b8db5f741f61a403e9213b4e2d4dd984c7b349dcc0daf3d8d009c19a4",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "02_demo/index.html",
+      "bytes": 3285,
+      "sha256": "10f965acbc3f4826f0217de80c3bba2627eea972314d95a3deed08c16f09e92f",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "02_demo/planner/.DS_Store",
+      "bytes": 6148,
+      "sha256": "ff8129d988aa6c41d1fedb9b772449f17024a180470c72c774848f03aeac96d9",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/.DS_Store"
+    },
+    {
+      "path": "02_demo/planner/app.mjs",
+      "bytes": 43967,
+      "sha256": "2b3ac1e1e2598ffd4d711b6790e9603296c7f43b2e08fc72629b9cda5abbbe73",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/app.mjs"
+    },
+    {
+      "path": "02_demo/planner/assets/MARSden_LICENSE.md",
+      "bytes": 1075,
+      "sha256": "c67aac51b5b8a0234b0218f2bdef21d654f2ea9857c86f686eaa1ff81b01783e",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/MARSden_LICENSE.md"
+    },
+    {
+      "path": "02_demo/planner/assets/admission_gates.json",
+      "bytes": 6888,
+      "sha256": "014e3b8f6e7a76b54e6fd1065b14242c7be5ae9bd7a8e3c026b1ef672d3876bd",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/admission_gates.json"
+    },
+    {
+      "path": "02_demo/planner/assets/annual-contrasts.json",
+      "bytes": 5631,
+      "sha256": "c16ff2a2e3c4dda89f9dc40643fdbcdf0c3bc2c7cbc047f78452820e2ad3c2de",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/annual-contrasts.json"
+    },
+    {
+      "path": "02_demo/planner/assets/boone-crop.svg",
+      "bytes": 73658,
+      "sha256": "41cfda8f008b862f774b28caa5c3e9c017d60099d106d1a90dfdf4eedc83f437",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/boone-crop.svg"
+    },
+    {
+      "path": "02_demo/planner/assets/boone-transition.svg",
+      "bytes": 50638,
+      "sha256": "1fee98a0db97330714942c6f3854b05e7568daccfb4bbb2e652bc3cad03208ab",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/boone-transition.svg"
+    },
+    {
+      "path": "02_demo/planner/assets/context.json",
+      "bytes": 2637,
+      "sha256": "cfcd293b087103d19a145221b544c7d1e144ec2f876859cdb9e090c51823ba1a",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/context.json"
+    },
+    {
+      "path": "02_demo/planner/assets/contrast_backtest_metrics.csv",
+      "bytes": 867,
+      "sha256": "c9b286feaf499c7828db48d3a4da4a9f660c2cca7cd4517c8054d5808f357536",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/contrast_backtest_metrics.csv"
+    },
+    {
+      "path": "02_demo/planner/assets/field_record_report_CN.md",
+      "bytes": 12088,
+      "sha256": "fa8eddc9e0ab5567a03292e3aa47ed0a929b05658b015be28eb796e8a6702074",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/field_record_report_CN.md"
+    },
+    {
+      "path": "02_demo/planner/assets/marsden_annual_contrasts.csv",
+      "bytes": 1878,
+      "sha256": "e3c517bb0244e30e78f7e13cea298e2cb274dbc69c0dd3d29287840b199cd96a",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/marsden_annual_contrasts.csv"
+    },
+    {
+      "path": "02_demo/planner/assets/pfi_2022_farm_summary.csv",
+      "bytes": 1345,
+      "sha256": "0b056933ecf7d195f4c38af3b72863a8f000ea2b3436ece7c302b3ecff62b6a2",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/pfi_2022_farm_summary.csv"
+    },
+    {
+      "path": "02_demo/planner/assets/trial_evidence.json",
+      "bytes": 20281,
+      "sha256": "623b57d3687fbbf13c6a5edb9e720327fbfec0dcebd9456fae073ba761da4260",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/trial_evidence.json"
+    },
+    {
+      "path": "02_demo/planner/budget.mjs",
+      "bytes": 780,
+      "sha256": "b43a20b4456d890fcd71095f8690bf6db330e0b8370f7faad9cd4230acb90688",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/budget.mjs"
+    },
+    {
+      "path": "02_demo/planner/domain.mjs",
+      "bytes": 3604,
+      "sha256": "2ae6d336b0af033b08c6382477a9216eb4b6d6b4d9691e486ed438360b8f3bfd",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/domain.mjs"
+    },
+    {
+      "path": "02_demo/planner/evidence.css",
+      "bytes": 2242,
+      "sha256": "291b29193b0ab7eec145f34ec0b96344889adbbe144294fe4f306ab533de8f31",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/evidence.css"
+    },
+    {
+      "path": "02_demo/planner/evidence.html",
+      "bytes": 742,
+      "sha256": "fbbd9c6cba2d01f6e1298462471735f2f55dd7d3c0355e845e7975f68eaf260f",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/evidence.html"
+    },
+    {
+      "path": "02_demo/planner/evidence.mjs",
+      "bytes": 20644,
+      "sha256": "20c58f1b505e06db737beed360f763bd2e21f2d2f8c608f510539e0495cc901b",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/evidence.mjs"
+    },
+    {
+      "path": "02_demo/planner/index.html",
+      "bytes": 1223,
+      "sha256": "04cab4510466b9295d55a323d9a4127db4266cecd744661aa188a690a3a631ec",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/index.html"
+    },
+    {
+      "path": "02_demo/planner/records.html",
+      "bytes": 762,
+      "sha256": "4d78693e9b8f67d57dce3d2d189b54891bb6dd3feb4ae0abe65ed2872903e87b",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/records.html"
+    },
+    {
+      "path": "02_demo/planner/records.mjs",
+      "bytes": 10800,
+      "sha256": "4db722db7168539e137cafb21e81659e1e251fd55f2eefa0405f4b7cd8c88d69",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/records.mjs"
+    },
+    {
+      "path": "02_demo/planner/research-test.html",
+      "bytes": 634,
+      "sha256": "8375cbfda43ff04305de67b7b14f080a803045c0e767e81309b3600795df58c2",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/research-test.html"
+    },
+    {
+      "path": "02_demo/planner/research-test.mjs",
+      "bytes": 9644,
+      "sha256": "170c9a5e64983e522a8c1d73ecbde558469430c1c9be6e75e8f11a2a5e0b694e",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/research-test.mjs"
+    },
+    {
+      "path": "02_demo/planner/style.css",
+      "bytes": 12448,
+      "sha256": "d568556908f832aa69dbea3aebabaf7d061d37345dbf6f266b6ae044cd710e9c",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/style.css"
+    },
+    {
+      "path": "03_evidence/Brief_Crop_Rotation_Six_Counties.md",
+      "bytes": 12380,
+      "sha256": "6e264dfe9ffbc8785606b38f6bb1aa16b77510387f580cc337ec95eade311bb5",
+      "origin": "repo/outputs/crop-rotation-evidence/Brief_Crop_Rotation_Six_Counties.md"
+    },
+    {
+      "path": "03_evidence/Farmer_Usability_Test_Protocol_CN.md",
+      "bytes": 3702,
+      "sha256": "9a29d20c9ff737cf9ce4ee61864585ec9ad6e2d336281e5085d52b4cdd9fa326",
+      "origin": "repo/outputs/farmer-centered-app/Farmer_Usability_Test_Protocol_CN.md"
+    },
+    {
+      "path": "03_evidence/Field_Admission_Validation_Report_CN.md",
+      "bytes": 12088,
+      "sha256": "fa8eddc9e0ab5567a03292e3aa47ed0a929b05658b015be28eb796e8a6702074",
+      "origin": "repo/outputs/field-admission-v2/Field_Admission_Validation_Report_CN.md"
+    },
+    {
+      "path": "03_evidence/README.md",
+      "bytes": 2122,
+      "sha256": "d533638efa4ca23aa16cdc152dd7228b92fcb35c5229cf72f529cfc739c129d4",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "03_evidence/REFERENCES.md",
+      "bytes": 3728,
+      "sha256": "b20f27773c3472d99b5fb71043bb67fed6e7a5a77f641a616660983895480359",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "03_evidence/RIGHTS.md",
+      "bytes": 1325,
+      "sha256": "37ceff43d34584e158984f60204f808000bb34f800c9e9c172ceda39492fc957",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "03_evidence/admission_gates.json",
+      "bytes": 6888,
+      "sha256": "014e3b8f6e7a76b54e6fd1065b14242c7be5ae9bd7a8e3c026b1ef672d3876bd",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/admission_gates.json"
+    },
+    {
+      "path": "03_evidence/contrast_backtest_metrics.csv",
+      "bytes": 867,
+      "sha256": "c9b286feaf499c7828db48d3a4da4a9f660c2cca7cd4517c8054d5808f357536",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/contrast_backtest_metrics.csv"
+    },
+    {
+      "path": "03_evidence/contrast_summary.csv",
+      "bytes": 674,
+      "sha256": "661d2e78c99cfc0bf7001b752705926e33c2031699e6782218b7a9b08f23876b",
+      "origin": "repo/case-study/public-field-validation/processed/contrast_summary.csv"
+    },
+    {
+      "path": "03_evidence/conus_county_screening.csv",
+      "bytes": 1667505,
+      "sha256": "9cdac240cfafe47cdf48cef0a66502b7ddfe8ff03c3c595a2390f5187ecdea70",
+      "origin": "repo/outputs/fieldshift-conus-screening-2026-11-15/data/conus_county_screening.csv"
+    },
+    {
+      "path": "03_evidence/county_evidence_cards.csv",
+      "bytes": 7339,
+      "sha256": "8315ec48d6ec1ba7a3f313af5850bf7c7de874c6964027954368831919e9ffd3",
+      "origin": "repo/outputs/fieldshift-cn-multicounty/review-2026-11-15/county_evidence_cards.csv"
+    },
+    {
+      "path": "03_evidence/field_replay_evaluation.json",
+      "bytes": 1545,
+      "sha256": "61eff5b31f4c2e0c866d44c4e38314041613d3a328a7dedf1d0ce00342b4e41b",
+      "origin": "repo/case-study/field-admission-v2/processed/field_replay_evaluation.json"
+    },
+    {
+      "path": "03_evidence/historical_bias_transfer.csv",
+      "bytes": 916,
+      "sha256": "6cf904e7d37bb075c7522b384215a910dcea59807889e1956de315621c11c032",
+      "origin": "repo/outputs/fieldshift-conus-screening-2026-11-15/data/historical_bias_transfer.csv"
+    },
+    {
+      "path": "03_evidence/historical_financial_point_order.csv",
+      "bytes": 934,
+      "sha256": "658fcc044f038d71ff3482b64a86bed6f314a38d7bc6b9dd95eb32ad5abd1430",
+      "origin": "repo/case-study/field-admission-v2/processed/historical_financial_point_order.csv"
+    },
+    {
+      "path": "03_evidence/historical_stress_order_counts.csv",
+      "bytes": 109,
+      "sha256": "ef328e7bd9d54fff0930a6612999b8d1d0b12057efe44a2d9ac9bdfacfcf20e2",
+      "origin": "repo/case-study/field-admission-v2/processed/historical_stress_order_counts.csv"
+    },
+    {
+      "path": "03_evidence/historical_validation_series.csv",
+      "bytes": 1832,
+      "sha256": "5c1c56257db5b3a654ed61573e0226f86e5be400926683a478e365da5159a2ad",
+      "origin": "repo/outputs/fieldshift-conus-screening-2026-11-15/data/historical_validation_series.csv"
+    },
+    {
+      "path": "03_evidence/marsden_annual_contrasts.csv",
+      "bytes": 1878,
+      "sha256": "e3c517bb0244e30e78f7e13cea298e2cb274dbc69c0dd3d29287840b199cd96a",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/marsden_annual_contrasts.csv"
+    },
+    {
+      "path": "03_evidence/pfi_2022_farm_summary.csv",
+      "bytes": 1345,
+      "sha256": "0b056933ecf7d195f4c38af3b72863a8f000ea2b3436ece7c302b3ecff62b6a2",
+      "origin": "repo/sites/field-shift-farmer-planner/dist/assets/pfi_2022_farm_summary.csv"
+    },
+    {
+      "path": "03_evidence/review_metrics.csv",
+      "bytes": 5070,
+      "sha256": "8e265056130b8ee722345947a62497c7f6a250a70e7a601e56dc1a48ccc3d15e",
+      "origin": "repo/outputs/fieldshift-cn-multicounty/review-2026-11-15/review_metrics.csv"
+    },
+    {
+      "path": "03_evidence/review_process_diagnostics.csv",
+      "bytes": 2123,
+      "sha256": "6706b4585536a734efa414aac8ba6d2851c807cde7de0d3839a32d81438970fb",
+      "origin": "repo/outputs/fieldshift-cn-multicounty/review-2026-11-15/review_process_diagnostics.csv"
+    },
+    {
+      "path": "03_evidence/rotation_transition_summary.csv",
+      "bytes": 1992,
+      "sha256": "6843b6eace0e30240bd39534c7257096b84623478c148a031996752c42b0cbf5",
+      "origin": "repo/outputs/fieldshift-cn-multicounty/review-2026-11-15/rotation_transition_summary.csv"
+    },
+    {
+      "path": "03_evidence/summary_facts.json",
+      "bytes": 2077,
+      "sha256": "528d239fd78060c87c83cb07dd4cde73f05b28fb8f50719093bceec28c6724e6",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "04_reproduce/.DS_Store",
+      "bytes": 6148,
+      "sha256": "44d6a14440f69c864d723b955e6966b13f20496376c19ab19693c723d78764df",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "04_reproduce/README.md",
+      "bytes": 849,
+      "sha256": "df1efb56ee29cdb12bbcde659fba8bc92ae3715360bbfd72a39e70d6f95dfb3a",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "04_reproduce/case-study/boone-cn-weather-audit/processed/weather_exposure_screens.csv",
+      "bytes": 12594,
+      "sha256": "a66b55063e48edbf8883c41dc3dcb26017de7f4980f29c797808053648bfbf7a",
+      "origin": "repo/case-study/boone-cn-weather-audit/processed/weather_exposure_screens.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/boone-long-history/processed/weather_features_daily_1984_2025.csv",
+      "bytes": 1704209,
+      "sha256": "4a81feb6431fcfe5ba678d13897f0717c84fe7e7391918a20883418e865022c4",
+      "origin": "repo/case-study/boone-long-history/processed/weather_features_daily_1984_2025.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/boone-v2/processed/marsden_corn_yield_clean.csv",
+      "bytes": 26232,
+      "sha256": "83c276384466f76fcd0e3986bf05ed4b1a86254ceaaf91ba342de4d70bf5d4ab",
+      "origin": "repo/case-study/boone-v2/processed/marsden_corn_yield_clean.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/boone-v2/processed/marsden_soil_water_gravimetric.csv",
+      "bytes": 57055,
+      "sha256": "c3a9e0ae5cc9a4f8355384e0f9000f40549be4bd6cf00d50b9de450e6a4abcc5",
+      "origin": "repo/case-study/boone-v2/processed/marsden_soil_water_gravimetric.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/boone-v2/processed/marsden_soy_yield_clean.csv",
+      "bytes": 10889,
+      "sha256": "9038b0de9e90fdf5334084e4ff1903f01728ca9aaf9d488bc7cf50d379f42115",
+      "origin": "repo/case-study/boone-v2/processed/marsden_soy_yield_clean.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/boone-v2/raw/marsden/LICENSE.md",
+      "bytes": 1075,
+      "sha256": "c67aac51b5b8a0234b0218f2bdef21d654f2ea9857c86f686eaa1ff81b01783e",
+      "origin": "repo/case-study/boone-v2/raw/marsden/LICENSE.md"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/MARSden_LICENSE.md",
+      "bytes": 1075,
+      "sha256": "c67aac51b5b8a0234b0218f2bdef21d654f2ea9857c86f686eaa1ff81b01783e",
+      "origin": "repo/case-study/field-admission-v2/MARSden_LICENSE.md"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/README.md",
+      "bytes": 5480,
+      "sha256": "05bd65ac09eb4a197e9f9804f22635c0beb77faaf9012ab572b5e50131a6f141",
+      "origin": "repo/case-study/field-admission-v2/README.md"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/acquisition_manifest.json",
+      "bytes": 8696,
+      "sha256": "5ec15fca39b1d335ab55abd719cab31b2ba40425e10f34dc4d39947ba031328d",
+      "origin": "repo/case-study/field-admission-v2/acquisition_manifest.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/field_replay_protocol.json",
+      "bytes": 1694,
+      "sha256": "a021b2fd810e86da515fa25be68469c411a2971d889bc07a6386b74ad9af1b59",
+      "origin": "repo/case-study/field-admission-v2/field_replay_protocol.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/paper_sources.json",
+      "bytes": 1666,
+      "sha256": "018a305c8846df8fec870e728e244c1afb48b5de89d6ce0ab56b03064b785350",
+      "origin": "repo/case-study/field-admission-v2/paper_sources.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/admission_gates.json",
+      "bytes": 6888,
+      "sha256": "014e3b8f6e7a76b54e6fd1065b14242c7be5ae9bd7a8e3c026b1ef672d3876bd",
+      "origin": "repo/case-study/field-admission-v2/processed/admission_gates.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/direct_cost_and_N_evidence.json",
+      "bytes": 10449,
+      "sha256": "a79c7042df151edd021007e96ec62bbb1aaa35450825f8df903eccb9d97ec0d4",
+      "origin": "repo/case-study/field-admission-v2/processed/direct_cost_and_N_evidence.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/economic_audit_summary.json",
+      "bytes": 953,
+      "sha256": "156f4460b72cedf385a5dcf8e4d980754ca560a4b9d2e19571c0950661896d9d",
+      "origin": "repo/case-study/field-admission-v2/processed/economic_audit_summary.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/economic_scope_admission.csv",
+      "bytes": 1341,
+      "sha256": "cc72fff4a91164b25faaed751c270eb642302d6a406e9a236c7c9504ba1722e4",
+      "origin": "repo/case-study/field-admission-v2/processed/economic_scope_admission.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/economics-table1.png",
+      "bytes": 158503,
+      "sha256": "e34a74ec532018d8905dc5675c759deb85970f604b4ea5bef607a2536d826934",
+      "origin": "repo/case-study/field-admission-v2/processed/economics-table1.png"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/field_replay_conditional_water_pairs.csv",
+      "bytes": 50007,
+      "sha256": "033a24345346874695ffba8c637075226290ddf4946cfc405cbae52fe7cdb40d",
+      "origin": "repo/case-study/field-admission-v2/processed/field_replay_conditional_water_pairs.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/field_replay_evaluation.json",
+      "bytes": 1545,
+      "sha256": "61eff5b31f4c2e0c866d44c4e38314041613d3a328a7dedf1d0ce00342b4e41b",
+      "origin": "repo/case-study/field-admission-v2/processed/field_replay_evaluation.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/field_replay_water_metrics.csv",
+      "bytes": 974,
+      "sha256": "db40c1247920886fa3b22571ae45aa1291c5b414acc7c47091ea2f741986c08c",
+      "origin": "repo/case-study/field-admission-v2/processed/field_replay_water_metrics.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/field_replay_yield_metrics.csv",
+      "bytes": 917,
+      "sha256": "354cf6e65d3c915ee01ea3fae12d895a850e7307dba526fc8c3894a39e28b0f7",
+      "origin": "repo/case-study/field-admission-v2/processed/field_replay_yield_metrics.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/field_replay_yield_pairs.csv",
+      "bytes": 3587,
+      "sha256": "6ca8b28cd97bf8a44b1635b984ef2e6d32fa0deb1d3a7006a01e7c48985eed3c",
+      "origin": "repo/case-study/field-admission-v2/processed/field_replay_yield_pairs.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/historical_financial_point_order.csv",
+      "bytes": 934,
+      "sha256": "658fcc044f038d71ff3482b64a86bed6f314a38d7bc6b9dd95eb32ad5abd1430",
+      "origin": "repo/case-study/field-admission-v2/processed/historical_financial_point_order.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/historical_price_stress_grid.csv",
+      "bytes": 76381,
+      "sha256": "e561b28bfe6f5405d3f109c791b2a68d2dd2af192c0caec12402b06c57a57fef",
+      "origin": "repo/case-study/field-admission-v2/processed/historical_price_stress_grid.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/historical_stress_order_counts.csv",
+      "bytes": 109,
+      "sha256": "ef328e7bd9d54fff0930a6612999b8d1d0b12057efe44a2d9ac9bdfacfcf20e2",
+      "origin": "repo/case-study/field-admission-v2/processed/historical_stress_order_counts.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/hydraulic_audit_summary.json",
+      "bytes": 900,
+      "sha256": "dd50860bbbd290a3cf1cf2ee69cde0435d61358ffcaefa82d4dbb98618756ce4",
+      "origin": "repo/case-study/field-admission-v2/processed/hydraulic_audit_summary.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/hydraulic_parameter_priors.csv",
+      "bytes": 28386,
+      "sha256": "ce17cfdf5e62c0ee75a9053f697f39ce385d3001e77b77f7463721a419dde877",
+      "origin": "repo/case-study/field-admission-v2/processed/hydraulic_parameter_priors.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/hydraulic_profile_admission.csv",
+      "bytes": 762,
+      "sha256": "208cce5b910e8f33377b9eaad6da52f9bbb74f441cadd4dffdce23aebe6f9748",
+      "origin": "repo/case-study/field-admission-v2/processed/hydraulic_profile_admission.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/log_sheet_layouts.json",
+      "bytes": 581,
+      "sha256": "988bc86807f0d69e13323c1f1238b8c502aecff4be2080197568f653b1df52c2",
+      "origin": "repo/case-study/field-admission-v2/processed/log_sheet_layouts.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/management_audit_summary.json",
+      "bytes": 441,
+      "sha256": "eada9a53edce96446c2f7cb3a4d9b5045eeae6c48d6d30f64520bc35147dcbca",
+      "origin": "repo/case-study/field-admission-v2/processed/management_audit_summary.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/management_source_coverage.csv",
+      "bytes": 1957,
+      "sha256": "0f4357c32fdb0ab0be076272d13c61491333ac5ba9d406ed6a9cd37db2c54c1a",
+      "origin": "repo/case-study/field-admission-v2/processed/management_source_coverage.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/measured_2014_soil_layers.csv",
+      "bytes": 14402,
+      "sha256": "109a369a30efc874fd912757b9230dd3cdec440ca580f5d89736ffcbc44df250",
+      "origin": "repo/case-study/field-admission-v2/processed/measured_2014_soil_layers.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/original_log_date_conflicts.csv",
+      "bytes": 13055,
+      "sha256": "6592c255933427c37caca0941b2cf8c51bbbb80610ffb77046f28e59ddeeea07",
+      "origin": "repo/case-study/field-admission-v2/processed/original_log_date_conflicts.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/original_log_event_clusters.csv",
+      "bytes": 448288,
+      "sha256": "f67de27169b974387b124f4e6b502a9b77994cba1562c6d317d7ff530cf42de1",
+      "origin": "repo/case-study/field-admission-v2/processed/original_log_event_clusters.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/published_2008_2010_soil_observations.csv",
+      "bytes": 42710,
+      "sha256": "22d93125778543fb74ab0db26f9766bb72349c507564cb38412b6462f725da48",
+      "origin": "repo/case-study/field-admission-v2/processed/published_2008_2010_soil_observations.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/published_crop_phase_economics.csv",
+      "bytes": 540,
+      "sha256": "affc22944de6a3426ac4947b13b55c307d4e4dc5958724f2e10c96683be6f458",
+      "origin": "repo/case-study/field-admission-v2/processed/published_crop_phase_economics.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/published_soil_state_summary.csv",
+      "bytes": 5108,
+      "sha256": "eb81b49941338bc3e289d07dd7900525ca921126df99c89fb2f60a98c6cce38f",
+      "origin": "repo/case-study/field-admission-v2/processed/published_soil_state_summary.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/recorded_seed_costs.csv",
+      "bytes": 347,
+      "sha256": "e1b2fd32c2f9502eb5ff145810d25a06aa79c37a9f8ccd42bdf8dfa3d413522a",
+      "origin": "repo/case-study/field-admission-v2/processed/recorded_seed_costs.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/resolved_2014_main_N_events.csv",
+      "bytes": 1007,
+      "sha256": "c2cc4d21292531e7f9bc1b4b841a5f838c4009869b5bd6cb103c0e5121ce1ce4",
+      "origin": "repo/case-study/field-admission-v2/processed/resolved_2014_main_N_events.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/resolved_fertilizer_scope.json",
+      "bytes": 475,
+      "sha256": "165d5972d0b8b7b6d1eefb2a48ea32989e09706b174999fb751c483f0eb2ed9e",
+      "origin": "repo/case-study/field-admission-v2/processed/resolved_fertilizer_scope.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/sensor_dry_sat_readings_not_soil_retention.csv",
+      "bytes": 496,
+      "sha256": "0e373a5f5433d1ba1da1dafdf8c3391e4ffbab834f9eb49fc4f6e226ac0269df",
+      "origin": "repo/case-study/field-admission-v2/processed/sensor_dry_sat_readings_not_soil_retention.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/soil_water_2014_conditional_volume.csv",
+      "bytes": 69543,
+      "sha256": "5d7645dcf337850a2d94763910d70e880d8d4ca93a1a15d99abdb8a4f738621b",
+      "origin": "repo/case-study/field-admission-v2/processed/soil_water_2014_conditional_volume.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/verification_results.json",
+      "bytes": 191,
+      "sha256": "12341430f2867870cb9e86e4e10bfea048d755bc6972b431f838e88e395a79b9",
+      "origin": "repo/case-study/field-admission-v2/processed/verification_results.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/processed/workbook_schema.json",
+      "bytes": 94663,
+      "sha256": "9abd8ec2846da0f6ec31240d1aa27470418f8ef7e08f929a9ad255c5f2d21f88",
+      "origin": "repo/case-study/field-admission-v2/processed/workbook_schema.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/published_economics_transcription.json",
+      "bytes": 2725,
+      "sha256": "3d3c503e220c3a787ddfc0c797f4e3553fe05b1f17e00e8f10004b0cf0f8e185",
+      "origin": "repo/case-study/field-admission-v2/published_economics_transcription.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/_unprocessed/Short comm_Full dataset_ml.xlsx",
+      "bytes": 126282,
+      "sha256": "5e50d41babac2723973523ec55b0968a8f218552b4409cc0eb326c2e7ee4f5de",
+      "origin": "repo/case-study/field-admission-v2/raw/_unprocessed/Short comm_Full dataset_ml.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/apsim_mgmt/Assumed-tillage-vals.xlsx",
+      "bytes": 10490,
+      "sha256": "49043335708a03c5a73d460fd403eaff70ecb5d86c6017ca7d1bf0940a777eba",
+      "origin": "repo/case-study/field-admission-v2/raw/apsim_mgmt/Assumed-tillage-vals.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/apsim_mgmt/Marsden-activites-for-apsim-WW-0716.xlsx",
+      "bytes": 23648,
+      "sha256": "f5ab11daf7aa9b0adcfd41cf59389a1d10b6cccf0a818dfaf469164196dc7c20",
+      "origin": "repo/case-study/field-admission-v2/raw/apsim_mgmt/Marsden-activites-for-apsim-WW-0716.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/apsim_mgmt/Marsden-activites-for-apsim-WW-0805.xlsx",
+      "bytes": 32238,
+      "sha256": "39ae4ec1a56f4a2ba9993f25a7a75d5d882262c9440272c4a1cd8138af595926",
+      "origin": "repo/case-study/field-admission-v2/raw/apsim_mgmt/Marsden-activites-for-apsim-WW-0805.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/field-logs/2013-2020_corn-plant-harv-dates.xlsx",
+      "bytes": 8409,
+      "sha256": "555dfefca12571ddbc77575fd6194b8bfdf4869095add12cb83032b24d3669f5",
+      "origin": "repo/case-study/field-admission-v2/raw/field-logs/2013-2020_corn-plant-harv-dates.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/field-logs/Field-activities-Marsden_2001-2017.xlsx",
+      "bytes": 81098,
+      "sha256": "b3a3c3bc3afaab1ce32bee8f7e2867a2fb085c33e633bc804ba903bd2a181162",
+      "origin": "repo/case-study/field-admission-v2/raw/field-logs/Field-activities-Marsden_2001-2017.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/field-logs/Marsden-field-activities-Woods-2013-2018.xlsx",
+      "bytes": 276435,
+      "sha256": "5c03263cd2588017b46730925e8b6e767967fe17caafa26f4092e707c0850e83",
+      "origin": "repo/case-study/field-admission-v2/raw/field-logs/Marsden-field-activities-Woods-2013-2018.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/field-logs/Marsden-field-activities-Woods-2019.xlsx",
+      "bytes": 17383,
+      "sha256": "999ceaed2104a8024ae42716576b40307b9e7080776a51f834f7739cb9c18721",
+      "origin": "repo/case-study/field-admission-v2/raw/field-logs/Marsden-field-activities-Woods-2019.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/field-logs/Marsden-field-activities-Woods-2020.xlsx",
+      "bytes": 13517,
+      "sha256": "1638dabccf64536727b494939a4f84afc0c754386ac7ae2efa9d692813321006",
+      "origin": "repo/case-study/field-admission-v2/raw/field-logs/Marsden-field-activities-Woods-2020.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/papers/AAEA_2015_economics.pdf",
+      "bytes": 491835,
+      "sha256": "98f6c08c3f62b7ddc35f822bf8957ddad416bf104e37c8232f41849124440a69",
+      "origin": "repo/case-study/field-admission-v2/raw/papers/AAEA_2015_economics.pdf"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/papers/AAEA_2015_extracted.txt",
+      "bytes": 56972,
+      "sha256": "d7b45c7794b58d4052a73b3885cb61d7f88724971df72726f25eed90b8d03f51",
+      "origin": "repo/case-study/field-admission-v2/raw/papers/AAEA_2015_extracted.txt"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/papers/root_carbon_data_s2.csv",
+      "bytes": 1622,
+      "sha256": "cf4db4f8813717d30cc12f558f3d66d4a44644aa081c23579f7f2702b7caec02",
+      "origin": "repo/case-study/field-admission-v2/raw/papers/root_carbon_data_s2.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/papers/root_paper.html",
+      "bytes": 263587,
+      "sha256": "9e550311c784851c342187568da22fd6eef88c5d6c956e133d0e86283cc167bb",
+      "origin": "repo/case-study/field-admission-v2/raw/papers/root_paper.html"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/papers/root_soil_data_s1.csv",
+      "bytes": 40698,
+      "sha256": "5a4ac9af11ab8fcac22f416fbed46e8f90bbf73dfc19242c2729856323502931",
+      "origin": "repo/case-study/field-admission-v2/raw/papers/root_soil_data_s1.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/penetrom/rd_penetrometer-soilmois-20180509.xlsx",
+      "bytes": 15157,
+      "sha256": "b7241a9fa60e09574c44808127fd8511c444db46d078683ade2f4578bd44ab1c",
+      "origin": "repo/case-study/field-admission-v2/raw/penetrom/rd_penetrometer-soilmois-20180509.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/rootdist_ml/2020-data-from-matt/Marsden 2019 Root Biomass Data.xlsx",
+      "bytes": 33500,
+      "sha256": "8525bf3483163e4e0ee7d805fac161bb60439531efc2ec69e9b0dd36f71cc35e",
+      "origin": "repo/case-study/field-admission-v2/raw/rootdist_ml/2020-data-from-matt/Marsden 2019 Root Biomass Data.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/rootdist_ml/2020-data-from-matt/Marsden 2020 Root Biomass Data_12Feb2021.xlsx",
+      "bytes": 37872,
+      "sha256": "f019027e6de9f91e7f2d24b594f049dac1ccea91907bdc57278ddca824b5fa9c",
+      "origin": "repo/case-study/field-admission-v2/raw/rootdist_ml/2020-data-from-matt/Marsden 2020 Root Biomass Data_12Feb2021.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/rootdist_ml/2020-data-from-matt/soil area and volume calculations.xlsx",
+      "bytes": 10508,
+      "sha256": "e98de665175f72b456a74cf4c6ad63c3b71f2c33d70a68eaa6b9944807dab8f0",
+      "origin": "repo/case-study/field-admission-v2/raw/rootdist_ml/2020-data-from-matt/soil area and volume calculations.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/soil_tests/2018-AgSource_Results.pdf",
+      "bytes": 283069,
+      "sha256": "026036ab862b3672a3be4ac745fd5c4199e30dd950bf7f62e29718b793449b72",
+      "origin": "repo/case-study/field-admission-v2/raw/soil_tests/2018-AgSource_Results.pdf"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/soil_tests/mrs_nutrients18.csv",
+      "bytes": 83109,
+      "sha256": "28c3afe5ed0f0fe10d7ff91b7b25be2944c4858124b46e3e44dcc31a909f3e3d",
+      "origin": "repo/case-study/field-admission-v2/raw/soil_tests/mrs_nutrients18.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/soil_tests/rd_mars-soil_nutrients.xlsx",
+      "bytes": 13566,
+      "sha256": "6b5bb0373c5301410e3d34059218ef14e3edc8210267edb47d7e6b1c1f34e096",
+      "origin": "repo/case-study/field-admission-v2/raw/soil_tests/rd_mars-soil_nutrients.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/soilsensors/logger-data-template-field.xlsx",
+      "bytes": 12089,
+      "sha256": "42e5efb9d736b4cb243e19bdee615766052eee69b4b34dd3db5559967e90b2ab",
+      "origin": "repo/case-study/field-admission-v2/raw/soilsensors/logger-data-template-field.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/soilsensors/rd_mars-soil_sensor-install.xlsx",
+      "bytes": 13274,
+      "sha256": "a98f8bca090880286b3e6afca892db50da6c393b5ac74b27b47c64bf6ebf0a79",
+      "origin": "repo/case-study/field-admission-v2/raw/soilsensors/rd_mars-soil_sensor-install.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/soilsensors/soilsensors.csv",
+      "bytes": 715069,
+      "sha256": "924b724b7c9af3559e4c12125ba7fd203525fb6b1e7419b1cdc5d568f57f073d",
+      "origin": "repo/case-study/field-admission-v2/raw/soilsensors/soilsensors.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/soiltexture/rd_texture2009.csv",
+      "bytes": 1562,
+      "sha256": "91664a0f4149a3c55f7fe7a4881bc313a07bda53744a1a9812c0ab19a9f3e94c",
+      "origin": "repo/case-study/field-admission-v2/raw/soiltexture/rd_texture2009.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/raw/soiltexture/rd_texture2014.csv",
+      "bytes": 10278,
+      "sha256": "5a5a7175335307a24df56e8f258a83bad444237d62e86986b2f58fe3c781aa05",
+      "origin": "repo/case-study/field-admission-v2/raw/soiltexture/rd_texture2014.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/replay_inputs/crops.csv",
+      "bytes": 440,
+      "sha256": "40774a0141ac42a789a1a69a44223e128ec78e6f7617738e6e34020ea6d45bac",
+      "origin": "repo/case-study/field-admission-v2/replay_inputs/crops.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/replay_inputs/events.csv",
+      "bytes": 123,
+      "sha256": "3e522abcc2d56f9e3d6a785d00854b1a8a36c3452f3bafb3117f69b1e4f99292",
+      "origin": "repo/case-study/field-admission-v2/replay_inputs/events.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/replay_inputs/soils.csv",
+      "bytes": 1208,
+      "sha256": "3c790065b0217ca1e892282f6bbbe06e05f092be207e7513e5cda854ba30cf0a",
+      "origin": "repo/case-study/field-admission-v2/replay_inputs/soils.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/replay_inputs/weather.csv",
+      "bytes": 15182,
+      "sha256": "0c1672d22aebfcef11a43658018f5d1b48852235620ff83649526e08a9bbdb5c",
+      "origin": "repo/case-study/field-admission-v2/replay_inputs/weather.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/replay_results/annual.csv",
+      "bytes": 2774,
+      "sha256": "361e2cd36bc6dc17e769da13f00c87d7beea13631fae6b9b84a1e1d2428b5b27",
+      "origin": "repo/case-study/field-admission-v2/replay_results/annual.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/replay_results/build.log",
+      "bytes": 319,
+      "sha256": "44147294e6a500294e0130ee9ed26f9b6f513287b9ccdd866e59cbfd56a24e70",
+      "origin": "repo/case-study/field-admission-v2/replay_results/build.log"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/replay_results/daily.csv",
+      "bytes": 892862,
+      "sha256": "bd24bc2de882b02096d5d79557e0a00b52be335a3dcf3610ffed6706708a7b81",
+      "origin": "repo/case-study/field-admission-v2/replay_results/daily.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/replay_results/execution_status.json",
+      "bytes": 232,
+      "sha256": "e833e161b8ae5dbfe4baf87ffac88cf60c9400fbd3c3d129985890661bc06cae",
+      "origin": "repo/case-study/field-admission-v2/replay_results/execution_status.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/replay_results/receipt.json",
+      "bytes": 1163,
+      "sha256": "cc83c8793ac071e54f441f265c69e8f9d7f932975ce2c4d1c0ef5e99fec61c99",
+      "origin": "repo/case-study/field-admission-v2/replay_results/receipt.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/replay_results/run.log",
+      "bytes": 74,
+      "sha256": "8adeae8e5603e4a720ef17d193d50721388c90c664bb765b3c1ad3332654b154",
+      "origin": "repo/case-study/field-admission-v2/replay_results/run.log"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/rust/Cargo.lock",
+      "bytes": 264,
+      "sha256": "0c4fdd0324d1f03fe1efc9c5426128c6202af6f26901511419d45ce6b909e20d",
+      "origin": "repo/case-study/field-admission-v2/rust/Cargo.lock"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/rust/Cargo.toml",
+      "bytes": 252,
+      "sha256": "7f3bf48c8c2f15791079099ce088bf3cb87b29c0f1255f089f089c9f7f30fe35",
+      "origin": "repo/case-study/field-admission-v2/rust/Cargo.toml"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/rust/src/main.rs",
+      "bytes": 4088,
+      "sha256": "516239bef3086c3b743e77282ee19bd36973b64d7b088015c5ada068a89a9add",
+      "origin": "repo/case-study/field-admission-v2/rust/src/main.rs"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/sources.json",
+      "bytes": 13778,
+      "sha256": "153491ad11700917ede63fb46987710e7def37738e6a879bd6dab3462f3664c1",
+      "origin": "repo/case-study/field-admission-v2/sources.json"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/src/analyze_economics.py",
+      "bytes": 4467,
+      "sha256": "b14fbbe062c739f6703dba29033c01e411b5f4ab2a60bd928e720fb629d559af",
+      "origin": "repo/case-study/field-admission-v2/src/analyze_economics.py"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/src/audit_hydraulics.py",
+      "bytes": 6572,
+      "sha256": "1915eb9631bdd81bda4f666246460ad3b28ec8324fe7c2372a40f8df7440540e",
+      "origin": "repo/case-study/field-admission-v2/src/audit_hydraulics.py"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/src/audit_management.py",
+      "bytes": 7760,
+      "sha256": "1ed6abcf65830a24c2e8c248ece1c76d0a020fcf8a3c8dec151490f608386c58",
+      "origin": "repo/case-study/field-admission-v2/src/audit_management.py"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/src/build_deliverables.py",
+      "bytes": 17823,
+      "sha256": "1cf4b8f60535bef6d2981c01bf99faff040030579cb4424618d6049c872025ca",
+      "origin": "repo/case-study/field-admission-v2/src/build_deliverables.py"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/src/evaluate_replay.py",
+      "bytes": 4055,
+      "sha256": "0f2af7a385dc3a31cf4d0db8af74567e71cb0022fd714bda9bb2eb1e993d65f3",
+      "origin": "repo/case-study/field-admission-v2/src/evaluate_replay.py"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/src/fetch_papers.py",
+      "bytes": 1520,
+      "sha256": "14f22823a8782dc96e7a339a5eeb4c170a372383a477a87cc6ccceaad67e7699",
+      "origin": "repo/case-study/field-admission-v2/src/fetch_papers.py"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/src/fetch_sources.py",
+      "bytes": 1756,
+      "sha256": "c3bbdd57dc4849e0ad7aa3096dbb42a168553b5bd47d614c40c750ad8eacf137",
+      "origin": "repo/case-study/field-admission-v2/src/fetch_sources.py"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/src/package_release.py",
+      "bytes": 2750,
+      "sha256": "9ea7f961b947ca3f9b6c79c6fd62717d8e32baf92df80c5498f5114b7b1d4343",
+      "origin": "repo/case-study/field-admission-v2/src/package_release.py"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/src/run_field_replay.py",
+      "bytes": 3888,
+      "sha256": "832751679f9e2ea51a1d33a9bcda1293d8710e199029256f06d99f4988f4fbf1",
+      "origin": "repo/case-study/field-admission-v2/src/run_field_replay.py"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/src/verify_admission.py",
+      "bytes": 6071,
+      "sha256": "4d94ae9420df5a0952a2b6c1384ceeb75f8be4046f437b267078d12622341c48",
+      "origin": "repo/case-study/field-admission-v2/src/verify_admission.py"
+    },
+    {
+      "path": "04_reproduce/case-study/field-admission-v2/src/verify_release.py",
+      "bytes": 2558,
+      "sha256": "27fbdab2b6d5acd6b9eddf70017ac14c43ec30a1f7ceb01ff58ce974b90164c2",
+      "origin": "repo/case-study/field-admission-v2/src/verify_release.py"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/MARSden_LICENSE.md",
+      "bytes": 1075,
+      "sha256": "c67aac51b5b8a0234b0218f2bdef21d654f2ea9857c86f686eaa1ff81b01783e",
+      "origin": "repo/case-study/public-field-validation/MARSden_LICENSE.md"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/README.md",
+      "bytes": 4180,
+      "sha256": "3b3f89772a98aef05ada744052f8e82730a1d717418ca79da39bba0c7a140367",
+      "origin": "repo/case-study/public-field-validation/README.md"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/analysis_protocol.json",
+      "bytes": 2820,
+      "sha256": "832e61d70d6833e82e52d89c6dfa2ca6c38b72c75b2f1864cae9c2a10b542802",
+      "origin": "repo/case-study/public-field-validation/analysis_protocol.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/marsden_acquisition.json",
+      "bytes": 2057,
+      "sha256": "7debfe1384631844649d5950d6ed3c3fbba93f7cda510dcfa97dcdf5b6779054",
+      "origin": "repo/case-study/public-field-validation/marsden_acquisition.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/pfi_verified_transcription.json",
+      "bytes": 4715,
+      "sha256": "e665a1a6be0c243c01b62f52084e40a45ee5405cfe313ad076dd2da009be258f",
+      "origin": "repo/case-study/public-field-validation/pfi_verified_transcription.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/contrast_backtest_metrics.csv",
+      "bytes": 867,
+      "sha256": "c9b286feaf499c7828db48d3a4da4a9f660c2cca7cd4517c8054d5808f357536",
+      "origin": "repo/case-study/public-field-validation/processed/contrast_backtest_metrics.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/contrast_summary.csv",
+      "bytes": 674,
+      "sha256": "661d2e78c99cfc0bf7001b752705926e33c2031699e6782218b7a9b08f23876b",
+      "origin": "repo/case-study/public-field-validation/processed/contrast_summary.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/corn_raw_aggregation_audited.csv",
+      "bytes": 15517,
+      "sha256": "0173f423824dc44c3ff17c76ff08d1b22b14a7fbee6d2f41e5aadd43c1d635e6",
+      "origin": "repo/case-study/public-field-validation/processed/corn_raw_aggregation_audited.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/corn_raw_subplots_audited.csv",
+      "bytes": 24517,
+      "sha256": "8040c94bfee3232205b9099ab0615136fda401499ba5806f3ada6e17a4b74a1c",
+      "origin": "repo/case-study/public-field-validation/processed/corn_raw_subplots_audited.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/later_soy_workbook_notes.csv",
+      "bytes": 1574,
+      "sha256": "bcfc5aab2a61c79597b6ee0b49625da69a9019a184e0f771bc76e221bc752af7",
+      "origin": "repo/case-study/public-field-validation/processed/later_soy_workbook_notes.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/marsden_annual_contrasts.csv",
+      "bytes": 1878,
+      "sha256": "e3c517bb0244e30e78f7e13cea298e2cb274dbc69c0dd3d29287840b199cd96a",
+      "origin": "repo/case-study/public-field-validation/processed/marsden_annual_contrasts.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/marsden_paired_block_contrasts.csv",
+      "bytes": 5762,
+      "sha256": "ad742f057303f687ba9354a738a6bd44e3a0cd4ab7d128f4653495102e5ad765",
+      "origin": "repo/case-study/public-field-validation/processed/marsden_paired_block_contrasts.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/marsden_standardized_observations.csv",
+      "bytes": 14298,
+      "sha256": "915ca25d474aea6b0b04b7939c5112250e0fbd514381ddf868a326759b80b49c",
+      "origin": "repo/case-study/public-field-validation/processed/marsden_standardized_observations.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/pfi-page-2.png",
+      "bytes": 1136976,
+      "sha256": "c19d650ebea804361bdd5fb14dd57b95b81c3737d48d233ee0b78c526a735396",
+      "origin": "repo/case-study/public-field-validation/processed/pfi-page-2.png"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/pfi-page-3.png",
+      "bytes": 1271640,
+      "sha256": "6a33dbb13aae40b9fa9e00ba5c5cabe3c96f9540d426587f117f42f04a302d97",
+      "origin": "repo/case-study/public-field-validation/processed/pfi-page-3.png"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/pfi_2022_farm_summary.csv",
+      "bytes": 1345,
+      "sha256": "0b056933ecf7d195f4c38af3b72863a8f000ea2b3436ece7c302b3ecff62b6a2",
+      "origin": "repo/case-study/public-field-validation/processed/pfi_2022_farm_summary.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/published_historic_economics.csv",
+      "bytes": 1164,
+      "sha256": "647ff03c0aadace2b727d33353e5270400d419c6ecffc94cfef76156b696317b",
+      "origin": "repo/case-study/public-field-validation/processed/published_historic_economics.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/soy_2018_2020_harvest_subdivisions_for_review.csv",
+      "bytes": 19913,
+      "sha256": "55debb4c5b0673614f9cdaf36a81eb04f4236217aa5708b1225f433332e792ac",
+      "origin": "repo/case-study/public-field-validation/processed/soy_2018_2020_harvest_subdivisions_for_review.csv"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/trial_evidence.json",
+      "bytes": 20281,
+      "sha256": "623b57d3687fbbf13c6a5edb9e720327fbfec0dcebd9456fae073ba761da4260",
+      "origin": "repo/case-study/public-field-validation/processed/trial_evidence.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/validation_checks.json",
+      "bytes": 1073,
+      "sha256": "2215d550e21ec095d724d2edeacf4e58344959649bc326a5ca1ef94cc3848f58",
+      "origin": "repo/case-study/public-field-validation/processed/validation_checks.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/workbook_audit_checks.json",
+      "bytes": 10237,
+      "sha256": "2b68b5d34a3394e1a8e89905919b654b80177358effa733c64466aaf3c2a6584",
+      "origin": "repo/case-study/public-field-validation/processed/workbook_audit_checks.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/processed/workbook_audit_summary.json",
+      "bytes": 804,
+      "sha256": "5ac0e39bbb43d17bfa207bb4c90c770f011df11b1b9dda9c1fc5417b8a90ee0b",
+      "origin": "repo/case-study/public-field-validation/processed/workbook_audit_summary.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/code_proc-historical-yields.R",
+      "bytes": 1280,
+      "sha256": "b97e70e5d7317c866ce0270d8d703ef517dc515f1e886a2c6d04090696485ca2",
+      "origin": "repo/case-study/public-field-validation/raw/code_proc-historical-yields.R"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/code_proc-yields.R",
+      "bytes": 2716,
+      "sha256": "575342ec1fc71bc320f3880cc9a94298ddbb72e9894499b6cc376ad4cfcb14b6",
+      "origin": "repo/case-study/public-field-validation/raw/code_proc-yields.R"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/cscap_adc_landing.html",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "repo/case-study/public-field-validation/raw/cscap_adc_landing.html"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/cscap_ardn_landing.html",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "repo/case-study/public-field-validation/raw/cscap_ardn_landing.html"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/cscap_discovery_attempt.json",
+      "bytes": 553,
+      "sha256": "38190f69c4e2fe50eac0683a70aa40a6fd7251569ddbef34baaa704ebffe72a3",
+      "origin": "repo/case-study/public-field-validation/raw/cscap_discovery_attempt.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/cscap_download_page.html",
+      "bytes": 179299,
+      "sha256": "32a1f3d51ea409868a25453efd4c58c4d3d1bd8b9778b1c00b49f284d9a76059",
+      "origin": "repo/case-study/public-field-validation/raw/cscap_download_page.html"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/Corn yield 2002-2020.xlsx",
+      "bytes": 33127,
+      "sha256": "36db7400f8c8acf091b558273aebf087dd120c87c9dd87fed183447c9f4a05ce",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/Corn yield 2002-2020.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/Corn yield 2002-2020.xlsx.api.json",
+      "bytes": 46983,
+      "sha256": "4a3009ba866144882b10c7cef2b2f69f98336cb75dbb06e65c75d59936e857a7",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/Corn yield 2002-2020.xlsx.api.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/Marsden 2018 Corn-Soybean Yields.xlsx",
+      "bytes": 22415,
+      "sha256": "86232b74e63d1705beef6771d8c1911ee837df939b84209a78d0603a7c85dfc2",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/Marsden 2018 Corn-Soybean Yields.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/Marsden 2018 Corn-Soybean Yields.xlsx.api.json",
+      "bytes": 32245,
+      "sha256": "15a53d3029c7035b4c08e0e6c4e3940427c09288fc38f86cbf933c3d275da52d",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/Marsden 2018 Corn-Soybean Yields.xlsx.api.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/Marsden 2019 Corn-Soybean Yields.xlsx",
+      "bytes": 22784,
+      "sha256": "7394b0e6c8e206c5f9c1e85135d66e25eee1545b1f5f409570ecd49d18b2fca2",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/Marsden 2019 Corn-Soybean Yields.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/Marsden 2019 Corn-Soybean Yields.xlsx.api.json",
+      "bytes": 32753,
+      "sha256": "778ecd94cf704cf5c19608ba0b92dbbb27967f56ff2a9aec03536a1fafe6d374",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/Marsden 2019 Corn-Soybean Yields.xlsx.api.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/Marsden 2020 Corn-Soybean Yields_ml.xlsx",
+      "bytes": 22729,
+      "sha256": "83281d5373cf17b899cab177992040bae6885bce0e51744e2ca693dca63f45b4",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/Marsden 2020 Corn-Soybean Yields_ml.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/Marsden 2020 Corn-Soybean Yields_ml.xlsx.api.json",
+      "bytes": 32700,
+      "sha256": "60b889e0dfc041cd14be67d58d1d2c2a82566b62555ba064f1e8f8044dd7dc98",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/Marsden 2020 Corn-Soybean Yields_ml.xlsx.api.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/Split plot management_2008-2020.xlsx",
+      "bytes": 13273,
+      "sha256": "1a0081e64010127b73f8762de7a51ce3b6da98a97617fe140c686c938e2acbef",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/Split plot management_2008-2020.xlsx"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/Split plot management_2008-2020.xlsx.api.json",
+      "bytes": 19704,
+      "sha256": "c42dc1d3d73ffd1c169b578e065feddf4cc9cee2a8d6310892e21b85a4ba8c08",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/Split plot management_2008-2020.xlsx.api.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/code_proc-historical-yields.R",
+      "bytes": 1280,
+      "sha256": "b97e70e5d7317c866ce0270d8d703ef517dc515f1e886a2c6d04090696485ca2",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/code_proc-historical-yields.R"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/code_proc-historical-yields.R.api.json",
+      "bytes": 3014,
+      "sha256": "a9cde97fd710d83852ffff24913c9beef1ea7d5deb87fa82da45d9e6bee6a1d3",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/code_proc-historical-yields.R.api.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/code_proc-yields.R",
+      "bytes": 2716,
+      "sha256": "575342ec1fc71bc320f3880cc9a94298ddbb72e9894499b6cc376ad4cfcb14b6",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/code_proc-yields.R"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden/code_proc-yields.R.api.json",
+      "bytes": 4917,
+      "sha256": "6e2daab4fed34044a1c3305e9370608d56c79c157eca33ed6da2bc387f02cf93",
+      "origin": "repo/case-study/public-field-validation/raw/marsden/code_proc-yields.R.api.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden_2012_table_s5.docx",
+      "bytes": 22017,
+      "sha256": "2f74383dd0ba81e15709ad762ed8bd536c4e2ca1681d33322989b1ebcf88782d",
+      "origin": "repo/case-study/public-field-validation/raw/marsden_2012_table_s5.docx"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/marsden_2012_weather.docx",
+      "bytes": 21138,
+      "sha256": "7185af2b7e3c587521d3068a93d620b4c5c1fa65e8c91ee7bb40533de0b1e175",
+      "origin": "repo/case-study/public-field-validation/raw/marsden_2012_weather.docx"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/pfi_soil_water_2022.pdf",
+      "bytes": 4286567,
+      "sha256": "b733e51b18849f9aa401b13697c593b7802d394ffc6f85aad986a8b428b0ee4a",
+      "origin": "repo/case-study/public-field-validation/raw/pfi_soil_water_2022.pdf"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/raw/pfi_soil_water_page.html",
+      "bytes": 267354,
+      "sha256": "1e49e3be1ee5dfabc372a9e23fa00cdb4e4edf8d3e31ec2d9a78380de1ccc0a7",
+      "origin": "repo/case-study/public-field-validation/raw/pfi_soil_water_page.html"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/requirements.txt",
+      "bytes": 81,
+      "sha256": "cedfd637aa6e0819b4de5bff89573633c68ad7bb7ff0c177176997cfbe71ce9c",
+      "origin": "repo/case-study/public-field-validation/requirements.txt"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/sources.json",
+      "bytes": 7222,
+      "sha256": "e789e1b22fccff40f892a501c04590fe744f3369833f78494bed5d5475fdaf95",
+      "origin": "repo/case-study/public-field-validation/sources.json"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/src/analyze_trials.py",
+      "bytes": 13859,
+      "sha256": "658807d50bea815e4a94f1a629e19d8fcf3631a75a992ec422d55a588a96890c",
+      "origin": "repo/case-study/public-field-validation/src/analyze_trials.py"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/src/audit_workbooks.py",
+      "bytes": 5808,
+      "sha256": "6e4176f6e50a86b168829b0469366aa25c188921d45755342679bf5847780c38",
+      "origin": "repo/case-study/public-field-validation/src/audit_workbooks.py"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/src/discover_cscap.py",
+      "bytes": 936,
+      "sha256": "98c5785fc627879c2b7fb89743e3aa0388f0a936d58226bba765e3b217b34974",
+      "origin": "repo/case-study/public-field-validation/src/discover_cscap.py"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/src/fetch_public_trials.py",
+      "bytes": 4144,
+      "sha256": "61c88a29f589e46c43e8c8ec829ae9851dfe8ec8d334120b8aa680b6334be219",
+      "origin": "repo/case-study/public-field-validation/src/fetch_public_trials.py"
+    },
+    {
+      "path": "04_reproduce/case-study/public-field-validation/src/package_release.py",
+      "bytes": 5384,
+      "sha256": "8abc999a9d925bdc44017ae8c15fe9d0fb98de0e4c8aa661f799d2313b674e93",
+      "origin": "repo/case-study/public-field-validation/src/package_release.py"
+    },
+    {
+      "path": "04_reproduce/fieldshift-eo-rs/Cargo.lock",
+      "bytes": 160,
+      "sha256": "28a2a1e137e22d66f4b33ce56533dcd1e2741e3f023cfba0306000cbd6fb8703",
+      "origin": "repo/fieldshift-eo-rs/Cargo.lock"
+    },
+    {
+      "path": "04_reproduce/fieldshift-eo-rs/Cargo.toml",
+      "bytes": 244,
+      "sha256": "c073bb047d0e9335465e11d33a2d53d4c5483141fec163093977eeb55a40be44",
+      "origin": "repo/fieldshift-eo-rs/Cargo.toml"
+    },
+    {
+      "path": "04_reproduce/fieldshift-eo-rs/LICENSE",
+      "bytes": 1232,
+      "sha256": "47f1c7270919bc33b69f6824d5e2318a615069dd2b04bc6e54514e6028c5148a",
+      "origin": "repo/fieldshift-eo-rs/LICENSE"
+    },
+    {
+      "path": "04_reproduce/fieldshift-eo-rs/README.md",
+      "bytes": 2012,
+      "sha256": "28a0d5fc70593e89eec7623b6aa844b136af8221aac342b4c9cb0ac81d76482b",
+      "origin": "repo/fieldshift-eo-rs/README.md"
+    },
+    {
+      "path": "04_reproduce/fieldshift-eo-rs/src/lib.rs",
+      "bytes": 33056,
+      "sha256": "dccabf4fc600499f6cdfbb7be3e74adddcdf4115ab830bb5579e635225a5896b",
+      "origin": "repo/fieldshift-eo-rs/src/lib.rs"
+    },
+    {
+      "path": "04_reproduce/fieldshift-eo-rs/src/main.rs",
+      "bytes": 24979,
+      "sha256": "3c40fb4523cb2c1f0531056042f2c1e0387a2f19c79828e458b3dc2022098e16",
+      "origin": "repo/fieldshift-eo-rs/src/main.rs"
+    },
+    {
+      "path": "04_reproduce/fieldshift-rs/baseline-revision/v0.2/inputs/crops.csv",
+      "bytes": 440,
+      "sha256": "40774a0141ac42a789a1a69a44223e128ec78e6f7617738e6e34020ea6d45bac",
+      "origin": "repo/fieldshift-rs/baseline-revision/v0.2/inputs/crops.csv"
+    },
+    {
+      "path": "04_reproduce/requirements.txt",
+      "bytes": 43,
+      "sha256": "9910c8258efd493a347793709947428633e0693af6dee0e1327de67a718befba",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "04_reproduce/run.py",
+      "bytes": 598,
+      "sha256": "8f5987c97e2734ecd9a7f366fd40d8da1ff6a4160a2b7c13c7a8c2eed14ef869",
+      "origin": "curated_or_authored_for_peer_briefing"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2472,
+      "sha256": "9ddb277e2b747d2b4874588e095f804d2f626b6410d54c926f5dc6187d72a6f0",
+      "origin": "curated_or_authored_for_peer_briefing"
+    }
+  ]
+}

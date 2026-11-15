@@ -1,0 +1,50 @@
+[
+  {
+    "check": "corn source processing explicitly labels dry mass",
+    "passed": true
+  },
+  {
+    "check": "corn conversion uses 0.845 dry fraction",
+    "passed": true
+  },
+  {
+    "check": "soy mass and bushel conversion reconciles",
+    "passed": true
+  },
+  {
+    "check": "192 crop/system/year/block observations in primary subset",
+    "passed": true
+  },
+  {
+    "check": "one observation per crop/year/system/block",
+    "passed": true
+  },
+  {
+    "check": "all measurements positive and finite",
+    "passed": true
+  },
+  {
+    "check": "96 paired comparisons; no unmatched records",
+    "passed": true
+  },
+  {
+    "check": "four matched blocks per crop/year",
+    "passed": true
+  },
+  {
+    "check": "NASA context joins every annual contrast",
+    "passed": true
+  },
+  {
+    "check": "PFI rounded treatment means give signed contrasts [0,1,2,1,-11]",
+    "passed": true
+  },
+  {
+    "check": "PFI management date conflicts retained at three farms",
+    "passed": true
+  },
+  {
+    "check": "PFI water sensor failures retained",
+    "passed": true
+  }
+]

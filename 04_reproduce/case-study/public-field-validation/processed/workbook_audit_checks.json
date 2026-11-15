@@ -1,0 +1,432 @@
+[
+  {
+    "check": "Pinned Git blob code_proc-historical-yields.R",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Pinned Git blob code_proc-yields.R",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Pinned Git blob Marsden 2018 Corn-Soybean Yields.xlsx",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Pinned Git blob Marsden 2019 Corn-Soybean Yields.xlsx",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Pinned Git blob Marsden 2020 Corn-Soybean Yields_ml.xlsx",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Pinned Git blob Corn yield 2002-2020.xlsx",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Pinned Git blob Split plot management_2008-2020.xlsx",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "384 raw corn subplot/full-plot records",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "No duplicate raw corn year/plot/side records",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "All 228 author-processed corn plot years reproduce from raw workbook",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Dry-mass aggregation agrees numerically",
+    "passed": true,
+    "detail": "max absolute error 5e-09 Mg/ha"
+  },
+  {
+    "check": "Raw workbook uses its own near-constant mass conversion",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 9 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 10 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 11 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 12 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 13 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 14 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 15 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 16 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 17 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 18 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 19 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 20 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 21 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 22 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 23 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 24 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 25 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 26 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 27 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 28 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 29 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 30 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 31 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2018 row 32 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 9 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 10 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 11 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 12 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 13 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 14 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 15 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 16 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 17 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 18 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 19 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 20 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 21 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 22 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 23 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 24 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 25 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 26 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 27 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 28 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 29 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 30 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 31 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2019 row 32 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 9 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 10 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 11 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 12 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 13 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 14 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 15 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 16 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 17 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 18 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 19 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 20 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 21 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 22 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 23 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 24 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 25 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 26 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 27 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 28 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 29 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 30 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 31 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Soy 2020 row 32 harvest mass/area/moisture reconstruction",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "72 later soybean harvested subdivisions (24 per year)",
+    "passed": true,
+    "detail": ""
+  },
+  {
+    "check": "Split management has distinct hybrid/herbicide columns",
+    "passed": true,
+    "detail": ""
+  }
+]

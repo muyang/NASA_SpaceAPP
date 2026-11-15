@@ -1,0 +1,133 @@
+[
+  {
+    "file": "raw/marsden_2012_table_s5.docx",
+    "requested_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0047149.s006&type=supplementary",
+    "retrieved_at_utc": "2026-11-15T10:01:02.164999+00:00",
+    "status": "retained",
+    "sha256": "2f74383dd0ba81e15709ad762ed8bd536c4e2ca1681d33322989b1ebcf88782d",
+    "bytes": 22017
+  },
+  {
+    "file": "raw/marsden_2012_weather.docx",
+    "requested_url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0047149.s002&type=supplementary",
+    "retrieved_at_utc": "2026-11-15T10:01:02.165877+00:00",
+    "status": "retained",
+    "sha256": "7185af2b7e3c587521d3068a93d620b4c5c1fa65e8c91ee7bb40533de0b1e175",
+    "bytes": 21138
+  },
+  {
+    "file": "raw/pfi_soil_water_2022.pdf",
+    "requested_url": "https://practicalfarmers.org/wp-content/uploads/2026/03/22.FC_.CC.-Cover-crop-soil-water.pdf",
+    "retrieved_at_utc": "2026-11-15T10:01:02.163965+00:00",
+    "status": "retained",
+    "sha256": "b733e51b18849f9aa401b13697c593b7802d394ffc6f85aad986a8b428b0ee4a",
+    "bytes": 4286567
+  },
+  {
+    "file": "raw/pfi_soil_water_page.html",
+    "requested_url": "https://practicalfarmers.org/resources/research-reports/cover-crop-effect-on-soil-water/",
+    "retrieved_at_utc": "2026-11-15T10:01:02.166383+00:00",
+    "status": "retained",
+    "sha256": "1e49e3be1ee5dfabc372a9e23fa00cdb4e4edf8d3e31ec2d9a78380de1ccc0a7",
+    "bytes": 267354
+  },
+  {
+    "file": "raw/cscap_adc_landing.html",
+    "requested_url": "https://data.nal.usda.gov/dataset/sustainable-corn-cap-research-data-usda-nifa-award-no-2011-68002-30190",
+    "retrieved_at_utc": "2026-11-15T10:01:02.171972+00:00",
+    "status": "failed",
+    "error": "Empty body; no usable data acquired"
+  },
+  {
+    "file": "raw/cscap_download_page.html",
+    "requested_url": "https://datateam.agron.iastate.edu/cscap/dl/",
+    "retrieved_at_utc": "2026-11-15T10:01:02.167374+00:00",
+    "status": "retained",
+    "sha256": "32a1f3d51ea409868a25453efd4c58c4d3d1bd8b9778b1c00b49f284d9a76059",
+    "bytes": 179299
+  },
+  {
+    "file": "raw/cscap_ardn_landing.html",
+    "requested_url": "https://data.nal.usda.gov/dataset/sustainable-corn-cap-research-data-usda-nifa-award-no-2011-68002-30190-ardn-products",
+    "retrieved_at_utc": "2026-11-15T10:01:02.185816+00:00",
+    "status": "failed",
+    "error": "Empty body; no usable data acquired"
+  },
+  {
+    "file": "raw/marsden/code_proc-historical-yields.R",
+    "requested_url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/code_proc-historical-yields.R",
+    "retrieved_at_utc": "2026-11-15T10:01:02.187149+00:00",
+    "status": "downloaded",
+    "http_status": 200,
+    "response_url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/yields/code_proc-historical-yields.R?ref=01476a18c01115f70f154cf7e94c1951205fbda1",
+    "content_type": "application/octet-stream",
+    "bytes": 1280,
+    "sha256": "b97e70e5d7317c866ce0270d8d703ef517dc515f1e886a2c6d04090696485ca2"
+  },
+  {
+    "file": "raw/marsden/code_proc-yields.R",
+    "requested_url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/code_proc-yields.R",
+    "retrieved_at_utc": "2026-11-15T10:01:02.213161+00:00",
+    "status": "downloaded",
+    "http_status": 200,
+    "response_url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/yields/code_proc-yields.R?ref=01476a18c01115f70f154cf7e94c1951205fbda1",
+    "content_type": "application/octet-stream",
+    "bytes": 2716,
+    "sha256": "575342ec1fc71bc320f3880cc9a94298ddbb72e9894499b6cc376ad4cfcb14b6"
+  },
+  {
+    "file": "raw/marsden/Marsden 2018 Corn-Soybean Yields.xlsx",
+    "requested_url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/raw/Marsden%202018%20Corn-Soybean%20Yields.xlsx",
+    "retrieved_at_utc": "2026-11-15T10:01:03.171912+00:00",
+    "status": "downloaded",
+    "http_status": 200,
+    "response_url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/yields/raw/Marsden%202018%20Corn-Soybean%20Yields.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1",
+    "content_type": "application/octet-stream",
+    "bytes": 22415,
+    "sha256": "86232b74e63d1705beef6771d8c1911ee837df939b84209a78d0603a7c85dfc2"
+  },
+  {
+    "file": "raw/marsden/Marsden 2019 Corn-Soybean Yields.xlsx",
+    "requested_url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/raw/Marsden%202019%20Corn-Soybean%20Yields.xlsx",
+    "retrieved_at_utc": "2026-11-15T10:01:03.179355+00:00",
+    "status": "downloaded",
+    "http_status": 200,
+    "response_url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/yields/raw/Marsden%202019%20Corn-Soybean%20Yields.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1",
+    "content_type": "application/octet-stream",
+    "bytes": 22784,
+    "sha256": "7394b0e6c8e206c5f9c1e85135d66e25eee1545b1f5f409570ecd49d18b2fca2"
+  },
+  {
+    "file": "raw/marsden/Marsden 2020 Corn-Soybean Yields_ml.xlsx",
+    "requested_url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/raw/Marsden%202020%20Corn-Soybean%20Yields_ml.xlsx",
+    "retrieved_at_utc": "2026-11-15T10:01:03.984259+00:00",
+    "status": "downloaded",
+    "http_status": 200,
+    "response_url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/yields/raw/Marsden%202020%20Corn-Soybean%20Yields_ml.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1",
+    "content_type": "application/octet-stream",
+    "bytes": 22729,
+    "sha256": "83281d5373cf17b899cab177992040bae6885bce0e51744e2ca693dca63f45b4"
+  },
+  {
+    "file": "raw/marsden/Corn yield 2002-2020.xlsx",
+    "requested_url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/raw/raw-from-ML/Corn%20yield%202002-2020.xlsx",
+    "retrieved_at_utc": "2026-11-15T10:01:04.260666+00:00",
+    "status": "downloaded",
+    "http_status": 200,
+    "response_url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/yields/raw/raw-from-ML/Corn%20yield%202002-2020.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1",
+    "content_type": "application/octet-stream",
+    "bytes": 33127,
+    "sha256": "36db7400f8c8acf091b558273aebf087dd120c87c9dd87fed183447c9f4a05ce"
+  },
+  {
+    "file": "raw/marsden/Split plot management_2008-2020.xlsx",
+    "requested_url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/raw/raw-from-ML/Split%20plot%20management_2008-2020.xlsx",
+    "retrieved_at_utc": "2026-11-15T10:01:04.685352+00:00",
+    "status": "downloaded",
+    "http_status": 200,
+    "response_url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/yields/raw/raw-from-ML/Split%20plot%20management_2008-2020.xlsx?ref=01476a18c01115f70f154cf7e94c1951205fbda1",
+    "content_type": "application/octet-stream",
+    "bytes": 13273,
+    "sha256": "1a0081e64010127b73f8762de7a51ce3b6da98a97617fe140c686c938e2acbef"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "measured_layers": 40,
+  "complete_measured_BD_texture_SOC_profiles_0_100cm": 8,
+  "represented_rotations": [
+    2,
+    4
+  ],
+  "all_system_shallow_soil_rows": 360,
+  "BD_WFPS_nonmissing_pairs": 281,
+  "conditional_2014_water_layer_records": 256,
+  "PTF_candidates": 80,
+  "PTF_candidates_rejected": 0,
+  "profiles_all_prior_layers_physical": 16,
+  "retention_measured": false,
+  "initial_state_date_verified": false,
+  "sensor_sat_not_admitted_as_soil_SAT": true,
+  "limitations": [
+    "The 2014 deep profile dataset covers 2- and 4-year corn phases only, not 3-year.",
+    "2013 water is not silently paired with 2014 BD.",
+    "0-30 cm aggregate is not used due prior unresolved support.",
+    "LL/DUL and SAT priors are estimates; no synthetic measurement or clipping.",
+    "2018 sensor dry_VWC/sat_VWC are installation calibration readings, not an admitted field retention curve."
+  ]
+}

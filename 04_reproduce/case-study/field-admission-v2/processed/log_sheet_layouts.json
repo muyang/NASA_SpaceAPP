@@ -1,0 +1,42 @@
+[
+  {
+    "sheet": "2013",
+    "date_column_1based": 1,
+    "preview_datetime_counts": [
+      17,
+      0
+    ]
+  },
+  {
+    "sheet": "2014",
+    "date_column_1based": 2,
+    "preview_datetime_counts": [
+      0,
+      15
+    ]
+  },
+  {
+    "sheet": "2016",
+    "date_column_1based": 1,
+    "preview_datetime_counts": [
+      12,
+      0
+    ]
+  },
+  {
+    "sheet": "2017",
+    "date_column_1based": 1,
+    "preview_datetime_counts": [
+      6,
+      0
+    ]
+  },
+  {
+    "sheet": "2018",
+    "date_column_1based": 1,
+    "preview_datetime_counts": [
+      4,
+      0
+    ]
+  }
+]

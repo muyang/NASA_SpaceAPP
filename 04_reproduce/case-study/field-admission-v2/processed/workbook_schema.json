@@ -1,0 +1,4424 @@
+[
+  {
+    "file": "penetrom/rd_penetrometer-soilmois-20180509.xlsx",
+    "sheets": [
+      {
+        "name": "moisture",
+        "rows": 86,
+        "cols": 12,
+        "first_nonempty": [
+          [
+            "What: Penetrometer readings with Dr. Olk's SC900 Spectrum",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "When: May 9 (blocks 1 and 3)",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Collected by: Gina and Jessica",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Notes: Top ~foot was dry but under that it was very very wet, soil sampling was difficult",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "date",
+            "soilpair_YN",
+            "block",
+            "trt",
+            "N",
+            "msmtdepth_in",
+            "soildepth_in",
+            "wetsoil_g",
+            "wetbag_g",
+            "drysoil_g",
+            "drybag_g",
+            "notes"
+          ],
+          [
+            "2018-05-09 00:00:00",
+            "Y",
+            "B1",
+            "C2",
+            "N1",
+            "18",
+            "17",
+            "208.1",
+            "3.15",
+            "168.38",
+            "3.07",
+            null
+          ],
+          [
+            "2018-05-09 00:00:00",
+            "Y",
+            "B1",
+            "C2",
+            "N2",
+            "18",
+            "17",
+            "112.04",
+            "3.15",
+            "93.2",
+            "3.07",
+            null
+          ],
+          [
+            "2018-05-09 00:00:00",
+            "Y",
+            "B1",
+            "C2",
+            "N3",
+            "18",
+            "17",
+            "181.35",
+            "3.15",
+            "151.35",
+            "3.07",
+            null
+          ],
+          [
+            "2018-05-09 00:00:00",
+            "Y",
+            "B1",
+            "C2",
+            "N4",
+            "18",
+            "17",
+            "194.06",
+            "3.15",
+            "157.34",
+            "3.07",
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "_unprocessed/Short comm_Full dataset_ml.xlsx",
+    "sheets": [
+      {
+        "name": "Corn yields",
+        "rows": 157,
+        "cols": 5,
+        "first_nonempty": [
+          [
+            "Block",
+            "Trt",
+            "Yld (bu/a)",
+            "Mg (dry)/ha",
+            "Year"
+          ],
+          [
+            "1",
+            "C2",
+            "199.9",
+            "10.413091599625",
+            "2002"
+          ],
+          [
+            "2",
+            "C2",
+            "191.7",
+            "9.985941268874997",
+            "2002"
+          ],
+          [
+            "3",
+            "C2",
+            "207.7",
+            "10.819405328874998",
+            "2002"
+          ],
+          [
+            "4",
+            "C2",
+            "202.9",
+            "10.569366110874999",
+            "2002"
+          ],
+          [
+            "1",
+            "C3",
+            "187.6",
+            "9.772366103499998",
+            "2002"
+          ],
+          [
+            "2",
+            "C3",
+            "187.9",
+            "9.787993554625",
+            "2002"
+          ],
+          [
+            "3",
+            "C3",
+            "187.8",
+            "9.78278440425",
+            "2002"
+          ],
+          [
+            "4",
+            "C3",
+            "177.1",
+            "9.225405314124998",
+            "2002"
+          ],
+          [
+            "1",
+            "C4",
+            "200.6",
+            "10.449555652249998",
+            "2002"
+          ]
+        ]
+      },
+      {
+        "name": "LSNT",
+        "rows": 161,
+        "cols": 16,
+        "first_nonempty": [
+          [
+            "Block",
+            "Trt",
+            "Date",
+            "NO3-N (ppm)",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "1",
+            "C2",
+            "2002-06-04 00:00:00",
+            "28",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2",
+            "C2",
+            "2002-06-04 00:00:00",
+            "19",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "3",
+            "C2",
+            "2002-06-04 00:00:00",
+            "29",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "4",
+            "C2",
+            "2002-06-04 00:00:00",
+            "23",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "1",
+            "C3",
+            "2002-06-04 00:00:00",
+            "22.5",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2",
+            "C3",
+            "2002-06-04 00:00:00",
+            "19.5",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "3",
+            "C3",
+            "2002-06-04 00:00:00",
+            "17.5",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "4",
+            "C3",
+            "2002-06-04 00:00:00",
+            "13",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "1",
+            "C4",
+            "2002-06-04 00:00:00",
+            "19",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      {
+        "name": "Mineral N additions",
+        "rows": 157,
+        "cols": 8,
+        "first_nonempty": [
+          [
+            "Year",
+            "System",
+            "Crop",
+            "Synthetic fertilizer N (kg/ha)",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2003",
+            "2",
+            "Corn",
+            "151.335",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2003",
+            "3",
+            "Corn",
+            "85",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2003",
+            "4",
+            "Corn",
+            "50",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2004",
+            "2",
+            "Corn",
+            "112.1",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2004",
+            "3",
+            "Corn",
+            "95",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2004",
+            "4",
+            "Corn",
+            "62",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2005",
+            "2",
+            "Corn",
+            "112.1",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2005",
+            "3",
+            "Corn",
+            "0",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2005",
+            "4",
+            "Corn",
+            "0",
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      {
+        "name": "PMN",
+        "rows": 361,
+        "cols": 11,
+        "first_nonempty": [
+          [
+            "block",
+            "system",
+            "depth",
+            "crop",
+            "date",
+            "PMN",
+            null,
+            null,
+            "Dates Key",
+            null,
+            null
+          ],
+          [
+            "1",
+            "2",
+            "0",
+            "C",
+            "1",
+            ".",
+            null,
+            null,
+            "1",
+            "Fall 08",
+            "Sept"
+          ],
+          [
+            "1",
+            "2",
+            "0",
+            "S",
+            "1",
+            ".",
+            null,
+            null,
+            "2",
+            "Spring 09",
+            "May"
+          ],
+          [
+            "1",
+            "3",
+            "0",
+            "C",
+            "1",
+            ".",
+            null,
+            null,
+            "3",
+            "Summer 09",
+            "June-July"
+          ],
+          [
+            "1",
+            "3",
+            "0",
+            "O",
+            "1",
+            ".",
+            null,
+            null,
+            "4",
+            "Fall 09",
+            "Sept"
+          ],
+          [
+            "1",
+            "3",
+            "0",
+            "S",
+            "1",
+            ".",
+            null,
+            null,
+            "5",
+            "Spring 10",
+            "May"
+          ],
+          [
+            "1",
+            "4",
+            "0",
+            "A",
+            "1",
+            ".",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "1",
+            "4",
+            "0",
+            "C",
+            "1",
+            ".",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "1",
+            "4",
+            "0",
+            "O",
+            "1",
+            ".",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "1",
+            "4",
+            "0",
+            "S",
+            "1",
+            ".",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      {
+        "name": "Gross N min",
+        "rows": 13,
+        "cols": 5,
+        "first_nonempty": [
+          [
+            "site",
+            "plot",
+            "system",
+            "blk",
+            "GrossNmin"
+          ],
+          [
+            "Marsden",
+            "13",
+            "2",
+            "1",
+            "0.118883699"
+          ],
+          [
+            "Marsden",
+            "24",
+            "2",
+            "2",
+            "0.124842941"
+          ],
+          [
+            "Marsden",
+            "34",
+            "2",
+            "3",
+            "0.226354103"
+          ],
+          [
+            "Marsden",
+            "44",
+            "2",
+            "4",
+            "0.138834122"
+          ],
+          [
+            "Marsden",
+            "15",
+            "3",
+            "1",
+            "0.2220568"
+          ],
+          [
+            "Marsden",
+            "26",
+            "3",
+            "2",
+            "0.189062338"
+          ],
+          [
+            "Marsden",
+            "36",
+            "3",
+            "3",
+            "0.129655075"
+          ],
+          [
+            "Marsden",
+            "47",
+            "3",
+            "4",
+            "0.256365789"
+          ],
+          [
+            "Marsden",
+            "17",
+            "4",
+            "1",
+            "0.222036633"
+          ]
+        ]
+      },
+      {
+        "name": "Nitrate leachate",
+        "rows": 1417,
+        "cols": 23,
+        "first_nonempty": [
+          [
+            "All Data",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Spring only",
+            null,
+            null,
+            null
+          ],
+          [
+            "LysNest",
+            "Block",
+            "date",
+            "NO3-N",
+            "NSTL Case#",
+            "system",
+            "Crop",
+            null,
+            "LysNest",
+            "Block",
+            "date",
+            "NO3-N"
+          ],
+          [
+            "14",
+            "1",
+            "2004-03-29 00:00:00",
+            "0.2",
+            "04-0280",
+            "4",
+            "alfII",
+            null,
+            "14",
+            "1",
+            "2004-03-29 00:00:00",
+            "0.2"
+          ],
+          [
+            "32",
+            "3",
+            "2004-03-29 00:00:00",
+            "0.2",
+            "04-0280",
+            "4",
+            "alfII",
+            null,
+            "32",
+            "3",
+            "2004-03-29 00:00:00",
+            "0.2"
+          ],
+          [
+            "13",
+            "1",
+            "2004-03-29 00:00:00",
+            "12.8",
+            "04-0280",
+            "2",
+            "corn",
+            null,
+            "14",
+            "1",
+            "2004-04-15 00:00:00",
+            "0.8"
+          ],
+          [
+            "34",
+            "3",
+            "2004-03-29 00:00:00",
+            "15",
+            "04-0280",
+            "2",
+            "corn",
+            null,
+            "32",
+            "3",
+            "2004-04-15 00:00:00",
+            "0.2"
+          ],
+          [
+            "16",
+            "1",
+            "2004-03-29 00:00:00",
+            "0.2",
+            "04-0280",
+            "3",
+            "corn",
+            null,
+            "14",
+            "1",
+            "2004-04-29 00:00:00",
+            "0.2"
+          ],
+          [
+            "33",
+            "3",
+            "2004-03-29 00:00:00",
+            "2.9",
+            "04-0280",
+            "3",
+            "corn",
+            null,
+            "32",
+            "3",
+            "2004-04-29 00:00:00",
+            "0.2"
+          ],
+          [
+            "18",
+            "1",
+            "2004-03-29 00:00:00",
+            "11.6",
+            "04-0280",
+            "4",
+            "oat/alf",
+            null,
+            "14",
+            "1",
+            "2004-05-20 00:00:00",
+            "0.2"
+          ],
+          [
+            "37",
+            "3",
+            "2004-03-29 00:00:00",
+            "8.1",
+            "04-0280",
+            "4",
+            "oat/alf",
+            null,
+            "32",
+            "3",
+            "2004-05-20 00:00:00",
+            "0.2"
+          ]
+        ]
+      },
+      {
+        "name": "N2O",
+        "rows": 1,
+        "cols": 1,
+        "first_nonempty": [
+          [
+            "Tom Sauer?"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "soil_tests/rd_mars-soil_nutrients.xlsx",
+    "sheets": [
+      {
+        "name": "V Nichols",
+        "rows": 30,
+        "cols": 29,
+        "first_nonempty": [
+          [
+            "What: Soil samples collected from C2 and C4 plots, 8 subsamples per plot, 0-30, 30-60, and 60-90cm",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "When: Samples collected May 16, taken to AgSource May 17, analyzed May 18",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Collected by: Gina (it was a long damn day)",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Notes: Couldn't get to 90cm in all cores",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "samp_id",
+            "PH",
+            "BPH",
+            "OM",
+            "P_UNSPECIFIED",
+            "P_M3",
+            "P_Bray",
+            "P_Olsen",
+            "K",
+            "WETK",
+            "S",
+            "ZN"
+          ],
+          [
+            "B1_13-C2-1",
+            "6.9",
+            "7.2",
+            "3.3",
+            null,
+            "18",
+            null,
+            null,
+            "172",
+            null,
+            "4.18",
+            "0.67"
+          ],
+          [
+            "B1_18_C4-1",
+            "6.6",
+            "7.1",
+            "3.2",
+            null,
+            "22",
+            null,
+            null,
+            "178",
+            null,
+            "5.81",
+            "0.78"
+          ],
+          [
+            "B2_24_C2-1",
+            "6.5",
+            "7.1",
+            "3.1",
+            null,
+            "14",
+            null,
+            null,
+            "140",
+            null,
+            "4.75",
+            "0.54"
+          ],
+          [
+            "B2_28-C4-1",
+            "6.5",
+            "7.1",
+            "4.7",
+            null,
+            "35",
+            null,
+            null,
+            "162",
+            null,
+            "6.18",
+            "1.16"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "field-logs/Marsden-field-activities-Woods-2019.xlsx",
+    "sheets": [
+      {
+        "name": "Field Activities",
+        "rows": 184,
+        "cols": 4,
+        "first_nonempty": [
+          [
+            "Marsden 2019 Field Activities",
+            null,
+            null,
+            null
+          ],
+          [
+            "2019-04-16 00:00:00",
+            "Applied base fertilizer to all plots",
+            null,
+            null
+          ],
+          [
+            null,
+            "MESZ: 180 lbs/ac (72 lbs P2O5)",
+            null,
+            null
+          ],
+          [
+            null,
+            "Muriate of Potash: 150 lbs/ac (90 lbs K2O)",
+            null,
+            null
+          ],
+          [
+            null,
+            "Sulfur: 20 lbs/ac",
+            null,
+            null
+          ],
+          [
+            null,
+            "New Idea RoGator used, 100 ft passes moving E/W",
+            null,
+            null
+          ],
+          [
+            null,
+            "O3 and O4 plots field cultivated in preparation for planting",
+            null,
+            null
+          ]
+        ]
+      },
+      {
+        "name": "Pesticide Info",
+        "rows": 12,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "2019 Marsden Herbicide Info",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Crop",
+            "Treatment",
+            "Application",
+            "Herbicide",
+            "Equipment",
+            "Applicator",
+            "Notes"
+          ],
+          [
+            "Corn (C2, C3, C4)",
+            "LOW",
+            "banded application w/ interrow cultivation",
+            "Laudis",
+            "John Deere 6125 tractor and 30' boom sprayer",
+            "Woods",
+            null
+          ],
+          [
+            null,
+            "CONV",
+            "PRE-emergent, broadcast application, no cultivation",
+            "Corvus",
+            "John Deere 6125 tractor and 30' boom sprayer",
+            "Woods",
+            null
+          ],
+          [
+            null,
+            null,
+            "POST-emergent, broadcast application, no cultivation",
+            "Callisto + Accent",
+            "John Deere 6125 tractor and 30' boom sprayer",
+            "Woods",
+            null
+          ],
+          [
+            "Soybean (S2, S3, S4)",
+            "CONV (all plots)",
+            "PRE-emergent, broadcast application, no cultivation",
+            "Valor SX",
+            "John Deere 6125 tractor and 30' boom sprayer",
+            "Woods",
+            null
+          ]
+        ]
+      },
+      {
+        "name": "Fertilizer Info",
+        "rows": 25,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "2019 Marsden Fertilizer Info",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Crop",
+            "Element",
+            "Amount Needed ",
+            "Form Applied",
+            "Amount Applied (lbs/ac)",
+            "Application Method",
+            "Date Applied"
+          ],
+          [
+            "Corn (C2, C3, C4)",
+            "Phosphorus",
+            null,
+            "MESZ",
+            "180",
+            "Bulk Spreader (pre-mixed at co-op)",
+            "2019-04-16 00:00:00"
+          ],
+          [
+            null,
+            "Potassium",
+            null,
+            "MOP",
+            "150",
+            "Bulk Spreader (pre-mixed at co-op)",
+            "2019-04-16 00:00:00"
+          ],
+          [
+            null,
+            "Sulfur",
+            null,
+            "S",
+            "20",
+            "Bulk Spreader (pre-mixed at co-op",
+            "2019-04-16 00:00:00"
+          ],
+          [
+            "Soybeans (S2, S3, S4)",
+            "Phosphorus",
+            null,
+            "MESZ",
+            "180",
+            "Bulk Spreader (pre-mixed at co-op)",
+            "2019-04-16 00:00:00"
+          ],
+          [
+            null,
+            "Potassium",
+            null,
+            "MOP",
+            "150",
+            "Bulk Spreader (pre-mixed at co-op)",
+            "2019-04-16 00:00:00"
+          ],
+          [
+            null,
+            "Sulfur",
+            null,
+            "S",
+            "20",
+            "Bulk Spreader (pre-mixed at co-op)",
+            "2019-04-16 00:00:00"
+          ]
+        ]
+      },
+      {
+        "name": "Seed Orders",
+        "rows": 11,
+        "cols": 11,
+        "first_nonempty": [
+          [
+            "Marsden 2019 Seed Orders",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Seed",
+            "Hybrid/Variety",
+            "Supplier",
+            "Quantity",
+            "Unit Cost ($)",
+            "Units ordered",
+            "Total Cost ($)",
+            "Date Ordered",
+            "Date Received",
+            "Paid",
+            "Comments"
+          ],
+          [
+            "Corn",
+            "E1730",
+            "Epley ",
+            "3 bags (no insecticide)",
+            null,
+            "3",
+            null,
+            "2019-01-23 00:00:00",
+            null,
+            null,
+            "emailed billy rover"
+          ],
+          [
+            "Soybean",
+            "2684 L",
+            "Latham",
+            "6 bags w/fungicide only (no insecticide)",
+            null,
+            "6",
+            null,
+            "2019-01-23 00:00:00",
+            null,
+            null,
+            "Liberty Link, Mark"
+          ],
+          [
+            null,
+            null,
+            null,
+            "2 bags/ fungicide + illivo",
+            null,
+            "2",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Alfalfa",
+            "WS Leafguard",
+            "Welter",
+            "1 bushel bag",
+            null,
+            "1",
+            null,
+            "2019-01-23 00:00:00",
+            null,
+            "credit card 1/23",
+            "forages are pre-innoculated, delivery by Nick"
+          ],
+          [
+            "Clover",
+            "Mammoth Red-Alta Swede",
+            "Welter",
+            "1 bushel bag",
+            null,
+            "1",
+            null,
+            "2019-01-23 00:00:00",
+            null,
+            "credit card 1/23",
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "field-logs/2013-2020_corn-plant-harv-dates.xlsx",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "rows": 9,
+        "cols": 3,
+        "first_nonempty": [
+          [
+            "year",
+            "corn_plant_date",
+            "corn_harv_date"
+          ],
+          [
+            "2013",
+            "2013-05-03 00:00:00",
+            "2013-10-03 00:00:00"
+          ],
+          [
+            "2014",
+            "2014-04-22 00:00:00",
+            "2014-10-06 00:00:00"
+          ],
+          [
+            "2015",
+            "2015-05-19 00:00:00",
+            "2015-10-06 00:00:00"
+          ],
+          [
+            "2016",
+            "2016-05-06 00:00:00",
+            "2016-10-04 00:00:00"
+          ],
+          [
+            "2017",
+            "2017-05-09 00:00:00",
+            "2017-10-19 00:00:00"
+          ],
+          [
+            "2018",
+            "2018-05-08 00:00:00",
+            "2018-10-30 00:00:00"
+          ],
+          [
+            "2019",
+            "2019-06-03 00:00:00",
+            "2019-11-06 00:00:00"
+          ],
+          [
+            "2020",
+            "2020-04-23 00:00:00",
+            "2020-10-02 00:00:00"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "field-logs/Marsden-field-activities-Woods-2013-2018.xlsx",
+    "sheets": [
+      {
+        "name": "xx",
+        "rows": 873,
+        "cols": 42,
+        "first_nonempty": [
+          [
+            null,
+            null,
+            "Field Activities for Marsden cropping systems experiment:",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            ""
+          ],
+          [
+            "2001",
+            "~July 14",
+            "Jon collected soil samples, file =  Soil samples Summer 2001.xls",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "July 26",
+            "Oats harvested with large JD combine",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "Sept. 25",
+            "T3 and T4 plot cultipacked to firm ground for triticale seeding",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "Sept. 26",
+            "Pika triticale planted on Treatments T3 and T4 with 6.5' Tye drill",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            "6.5' Tye Drill w/8\" rows @ 7/16\" setting= 32 sds/ft2 = 120 lbs/acre",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "Nov. 7",
+            "Soil samples collected  from all 36 plots: 20 - 8\" deep (0-4\" and 4-8\") 1.25\" diam. cores/plot, ",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            "samples chilled, 0.01583 m2/plot - For weed seed-bank processing",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      {
+        "name": "2013",
+        "rows": 42,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "2019-04-02 00:00:00",
+            "Seed O3 oats: 72 lb/a IN09201 oat + 12 lb/a 'Duration' red clover, and O4 oats: 72 lb/a IN09201 oat + 15 lb/a 'FSG 400LH' alf. with 6.5' Tye drill in ",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2019-05-02 00:00:00",
+            "Apply liquid UAN fertilizer to C2 plots with 60' wide JD self-propelled sprayer: 100 lb. N/acre rate",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2019-05-02 00:00:00",
+            "Level all corn plots with field cultivator",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2019-05-03 00:00:00",
+            "Plant Agrigold 6395 conventional or Agrigold 6395BtRW (no RR gene) corn on designated east or west half (107-day mat.) 32,200 sds/acre in 30\" rows",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2019-05-03 00:00:00",
+            "Apply preemergence herbicide to 'Pre' side of each corn plot - Zidua 3.5 oz/ac + Balance Pro 2.0 oz./a, 20.7 gpa carrier volume: REI = 12 hr",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2019-05-18 00:00:00",
+            "Level all soybean plots with field cultivator",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2019-05-18 00:00:00",
+            "Plant soybeans Kruger K-287RR or K-2918/SCN on designated 'pre' or 'post' half - 9.3 sds/ft, (162,000 sds/a) 30\" rows.",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2019-06-03 00:00:00",
+            "1st cutting alfalfa: mowed A4 plots with 7' wide disc mower",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2019-06-06 00:00:00",
+            "Rake, bale & weigh A4 hay.",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2019-06-06 00:00:00",
+            "On designated 'Post' half of each corn plot: 15\" band spray @ 2.45 mph (24 gpa carrier volume):",
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      {
+        "name": "2014",
+        "rows": 69,
+        "cols": 3,
+        "first_nonempty": [
+          [
+            "2014",
+            "2014-03-12 00:00:00",
+            "Applied 260 lb/acre of triple superphosphate (0-46-0) to 2-yr and 4-yr rotation plots in Blocks 2 and 4 (= 120 lb P2O5/acre). Used 10' Gandy, setting "
+          ],
+          [
+            null,
+            "2014-03-17 00:00:00",
+            "Applied 260 lb/acre of triple superphosphate (0-46-0) to 2-yr and 4-yr rotation plots in Blocks 1 and 3 (= 120 lb P2O5/acre). Used 10' Gandy, setting "
+          ],
+          [
+            null,
+            "2014-04-09 00:00:00",
+            "Seed O3 oats: 72 lb/a  IN09201 oat + 12 lb/acre Southern Belle' red clover, and O4 oats: 72 lb/a IN09201 oat + 15  lb/a 'Pioneer 53H92' alfalfa with 6"
+          ],
+          [
+            null,
+            "2014-04-21 00:00:00",
+            "28.5 gal/acre of 32% UAN applied to C2 plots with 60' wide John Deere sprayer: 100 lb. N/acre rate"
+          ],
+          [
+            null,
+            "2014-04-21 00:00:00",
+            "Leveled all corn plots (C2, C3, C4) with field cultivator "
+          ],
+          [
+            null,
+            "2014-04-22 00:00:00",
+            "Planted Viking 72 O4N corn on both sub-plots of C2, C3, C4 treatments. 104-day maturity hybrid. 32,200 sds/acre in 30\" rows. "
+          ],
+          [
+            null,
+            null,
+            "Corn started to emerge 5-9-14. Viking 72-04N corn seed cost was $152.00 per 80,000 seed unit bag \u2013 which is ~$61.50 per acre at our 32,200 seeding rat"
+          ],
+          [
+            null,
+            "2014-04-22 00:00:00",
+            "Sprayed Corvus, 5.6 oz/acre, to all 'PRE' sub-plots of C2, C3, and C4 treatments.  JD 6400 tractor with 30' wide sprayer mounted on a 3-pt hitch."
+          ],
+          [
+            null,
+            "2014-05-10 00:00:00",
+            "Corn emerged."
+          ],
+          [
+            null,
+            "2014-05-15 00:00:00",
+            "Corn @ V1"
+          ]
+        ]
+      },
+      {
+        "name": "2015",
+        "rows": 1,
+        "cols": 1,
+        "first_nonempty": []
+      },
+      {
+        "name": "2016",
+        "rows": 110,
+        "cols": 3,
+        "first_nonempty": [
+          [
+            "2016-03-21 00:00:00",
+            "Potassium (K20) and Sulfur (muriate of potash) were applied to all plots with a John Deere 6125 tractor and bulk spreader from Heartland Co-op.",
+            null
+          ],
+          [
+            null,
+            "Material was pre-mixed at co-op.",
+            null
+          ],
+          [
+            "2016-03-23 00:00:00",
+            "O3 and O4 plots were disked with a John Deere 7730 tractor and 20' Case 3950 disk.",
+            null
+          ],
+          [
+            "2016-03-25 00:00:00",
+            "Measured and marked plot corners on O3 and O4 plots in preparation for planting. Seeded bare spots were compost sat with tall fescue/oat mix.",
+            null
+          ],
+          [
+            "2016-03-28 00:00:00",
+            "Measured and marked plot corners on inner alley. Squared off plots with John Deere 5095 tractor and Kuhn 6' rototiller. Tilled East-West on the edge o",
+            null
+          ],
+          [
+            "2016-03-29 00:00:00",
+            "O3 and O4 plots field cultivated in preparation for planting with Case 8930 tractor and John Deere field cultivator set for light tillage.",
+            null
+          ],
+          [
+            null,
+            "O3 and O4 plots culti-packed in preparation for planting with John Deere 5095 tractor and 15' culti-packer.",
+            null
+          ],
+          [
+            null,
+            "O3 and O4 plots seeded with John Deere 6140 tractor and John Deere 1520 drill. Alfalfa and red clover were innoculated before planting.",
+            null
+          ],
+          [
+            null,
+            "O3 plots were seeded with Welter IN09201 oats at approx. 72lbs/acre and Southern Belle Mammoth Red Clover at approx. 15lbs/acre",
+            null
+          ],
+          [
+            null,
+            "O4 plots were seeded with Welter IN09201 oats at approx. 72lbs/acre and Pioneer 55H94 alfalfa at approx. 15lbs/acre.",
+            null
+          ]
+        ]
+      },
+      {
+        "name": "2017",
+        "rows": 118,
+        "cols": 3,
+        "first_nonempty": [
+          [
+            "2017 Marsden Field Activities",
+            null,
+            null
+          ],
+          [
+            "2017-03-28 00:00:00",
+            "Located 16 main block corners, using in-ally markers as reference. Replaced flags and PVC as needed.",
+            null
+          ],
+          [
+            "2017-04-11 00:00:00",
+            "Applied fertilizer to all plots with John Deere 6420 tractor and Heartland co-op spreader wagon.",
+            null
+          ],
+          [
+            null,
+            "The following rates were applied corn, soybean and O3 and O4 plots; TSP: 163lbs/acre, KCl: 150lbs/acre, S: 25 lbs/acre",
+            null
+          ],
+          [
+            null,
+            "Additional fertizlier was applied to all A4 plots with a John Deere 6420 tractor and Gandy spreader.",
+            null
+          ],
+          [
+            null,
+            "The following rates were applied; TSP: 76lbs/acre, KCl: 250lbs/acre",
+            null
+          ],
+          [
+            null,
+            "O3 and O4 plots were field cultivated in preparation for planting with Case 8930 tractor and John Deere 7210 field cultivator.",
+            null
+          ],
+          [
+            "2017-04-12 00:00:00",
+            "O3 and O4 plots were culti-packed with a John Deere 5094 tractor and 12ft culti-packer,in preparation for planting.",
+            null
+          ]
+        ]
+      },
+      {
+        "name": "2018",
+        "rows": 186,
+        "cols": 5,
+        "first_nonempty": [
+          [
+            "Marsden 2018 Field Log",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2018-03-28 00:00:00",
+            "Located and marked the plot corners for the main blocks.",
+            null,
+            null,
+            null
+          ],
+          [
+            "2018-03-29 00:00:00",
+            "(Sorenson Farm) Seeded red clover into the winter wheat that was seeded last fall.",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "John Deere 6420 tractor and Gandy Seeder were used. Red Clover seeded at 18lbs/acre.",
+            null,
+            null,
+            null
+          ],
+          [
+            "2018-04-06 00:00:00",
+            "Spread Potassium, Phosphorus and Sulfer on all plots.",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "New Leader EDGE bulk spreader was used.",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "Material Applied: 200lbs/ac MESZ",
+            null,
+            null,
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "field-logs/Field-activities-Marsden_2001-2017.xlsx",
+    "sheets": [
+      {
+        "name": "Dates-all",
+        "rows": 1197,
+        "cols": 42,
+        "first_nonempty": [
+          [
+            null,
+            null,
+            "Field Activities for Marsden cropping systems experiment:",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            ""
+          ],
+          [
+            "2001",
+            "~July 14",
+            "Jon collected soil samples, file =  Soil samples Summer 2001.xls",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "July 26",
+            "Oats harvested with large JD combine",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "Sept. 25",
+            "T3 and T4 plot cultipacked to firm ground for triticale seeding",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "Sept. 26",
+            "Pika triticale planted on Treatments T3 and T4 with 6.5' Tye drill",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            "6.5' Tye Drill w/8\" rows @ 7/16\" setting= 32 sds/ft2 = 120 lbs/acre",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "Nov. 7",
+            "Soil samples collected  from all 36 plots: 20 - 8\" deep (0-4\" and 4-8\") 1.25\" diam. cores/plot, ",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            "samples chilled, 0.01583 m2/plot - For weed seed-bank processing",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "field-logs/Marsden-field-activities-Woods-2020.xlsx",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "rows": 194,
+        "cols": 3,
+        "first_nonempty": [
+          [
+            "Marsden 2020 Field Activities",
+            null,
+            null
+          ],
+          [
+            "2020-04-01 00:00:00",
+            "P, K and S Bulk fertilizer applied to all plots.",
+            null
+          ],
+          [
+            null,
+            "MAP fertilizer (11-52-0), 90% elemental sulfur and Muriate of Potash (0-0-60) were used. Actual amounts applied 6-30-60-40, mixture applied at 202lbs/",
+            null
+          ],
+          [
+            null,
+            "John Deere 7230R tractor and Dalton Ag Mobility 800 spreader with 60ft spread were used.",
+            null
+          ],
+          [
+            null,
+            "Fertilizer was pre-mixed at the Co-op; 30lb/ac P (60lbs P2O5), 60lb/ac K (70lbs K2O), 40lb/ac S",
+            null
+          ],
+          [
+            null,
+            "Additional K will be added to A4 plots at a later date.",
+            null
+          ],
+          [
+            "2020-04-02 00:00:00",
+            "Addition 80lbs/ac of K added to A4 plots.",
+            null
+          ],
+          [
+            null,
+            "John Deere 7230R tractor and Dalton Ag 800 spreader were used.",
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "soilsensors/logger-data-template-field.xlsx",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "rows": 57,
+        "cols": 9,
+        "first_nonempty": [
+          [
+            "Date:",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Name:",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Site:",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Notes:",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "year",
+            "site",
+            "logger_id",
+            "date_in",
+            "date_out",
+            "plot",
+            "sensor_port",
+            "sensor_depth_cm",
+            "sensor_type"
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "1",
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "2",
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "3",
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            "4",
+            null,
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "soilsensors/rd_mars-soil_sensor-install.xlsx",
+    "sheets": [
+      {
+        "name": "moisture",
+        "rows": 86,
+        "cols": 13,
+        "first_nonempty": [
+          [
+            "What: Decagon 5TM soil sensor installation w/ XXX data loggers",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "When: May 19 2018",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Installed by: Gina and Jessica",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Notes: Only blocks 2 and 4 got protective tubing around wires",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "block",
+            "trt",
+            "data_logger",
+            "sensordepth_cm",
+            "dry_VWC",
+            "sat_VWC",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "B1",
+            "C2",
+            "40268",
+            "15",
+            "-0.011",
+            "0.583",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "B1",
+            "C2",
+            "40268",
+            "45",
+            "-0.023",
+            "0.582",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "B1",
+            "C4",
+            "40324",
+            "15",
+            "-0.017",
+            "0.602",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "B1",
+            "C4",
+            "40324",
+            "45",
+            "-0.018",
+            "0.58",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "apsim_mgmt/Assumed-tillage-vals.xlsx",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "rows": 18,
+        "cols": 16,
+        "first_nonempty": [
+          [
+            null,
+            "Tool",
+            "Model",
+            null,
+            "Working depth (inches)",
+            "Working depth (cm)",
+            null,
+            "Specifications",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "Field cultivator",
+            "JD 980",
+            null,
+            "6",
+            "15.24",
+            null,
+            "9\" sweeps; C-tine shank",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "Interrow cultivator",
+            "CASE IH 183",
+            null,
+            "4",
+            "10.16",
+            null,
+            "Inner row sweeps: 7.25\" width, center row sweeps: 9.25\" wide; two inner row sweeps and one center row sweep per row",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "Disk",
+            "CASE IH 3950",
+            null,
+            "6",
+            "15.24",
+            null,
+            "This disk sometimes used in spring: 2007 for C4, 2010 for C2",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            null,
+            "JD 620",
+            null,
+            "4",
+            "10.16",
+            null,
+            "This disk used in fall to level S3 and S4 plots in preparation for next spring's oat plantings",
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "apsim_mgmt/Marsden-activites-for-apsim-WW-0716.xlsx",
+    "sheets": [
+      {
+        "name": "example",
+        "rows": 5,
+        "cols": 2,
+        "first_nonempty": [
+          [
+            "Date",
+            "Action"
+          ],
+          [
+            "1980-05-05 00:00:00",
+            "! this is the maize of the maize-soy rotation in Ames"
+          ],
+          [
+            "2000-04-05 00:00:00",
+            "maize sow plants = 7.8 (plants/m^2), sowing_depth = 50. , cultivar = B_110, row_spacing = 750"
+          ],
+          [
+            "2002-07-05 00:00:00",
+            "maize sow plants = 7.8 (plants/m^2), sowing_depth = 50. , cultivar = B_110, row_spacing = 750"
+          ],
+          [
+            "14/5/2004",
+            "maize sow plants = 7.8 (plants/m^2), sowing_depth = 50. , cultivar = B_110, row_spacing = 750"
+          ]
+        ]
+      },
+      {
+        "name": "planting",
+        "rows": 33,
+        "cols": 14,
+        "first_nonempty": [
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "If they did stand counts, put that number here. If they only report seeding rates, use that.Assumed 15,000 seeds/lb for oats, 776,000 for red clover, ",
+            "This is calcuated if sds_ac is filled in.",
+            "Matt says oats:2-3cm, red clover:1cm, alfalfa: 1cm, soy/corn: 3-4cm, but in 2019 they said 5cm for corn/soy",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "year",
+            "date",
+            "trt",
+            "crop",
+            "sds_lbsac",
+            "sds_ac",
+            "plants_m2",
+            "sowingdepth_in",
+            "sowingdepth_mm",
+            "cultivar",
+            "MG",
+            "rowspacing_in"
+          ],
+          [
+            "2012",
+            "2012-03-27 00:00:00",
+            "O3",
+            "oat",
+            "72",
+            "1080000",
+            "266.8735760564981",
+            "1",
+            "25.4",
+            "IN09201",
+            null,
+            "8"
+          ],
+          [
+            null,
+            "2012-03-27 00:00:00",
+            "O3",
+            "red clover",
+            "12",
+            "9312000",
+            "2301.0432779982502",
+            "0.4",
+            "10.16",
+            "Duration",
+            null,
+            "8"
+          ],
+          [
+            null,
+            "2012-03-27 00:00:00",
+            "O4",
+            "oat",
+            "72",
+            "1080000",
+            "266.8735760564981",
+            "1",
+            "25.4",
+            "IN09201",
+            null,
+            "8"
+          ],
+          [
+            null,
+            "2012-03-27 00:00:00",
+            "O4",
+            "alfalfa",
+            "15",
+            "3000000",
+            "741.3154890458281",
+            "0.4",
+            "10.16",
+            "FSG 400LH",
+            null,
+            "8"
+          ],
+          [
+            null,
+            "2012-04-09 00:00:00",
+            "C3, C4",
+            "corn",
+            null,
+            "32200",
+            "7.956786249091889",
+            "2",
+            "50.8",
+            "Agrigold 6395BtRW",
+            "107",
+            "30"
+          ],
+          [
+            null,
+            "2012-04-09 00:00:00",
+            "C2",
+            "corn",
+            null,
+            "32200",
+            "7.956786249091889",
+            "2",
+            "50.8",
+            "Agrigold 6395BtRW",
+            "107",
+            "30"
+          ],
+          [
+            null,
+            "2012-05-14 00:00:00",
+            "S2, S3, S4",
+            "soy",
+            null,
+            "161700",
+            "39.95690485957014",
+            "2",
+            "50.8",
+            "Kruger K-287RR",
+            "2",
+            "30"
+          ],
+          [
+            "2013",
+            "2013-03-23 00:00:00",
+            "A4",
+            "alfalfa",
+            "14",
+            "2800000",
+            "691.8944564427729",
+            "0.4",
+            "10.16",
+            "Pioneer 53H92",
+            null,
+            "8"
+          ]
+        ]
+      },
+      {
+        "name": "fertilizer",
+        "rows": 37,
+        "cols": 12,
+        "first_nonempty": [
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "this is calculated if amount_lbac is filled in",
+            null,
+            "APSIM types are: NO3_N, NH4_N, NH4NO3, UAN_N, urea_N, urea_no3, urea, nh4so4_n, rock_p, banded_p, broadcast_p",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "year",
+            "date",
+            "crop",
+            "trt",
+            "amount_lbac",
+            "amount_kgha",
+            "depth_mm",
+            "type",
+            "notes",
+            null,
+            null,
+            null
+          ],
+          [
+            "2012",
+            "2012-04-09 00:00:00",
+            "corn",
+            "C2",
+            "100",
+            "112",
+            "0",
+            "uan_28",
+            "surface applied",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2012-05-22 00:00:00",
+            "corn",
+            "C2",
+            "30",
+            "34",
+            "100",
+            "uan_32",
+            "32% liquid N, alternative middle rows (assume it's UAN), assume 4\" depth",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2012-10-23 00:00:00",
+            "corn",
+            "C3, C4",
+            "85",
+            "95",
+            null,
+            "manure_n",
+            "applied 7 ton/ac of 44.2% moisture beef manure, tested to be 1.08% N, 0.27%P, and X% K",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2012-10-23 00:00:00",
+            "corn",
+            "C3, C4",
+            "49",
+            "55",
+            null,
+            "manure_p2o5",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2012-10-23 00:00:00",
+            "corn",
+            "C3, C4",
+            "133",
+            "149",
+            null,
+            "manure_k2o",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2013",
+            "2013-05-15 00:00:00",
+            "corn",
+            "C2",
+            "100",
+            "112",
+            "0",
+            "uan_28",
+            "surface applied",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2013-06-28 00:00:00",
+            "corn",
+            "C2",
+            "100",
+            "112",
+            "100",
+            "uan_32",
+            "32% liguid N, alternative middle rows",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2013-06-28 00:00:00",
+            "corn",
+            "C3, C4",
+            "75",
+            "84",
+            "100",
+            "uan_32",
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      {
+        "name": "tillage",
+        "rows": 14,
+        "cols": 8,
+        "first_nonempty": [
+          [
+            "year",
+            "date",
+            "crop",
+            "trt",
+            "tillage",
+            "depth_in",
+            "depth_mm",
+            "notes"
+          ],
+          [
+            "2012",
+            "2012-04-09 00:00:00",
+            "corn",
+            "C2, C3, C4",
+            "field cultivation leveling",
+            "6",
+            "152.39999999999998",
+            "leveled with field cultivator, no depth reported"
+          ],
+          [
+            null,
+            "2012-04-11 00:00:00",
+            "soy",
+            "S2, S3, S4",
+            "field cultivation",
+            "6",
+            "152.39999999999998",
+            "Assume 6 inches?"
+          ],
+          [
+            null,
+            "2012-05-11 00:00:00",
+            "soy",
+            "S2, S3, S4",
+            "field cultivation",
+            "6",
+            "152.39999999999998",
+            null
+          ],
+          [
+            null,
+            "2012-10-11 00:00:00",
+            "soy",
+            "S2, S3, S4",
+            "lightly disk",
+            "3",
+            "76.19999999999999",
+            "Assume 3 inches?"
+          ],
+          [
+            null,
+            "2012-10-23 00:00:00",
+            "corn",
+            "C2, C3, C4",
+            "chisel plow",
+            "8",
+            "203.2",
+            "Assume 8 inches?"
+          ],
+          [
+            null,
+            "2012-10-24 00:00:00",
+            "alfalfa",
+            "A4",
+            "moldboard plow",
+            "9",
+            "228.6",
+            "Assume 9 inches?"
+          ],
+          [
+            null,
+            "2012-10-24 00:00:00",
+            "oats",
+            "O3",
+            "moldboard plow",
+            "9",
+            "228.6",
+            null
+          ],
+          [
+            "2013",
+            "2013-05-15 00:00:00",
+            "corn",
+            "C2, C3, C4",
+            "field cultivation leveling",
+            "6",
+            "152.39999999999998",
+            "leveled with field cultivator, no depth reported"
+          ]
+        ]
+      },
+      {
+        "name": "harvest",
+        "rows": 22,
+        "cols": 8,
+        "first_nonempty": [
+          [
+            "year",
+            "date",
+            "crop",
+            "trt",
+            "harvest",
+            "height_in",
+            "height_mm",
+            "notes"
+          ],
+          [
+            "2012",
+            "2012-05-15 00:00:00",
+            "alfalfa",
+            "A4",
+            "1st cutting",
+            null,
+            "0",
+            null
+          ],
+          [
+            null,
+            "2012-06-18 00:00:00",
+            "alfalfa",
+            "A4",
+            "2nd cutting",
+            null,
+            "0",
+            null
+          ],
+          [
+            null,
+            "2012-07-09 00:00:00",
+            "oats",
+            "O3, O4",
+            "grain",
+            "NA",
+            "NA",
+            null
+          ],
+          [
+            null,
+            "2012-07-09 00:00:00",
+            "oats",
+            "O3, O4",
+            "straw",
+            "6",
+            "152.39999999999998",
+            "straw was baled and removed"
+          ],
+          [
+            null,
+            "2012-07-16 00:00:00",
+            "alfalfa",
+            "A4",
+            "3rd cutting",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2012-08-22 00:00:00",
+            "red clover",
+            "O3",
+            "mow",
+            "6",
+            "152.39999999999998",
+            "mowed to suppress weeds"
+          ],
+          [
+            null,
+            "2012-08-17 00:00:00",
+            "alfalfa",
+            "A4",
+            "4th cutting",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2012-09-06 00:00:00",
+            "corn",
+            "C2, C3, C4",
+            "grain",
+            "NA",
+            "NA",
+            null
+          ]
+        ]
+      },
+      {
+        "name": "notes",
+        "rows": 8,
+        "cols": 5,
+        "first_nonempty": [
+          [
+            "year",
+            "date",
+            "crop",
+            "trt",
+            "notes"
+          ],
+          [
+            "2012",
+            "2012-06-07 00:00:00",
+            "soy",
+            "S2, S3, S4",
+            "staged at V1/V2"
+          ],
+          [
+            "2013",
+            "2013-06-13 00:00:00",
+            "corn",
+            "C2, C3, C4",
+            "staged at V2"
+          ],
+          [
+            "2013",
+            "2013-06-13 00:00:00",
+            "soy",
+            "S2, S3, S4",
+            "staged at V1"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "apsim_mgmt/Marsden-activites-for-apsim-WW-0805.xlsx",
+    "sheets": [
+      {
+        "name": "example",
+        "rows": 5,
+        "cols": 2,
+        "first_nonempty": [
+          [
+            "Date",
+            "Action"
+          ],
+          [
+            "1980-05-05 00:00:00",
+            "! this is the maize of the maize-soy rotation in Ames"
+          ],
+          [
+            "2000-04-05 00:00:00",
+            "maize sow plants = 7.8 (plants/m^2), sowing_depth = 50. , cultivar = B_110, row_spacing = 750"
+          ],
+          [
+            "2002-07-05 00:00:00",
+            "maize sow plants = 7.8 (plants/m^2), sowing_depth = 50. , cultivar = B_110, row_spacing = 750"
+          ],
+          [
+            "14/5/2004",
+            "maize sow plants = 7.8 (plants/m^2), sowing_depth = 50. , cultivar = B_110, row_spacing = 750"
+          ]
+        ]
+      },
+      {
+        "name": "planting",
+        "rows": 67,
+        "cols": 16,
+        "first_nonempty": [
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "Note this is the seeding rate, not the actual stand count. Assumed 15,000 seeds/lb for oats, 776,000 for red clover, and 200,000 for alfalfa.",
+            "taken from actual data",
+            "calculated",
+            "This is calcuated if sds_ac is filled in.",
+            "Matt says oats:2-3cm, red clover:1cm, alfalfa: 1cm, soy/corn: 3-4cm, but in 2019 they said 5cm for corn/soy",
+            null,
+            null
+          ],
+          [
+            "year",
+            "date",
+            "trt",
+            "crop",
+            "sds_lbsac",
+            "sds_ac",
+            "stand counts_plants_acre",
+            "standcounts_plants_m2",
+            "plants_m2",
+            "sowingdepth_in",
+            "sowingdepth_mm",
+            "cultivar"
+          ],
+          [
+            "2012",
+            "2012-03-27 00:00:00",
+            "O3",
+            "oat",
+            "72",
+            "1080000",
+            null,
+            null,
+            "266.8735760564981",
+            "1",
+            "25.4",
+            "IN09201"
+          ],
+          [
+            null,
+            "2012-03-27 00:00:00",
+            "O3",
+            "red clover",
+            "12",
+            "9312000",
+            null,
+            null,
+            "2301.0432779982502",
+            "0.4",
+            "10.16",
+            "Duration"
+          ],
+          [
+            null,
+            "2012-03-27 00:00:00",
+            "O4",
+            "oat",
+            "72",
+            "1080000",
+            null,
+            null,
+            "266.8735760564981",
+            "1",
+            "25.4",
+            "IN09201"
+          ],
+          [
+            null,
+            "2012-03-27 00:00:00",
+            "O4",
+            "alfalfa",
+            "15",
+            "3000000",
+            null,
+            null,
+            "741.3154890458281",
+            "0.4",
+            "10.16",
+            "FSG 400LH"
+          ],
+          [
+            null,
+            "2012-04-09 00:00:00",
+            "C3",
+            "corn",
+            null,
+            "32200",
+            "31897",
+            null,
+            "7.956786249091889",
+            "2",
+            "50.8",
+            "Agrigold 6395BtRW"
+          ],
+          [
+            null,
+            "2012-04-09 00:00:00",
+            "C4",
+            "corn",
+            null,
+            "32200",
+            "32648",
+            null,
+            "7.956786249091889",
+            "2",
+            "50.8",
+            "Agrigold 6395BtRW"
+          ],
+          [
+            null,
+            "2012-04-09 00:00:00",
+            "C2",
+            "corn",
+            null,
+            "32200",
+            "32539",
+            null,
+            "7.956786249091889",
+            "2",
+            "50.8",
+            "Agrigold 6395BtRW"
+          ],
+          [
+            null,
+            "2012-05-14 00:00:00",
+            "S2, S3, S4",
+            "soy",
+            null,
+            "161700",
+            "148667",
+            null,
+            "39.95690485957014",
+            "1.5",
+            "38.099999999999994",
+            "Kruger K-287RR"
+          ]
+        ]
+      },
+      {
+        "name": "fertilizer",
+        "rows": 52,
+        "cols": 12,
+        "first_nonempty": [
+          [
+            null,
+            null,
+            null,
+            null,
+            null,
+            "this is calculated if amount_lbac is filled in",
+            null,
+            "APSIM types are: NO3_N, NH4_N, NH4NO3, UAN_N, urea_N, urea_no3, urea, nh4so4_n, rock_p, banded_p, broadcast_p",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "year",
+            "date",
+            "crop",
+            "trt",
+            "amount_lbac",
+            "amount_kgha",
+            "depth_mm",
+            "type",
+            "notes",
+            null,
+            null,
+            null
+          ],
+          [
+            "2012",
+            "2012-04-09 00:00:00",
+            "corn",
+            "C2",
+            "100",
+            "112",
+            "0",
+            "uan_28",
+            "surface applied",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2012-05-22 00:00:00",
+            "corn",
+            "C2",
+            "30",
+            "34",
+            "100",
+            "uan_32",
+            "32% liquid N, alternative middle rows (assume it's UAN), assume 4\" depth",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2012-10-23 00:00:00",
+            "corn",
+            "C3, C4",
+            "85",
+            "95",
+            null,
+            "manure_n",
+            "applied 7 ton/ac of 44.2% moisture beef manure, tested to be 1.08% N, 0.27%P, and X% K",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2012-10-23 00:00:00",
+            "corn",
+            "C3, C4",
+            "49",
+            "55",
+            null,
+            "manure_p2o5",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2012-10-23 00:00:00",
+            "corn",
+            "C3, C4",
+            "133",
+            "149",
+            null,
+            "manure_k2o",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2013",
+            "2013-05-15 00:00:00",
+            "corn",
+            "C2",
+            "100",
+            "112",
+            "0",
+            "uan_28",
+            "surface applied",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2013-06-28 00:00:00",
+            "corn",
+            "C2",
+            "100",
+            "112",
+            "100",
+            "uan_32",
+            "32% liguid N, alternative middle rows",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2013-06-28 00:00:00",
+            "corn",
+            "C3, C4",
+            "75",
+            "84",
+            "100",
+            "uan_32",
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      {
+        "name": "tillage",
+        "rows": 55,
+        "cols": 8,
+        "first_nonempty": [
+          [
+            "year",
+            "date",
+            "crop",
+            "trt",
+            "tillage",
+            "depth_in",
+            "depth_mm",
+            "notes"
+          ],
+          [
+            "2012",
+            "2012-04-09 00:00:00",
+            "corn",
+            "C2, C3, C4",
+            "field cultivation leveling",
+            "2",
+            "50.8",
+            "leveled with field cultivator, no depth reported"
+          ],
+          [
+            null,
+            "2012-04-11 00:00:00",
+            "soy",
+            "S2, S3, S4",
+            "field cultivation",
+            "2",
+            "50.8",
+            "Assume 2 inches?"
+          ],
+          [
+            null,
+            "2012-05-11 00:00:00",
+            "soy",
+            "S2, S3, S4",
+            "field cultivation",
+            "2",
+            "50.8",
+            null
+          ],
+          [
+            null,
+            "2012-10-11 00:00:00",
+            "soy",
+            "S2, S3, S4",
+            "lightly disk",
+            "3",
+            "76.19999999999999",
+            "Assume 3 inches?"
+          ],
+          [
+            null,
+            "2012-10-23 00:00:00",
+            "corn",
+            "C2, C3, C4",
+            "chisel plow",
+            "6",
+            "152.39999999999998",
+            "Assume 6 inches?"
+          ],
+          [
+            null,
+            "2012-10-24 00:00:00",
+            "alfalfa",
+            "A4",
+            "moldboard plow",
+            "9",
+            "228.6",
+            "Assume 9 inches?"
+          ],
+          [
+            null,
+            "2012-10-24 00:00:00",
+            "oats",
+            "O3",
+            "moldboard plow",
+            "9",
+            "228.6",
+            null
+          ],
+          [
+            "2013",
+            "2013-05-15 00:00:00",
+            "corn",
+            "C2, C3, C4",
+            "field cultivation leveling",
+            "2",
+            "50.8",
+            "leveled with field cultivator, no depth reported"
+          ]
+        ]
+      },
+      {
+        "name": "harvest",
+        "rows": 60,
+        "cols": 8,
+        "first_nonempty": [
+          [
+            "year",
+            "date",
+            "crop",
+            "trt",
+            "harvest",
+            "height_in",
+            "height_mm",
+            "notes"
+          ],
+          [
+            "2012",
+            "2012-05-15 00:00:00",
+            "alfalfa",
+            "A4",
+            "1st cutting",
+            null,
+            "0",
+            null
+          ],
+          [
+            null,
+            "2012-06-18 00:00:00",
+            "alfalfa",
+            "A4",
+            "2nd cutting",
+            null,
+            "0",
+            null
+          ],
+          [
+            null,
+            "2012-07-09 00:00:00",
+            "oats",
+            "O3, O4",
+            "grain",
+            "NA",
+            "NA",
+            null
+          ],
+          [
+            null,
+            "2012-07-09 00:00:00",
+            "oats",
+            "O3, O4",
+            "straw",
+            "6",
+            "152.39999999999998",
+            "straw was baled and removed"
+          ],
+          [
+            null,
+            "2012-07-16 00:00:00",
+            "alfalfa",
+            "A4",
+            "3rd cutting",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2012-08-22 00:00:00",
+            "red clover",
+            "O3",
+            "mow",
+            "6",
+            "152.39999999999998",
+            "mowed to suppress weeds"
+          ],
+          [
+            null,
+            "2012-08-17 00:00:00",
+            "alfalfa",
+            "A4",
+            "4th cutting",
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2012-09-06 00:00:00",
+            "corn",
+            "C2, C3, C4",
+            "grain",
+            "NA",
+            "NA",
+            null
+          ]
+        ]
+      },
+      {
+        "name": "notes",
+        "rows": 8,
+        "cols": 5,
+        "first_nonempty": [
+          [
+            "year",
+            "date",
+            "crop",
+            "trt",
+            "notes"
+          ],
+          [
+            "2012",
+            "2012-06-07 00:00:00",
+            "soy",
+            "S2, S3, S4",
+            "staged at V1/V2"
+          ],
+          [
+            "2013",
+            "2013-06-13 00:00:00",
+            "corn",
+            "C2, C3, C4",
+            "staged at V2"
+          ],
+          [
+            "2013",
+            "2013-06-13 00:00:00",
+            "soy",
+            "S2, S3, S4",
+            "staged at V1"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "rootdist_ml/2020-data-from-matt/Marsden 2019 Root Biomass Data.xlsx",
+    "sheets": [
+      {
+        "name": "Soil core measurements",
+        "rows": 26,
+        "cols": 8,
+        "first_nonempty": [
+          [
+            "Core Diameter (in.)",
+            "1.25",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Core Diameter (cm)",
+            "3.175",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Core Radius (cm)",
+            "1.5875",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Core depth (cm)",
+            "15",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Core total area (cm3)",
+            "A=2\u03c0rh+2\u03c0r2",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "A=2\u03c0(1.5875x15) + 2\u03c0(1.58752)",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "A=2\u03c0(23.8) + 2\u03c0(2.52)",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      {
+        "name": "D3",
+        "rows": 65,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "Marsden 2019 Root Biomass Data",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Date",
+            null,
+            "Days After planting",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2019-06-06 00:00:00",
+            null,
+            "3",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Sample date: 6/3/2019",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Plot",
+            "Rotation",
+            "Depth",
+            "Total Soil Weight (g) (4 subsamples, bulked)",
+            "Root Weights (g)",
+            "Soil Area (cm^3)",
+            "Mass/area (g/cm^3)"
+          ],
+          [
+            "12W",
+            "C4",
+            "0-15cm",
+            "873.7",
+            "0.0192",
+            "475.2",
+            "4.04040404040404e-05"
+          ],
+          [
+            null,
+            null,
+            "15-30cm",
+            "776",
+            "0.0821",
+            "475.2",
+            "0.0001727693602693603"
+          ]
+        ]
+      },
+      {
+        "name": "D39",
+        "rows": 60,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "Sample Date: 7/10/2019",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Plot",
+            "Rotation",
+            "Depth",
+            "Total Soil Weight (g) (4 subsamples, bulked)",
+            "Root Weights (g)",
+            "Soil Area (cm^3)",
+            "Mass/area (g/cm^3)"
+          ],
+          [
+            "12W",
+            "C4",
+            "0-15cm",
+            "815.4",
+            "0.1587",
+            "475.2",
+            "0.0003339646464646465"
+          ],
+          [
+            null,
+            null,
+            "15-30cm",
+            "858.4",
+            "0.2113",
+            "475.2",
+            "0.00044465488215488213"
+          ],
+          [
+            null,
+            null,
+            "30-45cm",
+            "869.8",
+            "0.0078",
+            "475.2",
+            "1.6414141414141413e-05"
+          ],
+          [
+            null,
+            null,
+            "45-60cm",
+            "806.6",
+            "0.0075",
+            "475.2",
+            "1.5782828282828283e-05"
+          ],
+          [
+            "19E",
+            "C2",
+            "0-15cm",
+            "737.4",
+            "0.1065",
+            "475.2",
+            "0.00022411616161616162"
+          ]
+        ]
+      },
+      {
+        "name": "D56",
+        "rows": 61,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "Sample Date: 7/29/2019",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Plot",
+            "Rotation",
+            "Depth",
+            "Total Soil Weight (g) (4 subsamples, bulked)",
+            "Root weight (g)",
+            "Soil Area (cm^3)",
+            "Mass/area (g/cm^3)"
+          ],
+          [
+            "12W",
+            "C4",
+            "0-15cm",
+            "605.1",
+            "0.1196",
+            "475.2",
+            "0.0002516835016835017"
+          ],
+          [
+            null,
+            null,
+            "15-30cm",
+            "693.2",
+            "0.0801",
+            "475.2",
+            "0.00016856060606060608"
+          ],
+          [
+            null,
+            null,
+            "30-45cm",
+            "559.5",
+            "0.0608",
+            "475.2",
+            "0.00012794612794612796"
+          ],
+          [
+            null,
+            null,
+            "45-60cm",
+            "651.8",
+            "0.17",
+            "475.2",
+            "0.00035774410774410775"
+          ],
+          [
+            "19E",
+            "C2",
+            "0-15cm",
+            "561.8",
+            "0.0606",
+            "475.2",
+            "0.00012752525252525252"
+          ]
+        ]
+      },
+      {
+        "name": "D74",
+        "rows": 60,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "Sample Date: 8/16/2019",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Plot",
+            "Rotation",
+            "Depth",
+            "Total Soil Weight (g) (4 subsamples, bulked)",
+            "Root weight (g)",
+            "Soil area (cm^3)",
+            "Mass/area (g/cm^3)"
+          ],
+          [
+            "12W",
+            "C4",
+            "0-15cm",
+            "559.7",
+            "0.2816",
+            "475.2",
+            "0.0005925925925925927"
+          ],
+          [
+            null,
+            null,
+            "15-30cm",
+            "733",
+            "0.0799",
+            "475.2",
+            "0.00016813973063973064"
+          ],
+          [
+            null,
+            null,
+            "30-45cm",
+            "529.6",
+            "0.0257",
+            "475.2",
+            "5.4082491582491586e-05"
+          ],
+          [
+            null,
+            null,
+            "45-60cm",
+            "695.5",
+            "0.0361",
+            "475.2",
+            "7.596801346801348e-05"
+          ],
+          [
+            "19E",
+            "C2",
+            "0-15cm",
+            "593.5",
+            "0.1234",
+            "475.2",
+            "0.0002596801346801347"
+          ]
+        ]
+      },
+      {
+        "name": "D105",
+        "rows": 61,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "Sample Date: 9/16/2019",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Plot",
+            "Rotation",
+            "Depth",
+            "Total Soil Weight (g) (4 subsamples, bulked)",
+            "Root Weights (g)",
+            "Soil area (cm^3)",
+            "Mass/area (g/cm^3)"
+          ],
+          [
+            "12W",
+            "C4",
+            "0-15cm",
+            "634.8",
+            "0.101",
+            "475.2",
+            "0.00021254208754208756"
+          ],
+          [
+            null,
+            null,
+            "15-30cm",
+            "751.4",
+            "0.0727",
+            "475.2",
+            "0.0001529882154882155"
+          ],
+          [
+            null,
+            null,
+            "30-45cm",
+            "634.8",
+            "0.0248",
+            "475.2",
+            "5.218855218855219e-05"
+          ],
+          [
+            null,
+            null,
+            "45-60cm",
+            "646.9",
+            "0.0437",
+            "475.2",
+            "9.196127946127947e-05"
+          ],
+          [
+            "19E",
+            "C2",
+            "0-15cm",
+            "787.6",
+            "0.2022",
+            "475.2",
+            "0.0004255050505050505"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "rootdist_ml/2020-data-from-matt/Marsden 2020 Root Biomass Data_12Feb2021.xlsx",
+    "sheets": [
+      {
+        "name": "Soil core measurements",
+        "rows": 26,
+        "cols": 8,
+        "first_nonempty": [
+          [
+            "Core Diameter (in.)",
+            "1.25",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Core Diameter (cm)",
+            "3.175",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Core Radius (cm)",
+            "1.5875",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Core depth (cm)",
+            "15",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Core total area (cm3)",
+            "A=2\u03c0rh+2\u03c0r2",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "A=2\u03c0(1.5875x15) + 2\u03c0(1.58752)",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "A=2\u03c0(23.8) + 2\u03c0(2.52)",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ]
+        ]
+      },
+      {
+        "name": "D4",
+        "rows": 65,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "Marsden 2020 Root Biomass Data",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Date",
+            null,
+            "Days After planting",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "2020-04-27 00:00:00",
+            null,
+            "4",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Sample date:4/27/2020",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Plot",
+            "Rotation",
+            "Depth",
+            "Total Soil Weight (g) (4 subsamples, bulked)",
+            "Root Weights (g)",
+            "Soil Area (cm^3)",
+            "Mass/area (g/cm^3)"
+          ],
+          [
+            "13E",
+            "C2",
+            "0-15cm",
+            "1148.8",
+            "0.2334",
+            "475.2",
+            "0.0004911616161616161"
+          ],
+          [
+            null,
+            null,
+            "15-30cm",
+            "1222",
+            "0.2126",
+            "475.2",
+            "0.0004473905723905724"
+          ]
+        ]
+      },
+      {
+        "name": "D27",
+        "rows": 60,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "Sample Date: 5/22/2020",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Plot",
+            "Rotation",
+            "Depth",
+            "Total Soil Weight (g) (4 subsamples, bulked)",
+            "Root Weights (g)",
+            "Soil Area (cm^3)",
+            "Mass/area (g/cm^3)"
+          ],
+          [
+            "13E",
+            "C2",
+            "0-15cm",
+            "922.5",
+            "0.0416",
+            "475.2",
+            "8.754208754208753e-05"
+          ],
+          [
+            null,
+            null,
+            "15-30cm",
+            "1241",
+            "0.0213",
+            "475.2",
+            "4.482323232323232e-05"
+          ],
+          [
+            null,
+            null,
+            "30-45cm",
+            "580",
+            "0.0028",
+            "475.2",
+            "5.892255892255892e-06"
+          ],
+          [
+            null,
+            null,
+            "45-60cm",
+            "401.6",
+            "0.0041",
+            "475.2",
+            "8.62794612794613e-06"
+          ],
+          [
+            "17E",
+            "C4",
+            "0-15cm",
+            "644",
+            "0.0453",
+            "475.2",
+            "9.532828282828283e-05"
+          ]
+        ]
+      },
+      {
+        "name": "D50",
+        "rows": 61,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "Sample Date: 6/12/2020",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Plot",
+            "Rotation",
+            "Depth",
+            "Total Soil Weight (g) (4 subsamples, bulked)",
+            "Root weight (g)",
+            "Soil Area (cm^3)",
+            "Mass/area (g/cm^3)"
+          ],
+          [
+            "13E",
+            "C2",
+            "0-15cm",
+            "907.9",
+            "0.0481",
+            "475.2",
+            "0.00010122053872053872"
+          ],
+          [
+            null,
+            null,
+            "15-30cm",
+            "1017.2",
+            "0.0196",
+            "475.2",
+            "4.124579124579125e-05"
+          ],
+          [
+            null,
+            null,
+            "30-45cm",
+            "703",
+            "0.0101",
+            "475.2",
+            "2.1254208754208754e-05"
+          ],
+          [
+            null,
+            null,
+            "45-60cm",
+            "666.2",
+            "0.0051",
+            "475.2",
+            "1.0732323232323233e-05"
+          ],
+          [
+            "17E",
+            "C4",
+            "0-15cm",
+            "806.5",
+            "0.0491",
+            "475.2",
+            "0.00010332491582491582"
+          ]
+        ]
+      },
+      {
+        "name": "D68",
+        "rows": 60,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "Sample Date: 6/30/2020",
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Plot",
+            "Rotation",
+            "Depth",
+            "Total Soil Weight (g) (4 subsamples, bulked)",
+            "Root weight (g)",
+            "Soil area (cm^3)",
+            "Mass/area (g/cm^3)"
+          ],
+          [
+            "13E",
+            "C2",
+            "0-15cm",
+            "861.1",
+            "0.0598",
+            "475.2",
+            "0.00012584175084175085"
+          ],
+          [
+            null,
+            null,
+            "15-30cm",
+            "810.1",
+            "0.0461",
+            "475.2",
+            "9.701178451178452e-05"
+          ],
+          [
+            null,
+            null,
+            "30-45cm",
+            "806.8",
+            "0.0212",
+            "475.2",
+            "4.4612794612794616e-05"
+          ],
+          [
+            null,
+            null,
+            "45-60cm",
+            "760.2",
+            "0.0053",
+            "475.2",
+            "1.1153198653198654e-05"
+          ],
+          [
+            "17E",
+            "C4",
+            "0-15cm",
+            "802",
+            "0.0371",
+            "475.2",
+            "7.807239057239057e-05"
+          ]
+        ]
+      },
+      {
+        "name": "D96",
+        "rows": 61,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            "Sample Date: ",
+            "2020-07-28 00:00:00",
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Plot",
+            "Rotation",
+            "Depth",
+            "Total Soil Weight (g) (4 subsamples, bulked)",
+            "Root Weights (g)",
+            "Soil area (cm^3)",
+            "Mass/area (g/cm^3)"
+          ],
+          [
+            "13E",
+            "C2",
+            "0-15cm",
+            "708.7",
+            "0.1069",
+            "475.2",
+            "0.00022495791245791244"
+          ],
+          [
+            null,
+            null,
+            "15-30cm",
+            "881.7",
+            "0.0415",
+            "475.2",
+            "8.733164983164984e-05"
+          ],
+          [
+            null,
+            null,
+            "30-45cm",
+            "673.9",
+            "0.0202",
+            "475.2",
+            "4.250841750841751e-05"
+          ],
+          [
+            null,
+            null,
+            "45-60cm",
+            "381.5",
+            "0.0371",
+            "475.2",
+            "7.807239057239057e-05"
+          ],
+          [
+            "17E",
+            "C4",
+            "0-15cm",
+            "620.8",
+            "0.0613",
+            "475.2",
+            "0.0001289983164983165"
+          ]
+        ]
+      },
+      {
+        "name": "D117",
+        "rows": 60,
+        "cols": 7,
+        "first_nonempty": [
+          [
+            null,
+            "Sample Date",
+            "Days After Planting",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            null,
+            "2020-08-18 00:00:00",
+            "117",
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            "Plot",
+            "Rotation",
+            "Depth",
+            "Total Soil Weight (g) (4 subsamples, bulked)",
+            "Root Weights (g)",
+            "Soil area (cm^3)",
+            "Mass/area (g/cm^3)"
+          ],
+          [
+            "13E",
+            "C2",
+            "0-15cm",
+            "781.9",
+            "0.1052",
+            "475.2",
+            "0.00022138047138047138"
+          ],
+          [
+            null,
+            null,
+            "15-30cm",
+            "909",
+            "0.1175",
+            "475.2",
+            "0.00024726430976430977"
+          ],
+          [
+            null,
+            null,
+            "30-45cm",
+            "681.8",
+            "0.0375",
+            "475.2",
+            "7.891414141414141e-05"
+          ],
+          [
+            null,
+            null,
+            "45-60cm",
+            "659.7",
+            "0.0377",
+            "475.2",
+            "7.933501683501683e-05"
+          ],
+          [
+            "17E",
+            "C4",
+            "0-15cm",
+            "641.7",
+            "0.0836",
+            "475.2",
+            "0.00017592592592592592"
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "file": "rootdist_ml/2020-data-from-matt/soil area and volume calculations.xlsx",
+    "sheets": [
+      {
+        "name": "Sheet1",
+        "rows": 31,
+        "cols": 3,
+        "first_nonempty": [
+          [
+            "Core Diameter (in.)",
+            "1.25",
+            null
+          ],
+          [
+            "Core Diameter (cm)",
+            "3.175",
+            null
+          ],
+          [
+            "Core Radius (cm)",
+            "1.5875",
+            null
+          ],
+          [
+            "Core depth (cm)",
+            "15",
+            null
+          ],
+          [
+            "Surface area of soil sampled per core = \u03c0r^2 ",
+            null,
+            null
+          ],
+          [
+            null,
+            "3.1416*1.5875*1.5875",
+            null
+          ],
+          [
+            null,
+            "7.9173 cm^2",
+            null
+          ],
+          [
+            "Volume per core = surface area * height",
+            null,
+            null
+          ]
+        ]
+      },
+      {
+        "name": "Sheet2",
+        "rows": 1,
+        "cols": 1,
+        "first_nonempty": []
+      }
+    ]
+  }
+]

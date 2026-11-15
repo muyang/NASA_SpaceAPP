@@ -1,0 +1,27 @@
+{
+ "source":"https://ageconsearch.umn.edu/record/205805/files/AAEA%202015%20paper.pdf",
+ "author":"Kranti Mulik",
+ "publication":"Selected paper, 2015 AAEA/WAEA Annual Meeting; not represented here as a peer-reviewed journal article",
+ "table":"Table 1, PDF page 11",
+ "period":"2008–2012",
+ "definition":"Published estimated net returns to management, including land and labor costs. Not farm cash accounts or current prices.",
+ "units":"Yield bu/ac except alfalfa ton/ac; price USD/bu except alfalfa USD/ton; net returns USD/ac",
+ "rows":[
+  {"crop":"corn","technology":"GE","rotation_years":2,"yield":192.18,"price":5.21,"net_return":323.93},
+  {"crop":"corn","technology":"GE","rotation_years":3,"yield":197.52,"price":5.21,"net_return":437.81},
+  {"crop":"corn","technology":"GE","rotation_years":4,"yield":196.46,"price":5.21,"net_return":410.49},
+  {"crop":"corn","technology":"Non-GE","rotation_years":2,"yield":185.96,"price":5.21,"net_return":356.70},
+  {"crop":"corn","technology":"Non-GE","rotation_years":3,"yield":196.69,"price":5.21,"net_return":495.32},
+  {"crop":"corn","technology":"Non-GE","rotation_years":4,"yield":196.68,"price":5.21,"net_return":473.16},
+  {"crop":"soybean","technology":"GE","rotation_years":2,"yield":50.18,"price":11.55,"net_return":110.67},
+  {"crop":"soybean","technology":"GE","rotation_years":3,"yield":55.74,"price":11.55,"net_return":206.21},
+  {"crop":"soybean","technology":"GE","rotation_years":4,"yield":57.24,"price":11.55,"net_return":201.09},
+  {"crop":"soybean","technology":"Non-GE","rotation_years":2,"yield":42.82,"price":11.55,"net_return":23.41},
+  {"crop":"soybean","technology":"Non-GE","rotation_years":3,"yield":53.1,"price":11.55,"net_return":172.96},
+  {"crop":"soybean","technology":"Non-GE","rotation_years":4,"yield":54.74,"price":11.55,"net_return":169.52},
+  {"crop":"oat","technology":"shared","rotation_years":3,"yield":95.66,"price":2.97,"net_return":-17.119},
+  {"crop":"oat","technology":"shared","rotation_years":4,"yield":101.64,"price":2.97,"net_return":-20.21},
+  {"crop":"alfalfa","technology":"shared","rotation_years":4,"yield":4.35,"price":142.40,"net_return":176.62}
+ ],
+ "cautions":["Table means do not provide year-level yield-price covariance or line-item costs.","Do not derive actual cost as mean yield times mean price minus mean net return.","Oat grain yield excludes straw, while the net-return scope must retain the author's enterprise definition.","Table 2's printed 4-year mean N rate repeats 7.66 even though 22.98/4=5.745; it is not admitted as a verified rotation N criterion.","Technology packages differ in herbicide and cultivar practice; results are conditional on the published packages, not isolated GE effects."]
+}

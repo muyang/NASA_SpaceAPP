@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/Volumes/mac/Users/mac/Repos/NASA/.toolchains/cargo/bin/cargo",
+    "build",
+    "--release",
+    "--offline"
+  ],
+  "binary_sha256": "eb364fa4120452e2ee7d2eff144a5b14385b28117c295e8f839f40e33749f351",
+  "source_sha256": {
+    "case-study/field-admission-v2/rust/src/main.rs": "516239bef3086c3b743e77282ee19bd36973b64d7b088015c5ada068a89a9add",
+    "fieldshift-eo-rs/src/lib.rs": "dccabf4fc600499f6cdfbb7be3e74adddcdf4115ab830bb5579e635225a5896b",
+    "case-study/field-admission-v2/field_replay_protocol.json": "a021b2fd810e86da515fa25be68469c411a2971d889bc07a6386b74ad9af1b59"
+  },
+  "input_sha256": {
+    "soils.csv": "3c790065b0217ca1e892282f6bbbe06e05f092be207e7513e5cda854ba30cf0a",
+    "crops.csv": "40774a0141ac42a789a1a69a44223e128ec78e6f7617738e6e34020ea6d45bac",
+    "weather.csv": "0c1672d22aebfcef11a43658018f5d1b48852235620ff83649526e08a9bbdb5c",
+    "events.csv": "3e522abcc2d56f9e3d6a785d00854b1a8a36c3452f3bafb3117f69b1e4f99292"
+  },
+  "note": "Measured 2014 organic stocks used as start-year proxy. Retention priors, model processes, mineral N, residues and unknown initial water remain explicit diagnostic assumptions."
+}

@@ -1,0 +1,8 @@
+{
+  "checks": 10,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "real_farmer_participants": 0,
+  "scope": "Integrity and declared diagnostic checks; not independent field validation"
+}

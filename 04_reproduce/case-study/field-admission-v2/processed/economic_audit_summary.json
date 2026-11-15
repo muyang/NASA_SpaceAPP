@@ -1,0 +1,18 @@
+{
+  "published_crop_phase_rows": 15,
+  "historic_system_technology_cases": 6,
+  "additive_price_stress_cases_per_technology": 81,
+  "mean_order_GE": "2-year > 3-year > 4-year",
+  "mean_order_non_GE": "3-year > 4-year > 2-year",
+  "GE_2y_vs_nonGE_3y_difference_USD_ac_year": 0.24633333333335372,
+  "ranking_scope": "Historical published point estimates within technology strata; no inferential confidence or operational recommendation",
+  "field_complete_CBA_eligible": false,
+  "full_MCA_eligible": false,
+  "reasons": [
+    "No field-year line-item accounts or covariance data to reconstruct full original budgets.",
+    "No current verified oat/alfalfa buyer/quality/transport contract.",
+    "No common validated water-use or soil-benefit value functions and farmer weights.",
+    "Planner rye strategy is absent from these three observed systems.",
+    "Whole-return economic definition differs from Davis 2012 return-to-land-and-management."
+  ]
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "file": "raw/papers/root_soil_data_s1.csv",
+    "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0164209.s001&type=supplementary",
+    "retrieved_at_utc": "2026-11-15T11:15:21.192367+00:00",
+    "status": "downloaded",
+    "bytes": 40698,
+    "sha256": "5a4ac9af11ab8fcac22f416fbed46e8f90bbf73dfc19242c2729856323502931"
+  },
+  {
+    "file": "raw/papers/root_carbon_data_s2.csv",
+    "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0164209.s002&type=supplementary",
+    "retrieved_at_utc": "2026-11-15T11:15:21.193504+00:00",
+    "status": "downloaded",
+    "bytes": 1622,
+    "sha256": "cf4db4f8813717d30cc12f558f3d66d4a44644aa081c23579f7f2702b7caec02"
+  },
+  {
+    "file": "raw/papers/root_paper.html",
+    "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164209",
+    "retrieved_at_utc": "2026-11-15T11:15:21.193936+00:00",
+    "status": "downloaded",
+    "bytes": 263587,
+    "sha256": "9e550311c784851c342187568da22fd6eef88c5d6c956e133d0e86283cc167bb"
+  },
+  {
+    "file": "raw/papers/AAEA_2015_economics.pdf",
+    "url": "https://ageconsearch.umn.edu/record/205805/files/AAEA%202015%20paper.pdf",
+    "retrieved_at_utc": "2026-11-15T11:15:21.195803+00:00",
+    "status": "downloaded",
+    "bytes": 491835,
+    "sha256": "98f6c08c3f62b7ddc35f822bf8957ddad416bf104e37c8232f41849124440a69"
+  },
+  {
+    "file": "raw/papers/saxton2006.pdf",
+    "url": "https://www.atmos.illinois.edu/~sshu3/model/saxton2006.pdf",
+    "retrieved_at_utc": "2026-11-15T11:15:21.198342+00:00",
+    "status": "failed",
+    "error": "curl: (56) The requested URL returned error: 404"
+  }
+]

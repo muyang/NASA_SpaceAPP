@@ -1,0 +1,12 @@
+[package]
+name = "fieldshift-eo-rs"
+version = "0.3.0"
+edition = "2021"
+description = "Independent exploratory crop rotation water-carbon-nitrogen model; not APSIM"
+license = "MIT"
+
+[dependencies]
+
+[profile.release]
+lto = true
+codegen-units = 1

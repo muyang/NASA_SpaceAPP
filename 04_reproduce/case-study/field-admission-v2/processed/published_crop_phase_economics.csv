@@ -1,0 +1,16 @@
+crop,technology,rotation_years,yield,price,net_return
+corn,GE,2,192.18,5.21,323.93
+corn,GE,3,197.52,5.21,437.81
+corn,GE,4,196.46,5.21,410.49
+corn,Non-GE,2,185.96,5.21,356.7
+corn,Non-GE,3,196.69,5.21,495.32
+corn,Non-GE,4,196.68,5.21,473.16
+soybean,GE,2,50.18,11.55,110.67
+soybean,GE,3,55.74,11.55,206.21
+soybean,GE,4,57.24,11.55,201.09
+soybean,Non-GE,2,42.82,11.55,23.41
+soybean,Non-GE,3,53.1,11.55,172.96
+soybean,Non-GE,4,54.74,11.55,169.52
+oat,shared,3,95.66,2.97,-17.119
+oat,shared,4,101.64,2.97,-20.21
+alfalfa,shared,4,4.35,142.4,176.62

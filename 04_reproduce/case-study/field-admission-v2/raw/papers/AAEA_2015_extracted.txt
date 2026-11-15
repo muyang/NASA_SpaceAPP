@@ -1,0 +1,842 @@
+Economic Impacts of Diversified Cropping Systems
+Author
+Kranti Mulik
+Union of Concerned Scientists
+1825 K St. NW
+Washington, DC-20006
+202-331-5434
+kmulik@ucsusa.org
+Selected Paper prepared for presentation at the 2015 Agricultural & Applied Economics
+Association and Western Agricultural Economics Association Annual Meeting, San Francisco,
+CA, July 26-28
+Copyright 2015 by [Kranti Mulik]. All rights reserved. Readers may make verbatim copies
+of this document for non-commercial purposes by any means, provided that this copyright
+notice appears on all such copies.
+
+Introduction
+1.1 Characteristics of the dominant US crop production system
+Diversity of crops planted at the farm and regional levels has declined significantly in the last
+50 years in the United States (US). (Porter et al., 2003, Liebman et al. 2003). Cereal grains and
+oilseeds now represent 59 percent of U.S. crop acreage while vegetables, fruits, and nuts account
+for only 2 percent (USDA, NASS, 2013). Monocultures and short cropping rotation sequences1
+with few crops has become the norm both in the United States as well as in other developed
+countries (Cook 2006, Brummer 1998). The average size of farms in the US has decreased with
+the number of commodities produced per farm declining from an average of five per farm in
+1990 to just under two per farm in 2002 (Dimitri et al., 2002). This trend of specialized farming
+systems is very prominent in the Midwestern US Corn Belt2. In these states corn and soybean
+together constitutes 86% of the planted acreage. In contrast, oats occupy less than a 1 percent and
+hay only 6.85% of the planted acreage in the Corn Belt (USDA, NASS, 2013). This
+monoculture cropping system has led to greater dependence on synthetic pesticides and
+fertilizers and desertion of conservation practices to increase production (Hartwig et al., 2002).
+Absence of crop rotations has also increased vulnerability to pests, and therefore requires higher
+inputs of pesticides than most crops3 (Pimentel and Lehman 1993). In addition, large scale
+adoption of genetically modified (GM) crops in the last 20 years has also resulted in greater
+reliance on fertilizers and pesticides4. Pesticide use has also increased significantly since the
+introduction of GM crops5, which has coincided with the introduction and large increase of
+glyphosate making it one of the most heavily used pesticides in the US. Though insecticide use
+has declined the decrease is offset by the increase in herbicide use. Herbicide side use in the US
+increased by 108% in 2007 from 1995 levels, while insecticide use declined by 85% in 2007
+compared to 1995 levels (Srinathsinghji, 2012). Heavy reliance on synthetic fertilizers and
+1 Some factors that have led to the decline of longer crop rotation in the U.S include the advent of chemical
+fertilizers, in particular, nitrogen, synthetic pesticides, agriculture mechanization and the development of crop
+cultivars for a few select commodities (Bullock, 1992; Karlen et.al 1994).
+2 Iowa, Illinois, Indiana, Minnesota, Ohio and Wisconsin are the five states that make up the US Corn Belt.
+3 In the U.S., about 41% of all herbicides and 17% of all insecticides are applied to corn.
+4 In 2011 94% soybeans in the US was genetically engineered for herbicide tolerance (mainly glyphosate) while
+72% of corn was genetically engineered for either herbicide tolerance or insect management or both (ERS, 2011).
+5 Due to the prevalence of a common GM trait which is tolerant to Monsanto’s herbicide Roundup.
+
+herbicides has had adverse impacts on the environment which include contamination of
+groundwater and surface waters, as well as on community health, ecosystems, and fisheries.
+1.2 Consequences of conventional approaches to crop production- Impacts on environment
+and health
+Industrialized agricultural techniques exert negative impact on the environment by
+polluting waterways, creating dead zones in the oceans, destroying biodiverse habitats, releasing
+toxins into food chains, endangering public health through disease outbreaks and pesticide
+exposures, while contributing to climate warming (Corrigan et. al., 2002, Tilman et al. 2002,
+Diaz and Rosenberg 2008, Marks et. al., 2010, Foley et al., 2011). Nitrous Oxide emissions
+(N O) are a leading consequence of industrialized agricultural production contributing to 5% of
+2
+all U.S. greenhouse gas emissions from human activities. Agricultural soil management is the
+largest source of N O emissions in the U.S, accounting for about 74% of total US N O emissions
+2 2
+in 2013. N O emissions are the result of addition of nitrogen to the soil through the use of
+2
+synthetic fertilizers. More than 50% of the cropland in the US is rated as having high nitrogen
+balances which leads to greater susceptibility of soils to N O losses to the atmosphere6 (EPA,
+2
+2013).
+Fresh water pollution which is a consequence of nitrogen and phosphorus runoff from
+sewage seepage and agricultural runoff (from row crop agriculture) costs government agencies,
+drinking water facilities and individual Americans at least $4.3 billion each year7( Kansas State
+University, 2008). Of this $4.3 billion, $44 million alone is needed for protecting aquatic species
+from nutrient pollution. Corn production needs large amounts of nitrogen fertilizer8 a leading
+cause of ground and river water pollution and river water pollution responsible for creation of
+“dead zone” in the Gulf of Mexico. Large scale production of corn and soybeans and absence of
+crop rotations in the Midwest, has also increased annual average soil erosion annually from 2.7
+tons/acre to 19.7tons/acre (Pimentel et al 995)9.
+6 CAST (2004) found that efficient use of nitrogen fertilizer could reduce emissions in the US by 30-40%.
+7 Various factors were taken into consideration when estimating the cost of water pollution. These include decrease
+in lakefront values, costs of treating drinking water and the revenue lost when fewer people participate in
+recreational activities such as fishing and boating.
+8 Average nitrogen application rates on US farmland vary between 120 kg/hectare and 550kg/hectare.
+9 Corn production causes more soil erosion than any other crop in the US
+
+In addition, industrial agricultural techniques are inherently unsustainable in mining soils
+(Lal 2004, Tegtmeier and Duffy 2005, Montgomery 2007) and aquifers (Gordon et al., 2008) far
+more quickly than they can be replenished, and in their high use of fossil fuels (Lynch et al.,
+2011). High levels of aquifer contamination caused by nitrate are a cause for serious concern in
+many rural areas. Over 25% of the drinking water wells in the US have nitrate levels which
+exceed the recommended level of 45 parts per million safety standards (Conway and Petty,
+1991). High nitrate levels also pose a threat to human health10.
+These numerous environmental and social externalities create a huge economic burden
+which is rarely paid by industrialized food producers. For example, pesticide use in the United
+States results causes up to $10 billion in damage to humans and ecosystems annually (Pimentel
+2005).
+The industrialized agriculture system has also affected consumers’ access to healthy
+foods at an affordable price subsequently impacting their health.11 More than 175,000 deaths in
+2011 were due to some form of cardiovascular disease. More than 125000 deaths could be
+prevented and $17 billion in medical costs saved just by increasing consumption of fruits and
+vegetables to levels that meet dietary guidelines (O’Hara, 2013). Many people still lack access to
+diverse and healthy food, or ways to produce which results from a primarily a problem of
+distribution rather than production (IAAKSTD, 2009). Overproduction of food incentivizes
+agrifood companies to transform the excess food production into processed foods which is later
+marketed and distributed to customers in supersized portions (Nestle, 2003).
+1.3 Influence of federal agricultural subsidy payments on commodity crop plantations
+The federal subsidy program has also influenced the production of commodity crops12.
+The U.S. Department of Agriculture distributes between $10 billion and $30 billion in cash
+subsidies to farmers and owners of farmland each year. This amount depends on the market
+10 Studies have shown that high nitrate consumption can cause metahemoglobinemia in children and gastric, bladder
+and esophageal cancer in adults.
+11 Crops such as corn have become a staple food in many processed food items such as sweetened breakfast cereals
+and soft drinks. These foods have been linked to the increase in the rate of type 2 diabetes which affects one in 12
+million Americans. Between, 1985 and 2012 price of beverages sweetened with high fructose corn syrup dropped by
+24% while the price of fruits and vegetables increased by 39% during the same period.
+12 While direct payments are traditionally decoupled from current production practices and considered less
+distortionary, significant amount of these payments are made to land owners whose land is no longer used for
+farming (Edwards, 2009)
+
+prices for crops, the level of disaster payments, and other factors. More than 90 percent of
+agriculture subsidies go to farmers of five crops—wheat, corn, soybeans, rice, and cotton.
+Though 800,000 farmers and landowners are recipients of subsidies, but the payments are
+heavily skewed toward the largest producers. In addition to cash subsidies, the USDA also
+provides subsidized crop insurance, marketing support, and other services to farm businesses.
+The USDA also conducts extensive agricultural research and collects statistical data for the
+industry. The price tag for these indirect subsidies and services cost taxpayers is about $5 billion
+each year, and the estimated total farm support ranges from $15 billion to $35 billion annually
+(Edwards, 2009). Though the 2014 Farm Bill has eliminated direct subsidies to farmers it has
+expanded crop insurance coverage for farmers by $ 7 billion over a decade13. In addition new
+subsidies for rice and cotton growers have been introduced which come into effect when prices
+for these commodities drop.
+1.4 Costs/downsides of the current system for farmers and farm communities
+The industrialized agricultural system has had significant negative impact on small
+farmers and rural communities. With farm sizes getting larger, there has been a reduction in the
+total number of farms and decline in the role of farm workers. Despite the acreage remaining
+unchanged, the number of farms declined by 2 million in 2007. About 69% of the corn in the US
+is produced by large or very large farms14(Srinathsinghji, 2013). There is little on-farm genetic
+diversity in the US agrosystem15. The large scale production of commodity crops has resulted in
+decline in the seed varieties available to small-scale, poor and organic farmers. Consequently,
+seed price have increased by 140% since 1994.With lack of experimentation by farmers there is
+an inherent risk of reduced resilience and ability to adapt to climate change and natural disasters
+(Heinemann et al, 2013).
+2. Alternatives farming systems which rely on management of ecological relationships
+13 The federally subsidized crop insurance program is administered by 18 companies which are paid 1.4 billion
+annually by the government to sell policies to farmers. These policies pay 62% of the farmer’s premium. Previously,
+the USDA would re-negotiate the insurance premium with these private insurance companies which sell insurance
+policies to farmers which would results in large cost savings to the government. However, this practice is banned in
+the current Farm Bill.
+14 The USDA defines large farms and very large farms as farms with sales over $250000 and $ 500000 respectively
+15 For example, 80-85% of corn in the 1980’s was the result of only one innovation, the T-cytoplasm.
+
+Efforts to increase agriculture sustainability has resulted in the development use and
+management of agro-systems which use ecological processes to maintain soil productivity,
+improve crop yield and manage pest and weed population ( Shennan, 2008, Anderson, 2007,
+Robertson and Swinton, 2005, Leibman and Gallandt, 1997). Alternative systems in contrast
+with conventional systems are known for using intensive management of ecological relationships
+rather than reliance on purchased fertilizers and pesticides to maintain productivity and
+profitability. Low–external-input (LEI) systems and organic farming systems are examples of
+alternate systems where soil, crop and pest conditions are closely observed to take maximum
+advantage of ecological interactions (Vereijken, 1992; Shea et al., 1998; Deming et al., 2007).
+Low-external input cropping systems offer various advantages which can improve soil structure
+(Raimbault and Vyn, 1991), reduce carbon and nitrogen losses (Dinnes et al., 2002, Drinkwater
+et al, 1998), add organic matter (Campbell and Zentner 1993), fix atmospheric nitrogen through
+legumes (Riedell et. Al, 2009), reduce the occurrence and intensity of crop diseases (Ghorbani et
+al., 2008,Tilman et al, 2002) reduce weed density (Anderson, 2005, Dyck and Leibman, 1994),
+increase soil microbial biomass(Deng et al., 2000, Bossio et al, 1998) and increase the efficiency
+of fossil-energy (Cruse et al., 2010). The main nutrients used in LEI systems are green and
+animal manures and other organic matter which also improve soil structure. Small amounts of
+herbicides in combination with cultivation and other cropping practices which expose weeds to
+various stress and mortality are also used to manage weeds (Leibman and Gallandt, 1997).
+Unlike organic systems LEI systems may use some manufactured fertilizers and pesticides and
+crop and livestock produced using LEI systems do not receive any price premiums (Liebman et.
+al, 2008). Nitrogen requirements in LEI systems are met with nitrogen released after
+decomposing legume residues and manure along with some synthetic fertilizer (Magdoff et al.,
+1997, Moriss et al., 1993 , Fox and Piekielek, 1988).
+2.1 Rotational cropping systems- Diversification through crop rotation
+Crop rotation is a method for diversifying the cropping system where different crop species are
+placed in the same field at different times. Rotational farming system have been used for many
+years for maintaining soil fertility and productivity, suppressing pests and can increase yields
+when significant quantities of fertilizers and pesticides are applied (Bennett et al., 2012, Karlen
+et al., 1994). They also encourage spatial diversity as different crops in a rotation system are
+
+planted on different part of the field in the same year. Diversification through rotation can be
+specifically beneficial for farms that integrate crop and livestock production (Davis et al., 2012).
+Alternative systems which use diverse crop rotations, integrate crop and livestock production and
+integrated pest management techniques can reduce negative environmental and health effects
+without reducing crop yields and in some cases may even increase crop yields and productivity
+of livestock management systems.
+2.2 Impacts of Cropping system Diversification on yields, weed suppression, economic
+returns- Review of previous studies
+A review of studies which tested the ability of diversified farming systems to produce
+high yields and maintain profitability by using smaller quantities of agrochemical inputs have
+shown mixed results. Some studies found that reduced fertilizer and pesticide use is possible
+while maintaining yields and profitability (Vereijken, 1986; Jordan and Hutcheon, 1995;
+Wijnands, 1997; Gallandt et al., 1998; Porteret al., 2003, Ponisio et al. 201416 ). Others have
+found that yields and profitability of LEI systems are below conventional systems (Klonsky and
+Livingston, 1994; Munn et al., 1998; VanGesselet al., 2004). Therefore, to better understand the
+impact of diverse cropping systems, over a longer period a multi-year 9 hectare experiment was
+conducted at Iowa State University, Marsden Farm to test the hypothesis that cropping system
+diversification would eventually replace the need for synthetic inputs without sacrificing crop
+productivity and profitability17.
+2.3 Description of the field experiments carried out in the Marsden Study
+The experiment was conducted at the Iowa State University Marsden Farm in Boone Co.,
+Iowa from 2003-2011. The experiment site was planted with Oats in 2001 and plots were
+established in 2002. The plots followed a randomized complete block design with each phase of
+each rotation system present each year in four identical blocks. The size of the plot was
+18m*85mm. Before the start of the experiment the site was planted with a corn/soybean rotation
+16 The results of this study were based on a meta-analysis which showed that in organic systems adding
+diversification reduced the yield gap. This supports the benefits of diversified farming in achieving high yields on
+healthier farms, especially if healthier/organic farms received increased investments
+17 Initially, it was expected that inputs needs for diverse and less diverse systems would be similar but would even
+deviate as diverse systems matured. It was also expected that yields, weed suppression and economic performance
+of diverse and less diverse systems would be similar.
+
+which received conventional fertilizer and herbicide inputs. The experiment compared 3 rotation
+systems: 2-year corn/soybean system, which is the typical cash grain farming system in the
+region, the 3 year corn-soybean –small grain/red clover system and the 4 year corn-soybean-
+small grain-alfalfa/alfalfa rotations represent diverse farming systems found in the region which
+often include swine or cattle. Oats was planted with red clover in the 3 year rotation and with
+alfalfa in the 4 year rotation during spring each year. Tillage operation18 differed among rotation
+systems. Weed management strategies varied across rotations and management strategies in corn
+and soybean plots. Soil fertility management also differed among rotations. Synthetic fertilizer
+was applied in the two year rotation while composted cattle manure with reduced rates of
+synthetic fertilizer and herbicide was applied in the 3 year and 4 year rotation. The corn and
+soybean plots were divided into two halves and one of the two management strategies “GE
+(genetically engineered) and non GE was assigned to each plot. For corn, the GE management
+strategy used genetically engineered hybrid and the broadcast application of pre-emergence
+herbicides19. The non- GE strategy used non- genetically engineered hybrid combined with an
+application of post-emergence herbicides in a 38 band over the crop row. The GE strategy for
+soybean consisted of a genetically engineered variety with resistance to the herbicide glyphosate
+combined with post-emergence broadcast application of glyphosate. The soybean non-GE
+strategy used a non-genetically engineered seed and the application of a mixture of post-
+emergence herbicides in a 38-cm-band over the crop row20 (Davis et al, 2012, Gomez et al,
+2012Leibman et al, 2008).
+18 Fall chisel plowing was used in all rotation after corn harvest to partially incorporate corn residue. Shallow fall
+disking was done to level plots after soybean harvest in the 3 year and 4 year rotation. Fall moldboard was
+performed in the 3 year rotation to incorporate red clover and in the 4 year rotation to incorporate the second year
+alfalfa. Spring cultivation was carried out in all plots before planting in 2008-2010 and in the soybean plots in 2009
+and 2010.
+19 The GE corn was a stacked hybrid had genes to control European cornborer, Ostrinia nubilalis Hübner, and corn
+rootworms, Diabrotica spp
+20 For details of the corn hybrids and soybean varieties planted, and the pre and post-emergence herbicides applied
+see Leibman et.al, 2012
+
+2.4 Key Findings from the Marsden Study
+The data for the Marsden study consisted of data on yields, prices21, variable costs22 and
+net returns. Summary Statistics of the data are reported in Table 1. The average price for corn
+during this period was $5.2/dollars, for soybeans $11.5 dollars/bushels, for oats $2.97/bushel and
+for alfalfa $142.40/ton. Average yields for corn the period 2008 to 2012 were the highest in the 3
+year rotation GE (C-SB-O) 197.52/bushel followed by the 3 year and 4 year non-GE rotations
+which were only slightly lower at 196.7/bushel.. The average soybean yield was the highest in
+the 4 year rotation at 55.7 bushels/acre. As with corn, the average yields for soybean in the more
+diverse 3 year and 4 year rotation were only slightly less. Average yield for oats was highest in
+the 4 year rotation at 101.64/bushel while the average alfalfa yield in the 4 year rotation was
+4.35/ton.
+The average net returns for corn for the period 2008-2012 were the highest in the 3 year
+non- GE rotation at $495.32/acre followed by the 4 year non-GE rotation at $473.16. Average
+net returns for soybean were the highest in the 3 year GE rotation at $206.21/acre. Average net
+returns or oats were negative in both the 3 year and 4 year rotation23 while average net returns for
+alfalfa were $176.62/acre.
+In summary, the Marsden study found that diversified cropping systems increased yields
+of corn and soybeans compared to the 2 year rotation. In addition, harvested mass such as grain
+straw and hay also increased. Weeds were suppressed effectively in all the systems and
+freshwater toxicity in the more diverse systems was lower than in conventional systems. Thus,
+the more diverse cropping systems by using small amounts synthetic and agrochemical inputs
+still match or exceed the performance of less diverse systems.
+21 Price were average prices obtained from USDA.
+22 Variable costs include seeds, fertilizer manure, labor, machinery, seed, insurance& miscellaneous, and land.
+23 Net returns to Oats were positive in 2012 for the 3 year rotation. Net returns were also positive in 2011 and 2012
+for the 4 year rotation.
+
+2.5 Environmental Impacts
+Many studies on nitrogen input in row-crop agriculture have found that there is a strong
+correlation between N O emissions and fertilizer N rate. (e.g., MacKenzie et al. 1998;Bouwman
+2
+et al. 2002a; McSwiney and Robertson 2005; Mosier et al. 2006; Drury et al.2008; Dusenbury et
+al. 2008; Halvorson et al. 2008; Hoben et al. 2010, in review; Millar et al.2010, in review). All
+these studies found that increased addition of N to the soil led to increased N O emissions24.
+2
+Using the Marsden study data on fertilizer application rate across the different rotations
+and the methodology described in Miller et al., 2010. (Appendix 2) we estimated the reduction in
+N O and equivalent emissions CO emissions by moving from a 2 year C-S rotation to a 3 or 4
+2 2
+year C-S-O or C-S-O-A. Table 4 shows the fertilizer N application rate in the Marsden study for
+the 3 year and 4 year rotations. The fertilizer synthetic N application rate drops from 149 lbs/acre
+in the C-S rotation to 23 /lbs/acre in the C-S-O and the C-S-O- A rotation. The combined
+synthetic and organic fertilizer N application rate drops by 20% when we move from the 2 year
+C-S rotation to the more diverse 3 year or 4 year rotation.
+Table 2 shows the reduction in N O emissions and CO equivalent from a reduction in
+2 2
+fertilizer N application rate a resulting of switching from a conventional C-S rotation system to a
+more diverse 3 year (C-S-O) or 4 year system (C-S-O-A). Using the linear method there is a
+reduction in N O emissions by 0.540 kg N O ha-1 year, in the non-linear approach, emissions
+2 2
+reduce by 1.5 kg N O ha-1 yr. This is equivalent to reduction in CO emissions of 0.158 mg CO
+2 2 2
+ha-1 year in the linear approach and by 1.78 mg N O ha-1in the non-linear approach.
+2
+24 This result has been used as the basis for IPCC (2006) greenhouse gas inventory calculations.
+
+Table 1: Summary Statistics of the Marsden Study Data from 2008-2012
+Yield Price Net Returns M1
+Rotation bushel/acre $/bushel $/acre
+Corn-GE 2 year 192.18 5.21 323.93
+Corn-GE 3 year 197.52 5.21 437.81
+Corn-GE 4 year 196.46 5.21 410.49
+Corn-Non-GE 2 year 185.96 5.21 356.70
+Corn-Non-GE 3 year 196.69 5.21 495.32
+Corn-Non-GE 4 year 196.68 5.21 473.16
+Soybean-GE 2 year 50.18 11.55 110.67
+Soybean-GE 3 year 55.74 11.55 206.21
+Soybean-GE 4 year 57.24 11.55 201.09
+Soybean-Non-GE 2 year 42.82 11.55 23.41
+Soybean-Non-GE 3 year 53.1 11.55 172.96
+Soybean-Non-GE 4 year 54.74 11.55 169.52
+Oats 3 year 95.662 2.97 -17.1193
+Oats 4 year 101.64 2.97 -20.214
+Alfalfa 4 year 4.355 142.406 176.62
+1Net returns to management which includes land and labor cost.
+2Yield is for grain only
+3These are average net returns from 2008-2012. Net returns to Oats become positive in 2012 for the 3 year rotation.
+4These are average net returns from 2008-2012. Net returns were positive in 2011 and 2012 for the 4 year rotation.
+5Alfalfa yields are expressed as ton/acre
+6Alfalfa price is $/ton
+
+Table 2: Mean Fertilizer (Synthetic and Organic) Use 2008-2011
+Rotation N Fertilizer Manure N
+Lbs N acre-1 yr-1 Lbs N acre-1 yr-1
+2 year
+Corn pre/GE 149
+Corn post/non GE 149
+Soybean GE1
+Soybean Non GE
+Rotation Average (GE) 74.5
+Rotation Average (Non-GE) 74.5
+3 Year
+Corn pre/GE 22.98 95.95
+Corn post/non GE 22.98 95.95
+Soybean GE 0
+Soybean Non GE 0
+Oat/Red Clover 0
+Rotation Average (GE) 7.66 31.75
+Rotation Average (Non-GE) 7.66 31.75
+4 Year
+Corn pre/GE 22.98 95.95
+Corn post/non GE 22.98 95.97
+Soybean GE 0 0
+Soybean Non GE 0 0
+Oats/Alfalfa 0 0
+Alfalfa 0 0
+Rotation Average (GE) 7.66 31.75
+Rotation Average (Non-GE) 7.66 31.75
+1The N application rate for soybean is very small 0.5kg/ha-1/yr-1, therefore is not shown.
+
+Table 3: Annual Reduction in N O emissions (Kg N O ha-1 yr) and carbon dioxide
+2 2
+equivalents (Mg N O ha-1 yr)
+2
+N O Reductions CO Reductions
+2 2
+Kg N O ha-1 yr Mg N O ha-1 yr
+2 2
+Linear 0.530 0.158
+Non-Linear 1.494 1.78
+3 Methodology
+As seen in the previous section, the long-term Marsden Farm study has shown that diversified
+farming systems can be profitable on a small scale. We use data from that experiment to analyze
+the feasibility of the diversified farming system could if the practices employed at Marsden were
+adopted on a larger scale in state of Iowa. Converting the entire cropland and in Iowa into either
+3 year or 4 year rotation would results in significant reduction in corn and soybean acreage and
+production and increase in corn and soybean price. At the same time, adopting a diverse rotation
+system would result in increasing the acreage of oats and alfalfa and an influx of additional oats
+and alfalfa in the market and lower prices for these crops. Thus the system would revert back to
+the current system with high prices of corn and soybean encouraging production of these crops.
+While some of the increased production can be absorbed by increased demand25 absorbing the
+entire acreage is challenging. Therefore, we constructed a scenario which looked at evaluating
+the impact of adopting diverse crop rotation on a portion of the cropland in Iowa. Thus, we
+assumed that 50% of the cropland in Iowa (12.2 million acres) will be planted under a C-S-O
+rotation. Thus, 4 million acres of each crop are planted under a diverse rotation system (3 year)
+and the remaining cropland will be planted under prevailing agricultural practices26. In the 4 year
+rotation, we assume that one-third of the cropland (8 million) acres are planted in a 4 year
+rotation while the remaining acres are devoted to prevailing agricultural practices. We use a non
+–linear optimization (quadratic) model with endogenous price and quantity (Appendix 1) that
+produces a market clearing equilibrium by satisfying two constraints- total land availability and
+the crop rotation constraint- minimum acreage that must be planted for each crop to meet the
+25 In our simple model there is no iterative process where demand from other markets such as livestock and dairy
+responds to the increased supply.
+26 The dominant crops planted in Iowa are corn and soybean. The number of acres of corn and soybean planted on
+the remaining acres is based on the proportion of corn acreage and proportion of soybean acreage planted from
+2008- 2012. The yields used are average corn and soybean yields for the period 2008-2012 from NASS,USDA.
+
+rotation requirement. In addition to the land availability and rotation constraints, we have a
+balance constraint that must be satisfied, that is quantity demanded is equal to quantity supplied
+(to determine equilibrium price).
+Land is divided equally, into 3 parts and 4 parts based on rotation. We estimate a separate model
+for each rotation. In both models, there was a restriction on the total available land which was
+set to 12.2 million acres, in rotation 3 and 8 million acres in rotation 4. The rotation restriction is
+based on the requirement that one crop must be alternated with the other and is set as a strict
+equality constraint, that is acreage of one crop must be equal to the other.
+We also assume that in the 3 year rotation because there will be a significant increase in
+production in the oats and decrease in the production of corn and soybeans a portion of the feed
+demand for corn and soybean will be replaced by oats27. Oats are assumed to substitute for 20%
+of the corn feed demand in the 3 year rotation28. In the 4 year rotation, it is assumed that oats
+substitute for 10% and alfalfa substitute for 10% of the corn feed demand.
+4 Results
+The results of scenario 3 are reported in table 4. The optimal acreage for the different
+crops, quantity produced in bushels/ton, base prices (initial) and new the equilibrium prices, that
+is prices at which demand is equal to supply are shown in the table. With reduced acreage
+converted to diverse rotation system (either 3 or 4 year rotation), price impacts are nominal. By
+converting 12.2 million acres into a 3 year rotation, 4.06 million acres will be allocated to corn
+production. Because the corn yields are higher using complex rotation system, there is increased
+production. Therefore, the remaining demand for corn can be met (using conventional methods)
+by allocating only 5.8 million acres. Thus, total acreage allocated to corn is around 9.87 million
+27 It is expected that with influx of oats in the market at a lower price than livestock producers will adjust their feed
+rations so that some of the corn in their in the feed ration can be substituted with oats thus increasing the demand for
+oats and reducing the demand for corn. A more comprehensive model where dairy and livestock markets are
+modelled is needed to get at the exact impact. In our simple model there is no iterative process where demand from
+other markets such as livestock and dairy responds to the increased supply.
+28 This is based on a 2002 Study by Honeyman et.al which looked performance of market hogs in deep-bedded
+hopped barns when an addition of 20% and 40% oats were added to their diets. The study found no difference in
+feed efficiency, feed intake, daily weight gain and other factors with the addition of either the 20% or the 40% oats
+in hog diets. Please see Honeyman et al, 2002 for details.
+
+acres down from the average of 13 million acres. Similarly, in the 4 year rotation total acreage
+allocated to corn is 10.25 million acres.
+Table 4: Results
+C-S-O1 C-S-O/A-A2
+C3 S4 O5 C6 S O8 A7
+Acreage8 4.07 4.07 4.07 2 2 2 2
+Total Acreage9 9.87 9.1 10.25 9.17
+Production9 799.91 215.9 389.18 393.4 109.4 203.28 328.2
+Initial Price10 5.2 11.5 3.8 5.2 11.5 3.8 3.77
+Equilibrium Price11 5.2 11.5 3.8 5.2 11.5 3.8 3.76
+Note: This was estimated using average yields for the different crops. Using higher/lower yields decreases/increases the price. The results reported are for non-GE corn and
+soybean crops. The difference between GE and non-GE data is in the yield /acre and the variable cost per acre differ slightly in the GE and non- GE versions
+1, 2 Corn-Soybean-Oats, Corn-Soybean-Oats/Alfalfa-Alfalfa respectively
+8Millions of acres
+9 Sum of cropland under diverse rotation and proportion of remaining cropland allocated to corn/ soybean
+production
+11Millions of Bushels
+10 Average prices for the period 2008-2012 with the exception of oats where 2011 price is used.
+11 Calculated taking into consideration production through 3 year/4 year rotation and Corn and soybean production
+using conventional farming.
+5. Conclusions and Recommendations
+Alternative agriculture systems that use diverse cropping patterns, mixed crop-livestock
+production and integrated pest management can reduce adverse environmental and health effects
+without reducing yields and productivity. This was demonstrated by a recent study conducted at
+Iowa State University, Marsden Farm, Boone County, Iowa which compared yield, weed
+suppression and profitability of low-external-input cropping systems to conventional cropping
+systems. The study showed that more complex rotations which substitute other crops for some of
+the corn and soy on a farm can have a variety of benefits, from reduced pesticide use to increased
+scale. We use data from that experiment to we analyze the economic feasibility if the practices
+
+employed at Marsden were adopted on a larger scale in the Midwest. We found that adopting the
+Marsden farm practices over the over half of the cropland (12.2 million) into a 3 year rotation or
+one-third (8 million acres) of the cropland into 4 year rotations could work without having an
+impact on prices assuming some of the increased production of oats and alfalfa is substituted for
+corn in feed rations. This would have the benefit of reducing total corn acreage29 because of
+higher yields for corn in the Marsden data (due to the benefit of rotations) and substitution of
+some of the corn with oats. In addition we also found that there are significant reductions in N O
+2
+emissions by moving to a 3 year or 4 year rotation system.
+A diversified farming system can be profitable and have significant environmental
+benefits. However, there is often absence of understanding/ appreciation among farmers for
+system-level performance, i.e., performance of the individual components of a production system
+is valued more than overall system performance30 Also, there are lack of incentives to adopt
+production systems that are diverse and environmentally beneficial. Policy incentives to
+increase widespread adoption of sustainable farming systems can go a long way. We propose the
+following recommendations:
+ Ensure farmers receiving federal subsidies employ at least a minimum level of
+conservation and limit their use of environmentally destructive practices.
+ One of the barriers to adoption of the sustainable farm systems is the lack of publicly
+funded research to improve and expand modern, sustainable food and farm systems. This
+research should seek to:
+ Increase understanding of the ecosystems that support farming and the impacts of various
+management systems, practices, and technologies;
+ Develop and refine innovative systems for sustainable, organic, and diversified food
+production, and ease farmers’ transitions to them;
+29 By converting 12.2 million acres into a 3 year rotation, 4.06 million acres will be allocated to corn production.
+Because the corn yields are higher using complex rotation system, there is increased production and also some of the
+corn demand is substituted for oats.. Therefore, the remaining demand for corn can be met (using conventional
+methods) by allocating only 5.8 million acres. Thus, total acreage allocated to corn is around 10.million acres down
+from the average of 13 million acres.
+30 For example, while it may seem more profitable to plant more acreage of corn over small grains such as oats or
+alfalfa, it is the inclusion of such crops which in turn increase the yields of corn and the performance of the system.
+
+ Foster the expansion of local and regional food systems, and better document their
+economic benefits;
+ Increase the diversity of our agriculture system and promote resilience in the face of
+environmental challenges, through public crop and livestock breeding programs and other
+efforts.
+
+References
+Altieri, M.A. 1999. The ecological role of biodiversity in agroecosystems. Agriculture,
+Ecosystems & Environment74:19–31.
+Anderson, R.L. 2007. Managing weeds with a dualistic approach of prevention and control. A
+review. Agronomy for Sustainable Development 27:13–18.
+30 Anderson, R.L. 2005. A multi-tactic approach to manage weed population dynamics in crop
+rotations. Agronomy Journal 97:1579–1583.
+Barbash, J.E., Thelin, G.P., Kolpin, D.W., and Gilliom, R.J.2001. Major herbicides in ground
+water. Journal of Environmental Quality 30:831–845.
+Bossio, D.A., Scow, K.M., Gunapala, N., and Graham, K.J.1998. Determinants of soil microbial
+communities: Effects of agricultural management, season, and soil type
+on phospholipid fatty acid profiles. Microbial Ecology 36:1–12.
+Brummer, E.C. 1998. Diversity, stability, and sustainable American agriculture. Agronomy
+Journal 90:1–2.
+Campbell, C. and Zentner, R. 1993. Soil organic matter as influenced by crop rotations and
+fertilization. Soil Science Society of America Journal 57:1034–1040.
+Cook, R.J. 2006. Toward cropping systems that enhance productivity and sustainability.
+Proceedings of the National Academy of Sciences, U.S.A. 103:18389–18394.
+Conway, G.R. and J.N. Pretty 1991, Unwelcome harvest: agriculture and pollution. Earthscan
+publications, London
+Davis AS, Hill JD, Chase CA, Johanns AM, Liebman M (2012) Increasing Cropping System
+Diversity Balances Productivity, Profitability and Environmental Health. PLoS ONE 7(10):
+e47149. doi:10.1371/journal.pone.0047149
+Diaz, R. J., and R. Rosenberg. 2008. Spreading dead zones and consequences for marine
+ecosystems. Science 321(5891):926-929. http://dx.doi.org/10.1126/science.1156401
+Deng, S.P., Moore, J.M., and Tabatabai, M.A. 2000.Characterization of active nitrogen pools in
+soils under different cropping systems. Biology and Fertility of Soils 32:302–309.
+Dinnes, D.L., Karlen, D.L., Jaynes, D.B., Kaspar, T.C.,Hatfield, J.L., Colvin, T.S., and
+Cambardella, C.A. 2002.Nitrogen management strategies to reduce nitrate leaching
+in tile-drained midwestern soils. Agronomy Journal 94:153–171.
+Dyck, E. and Liebman, M. 1994. Soil fertility management as a factor in weed control: The
+effect of crimson clover residue, synthetic nitrogen fertilizer and their interaction on emergence
+and early growth of lambs quarters and sweet corn. Plant and Soil 167:227–237.
+
+Drinkwater, L.E., Wagoner, P., and Sarrantonio, M. 1998.Legume-based cropping systems have
+reduced carbon and nitrogen losses. Nature 396:262–265.
+Environmental Protection Agency (EPA). 2011. Pesticides industry sales and usage: 2006 and
+2007 market estimates. U.S. Environmental Protection Agency, Washington, DC. Available at:
+http://www.epa.
+gov/opp00001/pestsales/ (accessed April 22, 2012).
+Economic Research Service (ERS). 2011. Adoption of genetically engineered crops in the U.S.:
+Extent of adoption. Economic Research Service, U.S. Department of Agriculture, Washington,
+DC. Available at: http://www.ers.usda.gov/Data/BiotechCrops/Adoption.htm (accessed April 22,
+2012).
+Food and Agricultural Policy Research Institute. 2011. FAPRI‐MU Stochastic U.S.
+Crop Model Documentation. FAPRI‐MU Report #09‐11
+Foley, J., N. Ramankutty, K. Brauman, E. Cassidy, J. Gerber,M. Johnston, N. Mueller, C.
+O’Connell, D. Ray, P. West, C.
+11 Francis, C., Lieblein, G., Gliessman, S., Breland, T.A.,Creamer, N., Harwood, R.,
+Salomonsson, L., Helenius, J.,Rickerl, D., Salvador, R., Wiedenhoeft, M., Simmons, S.,Allen, P.,
+Altieri, M., Flora, C., and Poincelot, R. 2003.Agroecology: The Ecology of Food Systems.
+Journal ofSustainable Agriculture 22:99–118.
+Gallandt, E.R., E.B. Mallory, A.R. Alford, F.A. Drummond, E. Groden,M. Liebman, M.C.
+Marra, J.C. McBurnie, and G.A. Porter. 1998.Comparison of alternative pest and soil
+management strategies forMaine potato production systems. Am. J. Altern. Agric. 13:146–161.
+Gassmann, A.J., Petzold-Maxwell, J.L., Keweshan, R.S.,and Dunbar, M.W. 2011. Field-evolved
+resistance to Btmaize by western corn rootworm. PLoS ONE
+6(7):e22629.doi:10.1371/journal.pone.0022629.
+Ghorbani, R.,Wilcockson, S., Koocheki, A., and Leifert, C.2008. Soil management for
+sustainable crop disease control:A review. Environmental Chemistry Letters 6:149.
+Gilliom, R.J., J.E. Barbash, C.G. Crawford, P.A. Hamilton, J.D. Martin,N. Nakagaki, L.H.
+Nowell, J.C. Scott, P.E. Stackelberg, G.P.Thelin,and D.M. Wolock. 2006. _ e quality of our
+nation’s waters: Pesticides in the nation’s streams and ground water, 1992–2001. Circular 1291.
+U.S. Dep. of Interior and U.S. Geological. Survev., Reston, VA
+Goolsby, D.A., W.A. Battaglin, G.B. Lawrence, R.S. Artz, B.T. Aulenbach, R.P. Hooper, D.R.
+Keeney, and G.J. Stensland. 1999. Flux and sourcesof nutrients in the Mississippi-Atchafalaya
+River Basin. Topic 3 Report for the Integrated Assessment on Hypoxia in the Gulf of Mexico.
+Decision Analysis Ser.17. Available at http://oceanservice.noaa.gov/products/hypox_t3fi nal.pdf
+National. Oceanic andAtmospheric Administration, Coastal Ocean Program, Silver Spring,
+MD.
+
+Gomez R., Liebman M., Sundberg D.N. and Chaise C.A. Comparison of crop management
+strategies involving crop genotype and weed management practices in conventional and more
+diverse cropping systems. Renewable Agriculture and Food Systems.
+doi:10.1017/S1742170512000142
+Gordon, L. J., G. D. Peterson, and E. M. Bennett. 2008.Agricultural modifications of
+hydrological flows create ecological surprises. Trends in Ecology & Evolution 23(4):211-219.
+http://dx.doi.org/10.1016/j.tree.2007.11.011
+Hazell, P. B. R. and Norton, Roger D. 1986. Mathematical Programming for agriculture analysis
+in agriculture. http://www.ifpri.org/sites/default/files/publications/mathprogall.pdf
+Heinemann J.A., Massaro M, Coray D.S, Agapito‐Tenfen S.Z, and Wen J.D. Sustainability and
+innovation in staple crop production in the US Midwest.International Journal of Agricultural
+Sustainability 2013, http://dx.doi.org/10.1080/14735903.2013.806408
+Hartwig, N.L. and Ammon, H.U. 2002. Cover crops and living mulches. Weed Science 50:688–
+699.
+Honeyman M.S, Z., M. Sullivan, and W.B. Roush. 2002. Oat Based Diets for Market Pigs in
+Deep-bedded Hoop Barns, Iowa Pork Industry Center, Iowa State University, Report No. ASL-
+R1819. Available at http://www.ipic.iastate.edu/reports/02swinereports/asl-1819.pdf
+Horrigan, L., R. Lawrence, and P. Walker. 2002. How sustainable agriculture can address the
+environmental and human health harms of industrial agriculture. Environmental health
+perspectives 10(5):445
+International Assessment of Agricultural Knowledge, Science and Technology for Development
+(IAAKSTD). 2009. Global report: agriculture at a crossroads. Island Press, Washington,D. C.,
+USA.
+Jordan, V.W.L., and J.A. Hutcheon. 1995. Less-intensive farming and the environment: An
+integrated farming systems approach for U.K. arable crop production. p. 307–318. In D.M. Glen
+et al. (ed.) Ecology and integrated farming systems. John Wiley & Sons, Chichester, UK.
+Kansas State University. "Freshwater Pollution Costs US At Least $4.3 Billion A Year."
+ScienceDaily. ScienceDaily, 17 November 2008.
+www.sciencedaily.com/releases/2008/11/081112124418.htm
+Klonsky, K., and P. Livingston. 1994. Alternative systems aim to reduce inputs, maintain profits.
+California. Agriculture. 48(5):34–42.
+
+Lal, R. 2004. Soil carbon sequestration impacts on global climate change and food security.
+Science 304(5677):1623-1627. http://dx.doi.org/10.1126/science.1097396
+Liebman, M., Gibson, L.R., Sundberg, D.N.,Heggenstaller, A.H., Westerman, P.R., Chase, C.A.,
+Hartzler, R.G., Menalled, F.D., Davis, A.S., and Dixon, P.M. 2008. Agronomic and economic
+performance characteristics of conventional and low-external-input cropping systems in the
+central Corn Belt. Agronomy Journal 100:600–610
+Liebman, M. and Davis, A. S. 2000. Integration of soil, crop and weed management in low-
+external-input farming systems. Weed Research 40:27–47.
+.Liebman, M. and Ohno, T. 1998. Crop rotation and legume residue effects on weed emergence
+and growth: Applicationsfor weed management. In J. Hatfield, D.D. Buhler and B.
+Stewart (eds). Integrated Weed and Soil Management.Sleeping Bear Press, Chelsea, MI. p. 181–
+221.
+Liebman, M. and Gallandt, E.R. 1997. Many little hammers: Ecological management of crop-
+weed interactions.In L.E. Jackson (ed.). Ecology in Agriculture. Academic Press, San Diego,
+CA. p. 291–343.
+Liu, J., You, L., Amini, M., Obersteiner, M., Herrero, M.,Zehnder, A.J.B., and Yang, H. 2010. A
+high-resolution assessment on global nitrogen flows in cropland. Proceedings
+of the National Academy of Sciences, U.S.A.
+Lynch, D. H., R. MacRae, and R. C. Martin. 2011. The carbon and global warming potential
+impacts of organic farming: does it have a significant role in an energy constrained
+world?Sustainability 3(2):322-362. http://dx.doi.org/10.3390/su3020322
+Marks, A. R., K. Harley, A. Bradman, K. Kogut, D. B. Barr,C. Johnson, N. Calderon, and B.
+Eskenazi. 2010.Organophosphate pesticide exposure and attention in youngMexican-American
+children: the CHAMACOS Study.Environmental health perspectives 118(12):1768.
+http://dx.doi.org/10.1289/ehp.1002056
+N. Millar. Robertson G. P & Grace P R. & Gehl R,J and Hoben J.P. 2010. Nitrogen fertilizer
+management for nitrous oxide (N O) mitigation in intensive corn (Maize) production:
+2
+an emissions reduction protocol for US Midwest agriculture. Mitigation Adaption
+Strategy and Global Change
+Montgomery, D. R. 2007. Soil erosion and agricultural sustainability. Proceedings of the
+National Academy of Sciences of the United States of America 104(33):13268-13272.
+http://dx.doi.org/10.1073/pnas.0611508104
+
+18 Mortensen, D.A., Egan, J.F., Maxwell, B.D., Ryan, M.R., and Smith, R.G. 2012. Navigating a
+critical juncture for sustainable weed management. Bioscience 62:75–84.
+Munn, D.A., G. Coffing, and G. Sautter. 1998. Response of corn, soybean, and wheat crops to
+fertilizer and herbicides in Ohio compared with low-input production practices. American.
+Journal of. Alternative Agric. 13:181–189.
+National Agricultural Statistics Service. 2007a. Agricultural chemical usedatabase. Available at
+http://www.pestmanagement.info/nass/. NASS, USDA, Washington, DC.
+National Agricultural Statistics Service. 2006. Crops: Prices received by farmers–Iowa.
+Available at
+http://www.nass.usda.gov/Statistics_byState/Iowa/Publications/Annual_Statistical_Bulletin/2007
+/124_07.pdf. NASS, USDA, Washington, DC.
+National Research Council. 1989. Alternative agriculture. National. Academy Press,
+Washington, DC.
+Nestle, M. 2003. The ironic politics of obesity. Science 299(5608):781.
+NRC. 2010. Toward Sustainable Agricultural Systems in the 21st Century. National Research
+Council, National Academy Press, Washington, DC.
+Pimentel, D. 2005. Environmental and economic costs of the application of pesticides primarily
+in the United States.
+Environment, Development and Sustainability 7: 229-252.http://dx.doi.org/10.1007/s10668-005-
+7314-2
+Pimentel, D. et al 1997, Water resources: agriculture, environment and society. BioScience 47:
+97-106
+Pimentel, D and H. Lehman 1993, The pesticide question. Chapman and Hall, New York
+Porter, P.M., Huggins, D.R., Perillo, C.A., Quiring, S.R.,and Crookston, R.K. 2003. Organic and
+other management strategies with two- and four-year crop rotations in Minnesota. Agronomy
+Journal 95:233–244.
+Raimbault, B. and Vyn, T. 1991. Crop rotation and tillage effects on corn growth and soil
+structural stability.Agronomy Journal 83:979–985.
+Riedell, W.E., Pikul, J.L., Jaradat, A.A., and Schumacher, T.E. 2009. Crop rotation and nitrogen
+input effects on soil fertility, maize mineral nutrition, yield, and seed composition. Agronomy
+Journal 101:870–879.
+Robertson, G.P. and Swinton, S.M. 2005. Reconciling agricultural productivity and
+environmental integrity: A grand challenge for agriculture. Frontiers in Ecology and the
+Environment 3:38–46.
+
+Ronald, P.C. and Adamchak, R.W. 2008. Tomorrow’s Table: Organic Farming, Genetics, and
+the Future of Food.Oxford University Press, Oxford, UK.
+Shennan, C. 2008. Biotic interactions, ecological knowledge and agriculture. Philosophical
+Transactions of the Royal Society B: Biological Sciences 363:717–739.16 Ronald, P.C. 2011.
+Plant genetics, sustainable agriculture and global food security. Genetics 188:11–20.
+Tilman, D., Cassman, K.G., Matson, P.A., Naylor, R., and Polasky, S. 2002. Agricultural
+sustainability and intensive production practices. Nature 418:671–677.
+Tegtmeier, E., and M. Duffy, M. 2005. External costs ofagricultural production in the United
+States. InternationalJournal of Agricultural Sustainability 2(1):a.
+http://dx.doi.org/10.1080/14735903.2004.9684563
+US Environmental Protection Agency (2010). Climate Change Overview of Greenhouse Gases
+http://epa.gov/climatechange/ghgemissions/gases/n2o.html
+VanGessel, M.J., D.R. Forney, M. Conner, S. Sankula, and B.A. Scott. 2004.A sustainable
+agriculture project at Chesapeake Farms: A six-year summary of weed management aspects,
+yield, and economic return. Weed Science. 52:886–896.
+Vereijken, P. 1986. From conventional to integrated agriculture. Neth. J.Agric. Sci. 34:387–393.
+Vereijken, P. 1992. A methodic way to more sustainable farming systems. Netherland Journal of
+Agriculture Science 40:209–223.
+Welch, R. M., and R. D. Graham. 1999. A new paradigm for world agriculture: meeting human
+needs - productive, sustainable, and nutritious. Field Crops Research 60(1-2):1-
+0.http://dx.doi.org/10.1016/S0378-4290(98)00129-4
+Wijnands, F.G. 1997. Integrated crop protection and environment exposure to pesticides:
+Methods to reduce use and impact of pesticides in arable farming. Eur. J. Agron. 7:251–260.
+World Health Organization (WHO). 2012. Obesity and overweight. Fact sheet 311. [online]
+URL: http://www.who.int/mediacentre/factsheets/fs311/en/
+Sirinathsinghji E. Study Confirms GM crops lead to increased Pesticide Use.Science in Society
+56, 8‐10, 2012
+
+Appendix 1: Optimization model
+Quadratic Model:
+The objective function of the model is:
+𝑛 𝑛
+max 𝑍 = ∑(𝛼 −1𝛽 𝑄 )𝑄 − ∑𝐶(𝑆 ) (1)
+𝑖 𝑗 2 𝑗 𝑗 𝑗 𝑗
+𝑗 𝑗
+where
+𝑖 = 3 𝑜𝑟 4 𝑦𝑒𝑎𝑟 𝑟𝑜𝑡𝑎𝑡𝑖𝑜𝑛 ,
+𝑗 = 3 𝑓𝑜𝑟 3 𝑦𝑒𝑎𝑟 𝑟𝑜𝑡𝑎𝑡𝑖𝑜𝑛 𝑎𝑛𝑑 4 𝑓𝑜𝑟 4 𝑦𝑟 𝑟𝑜𝑡𝑎𝑡𝑖𝑜𝑛
+𝛼 is the intercept31
+𝐽
+𝛽 = Slope of the variable32
+𝑗
+𝑄 is the quantity for crop j
+𝑗
+𝐶(𝑆 ) are the costs
+𝑗
+where 𝑆 = 𝑦 𝑋 and 𝑦 𝑖𝑠 yield/acre for crop j and 𝑋 is the total acres planted for crop j
+𝑗 𝑗 𝑗 𝑗 𝑗
+subject to
+0 ≥ Land ≤ 12.2 (3 year rotation) (2)
+0 > Land ≤ 8 (4 year rotation) (3)
+𝑋 = 𝑋 = 𝑋 (3 year rotation) (4)
+𝑐𝑜𝑟𝑛 𝑠𝑜𝑦𝑏𝑒𝑎𝑛 𝑜𝑎𝑡𝑠
+𝑋 = 𝑋 = 𝑋 = 𝑋 (4 year rotation) (5)
+𝑐𝑜𝑟𝑛 𝑠𝑜𝑦𝑏𝑒𝑎𝑛 𝑜𝑎𝑡𝑠 𝑎𝑙𝑓𝑎𝑙𝑓𝑎
+31 Own price feed demand elasticities for corn, soybean, oats and hay are used to calculate the intercept and slope.
+These are obtained from the FAPRI –Missouri (FAPRI-MU, 2011). The intercept is calculated as Initial price –
+Slope*Initial Quantity.
+32 The slope is calculated as elasticity*Initial Price/Initial Quantity. Quantity data is obtained NASS,USDA
+
+𝑄 −𝑆 ≤ 0, all j [𝜋 ] (6)
+𝑗 𝑗 𝑗
+and
+𝑄 𝑆
+𝑗 , 𝑗 > 0 (7)
+Equations (2) and (3) are the land constraints which restrict the total available land to 12.2
+million acres in rotation 3 and 8 million acres in rotation 4. Equations (4) and (5) are the rotation
+constraints so that equal acres of the different crops are planted in each rotation. Equation (6) is
+the balance constraint created for each crop in each rotation to ensure that in equilibrium supply=
+demand (from partial equilibrium modelling approach). The shadow price of the balance
+equation is the equilibrium price. The last equation (7) is the negativity constraint.
+The demand curves are exogenously specified. Restrictions on total available land and how much
+land should be used to produce each crop are dependent on the rotation requirement and play an
+important role in determining the supply curve. Cross price effects are generated exogenously
+rather than being included explicitly in the analysis (Hazel and Norton, 1986)
+Appendix 2: Calculation of N O
+2
+The methodology used to calculate the annual direct emission reduction of N O from the corn
+2
+component of (C-S-O) rotation and corn amount of corn-soybean-oats-alfalfa-alfalfa (C-S-O-A)
+rotation due to reduction in fertilizer N rate is described below. This reduction is a result of
+switching from 2 year corn-soybean rotation to a more diverse 3 year rotation or a 4 year
+rotation.
+Emission reduction of N O due to reduction in annual fertilizer N rate is calculated as:
+2
+N O = N O - N O (1)
+2 R 2 +N(B) 2 +N(A)
+Where:
+N O = Reduction in emissions due to fertilizer N rate reduction, kg C Oe ha−1yr−1
+2 R 2
+N O = Direct c emissions following N fertilizer input before fertilizer N rate
+2 +N(B)
+reduction, kg C Oe ha−1yr−1
+2
+N O = Direct emissions following N fertilizer input after fertilizer N rate
+2 +N(A)
+reduction, kg C Oe ha−1yr−1
+2
+
+Following Miller et. al, 2010, we use two approaches- linear and non-linear approach to estimate
+N O emissions. Equation 2 below is used to estimate emissions from both the approaches.
+2
+N O =[(F +F ) * EF ) + N O ] N O N O (2)
+2 +N(B/A) SN ON (B/A) N 2 0N(B/A) * 2 MW * 2 GWP
+where
+N O = Direct N O emissions following N fertilizer input, kg C Oe ha−1yr−1
+2 +N(B/A) 2 2
+N O 33 = Direct N O emissions following zero (0) fertilizer N input, kg N O –N a−1yr−1
+2 0N(B/A) 2 2
+F = Mass of N applied from synthetic fertilizer, kg N ha−1yr−1
+SN(B/A)
+F = Mass of N applied from organic fertilizer, kg N ha−1yr−1
+ON(B/A)
+EF = Emission factor for N O emissions from N inputs, kg N O –N (kg N input)−1
+n 2 2
+(n=1 and 2 for linear and non-linear approaches, respectively)
+N O = Ratio of molecular weight of N O to N, kg N O (kg N)−1
+2 MW 2 2
+N O 34 = Global Warming Potential for N O, kg C Oe (kg N O)−1
+2 GWP 2 2 2
+EF : The IPCC Tier 1 default emission factor (EF1) has a value of 0.01 or 1.0% (IPCC
+1
+2006), and is insensitive to fertilizer N rate. The emission factor of 1.0% represents an
+annual direct loss of N O –N of 1.0 kg N ha−1 for every 100 kg N ha−1 of fertilizer N
+2
+applied in that same year.
+EF : The value of the regional Tier 2 emission factor (EF ) determined from the N
+2 2
+fertility gradient on-farm field sites in Michigan (Hoben et al. 2009) is sensitive to N
+rate and can be expressed as:
+33 To account for background anthropogenic N O emissions (Bouwman 1996), N O
+2 2
+emissions from a zero fertilizer N rate control (N O ) scenario are included. The regional
+2 0N
+value for these background emissions as determined from the N gradient sites in Michigan is
+1.47 kg N O –N ha−1yr−1 (Hoben et al. 2009). When we compare N O emissions between
+2 2
+linear and non-linear method, this value for N O emissions from the zero fertilizer rate
+2
+control is used in both methods.
+34 The GWP value of 298 for N O which is used. This is the 100-year value used in the most recent IPCC Fourth
+2
+Assessment Report (Forster et al. 2007), and is the direct GWP for one molecule of N O on a mass basis for a 100
+2
+year time horizon, relative to one molecule of CO , which is given a value of 1 by convention. This means that a
+2
+molecule of contemporary N O released to the atmosphere will have 298 times the radiative
+2
+impact of a molecule of CO released at the same time. Thus, an agronomic activity such as
+2
+reduction in fertilizer N rate that reduces N O emissions by 1 kg ha−1 is equivalent to an
+2
+activity that sequesters 298 kg ha−1 CO as soil C (Robertson and Grace 2004).
+2
+
+EF
+2 =
+0.012 * exp [0.00475 * (F
+SN
++F
+ON
+)]
+The two approaches differ in terms of emission factor used. The linear approach uses the
+emission factor 1 while the non-linear approach uses EF The subscripts (B) stands for the
+2
+scenario before the fertilizer N rate reduction while subscript (A) is for the scenario after the
+reduction. Variables which do not have this subscript do not change for the two scenarios:
+Calculation of N O emissions
+2
+Linear : N O-N35 = 1.47 + (0.01* Fertilizer N rate)
+2
+Non-linear: : N O-N = 1.47 + [ (exp*0.0082*Fertilizer rate)]
+2
+35 The conversion of N O–N (the mass of the nitrogen component of the nitrous oxide molecule)
+2
+to N O (N OMW) is calculated as the product of the ratio of the molecular weight of
+2 2
+N O to the atomic weight of the two N atoms in the N2O molecule, i.e., N O = N O –N×44/28.
+2 2 2

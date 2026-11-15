@@ -1,0 +1,3 @@
+item,USD_per_unit,seeds_per_unit,seeds_per_ac,calculated_USD_ac,reported_approx_USD_ac,source_file,sheet,row
+2014 corn seed,152,80000,32200,61.18,61.5,raw/field-logs/Marsden-field-activities-Woods-2013-2018.xlsx,2014,7
+2014 soybean seed,57,140000,160000,65.14285714285715,65.14,raw/field-logs/Marsden-field-activities-Woods-2013-2018.xlsx,2014,16

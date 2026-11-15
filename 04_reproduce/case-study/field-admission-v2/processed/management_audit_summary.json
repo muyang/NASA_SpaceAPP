@@ -1,0 +1,8 @@
+{
+  "source_event_clusters": 1168,
+  "dated_clusters": 1123,
+  "date_conflicts": 40,
+  "important_scope_resolution": "2013 C4 mineral N is 50 lb N/ac, not overlapping 75+50",
+  "complete_all_events_claim": false,
+  "reason": "Free-text scope, source duplicates, year conflicts, incidental nutrient inputs and management operations not represented by the reduced model remain. Original chronological clusters and source rows are retained."
+}

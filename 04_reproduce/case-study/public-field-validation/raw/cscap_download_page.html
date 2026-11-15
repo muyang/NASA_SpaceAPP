@@ -1,0 +1,2503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="/vendor/jquery-ui/1.11.4/jquery-ui.css" />
+<link rel="stylesheet" href="/vendor/jquery-ui/1.11.4/jquery-ui.theme.css" />
+<style>
+input[type=checkbox][disabled] + label {
+    color: #ccc;
+}
+input { float: left;}
+label { display: block !important; margin-left: 1.5em;}
+</style>    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Team :: CSCAP Project Data Download</title>
+    <meta name="description" content="Iowa State University, ISU Data Team">
+    <meta name="author" content="daryl herzmann akrherz@iastate.edu">
+
+    <!-- Le styles -->
+    <link href="/vendor/fa/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/vendor/iastate-v2.0.1/css/iastate.min.css" rel="stylesheet">
+    <link href="/css/bootstrap-override.css" rel="stylesheet">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="/js/html5shiv.js"></script>
+      <script src="/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Non-essential -->
+    <meta name="twitter:creator" content="@akrherz">
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+  </head>
+
+  <body>
+<header>
+    <nav class="navbar-iastate">
+        <div class="container">
+            <!-- navbar-iastate-left -->
+            <ul class="nav navbar-nav navbar-iastate-left">
+                <li><a href='https://www.iastate.edu'>iastate.edu</a></li>
+                <li class="dropdown dropdown-hover isu-index">
+                    <a href="https://www.iastate.edu/index/A" class="dropdown-toggle" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Index</a>
+                    <ul class="dropdown-menu isu-index-alpha">
+                        <li><a href="https://www.iastate.edu/index/A/">A</a></li>
+                        <li><a href="https://www.iastate.edu/index/B/">B</a></li>
+                        <li><a href="https://www.iastate.edu/index/C/">C</a></li>
+                        <li><a href="https://www.iastate.edu/index/D/">D</a></li>
+                        <li><a href="https://www.iastate.edu/index/E/">E</a></li>
+                        <li><a href="https://www.iastate.edu/index/F/">F</a></li>
+                        <li><a href="https://www.iastate.edu/index/G/">G</a></li>
+                        <li><a href="https://www.iastate.edu/index/H/">H</a></li>
+                        <li><a href="https://www.iastate.edu/index/I/">I</a></li>
+                        <li><a href="https://www.iastate.edu/index/J/">J</a></li>
+                        <li><a href="https://www.iastate.edu/index/K/">K</a></li>
+                        <li><a href="https://www.iastate.edu/index/L/">L</a></li>
+                        <li><a href="https://www.iastate.edu/index/M/">M</a></li>
+                        <li><a href="https://www.iastate.edu/index/N/">N</a></li>
+                        <li><a href="https://www.iastate.edu/index/O/">O</a></li>
+                        <li><a href="https://www.iastate.edu/index/P/">P</a></li>
+                        <li><a href="https://www.iastate.edu/index/Q/">Q</a></li>
+                        <li><a href="https://www.iastate.edu/index/R/">R</a></li>
+                        <li><a href="https://www.iastate.edu/index/S/">S</a></li>
+                        <li><a href="https://www.iastate.edu/index/T/">T</a></li>
+                        <li><a href="https://www.iastate.edu/index/U/">U</a></li>
+                        <li><a href="https://www.iastate.edu/index/V/">V</a></li>
+                        <li><a href="https://www.iastate.edu/index/W/">W</a></li>
+                        <li><a href="https://www.iastate.edu/index/X/">X</a></li>
+                        <li><a href="https://www.iastate.edu/index/Y/">Y</a></li>
+                        <li><a href="https://www.iastate.edu/index/Z/">Z</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- /navbar-iastate-left -->
+
+            <!-- navbar-iastate-right -->
+            <ul class="nav navbar-nav navbar-right navbar-iastate-right">
+                <li><a href="https://info.iastate.edu/">Directory</a></li>
+                <li><a href="https://www.fpm.iastate.edu/maps/">Maps</a></li>
+                <li><a href="https://web.iastate.edu/safety/">Safety</a></li>
+                <li class="dropdown dropdown-hover">
+                    <a href="//web.iastate.edu/signons/" class="dropdown-toggle" data-toggle="" role="button" aria-haspopup="true" aria-expanded="false">Sign Ons</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://accessplus.iastate.edu/">AccessPlus</a></li>
+                        <li><a href="https://bb.its.iastate.edu/">Blackboard</a></li>
+                        <li><a href="https://iastate.box.com/">CyBox</a></li>
+                        <li><a href="https://cymail.iastate.edu/">CyMail</a></li>
+                        <li><a href="https://outlook.iastate.edu/">Outlook</a></li>
+                        <li><a href="https://web.iastate.edu/signons/">More Sign Ons...</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <!-- /navbar-iastate-right -->
+
+        </div>
+    </nav>
+    <!-- /navbar-iastate -->
+
+    <nav class="navbar-site">
+        <div class="container">
+
+            <div class="navbar-site-wordmark">
+                <a href="/" title="Home" class="wordmark-unit">
+                    <span class="wordmark-isu">Iowa State University</span>
+                    <span class="wordmark-unit-title">ISU Data Team</span>
+                </a>
+            </div>
+
+            <div class="navbar-header visible-xs visible-sm">
+                <button id="navbar-menu-button" type="button" class="navbar-toggle navbar-toggle-left collapsed" data-toggle="collapse" data-target="#navbar-menu-collapse, #navbar-site-links-collapse" aria-expanded="false">
+                    <span class="navbar-toggle-icon menu-icon">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </span>
+                    <span class="navbar-toggle-label">
+                        Menu <span class="sr-only">Toggle</span>
+                    </span>
+                </button>
+                <button id="navbar-search-button" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-site-search-collapse" aria-expanded="false">
+                    <span class="navbar-toggle-icon search-icon"></span>
+                    <span class="navbar-toggle-label">
+                        Search <span class="sr-only">Toggle</span>
+                    </span>
+                </button>
+            </div>
+
+            <div class="navbar-site-info collapse navbar-collapse" id="navbar-site-search-collapse">
+                <form action="https://www.google.com/search" class="navbar-site-search" method="GET" role="search">
+                    <label for="search-input" class="sr-only">Search</label>
+                    <input value="mesonet.agron.iastate.edu" name="sitesearch" type="hidden" />
+                    <input name="q" id="search-input" aria-label="Text input for search" title="Search" placeholder="Search" tabindex="0" type="text" class="form-control">
+                    <input class="hidden" title="Submit" type="submit" value="Search">
+                    <span class="search-icon"></span>
+                </form>
+            </div>
+
+            <div class="navbar-site-info collapse navbar-collapse navbar-caps" id="navbar-site-links-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/contacts.php">contact us</a></li>
+                    <li><a href="/auth/"><i class="fa fa-sign-in"></i> Login</a></li>                </ul>
+            </div>
+
+        </div>
+    </nav>
+</header>
+
+<div class="container">
+    <div class="navbar navbar-default">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"> <span class="fa fa-home"></span> </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="https://mesonet.agron.iastate.edu">Iowa Environmental Mesonet</a></li>
+                        <li><a href="https://dailyerosion.org">Daily Erosion Project</a></li>
+                        <li><a href="https://datateam.agron.iastate.edu/cscap/">Sustainable Corn</a></li>
+                    </ul>
+                </li>
+
+                <li class="dropdown">
+<a class="dropdown-toggle"
+        data-toggle="dropdown" href="#">Sustainable Corn</a>
+<ul class="dropdown-menu">
+<li><a href="/cscap/">Homepage</a></li>
+<li><a href="/cscap/dl/">Research Data</a></li>
+<li><a href="/cscap/usage.phtml">Data Usage Agreement</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle"
+        data-toggle="dropdown" href="#">Transforming Drainage</a>
+<ul class="dropdown-menu">
+<li><a href="/td/">Homepage</a></li>
+<li><a href="/td/dl/#tab_sites">Research Data</a></li>
+<li><a href="/td/dl/#tab_wdata">Visualization Tools</a></li>
+<li><a href="/td/usage.phtml">Data Usage Agreement</a></li>
+</ul>
+</li>
+<li class="dropdown">
+<a class="dropdown-toggle"
+        data-toggle="dropdown" href="#">Nutrient Reduction Progress</a>
+<ul class="dropdown-menu">
+<li><a href="/isbi/">Homepage</a></li>
+</ul>
+</li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<main role="main" id="main-content">
+<div class="container">
+<div class="row"><div class="col-md-12">
+
+<br />
+
+ <!-- Nav tabs -->
+  <ul class="nav nav-tabs maintabs" role="tablist">
+    <li role="presentation"><a href="/cscap/" role="tab"><i class="fa fa-home"></i></a></li>
+    <li role="presentation" class="active"><a href="#sites" aria-controls="sites" role="tab" data-toggle="tab">Research Sites</a></li>
+    <li role="presentation"><a href="#data" aria-controls="data" role="tab" data-toggle="tab">Research Data</a></li>
+    <li role="presentation"><a href="#wdata" aria-controls="data" role="tab" data-toggle="tab">Water Data, Tools</a></li>
+    <li role="presentation"><a href="#wxdata" aria-controls="data" role="tab" data-toggle="tab">Weather Data</a></li>
+    <li role="presentation"><a href="#sdata" aria-controls="data" role="tab" data-toggle="tab">Soc Econ Data</a></li>
+    <li role="presentation"><a href="#pubs" aria-controls="pubs" role="tab" data-toggle="tab">Publications</a></li>
+  </ul>
+
+<div class="tab-content">
+    <div role="tabpanel" class="tab-pane" id="data">
+
+<form method="POST" action="dl.py" id="mainform">
+<div class="btn-group fauxtabs" role="group" aria-label="Pages">
+  <button type="button" class="btn btn-primary" id="sites-btn">Sites</button>
+  <button type="button" class="btn btn-default" id="treatments-btn">Treatments</button>
+  <button type="button" class="btn btn-default" id="agronomic-btn">Agronomic</button>
+  <button type="button" class="btn btn-default" id="soil-btn">Soil</button>
+  <button type="button" class="btn btn-default" id="ghg-btn">GHG</button>
+  <button type="button" class="btn btn-default" id="ipm-btn">IPM</button>
+  <button type="button" class="btn btn-default" id="year-btn">Year</button>
+  <button type="button" class="btn btn-default" id="shm-btn">Management and Metadata</button>
+  <button type="button" class="btn btn-default" id="option-btn">Export Options</button>
+</div>
+
+<div id="sites-ui" style="display: block;">
+<div class="pull-right">
+<button id="sites-selectall" type="button" class="btn btn-default sa"><i class="fa fa-check"></i> Select All</button>
+</div>
+<div class="clearfix"></div>
+
+<p>This download tool will auto-populate options in the following tabs based on the research sites selected below.
+We recommended you “Select All” sites if you want to retain the most options moving forward.</p>
+<div class="col-md-4">
+<div class="panel panel-default"><div class="panel-heading"><input type="checkbox" class="state-check" value="IA">Iowa</div><div class="panel-body">
+<input type="checkbox" value="GILMORE" id="STGILMORE" data-state="IA" name="sites[]" class="site-check"><label for="STGILMORE" class="control-label">GILMORE</label><input type="checkbox" value="ISUAG" id="STISUAG" data-state="IA" name="sites[]" class="site-check"><label for="STISUAG" class="control-label">ISUAG</label><input type="checkbox" value="ISUAG.USB" id="STISUAG.USB" data-state="IA" name="sites[]" class="site-check"><label for="STISUAG.USB" class="control-label">ISUAG.USB</label><input type="checkbox" value="SERF" id="STSERF" data-state="IA" name="sites[]" class="site-check"><label for="STSERF" class="control-label">SERF</label></div></div>
+<div class="panel panel-default"><div class="panel-heading"><input type="checkbox" class="state-check" value="IL">Illinois</div><div class="panel-body">
+<input type="checkbox" value="NWREC" id="STNWREC" data-state="IL" name="sites[]" class="site-check"><label for="STNWREC" class="control-label">NWREC</label><input type="checkbox" value="ORR" id="STORR" data-state="IL" name="sites[]" class="site-check"><label for="STORR" class="control-label">ORR</label></div></div>
+<div class="panel panel-default"><div class="panel-heading"><input type="checkbox" class="state-check" value="IN">Indiana</div><div class="panel-body">
+<input type="checkbox" value="DPAC" id="STDPAC" data-state="IN" name="sites[]" class="site-check"><label for="STDPAC" class="control-label">DPAC</label><input type="checkbox" value="SEPAC" id="STSEPAC" data-state="IN" name="sites[]" class="site-check"><label for="STSEPAC" class="control-label">SEPAC</label></div></div>
+</div>
+<div class="col-md-4">
+<div class="panel panel-default"><div class="panel-heading"><input type="checkbox" class="state-check" value="MI">Michigan</div><div class="panel-body">
+<input type="checkbox" value="KELLOGG" id="STKELLOGG" data-state="MI" name="sites[]" class="site-check"><label for="STKELLOGG" class="control-label">KELLOGG</label><input type="checkbox" value="MASON" id="STMASON" data-state="MI" name="sites[]" class="site-check"><label for="STMASON" class="control-label">MASON</label></div></div>
+<div class="panel panel-default"><div class="panel-heading"><input type="checkbox" class="state-check" value="MN">Minnesota</div><div class="panel-body">
+<input type="checkbox" value="HICKS.B" id="STHICKS.B" data-state="MN" name="sites[]" class="site-check"><label for="STHICKS.B" class="control-label">HICKS.B</label><input type="checkbox" value="HICKS.G" id="STHICKS.G" data-state="MN" name="sites[]" class="site-check"><label for="STHICKS.G" class="control-label">HICKS.G</label><input type="checkbox" value="HICKS.P" id="STHICKS.P" data-state="MN" name="sites[]" class="site-check"><label for="STHICKS.P" class="control-label">HICKS.P</label></div></div>
+<div class="panel panel-default"><div class="panel-heading"><input type="checkbox" class="state-check" value="MO">Missouri</div><div class="panel-body">
+<input type="checkbox" value="BRADFORD.A" id="STBRADFORD.A" data-state="MO" name="sites[]" class="site-check"><label for="STBRADFORD.A" class="control-label">BRADFORD.A</label><input type="checkbox" value="BRADFORD.B1" id="STBRADFORD.B1" data-state="MO" name="sites[]" class="site-check"><label for="STBRADFORD.B1" class="control-label">BRADFORD.B1</label><input type="checkbox" value="BRADFORD.B2" id="STBRADFORD.B2" data-state="MO" name="sites[]" class="site-check"><label for="STBRADFORD.B2" class="control-label">BRADFORD.B2</label><input type="checkbox" value="BRADFORD.C" id="STBRADFORD.C" data-state="MO" name="sites[]" class="site-check"><label for="STBRADFORD.C" class="control-label">BRADFORD.C</label><input type="checkbox" value="FREEMAN" id="STFREEMAN" data-state="MO" name="sites[]" class="site-check"><label for="STFREEMAN" class="control-label">FREEMAN</label></div></div>
+</div>
+<div class="col-md-4">
+<div class="panel panel-default"><div class="panel-heading"><input type="checkbox" class="state-check" value="OH">Ohio</div><div class="panel-body">
+<input type="checkbox" value="HOYTVILLE.LTR" id="STHOYTVILLE.LTR" data-state="OH" name="sites[]" class="site-check"><label for="STHOYTVILLE.LTR" class="control-label">HOYTVILLE.LTR</label><input type="checkbox" value="NAEW.WS109" id="STNAEW.WS109" data-state="OH" name="sites[]" class="site-check"><label for="STNAEW.WS109" class="control-label">NAEW.WS109</label><input type="checkbox" value="NAEW.WS111" id="STNAEW.WS111" data-state="OH" name="sites[]" class="site-check"><label for="STNAEW.WS111" class="control-label">NAEW.WS111</label><input type="checkbox" value="NAEW.WS113" id="STNAEW.WS113" data-state="OH" name="sites[]" class="site-check"><label for="STNAEW.WS113" class="control-label">NAEW.WS113</label><input type="checkbox" value="NAEW.WS118" id="STNAEW.WS118" data-state="OH" name="sites[]" class="site-check"><label for="STNAEW.WS118" class="control-label">NAEW.WS118</label><input type="checkbox" value="STJOHNS" id="STSTJOHNS" data-state="OH" name="sites[]" class="site-check"><label for="STSTJOHNS" class="control-label">STJOHNS</label><input type="checkbox" value="WATERMAN" id="STWATERMAN" data-state="OH" name="sites[]" class="site-check"><label for="STWATERMAN" class="control-label">WATERMAN</label><input type="checkbox" value="WOOSTER.COV" id="STWOOSTER.COV" data-state="OH" name="sites[]" class="site-check"><label for="STWOOSTER.COV" class="control-label">WOOSTER.COV</label><input type="checkbox" value="WOOSTER.LTR" id="STWOOSTER.LTR" data-state="OH" name="sites[]" class="site-check"><label for="STWOOSTER.LTR" class="control-label">WOOSTER.LTR</label></div></div>
+<div class="panel panel-default"><div class="panel-heading"><input type="checkbox" class="state-check" value="WI">Wisconsin</div><div class="panel-body">
+<input type="checkbox" value="ARL" id="STARL" data-state="WI" name="sites[]" class="site-check"><label for="STARL" class="control-label">ARL</label><input type="checkbox" value="LAN" id="STLAN" data-state="WI" name="sites[]" class="site-check"><label for="STLAN" class="control-label">LAN</label><input type="checkbox" value="MAR" id="STMAR" data-state="WI" name="sites[]" class="site-check"><label for="STMAR" class="control-label">MAR</label></div></div>
+</div>
+
+</div>
+
+<div id="treatments-ui" style="display: none;">
+<div class="pull-right">
+  <button id="treatments-selectall" type="button" class="btn btn-default sa"><i class="fa fa-check"></i> Select All</button>
+</div>
+<div class="clearfix"></div>
+
+<p>For sites you’ve selected, available treatments will be identified by black text; unavailable in grey.</p>
+<div class="clearfix"></div>
+
+<div class="row"><div class="col-md-4">
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">Continuous Crop Systems</div>
+  <div class="panel-body">
+
+<input type="checkbox" value="_T5" data-treatment="_T5" name="treatments[]" id="_T5">
+<label for="_T5" class="control-label">Continuous corn</label>
+
+<input type="checkbox" value="_T6" data-treatment="_T6" name="treatments[]" id="_T6">
+<label for="_T6" class="control-label">Continuous corn with rye cover</label>
+
+<input type="checkbox" value="ROT2" data-treatment="ROT2" name="treatments[]" id="ROT2">
+<label for="ROT2" class="control-label">Continuous soybean</label>
+
+<input type="checkbox" value="ROT39" data-treatment="ROT39" name="treatments[]" id="ROT39">
+<label for="ROT39" class="control-label">Continuous soybean with rye cover</label>
+
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Rotated Crop Systems</div>
+  <div class="panel-body">
+
+<input type="checkbox" value="_T1" data-treatment="_T1" name="treatments[]" id="_T1">
+<label for="_T1" class="control-label">Corn-soybean</label>
+
+<input type="checkbox" value="_T2" data-treatment="_T2" name="treatments[]" id="_T2">
+<label for="_T2" class="control-label">Corn-soybean-wheat</label>
+
+<input type="checkbox" value="_T3" data-treatment="_T3" name="treatments[]" id="_T3">
+<label for="_T3" class="control-label">Corn-soybean-wheat/red clover or mixed cover crop</label>
+
+<input type="checkbox" value="_T4" data-treatment="_T4" name="treatments[]" id="_T4">
+<label for="_T4" class="control-label">Corn-soybean with rye cover</label>
+
+<!-- <input type="checkbox" value="ROT41" data-treatment="ROT41" name="treatments[]" id="ROT41"> -->
+<!-- <label for="ROT41" class="control-label">Corn-corn-soybean-corn-soybean</label> -->
+
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Prairie</div>
+  <div class="panel-body">
+
+<input type="checkbox" value="_T7" data-treatment="_T7" name="treatments[]" id="_T7">
+<label for="_T7" class="control-label">Prairie</label>
+
+  </div>
+</div>
+
+</div><div class="col-md-4">
+
+<div class="panel panel-default">
+  <div class="panel-heading">Drainage</div>
+  <div class="panel-body">
+
+<input type="checkbox" value="DWM3" data-treatment="DWM3" name="treatments[]" id="DWM3">
+<label for="DWM3" class="control-label">Controlled drainage ("managed")</label>
+<input type="checkbox" value="DWM2" data-treatment="DWM2" name="treatments[]" id="DWM2">
+<label for="DWM2" class="control-label">Conventional drainage ("free")</label>
+<input type="checkbox" value="DWM5" data-treatment="DWM5" name="treatments[]" id="DWM5">
+<label for="DWM5" class="control-label">Drainage with subirrigation</label>
+<input type="checkbox" value="DWM1" data-treatment="DWM1" name="treatments[]" id="DWM1">
+<label for="DWM1" class="control-label">No drainage</label>
+<input type="checkbox" value="DWM4" data-treatment="DWM4" name="treatments[]" id="DWM4">
+<label for="DWM4" class="control-label">Shallow drainage</label>
+
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Tillage</div>
+  <div class="panel-body">
+
+<input type="checkbox" value="TIL2" data-treatment="TIL2" name="treatments[]" id="TIL2">
+<label for="TIL2" class="control-label">Tillage</label>
+<input type="checkbox" value="TIL1" data-treatment="TIL1" name="treatments[]" id="TIL1">
+<label for="TIL1" class="control-label">No-tillage</label>
+
+  </div>
+</div>
+
+</div><div class="col-md-4">
+
+<div class="panel panel-default">
+  <div class="panel-heading">Nitrogen</div>
+  <div class="panel-body">
+
+<input type="checkbox" value="NIT2" data-treatment="NIT2" name="treatments[]" id="NIT2">
+<label for="NIT2" class="control-label">MRTN application of N fertilizer</label>
+<input type="checkbox" value="NIT1" data-treatment="NIT1" name="treatments[]" id="NIT1">
+<label for="NIT1" class="control-label">No N fertilizer applied</label>
+<input type="checkbox" value="NIT3" data-treatment="NIT3" name="treatments[]" id="NIT3">
+<label for="NIT3" class="control-label">Sensor based N application - MO/OH recommendation</label>
+<input type="checkbox" value="NIT4" data-treatment="NIT4" name="treatments[]" id="NIT4">
+<label for="NIT4" class="control-label">Sensor based N application - OK recommendation</label>
+
+
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Landscape</div>
+  <div class="panel-body">
+
+<input type="checkbox" value="LND1" data-treatment="LND1" name="treatments[]" id="LND1">
+<label for="LND1" class="control-label">Near-summit</label>
+<input type="checkbox" value="LND2" data-treatment="LND2" name="treatments[]" id="LND2">
+<label for="LND2" class="control-label">Side slope</label>
+<input type="checkbox" value="LND3" data-treatment="LND3" name="treatments[]" id="LND3">
+<label for="LND3" class="control-label">Toe slope</label>
+
+  </div>
+</div>
+
+
+</div></div>
+</div>
+<div id="agronomic-ui" style="display: none;">
+<div class="pull-right">
+  <button id="agronomic-selectall" type="button" class="btn btn-default sa"><i class="fa fa-check"></i> Select All</button>
+</div>
+<div class="clearfix"></div>
+
+<p>For sites and treatments you’ve selected, available agronomic data will be identified by black text;
+unavailable in grey. The usage of abbreviations <i>C</i>
+and <i>N</i> below denote <i>carbon</i> and <i>nitrogen</i> respectively.</p>
+<div class="row"><div class="col-md-4">
+
+<div class="panel panel-default">
+  <div class="panel-heading">Corn</div>
+  <div class="panel-body">
+
+    <input type="checkbox" value="AGR32" data-agronomic="AGR32" name="agronomic[]" id="AGR32">
+<label for="AGR32" class="control-label">Corn cob biomass at R6</label>
+    <input type="checkbox" value="AGR24" data-agronomic="AGR24" name="agronomic[]" id="AGR24">
+<label for="AGR24" class="control-label">Corn cob total C at R6</label>
+    <input type="checkbox" value="AGR26" data-agronomic="AGR26" name="agronomic[]" id="AGR26">
+<label for="AGR26" class="control-label">Corn cob total N at R6</label>
+    <input type="checkbox" value="AGR1" data-agronomic="AGR1" name="agronomic[]" id="AGR1">
+<label for="AGR1" class="control-label">Corn final plant population</label>
+    <input type="checkbox" value="AGR33" data-agronomic="AGR33" name="agronomic[]" id="AGR33">
+<label for="AGR33" class="control-label">Corn grain biomass at R6</label>
+    <input type="checkbox" value="AGR18" data-agronomic="AGR18" name="agronomic[]" id="AGR18">
+<label for="AGR18" class="control-label">Corn grain moisture</label>
+    <input type="checkbox" value="AGR23" data-agronomic="AGR23" name="agronomic[]" id="AGR23">
+<label for="AGR23" class="control-label">Corn grain total C at R6</label>
+    <input type="checkbox" value="AGR25" data-agronomic="AGR25" name="agronomic[]" id="AGR25">
+<label for="AGR25" class="control-label">Corn grain total N at R6</label>
+    <input type="checkbox" value="AGR17" data-agronomic="AGR17" name="agronomic[]" id="AGR17">
+<label for="AGR17" class="control-label">Corn grain yield at 15.5% MB</label>
+    <input type="checkbox" value="AGR4" data-agronomic="AGR4" name="agronomic[]" id="AGR4">
+<label for="AGR4" class="control-label">Corn vegetative biomass at R6</label>
+    <input type="checkbox" value="AGR9" data-agronomic="AGR9" name="agronomic[]" id="AGR9">
+<label for="AGR9" class="control-label">Corn vegetative biomass total C at R6</label>
+    <input type="checkbox" value="AGR10" data-agronomic="AGR10" name="agronomic[]" id="AGR10">
+<label for="AGR10" class="control-label">Corn vegetative biomass total N at R6</label>
+    <input type="checkbox" value="AGR3" data-agronomic="AGR3" name="agronomic[]" id="AGR3">
+<label for="AGR3" class="control-label">Mid-season canopy N sensing</label>
+
+  </div>
+</div>
+
+</div><div class="col-md-4">
+
+<div class="panel panel-default">
+  <div class="panel-heading">Cover Crop</div>
+  <div class="panel-body">
+
+    <input type="checkbox" value="AGR39" data-agronomic="AGR39" name="agronomic[]" id="AGR39">
+<label for="AGR39" class="control-label">Cover crop (rye) and weedy biomass at termination (spring)</label>
+    <input type="checkbox" value="AGR7" data-agronomic="AGR7" name="agronomic[]" id="AGR7">
+<label for="AGR7" class="control-label">Cover crop (rye) biomass at termination (spring) (no significant weeds)</label>
+    <input type="checkbox" value="AGR6" data-agronomic="AGR6" name="agronomic[]" id="AGR6">
+<label for="AGR6" class="control-label">Cover crop (rye) biomass in late fall (no significant weeds)</label>
+    <input type="checkbox" value="AGR41" data-agronomic="AGR41" name="agronomic[]" id="AGR41">
+<label for="AGR41" class="control-label">Red clover or mixed cover crop biomass in late fall of previous year</label>
+    <input type="checkbox" value="AGR43" data-agronomic="AGR43" name="agronomic[]" id="AGR43">
+<label for="AGR43" class="control-label">Red clover or mixed cover crop total C in late fall of previous year</label>
+    <input type="checkbox" value="AGR46" data-agronomic="AGR46" name="agronomic[]" id="AGR46">
+<label for="AGR46" class="control-label">Red clover or mixed cover crop total C in spring of spreadsheet year</label>
+    <input type="checkbox" value="AGR42" data-agronomic="AGR42" name="agronomic[]" id="AGR42">
+<label for="AGR42" class="control-label">Red clover or mixed cover crop total N in late fall of previous year</label>
+    <input type="checkbox" value="AGR13" data-agronomic="AGR13" name="agronomic[]" id="AGR13">
+<label for="AGR13" class="control-label">Rye biomass total C at fall</label>
+    <input type="checkbox" value="AGR15" data-agronomic="AGR15" name="agronomic[]" id="AGR15">
+<label for="AGR15" class="control-label">Rye biomass total C at spring</label>
+    <input type="checkbox" value="AGR14" data-agronomic="AGR14" name="agronomic[]" id="AGR14">
+<label for="AGR14" class="control-label">Rye biomass total N at fall</label>
+    <input type="checkbox" value="AGR16" data-agronomic="AGR16" name="agronomic[]" id="AGR16">
+<label for="AGR6" class="control-label">Rye biomass total N at spring</label>
+    <input type="checkbox" value="AGR40" data-agronomic="AGR40" name="agronomic[]" id="AGR40">
+<label for="AGR40" class="control-label">Weedy biomass (only) at termination (spring)</label>
+
+
+  </div>
+</div>
+
+
+</div><div class="col-md-4">
+
+<div class="panel panel-default">
+  <div class="panel-heading">Soybean</div>
+  <div class="panel-body">
+
+    <input type="checkbox" value="AGR2" data-agronomic="AGR2" name="agronomic[]" id="AGR2">
+<label for="AGR2" class="control-label">Soybean final plant population</label>
+    <input type="checkbox" value="AGR34" data-agronomic="AGR34" name="agronomic[]" id="AGR34">
+<label for="AGR34" class="control-label">Soybean grain biomass at R8</label>
+    <input type="checkbox" value="AGR20" data-agronomic="AGR20" name="agronomic[]" id="AGR20">
+<label for="AGR20" class="control-label">Soybean grain moisture</label>
+    <input type="checkbox" value="AGR27" data-agronomic="AGR27" name="agronomic[]" id="AGR27">
+<label for="AGR27" class="control-label">Soybean grain total C at R8</label>
+    <input type="checkbox" value="AGR28" data-agronomic="AGR28" name="agronomic[]" id="AGR28">
+<label for="AGR28" class="control-label">Soybean grain total N at R8</label>
+    <input type="checkbox" value="AGR19" data-agronomic="AGR19" name="agronomic[]" id="AGR19">
+<label for="AGR19" class="control-label">Soybean grain yield at 13.0% MB</label>
+    <input type="checkbox" value="AGR5" data-agronomic="AGR5" name="agronomic[]" id="AGR5">
+<label for="AGR5" class="control-label">Soybean vegetative biomass at R8</label>
+    <input type="checkbox" value="AGR11" data-agronomic="AGR11" name="agronomic[]" id="AGR11">
+<label for="AGR11" class="control-label">Soybean vegetative biomass total C at R8</label>
+    <input type="checkbox" value="AGR12" data-agronomic="AGR12" name="agronomic[]" id="AGR12">
+<label for="AGR12" class="control-label">Soybean vegetative biomass total N at R8</label>
+
+
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Wheat</div>
+  <div class="panel-body">
+
+    <input type="checkbox" value="AGR22" data-agronomic="AGR22" name="agronomic[]" id="AGR22">
+<label for="AGR22" class="control-label">Wheat grain moisture</label>
+    <input type="checkbox" value="AGR21" data-agronomic="AGR21" name="agronomic[]" id="AGR21">
+<label for="AGR21" class="control-label">Wheat grain yield at 13.5% MB</label>
+
+  </div>
+</div>
+
+
+
+</div></div>
+</div>
+
+<div id="soil-ui" style="display: none;">
+<div class="pull-right">
+  <button id="soil-selectall" type="button" class="btn btn-default sa"><i class="fa fa-check"></i> Select All</button>
+</div>
+<div class="clearfix"></div>
+<p>For sites and treatments you’ve selected, available soil data will be identified by black text;
+unavailable in grey.</p>
+<div class="clearfix"></div>
+
+<div class="row"><div class="col-md-4">
+
+<div class="panel panel-default">
+  <div class="panel-heading">Water Retention</div>
+  <div class="panel-body">
+
+    <input type="checkbox" value="_S1" data-soil="_S1" name="soil[]" id="_S1">
+<label for="_S1" class="control-label">Water retention</label>
+
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Soil Nitrogen</div>
+  <div class="panel-body">
+
+    <input type="checkbox" value="SOIL22" data-soil="SOIL22" name="soil[]" id="SOIL22">
+<label for="SOIL22" class="control-label">Soil Ammonium</label>
+    <input type="checkbox" value="SOIL15" data-soil="SOIL15" name="soil[]" id="SOIL15">
+<label for="SOIL15" class="control-label">Soil Nitrate</label>
+    <input type="checkbox" value="SOIL14" data-soil="SOIL14" name="soil[]" id="SOIL14">
+<label for="SOIL14" class="control-label">Total N</label>
+
+  </div>
+</div>
+
+</div><div class="col-md-4">
+
+<div class="panel panel-default">
+  <div class="panel-heading">Soil Properties</div>
+  <div class="panel-body">
+
+    <input type="checkbox" value="SOIL7" data-soil="SOIL7" name="soil[]" id="SOIL7">
+<label for="SOIL7" class="control-label">Aggregate stability</label>
+    <input type="checkbox" value="SOIL12" data-soil="SOIL12" name="soil[]" id="SOIL12">
+<label for="SOIL12" class="control-label">Cation Exchange Capacity (CEC)</label>
+    <input type="checkbox" value="SOIL1" data-soil="SOIL1" name="soil[]" id="SOIL1">
+<label for="SOIL1" class="control-label">Dry bulk density (BD)</label>
+    <input type="checkbox" value="SOIL3" data-soil="SOIL3" name="soil[]" id="SOIL3">
+<label for="SOIL3" class="control-label">Infiltration rate</label>
+    <input type="checkbox" value="SOIL11" data-soil="SOIL11" name="soil[]" id="SOIL11">
+<label for="SOIL11" class="control-label">Soil pH</label>
+    <input type="checkbox" value="_S19" data-soil="_S19" name="soil[]" id="_S19">
+<label for="_S19" class="control-label">Soil Fertility Routine Analysis</label>
+    <input type="checkbox" value="SOIL6" data-soil="SOIL6" name="soil[]" id="SOIL6">
+<label for="SOIL6" class="control-label">Soil texture</label>
+
+  </div>
+</div>
+
+</div><div class="col-md-4">
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">Soil Texture</div>
+  <div class="panel-body">
+
+    <input type="checkbox" value="SOIL6" data-soil="SOIL6" name="soil[]" id="SOIL6">
+<label for="SOIL6" class="control-label">Soil Texture Name</label>
+    <input type="checkbox" value="SOIL28" data-soil="SOIL28" name="soil[]" id="SOIL28">
+<label for="SOIL28" class="control-label">Percent Clay</label>
+    <input type="checkbox" value="SOIL26" data-soil="SOIL26" name="soil[]" id="SOIL26">
+<label for="SOIL26" class="control-label">Percent Sand</label>
+    <input type="checkbox" value="SOIL27" data-soil="SOIL27" name="soil[]" id="SOIL27">
+<label for="SOIL27" class="control-label">Percent Silt</label>
+
+
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Soil Carbon</div>
+  <div class="panel-body">
+
+    <input type="checkbox" value="SOIL13" data-soil="SOIL13" name="soil[]" id="SOIL13">
+<label for="SOIL13" class="control-label">Soil Organic Carbon (SOC)</label>
+
+  </div>
+</div>
+
+
+
+</div></div>
+</div>
+
+<div id="ghg-ui" style="display: none;">
+<div class="pull-right">
+  <button id="ghg-selectall" type="button" class="btn btn-default sa"><i class="fa fa-check"></i> Select All</button>
+</div>
+<div class="clearfix"></div>
+
+<p>For sites and treatments you’ve selected, available greenhouse gas data will be identified by black text;
+unavailable in grey. The soil data listed here were collected at the same time as the greenhouse
+gas measurement; these are distinct for those under the Soil tab.</p>
+
+<div class="clearfix"></div>
+
+    <div class="panel panel-default">
+    <div class="panel-heading">Available Variables</div>
+    <div class="panel-body">
+
+    <input type="checkbox" value="GHG01" data-ghg="GHG01" name="ghg[]" id="GHG01">
+    <label for="GHG01" class="control-label">Carbon Dioxide (CO<sub>2</sub>-C) flux</label>
+    <input type="checkbox" value="GHG02" data-ghg="GHG02" name="ghg[]" id="GHG02">
+    <label for="GHG02" class="control-label">Carbon Dioxide (CO<sub>2</sub>) correlation coefficient (R<sup>2</sup>)</label>
+    <input type="checkbox" value="GHG03" data-ghg="GHG03" name="ghg[]" id="GHG03">
+    <label for="GHG03" class="control-label">Nitrous Oxide (N<sub>2</sub>O-N) flux</label>
+    <input type="checkbox" value="GHG04" data-ghg="GHG04" name="ghg[]" id="GHG04">
+    <label for="GHG04" class="control-label">Nitrous Oxide (N<sub>2</sub>O) correlation coefficient (R<sup>2</sup>)</label>
+    <input type="checkbox" value="GHG05" data-ghg="GHG05" name="ghg[]" id="GHG05">
+    <label for="GHG05" class="control-label">Ammonia (NH<sub>3</sub>-N) flux</label>
+    <input type="checkbox" value="GHG06" data-ghg="GHG06" name="ghg[]" id="GHG06">
+    <label for="GHG06" class="control-label">Ammonia (NH<sub>3</sub>) correlation coefficient (R<sup>2</sup>)</label>
+    <input type="checkbox" value="GHG07" data-ghg="GHG07" name="ghg[]" id="GHG07">
+    <label for="GHG07" class="control-label">Methane (CH<sub>4</sub>-C) flux</label>
+    <input type="checkbox" value="GHG08" data-ghg="GHG08" name="ghg[]" id="GHG08">
+    <label for="GHG08" class="control-label">Methane (CH<sub>4</sub>) correlation coefficient (R<sup>2</sup>)</label>
+    <input type="checkbox" value="GHG11" data-ghg="GHG11" name="ghg[]" id="GHG11">
+    <label for="GHG11" class="control-label">Volumetric soil moisture at 5 cm</label>
+    <input type="checkbox" value="GHG12" data-ghg="GHG12" name="ghg[]" id="GHG12">
+    <label for="GHG12" class="control-label">Soil Temperature at 5 cm</label>
+    <input type="checkbox" value="GHG13" data-ghg="GHG13" name="ghg[]" id="GHG13">
+    <label for="GHG13" class="control-label">Soil Nitrate (NO<sub>3</sub>-N) at 0-10 cm</label>
+    <input type="checkbox" value="GHG14" data-ghg="GHG14" name="ghg[]" id="GHG14">
+    <label for="GHG14" class="control-label">Soil Ammonium (NH<sub>4</sub>-N) at 0-10 cm</label>
+
+    </div>
+    </div>
+</div>
+
+<div id="ipm-ui" style="display: none;">
+<div class="pull-right">
+  <button id="ipm-selectall" type="button" class="btn btn-default sa"><i class="fa fa-check"></i> Select All</button>
+</div>
+<div class="clearfix"></div>
+
+<p>For sites and treatments you’ve selected, available insects (pest and beneficial) and plant diseases data
+will be identified by black text; unavailable in grey.</p>
+
+<div class="clearfix"></div>
+
+    <div class="panel panel-default">
+    <div class="panel-heading">Available Variables</div>
+    <div class="panel-body">
+
+    <input type="checkbox" value="IPM01" data-ipm="IPM01" name="ipm[]" id="IPM01">
+    <label for="IPM01" class="control-label">Insect Sampling Methods</label>
+    <input type="checkbox" value="IPM02" data-ipm="IPM02" name="ipm[]" id="IPM02">
+    <label for="IPM02" class="control-label">Insect Common Name</label>
+    <input type="checkbox" value="IPM03" data-ipm="IPM03" name="ipm[]" id="IPM03">
+    <label for="IPM03" class="control-label">Insect Class</label>
+    <input type="checkbox" value="IPM04" data-ipm="IPM04" name="ipm[]" id="IPM04">
+    <label for="IPM04" class="control-label">Insect Order</label>
+    <input type="checkbox" value="IPM05" data-ipm="IPM05" name="ipm[]" id="IPM05">
+    <label for="IPM05" class="control-label">Insect Family</label>
+    <input type="checkbox" value="IPM06" data-ipm="IPM06" name="ipm[]" id="IPM06">
+    <label for="IPM06" class="control-label">Insect Species</label>
+    <input type="checkbox" value="IPM07" data-ipm="IPM07" name="ipm[]" id="IPM07">
+    <label for="IPM07" class="control-label">Insect Population</label>
+    <input type="checkbox" value="IPM08" data-ipm="IPM08" name="ipm[]" id="IPM08">
+    <label for="IPM08" class="control-label">Insect population measurement unit</label>
+    <input type="checkbox" value="IPM09" data-ipm="IPM09" name="ipm[]" id="IPM09">
+    <label for="IPM09" class="control-label">Plant Sample Number</label>
+    <input type="checkbox" value="IPM10" data-ipm="IPM10" name="ipm[]" id="IPM10">
+    <label for="IPM10" class="control-label">Plant sampled</label>
+    <input type="checkbox" value="IPM11" data-ipm="IPM11" name="ipm[]" id="IPM11">
+    <label for="IPM11" class="control-label">Plant component assessed for damage</label>
+    <input type="checkbox" value="IPM12" data-ipm="IPM12" name="ipm[]" id="IPM12">
+    <label for="IPM12" class="control-label">Disease/Damage type</label>
+    <input type="checkbox" value="IPM13" data-ipm="IPM13" name="ipm[]" id="IPM13">
+    <label for="IPM13" class="control-label">Position assessed</label>
+    <input type="checkbox" value="IPM14" data-ipm="IPM14" name="ipm[]" id="IPM14">
+    <label for="IPM14" class="control-label">Visual rating of damage due to disease or insect</label>
+
+    </div>
+    </div>
+</div>
+
+<div id="year-ui" style="display: none;">
+<div class="pull-right">
+  <button id="year-selectall" type="button" class="btn btn-default sa"><i class="fa fa-check"></i> Select All</button>
+</div>
+<div class="clearfix"></div>
+
+<p>For sites and treatments you’ve selected, available years of data
+will be identified by black text; unavailable in grey.</p>
+
+<div class="clearfix"></div>
+
+    <div class="panel panel-default">
+    <div class="panel-heading">Available Years</div>
+    <div class="panel-body">
+
+    <input type="checkbox" value="2011" data-year="2011" name="year[]" id="Y2011">
+    <label for="Y2011" class="control-label">2011</label>
+    <input type="checkbox" value="2012" data-year="2012" name="year[]" id="Y2012">
+    <label for="Y2012" class="control-label">2012</label>
+    <input type="checkbox" value="2013" data-year="2013" name="year[]" id="Y2013">
+    <label for="Y2013" class="control-label">2013</label>
+    <input type="checkbox" value="2014" data-year="2014" name="year[]" id="Y2014">
+    <label for="Y2014" class="control-label">2014</label>
+    <input type="checkbox" value="2015" data-year="2015" name="year[]" id="Y2015">
+    <label for="Y2015" class="control-label">2015</label>
+
+    </div>
+    </div>
+</div>
+
+<div id="shm-ui" style="display: none;">
+<div class="pull-right">
+  <button id="shm-selectall" type="button" class="btn btn-default sa"><i class="fa fa-check"></i> Select All</button>
+</div>
+<div class="clearfix"></div>
+
+
+<p>It is recommended to export all of the data here because they are supplemental
+metadata that provide context to the experimental data and helps with
+interpretation. For this reason, all variables are selected by default.</p>
+
+    <div class="panel panel-default">
+    <div class="panel-heading">Available Variables</div>
+    <div class="panel-body">
+
+    <input type="checkbox" value="SHM5" data-ipm="SHM5" name="shm[]" id="SHM5" checked="checked">
+    <label for="SHM5" class="control-label">Data Dictionary</label>
+    <input type="checkbox" value="SHM7" data-ipm="SHM7" name="shm[]" id="SHM7" checked="checked">
+    <label for="SHM7" class="control-label">Drainage Control Structure Management</label>
+    <input type="checkbox" value="SHM1" data-ipm="SHM1" name="shm[]" id="SHM1" checked="checked">
+    <label for="SHM1" class="control-label">Field Operations</label>
+    <input type="checkbox" value="SHM6" data-ipm="SHM6" name="shm[]" id="SHM6" checked="checked">
+    <label for="SHM6" class="control-label">Notes</label>
+    <input type="checkbox" value="SHM2" data-ipm="SHM2" name="shm[]" id="SHM2" checked="checked">
+    <label for="SHM2" class="control-label">Pesticides</label>
+    <input type="checkbox" value="SHM4" data-ipm="SHM4" name="shm[]" id="SHM4" checked="checked">
+    <label for="SHM4" class="control-label">Plot Identifiers</label>
+    <input type="checkbox" value="SHM8" data-ipm="SHM8" name="shm[]" id="SHM8" checked="checked">
+    <label for="SHM8" class="control-label">Site Metadata and History</label>
+
+    </div>
+    </div>
+</div>
+
+<div id="option-ui" style="display: none;">
+
+
+<div class="form-group">
+    <label for="dlimit">How to handle values below detection limit:</label>
+<select name="detectlimit" class="form-control" id="dlimit">
+    <option value="1">Keep them as is, presented as "&lt; LOD"</option>
+    <option value="2">Divide the LOD value by two</option>
+    <option value="3">Divide the LOD value by square root of two</option>
+    <option value="4">Omit all occurrences and replace as missing</option>
+</select>
+</div>
+
+<div class="form-group">
+    <label for="missingvalue">How to represent missing values:</label>
+<select name="missing" class="form-control" id="missingvalue">
+    <option value="M">M</option>
+    <option value="N/A">N/A</option>
+    <option value="NaN">NaN</option>
+    <option value="NULL">NULL</option>
+    <option value=" ">((blank space))</option>
+    <option value=".">.</option>
+    <option value="-999">-999</option>
+    <option value="__custom__">Custom Value</option>
+</select>
+</div>
+
+<div class="form-group" id="missingvalue_opt" style="display: none;">
+    <label for="missingcustom">Enter Custom Missing Value:</label>
+    <input type="text" name="custom_missing" id="missingcustom" class="form-control">
+</div>
+
+<div class="form-group">
+    <label for="myemail">Enter Email Address:</label>
+    <input type="text" name="email" id="myemail" placeholder="joeuser@iastate.edu" class="form-control" aria-describedby="helpEmailBlock">
+    <label for="myemail2">Verify Email Address:</label>
+    <input type="text" name="email2" id="myemail2" placeholder="joeuser@iastate.edu" class="form-control" aria-describedby="helpEmailBlock">
+<span id="helpEmailBlock" class="help-block">The download link will appear on this page when ready; please wait for it.</span>
+</div>
+<br class="clearfix" />
+
+<h4>Sustainable Corn CAP Research Data (USDA-NIFA Award No. 2011-68002-30190) Usage Agreement</h4>
+<blockquote>
+<p>Please reference this data set in publications as:</p>
+
+<p>Abendroth, Lori J., Daryl E. Herzmann, Giorgi Chighladze, Eileen J. Kladivko, Matthew J. Helmers,
+Laura Bowling, Michael Castellano, Richard M. Cruse, Warren A. Dick, Norman R. Fausey, Jane Frankenberger,
+Aaron J. Gassmann, Alexandra Kravchenko, Rattan Lal, Joseph G. Lauer, Daren S. Mueller, Emerson D. Nafziger,
+Nsalambi Nkongolo, Matthew O'Neal, John E. Sawyer, Peter Scharf, Jeffrey S. Strock, and Maria B. Villamil. 2017.
+Sustainable Corn CAP Research Data (USDA-NIFA Award No. 2011-68002-30190). National Agricultural Library - ARS
+- USDA. <a href="https://dx.doi.org/10.15482/USDA.ADC/1411953" target="_blank">https://dx.doi.org/10.15482/USDA.ADC/1411953</a>
+</p>
+
+<p>You are encouraged to contact the Sustainable Corn CAP personnel listed above to ensure
+proper data interpretation and may also consider co-authoring with them. You shall have no claim
+of ownership to any intellectual property rights in any part of the data, content, functions, features,
+code, data exploration tools, logos or other intellectual property comprising this database.
+</p>
+
+<p>The coauthors individually and the Sustainable Corn CAP collectively shall NOT be responsible or
+liable for the accuracy, reliability and completeness of any information included in the database nor
+the suitability of its application for any particular purpose. Data users are encouraged to notify
+the coauthors regarding data quality and other issues concerning the data, tools, and functionality of this website.
+Contact <a href="mailto:isudatateam@iastate.edu">isudatateam@iastate.edu</a> with any questions or concerns
+regarding usage and application of the data available at this site.
+</p>
+</blockquote>
+
+<p>
+<input id="agreewithterms" type="checkbox" name="agree" value="AGREE">
+<label for="agreewithterms"> I agree with the above terms of usage.</label>
+</p>
+
+
+<div class="alert alert-info" role="alert" id="dlmsg" style="display: none;">
+<strong>Thank you</strong>: Your request has been sent to the server for
+processing.  In a few minutes, a download link will appear here on this page.
+Please wait for it to appear. Large data requests may take longer or time out;
+if the request fails, please try again.</div>
+
+<div class="alert alert-info" role="alert" id="dlmsg2" style="display: none;">
+<strong>Completed</strong>: <span id="dlmsg2text"></span></div>
+
+<div id="proceed" style="display: none;">
+  <p><input type="submit" value="Proceed with Download"></p>
+</div>
+
+</div>
+<br clear="both" />
+<div class="pull-right">
+<button id="prev-btn" type="button" class="btn btn-default"><i class="glyphicon glyphicon-arrow-left"></i> Previous</button>
+<button id="next-btn" type="button" class="btn btn-default">Next <i class="glyphicon glyphicon-arrow-right"></i></button>
+</div>
+</form>
+        </div>
+        <div role="tabpanel" class="tab-pane active" id="sites">
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1VQuDqTRkO5RPvIgWMODYvBLWU1A&amp;z=5&amp;ll=42.62%2C-90.72" width="640" height="480"></iframe>
+
+    <h4>Plot Map Considerations</h4>
+
+<ul>
+<li>Site maps included below will often include plot numbers; these align with
+the plot identifiers listed with the data.</li>
+
+<li>The maps however may contain treatment codes that do not match the data;
+these are unique to that location and were changed afterwards to align with
+codes used across Sustainable Corn CAP sites.</li>
+
+<li>Some experiments include treatments beyond those that were part of the
+Sustainable Corn CAP which can be seen in the plot map.</li>
+
+</ul>
+<br />
+
+<table class="table table-striped table-bordered">
+	<tr valign="top">
+		<td>
+			<p><b>State</b></p>
+		</td>
+		<td><p><b>Research Site Code</b></p></td>
+		<td><p><b>Principal Investigator</b></p></td>
+		<td>
+			<p><b>Research
+			Site Official Name</b></p>
+		</td>
+		<td>
+			<p><b>Institution</b></p>
+		</td>
+		<td nowrap>
+			<p><b>Plot Map</b></p>
+		</td>
+		<td>
+			<p><b>Photographs</b></p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>IA</p>
+		</td>
+		<td>
+			<p>GILMORE</p>
+		</td>
+		<td>Helmers</td>
+		<td>
+			Agricultural
+			Drainage Water Quality–Research and Demonstration Site (ADWQRDS)
+		</td>
+		<td>
+			<p>Iowa
+			State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0OE01OHoybGI2a3c?resourcekey=0-DonCnM41P3Rj-WaN5kqRJA&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+<a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0M3VGNXk0WnNrbXM?resourcekey=0-s1owNgVreqqigukKi7a0Ng&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>IA</p>
+		</td>
+		<td>
+			<p>ISUAG</p>
+		</td>
+		<td>Sawyer</td>
+		<td>
+			Agricultural
+			Engineering and Agronomy Research Farms
+		</td>
+		<td>
+			<p>Iowa
+			State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0M3VGNXk0WnNrbXM?resourcekey=0-s1owNgVreqqigukKi7a0Ng&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0eDA2aHV0S1RxaEk?resourcekey=0-QqR6e-Cj-sN2NX7dizOf6Q&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>IA</p>
+		</td>
+		<td>
+			<p>ISUAG.USB</p>
+		</td>
+		<td>Helmers</td>
+		<td>
+			Agricultural
+			Engineering and Agronomy Research Farms
+		</td>
+		<td>
+			<p>Iowa
+			State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0Y1JfWVpRanZjeE0?resourcekey=0-AsLuWmAKOk3IAddVrrTESA&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>IA</p>
+		</td>
+		<td>
+			<p>SERF</p>
+		</td>
+		<td>Helmers</td>
+		<td>
+			Southeast
+			Research and Demonstration Farm
+		</td>
+		<td>
+			<p>Iowa
+			State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0WFB3UGh2MDU3b28?resourcekey=0-9A2WVg24yKJUxuPEcBOoeQ&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0R3dvNngtN1lpT1k?resourcekey=0-3gwArKp-lNUk4ECMazK7Zw&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>IL</p>
+		</td>
+		<td>
+			<p>NWREC</p>
+		</td>
+		<td>Nafziger &amp; Villamil</td>
+		<td>
+			Northwestern
+			Illinois Agricultural Research and Demonstration Center
+		</td>
+		<td>
+			<p>University
+			of Illinois</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0eG1MbnluaEg2ems?resourcekey=0-_2N6lNPADuioO2Ykl6xUrA&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0NUhtbkJuU05LQmc?resourcekey=0-MrLzCeu4Ezj5KcrvXy8fiA&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>IL</p>
+		</td>
+		<td>
+			<p>ORR</p>
+		</td>
+		<td>Nafziger &amp; Villamil</td>
+		<td>
+			Orr
+			Agricultural Research and Demonstration Center
+		</td>
+		<td>
+			<p>University
+			of Illinois</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0bzJ3SmxSOXRoOEk?resourcekey=0-JCh1MXlnpUTi2EC8_u86bQ&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>IN</p>
+		</td>
+		<td>
+			<p>DPAC</p>
+		</td>
+		<td>Kladivko</td>
+		<td>
+			Davis
+			Purdue Agricultural Center
+		</td>
+		<td>
+			<p>Purdue
+			University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0eGNMN29ZbnBQV0U?resourcekey=0-coqs-ZzuB1x6_MFrXsIWaQ&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0QVBZNEkzZmh6MFE?resourcekey=0-u8JYaCFH-N9AQENWTGRQxQ&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>IN</p>
+		</td>
+		<td>
+			<p>SEPAC</p>
+		</td>
+		<td>Kladivko</td>
+		<td>
+			Southeast
+			Purdue Agricultural Center
+		</td>
+		<td>
+			<p>Purdue
+			University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0RlV2cFVvMnR6enc?resourcekey=0-n4SUY8_N8g1ZDep_6hJEUw&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0UnoybEh2TlVfS28?resourcekey=0-0BRfnEhMSb_N48xducmC-A&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>MI</p>
+		</td>
+		<td>
+			<p>KELLOGG</p>
+		</td>
+		<td>Kravchenko</td>
+		<td>
+			W.K.
+			Kellogg Biological Station
+		</td>
+		<td>
+			<p>Michigan
+			State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0cFNSUUV5a05VaEE?resourcekey=0-j0RkxZaSPOk3sUpaMMdBrQ&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>MI</p>
+		</td>
+		<td>
+			<p>MASON</p>
+		</td>
+		<td>Kravchenko</td>
+		<td>
+			Michigan
+			State University Agronomy Farm: Mason Research Farm
+		</td>
+		<td>
+			<p>Michigan
+			State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0QXBjQlQyOUZwOEE?resourcekey=0-PrXLbD3jAdPJKTcSdH0PBA&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0T1JTQVptdXI3R1E?resourcekey=0-IdQ2WS27sY-HXF0FuS2GNg&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>MN</p>
+		</td>
+		<td>
+			HICKS.B
+		</td>
+		<td>Strock</td>
+		<td>
+			Hicks
+			Farm, Southwest Research and Outreach Center
+		</td>
+		<td>
+			<p>University
+			of Minnesota</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0Vzh1ejNUaDBiQ1U?resourcekey=0-66cQVclIOj32Ry-e5WLeiA&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0Ykw1bHlMUld6cXc?resourcekey=0-bKJUbZocoI5xUeiZcyVUDg&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>MN</p>
+		</td>
+		<td>
+			HICKS.G
+		</td>
+		<td>Strock</td>
+		<td>
+			Hicks
+			Farm, Southwest Research and Outreach Center
+		</td>
+		<td>
+			<p>University
+			of Minnesota</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0U0dmX1Q1NjJKbTA?resourcekey=0-dSHyRrlpoLm8Er-Px5J_pg&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0Y1ZFczVrR3h6VzA?resourcekey=0-WSCxCeU7SB67P1819Vt_ww&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>MN</p>
+		</td>
+		<td>
+			HICKS.P
+		</td>
+		<td>Strock</td>
+		<td>
+			Hicks
+			Farm, Southwest Research and Outreach Center
+		</td>
+		<td>
+			<p>University
+			of Minnesota</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0Q0N6UlRNYloybTA?resourcekey=0-3evVVNtSFJrF0hvvUzPZlw&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0UVdrdERyVTRwRms?resourcekey=0-1LV7tS9Yx1AZ8-gfW5y1Ag&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>MO</p>
+		</td>
+		<td>
+			BRADFORD.A
+		</td>
+		<td>Scharf</td>
+		<td>
+			Bradford
+			Research and Extension Center
+		</td>
+		<td>
+			<p>University
+			of Missouri</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0RFBsblZSWkdPQjQ?resourcekey=0-1vtmaHPNJfr3R0VEzkosag&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>MO</p>
+		</td>
+		<td>
+			BRADFORD.B1
+		</td>
+		<td>Scharf</td>
+		<td>
+			Bradford
+			Research and Extension Center
+		</td>
+		<td>
+			<p>University
+			of Missouri</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0elFWMFpMNzRzOUk?resourcekey=0-FVV60Th46WD7_34t7aIb4A&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>MO</p>
+		</td>
+		<td>
+			BRADFORD.B2
+		</td>
+		<td>Scharf</td>
+		<td>
+			Bradford
+			Research and Extension Center
+		</td>
+		<td>
+			<p>University
+			of Missouri</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0SS02SktyenFUTDg?resourcekey=0-Sjdm-AuF3RcdVkdVL_IGhw&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0QzJ4emtwRThLclk?resourcekey=0-tvixIVUyH5WaBJcX3EYmww&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>MO</p>
+		</td>
+		<td>
+			BRADFORD.C
+		</td>
+		<td>Scharf</td>
+		<td>
+			Bradford
+			Research and Extension Center
+		</td>
+		<td>
+			<p>University
+			of Missouri</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0RkVGNGlhYm1RTjQ?resourcekey=0-k5v9YzG-XSovAurgdm_uhg&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0R3hMeXc0LUZpVEU?resourcekey=0-0oSmE2jrkXXztTrJKB3rbw&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>MO</p>
+		</td>
+		<td>
+			<p>FREEMAN</p>
+		</td>
+		<td>Nkongolo</td>
+		<td>
+			Lincoln
+			University Freeman Farm
+		</td>
+		<td>
+			<p>Lincoln
+			University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0QW9YY1hRdk4xVEU?resourcekey=0-a9j9F4G7cfkkSM8sWV3JvQ&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p style="margin-bottom: 0in"><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0VGR6U0RMR1dTSWs?resourcekey=0-EHA1DS4ovIT0H4IEnnoHQQ&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>OH</p>
+		</td>
+		<td>
+			<p>HOYTVILLE.LTR</p>
+		</td>
+		<td>Dick</td>
+		<td>
+			Northwest
+			Agricultural Research Station
+		</td>
+		<td>
+			<p>The
+			Ohio State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0S24yUlM5TklheWM?resourcekey=0-b6n1MC5Ytn0p-gGISZ-JrA&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>OH</p>
+		</td>
+		<td>
+			<p>NAEW.WS109</p>
+		</td>
+		<td>Fausey</td>
+		<td>
+			North
+			Appalachian Experimental Watershed Agricultural Research Station
+		</td>
+		<td>
+			<p>The
+			Ohio State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0aTdlN1JmWEdkYzQ?resourcekey=0-nxbeCGjYcQEbPUO-a5701g&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0VG9sM2dOVl9MZk0?resourcekey=0-_Bj_m9yGhO6WoADoCGZL4w&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>OH</p>
+		</td>
+		<td>
+			<p>NAEW.WS111</p>
+		</td>
+		<td>Fausey</td>
+		<td>
+			North
+			Appalachian Experimental Watershed Agricultural Research Station
+		</td>
+		<td>
+			<p>The
+			Ohio State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0SFBJeThTWklrNVU?resourcekey=0-CIGEsYhjp9dV4fAAt3z_jA&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0Yk9UWWdhUlBiV00?resourcekey=0-B59LvvDfJlj2zmtPcefm5A&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>OH</p>
+		</td>
+		<td>
+			<p>NAEW.WS113</p>
+		</td>
+		<td>Fausey</td>
+		<td>
+			North
+			Appalachian Experimental Watershed Agricultural Research Station
+		</td>
+		<td>
+			<p>The
+			Ohio State University</p>
+		</td>
+		<td>
+			<p style="margin-bottom: 0in"><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0YWlVVllNS3lRcWc?resourcekey=0-ngkkaHHSyGDViW4nDkwoEQ&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0dWhQeHpqZU1qdFU?resourcekey=0-vcS1zzAbTmkNVf1GohRkcA&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>OH</p>
+		</td>
+		<td>
+			<p>NAEW.WS118</p>
+		</td>
+		<td>Fausey</td>
+		<td>
+			North
+			Appalachian Experimental Watershed Agricultural Research Station
+		</td>
+		<td>
+			<p>The
+			Ohio State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0TFlqcEZ3YWl0SkU?resourcekey=0-7HTW-PifmsLF1w1s5JFJIw&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0NzhLaDJZYm9nRE0?resourcekey=0-7rF8QpMpK85YmORS6sXWjg&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>OH</p>
+		</td>
+		<td>
+			<p>STJOHNS</p>
+		</td>
+		<td>Fausey</td>
+		<td>
+			On-farm
+			DWM site in Pusheta Creek watershed, Clay Township, Auglaize
+			County, OH
+		</td>
+		<td>
+			<p>USDA
+			Agricultural Research Service</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0QV9Ja3lUb3FzdW8?resourcekey=0-Zy4Ugv6wQ1gBugCVns_AWg&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B-gT6NSY_M5HQlpxMzAta0RsX3M?resourcekey=0-e_8yw_HD4QRB4DdsiYL4VQ&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>OH</p>
+		</td>
+		<td>
+			<p>WATERMAN</p>
+		</td>
+		<td>Lal</td>
+		<td>
+			Waterman
+			Agricultural and Natural Resources Laboratory
+		</td>
+		<td>
+			<p>The
+			Ohio State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0NXo3ajZEMFZNcm8?resourcekey=0-82D3JrVf-ccd_ssYMkkhAw&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0TEY3d2E4dTlQMnM?resourcekey=0-c76mYjtlPxAIdsrhZUGjcg&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>OH</p>
+		</td>
+		<td>
+			<p>WOOSTER.COV</p>
+		</td>
+		<td>Dick</td>
+		<td>
+			Ohio
+			Agricultural Research and Development Center
+		</td>
+		<td>
+			<p>The
+			Ohio State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0VTktdXo5TVNiaFk?resourcekey=0-FCDUJ3lkYzaV4puQu6pnlw&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>OH</p>
+		</td>
+		<td>
+			<p>WOOSTER.LTR</p>
+		</td>
+		<td>Dick</td>
+		<td>
+			Ohio
+			Agricultural Research and Development Center
+		</td>
+		<td>
+			<p>The
+			Ohio State University</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0U296WUVkU1UzcVE?resourcekey=0-aw6W5jMtkEbJ5y4LRUndAQ&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0VW5JSERTMDkyZDQ?resourcekey=0-wcuLMeIbhPy4h7YsHF3I5A&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>WI</p>
+		</td>
+		<td>
+			<p>ARL</p>
+		</td>
+		<td>Lauer</td>
+		<td>
+			Arlington
+			Agricultural Research Station
+		</td>
+		<td>
+			<p>University
+			of Wisconsin</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0SjRyOHRFa0M4Sjg?resourcekey=0-tYrOn9Bjell-uwmEOT4_EQ&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0VHVSdUVSWVF1enc?resourcekey=0-Buta6gbN8Ac073pMtbp_gQ&usp=sharing"><i class="fa fa-camera"></i> Link</a>
+
+			</p>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>WI</p>
+		</td>
+		<td>
+			<p>LAN</p>
+		</td>
+		<td>Lauer</td>
+		<td>
+			Lancaster
+			Agricultural Research Station
+		</td>
+		<td>
+			<p>University
+			of Wisconsin</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0YlQ2OXFjazN4N2c?resourcekey=0-0BjZXs3ZsaMSizMg10f2xg&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+		</td>
+	</tr>
+	<tr valign="top">
+		<td>
+			<p>WI</p>
+		</td>
+		<td>
+			<p>MAR</p>
+		</td>
+		<td>Lauer</td>
+		<td>
+			Marshfield
+			Agricultural Research Station
+		</td>
+		<td>
+			<p>University
+			of Wisconsin</p>
+		</td>
+		<td>
+			<p><a target="_blank" href="https://drive.google.com/drive/folders/0B_Wz65q1Dw-0NXlFZlIwNkxXa2c?resourcekey=0-oBGzHhnbtqnLX9cnzOJWGg&usp=sharing"><i class="fa fa-map"></i> Link</a>
+
+			</p>
+		</td>
+		<td>
+		</td>
+	</tr>
+</table>
+
+
+
+        </div>
+        <div role="tabpanel" class="tab-pane" id="pubs">
+
+<br />
+
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#p1" aria-controls="p1" role="tab" data-toggle="tab">Refereed Journals</a></li>
+    <li role="presentation"><a href="#p2" aria-controls="p2" role="tab" data-toggle="tab">Thesis and Dissertations</a></li>
+    <li role="presentation"><a href="#p3" aria-controls="p3" role="tab" data-toggle="tab">Technical Reports</a></li>
+  </ul>
+
+<div class="tab-content">
+
+    <div role="tabpanel" class="tab-pane active" id="p1">
+<p><blockquote>Articles with open access availability are <strong>in bold</strong>.
+These do not require a subscription to the journal to access. For individuals
+without accessibility to certain journals, contact
+<a href="mailto:isudatateam@iastate.edu">isudatateam@iastate.edu</a>
+for requests to articles below that are subscription-only.</blockquote></p>
+
+
+<p><strong>Abendroth, L.J., F.E. Miguez, M. Castellano and J.L. Hatfield. 2019, Climate warming trends in the U.S. Midwest using four thermal models. Agronomy Journal. 111: 1-14. <a href="https://doi.org/10.2134/agronj2019.02.0118" target="_blank">https://doi.org/10.2134/agronj2019.02.0118</a></strong></p>
+<p><strong>Abendroth, L.J., F.E. Miguez, M. Castellano, P. Carter, C. Messina, P. Dixon and J.L. Hatfield. 2021, Lengthening of maize maturity time is not a widespread climate change adaptation strategy in the U.S. Midwest. Global Change Biology. 27(11): 2426-2440. <a href="https://doi.org/10.1111/gcb.15565" target="_blank">https://doi.org/10.1111/gcb.15565</a></strong></p>
+<p><strong>Anderson, C., R. Anex, R. Arritt, B. Gelder, S. Khanal, D. Herzmann and P. Gassman. 2013, Regional climate impacts of a biofuels policy projection. Geophysical Research Letters. 40(6): 1217-1222. <a href="https://doi.org/10.1002/grl.50179" target="_blank">https://doi.org/10.1002/grl.50179</a></strong></p>
+<p><strong>Arbuckle, J.G., L.W. Morton and J. Hobbs. 2013, Farmer beliefs and concerns about climate change and attitudes toward adaptation and mitigation: Evidence from Iowa. Climatic Change. 118: 551-563. <a href="https://doi.org/10.1007/s10584-013-0700-0" target="_blank">https://doi.org/10.1007/s10584-013-0700-0</a></strong></p>
+<p>Arbuckle, J.G., L.S. Prokopy, T. Haigh, J. Hobbs, T. Knoot, C. Knutson, A. Loy, A.S. Mase, J. McGuire, L.W. Morton, J. Tyndall and M. Widhalm. 2013, Climate change beliefs, concerns, and attitudes toward adaptation and mitigation among farmers in the Midwestern United States. Climatic Change Letters. 117: 943-950. <a href="https://doi.org/10.1007/s10584-013-0707-6" target="_blank">https://doi.org/10.1007/s10584-013-0707-6</a></p>
+<p><strong>Arbuckle, J.G., J. Hobbs, A. Loy, L.W. Morton, L. Prokopy and J. Tyndall. 2014, Understanding Corn Belt farmer perspectives on climate change to inform engagement strategies for adaptation and mitigation. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 505-516. <a href="https://doi.org/10.2489/jswc.69.6.505" target="_blank">https://doi.org/10.2489/jswc.69.6.505</a></strong></p>
+<p><strong>Arbuckle, J.G. and G. Roesch-McNally. 2015, Cover crop adoption in Iowa: The role of perceived practice characteristics. Journal of Soil and Water Conservation, Special Cover Crops Issue. 70(6): 418-429. <a href="https://doi.org/10.2489/jswc.70.6.418" target="_blank">https://doi.org/10.2489/jswc.70.6.418</a></strong></p>
+<p><strong>Arbuckle, J., L.W. Morton and J. Hobbs. 2015, Understanding farmer perspectives on climate change adaptation and mitigation: The roles of trust in sources of climate information, climate change beliefs, and perceived risk. Environment and Behavior. 47: 205-234. <a href="https://doi.org/10.1177/0013916513503832" target="_blank">https://doi.org/10.1177/0013916513503832</a></strong></p>
+<p><strong>Arbuckle, J.G., J. Tyndall, L.W. Morton and J. Hobbs. 2017, Climate change typologies and audience segmentation among Corn Belt farmers. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 205-214. <a href="https://doi.org/10.2489/jswc.72.3.205" target="_blank">https://doi.org/10.2489/jswc.72.3.205</a></strong></p>
+<p>Bailey, R.R., T.R. Butts, J.G. Lauer, C.A.M. Laboski, C.J. Kucharik and V.M. Davis. 2015, Effect of weed management strategy and row width on nitrous oxide emissions in soybean. Weed Science. 63(4): 962-971. <a href="https://doi.org/10.1614/WS-D-15-00010.1" target="_blank">https://doi.org/10.1614/WS-D-15-00010.1</a></p>
+<p><strong>Barker, D. and J. Sawyer. 2017, Variable rate nitrogen management in corn: Response in two crop rotations. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 183-190. <a href="https://doi.org/10.2489/jswc.72.3.183" target="_blank">https://doi.org/10.2489/jswc.72.3.183</a></strong></p>
+<p><strong>Basche, A.D., G.E. Roesch-McNally, L.A. Pease, C.D. Eidson, G. Bou Lahdou, M.W. Dunbar, T.J. Frank, L. Frescoln, L. Gu, R. Nagelkirk, J. Pantoja and A.K. Wilke. 2014, Challenges and opportunities in transdisciplinary science: The experience of Next Generation Scientists in an agriculture and climate research collaboration. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 176A-179A. <a href="https://doi.org/10.2489/jswc.69.6.176A" target="_blank">https://doi.org/10.2489/jswc.69.6.176A</a></strong></p>
+<p><strong>Basche, A., F. Miguez, T. Kasper and M. Castellano. 2014, Do cover crops increase or decrease nitrous oxide emissions in agroecosystems? A meta-analysis. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 471-482. <a href="https://doi.org/10.2489/jswc.69.6.471" target="_blank">https://doi.org/10.2489/jswc.69.6.471</a></strong></p>
+<p><strong>Basche, A. T.C. Kaspar, S.V. Archontoulis, D.B. Jaynes, T.J. Sauer, T.B. Parkin and F.E. Miguez. 2016, Soil water improvements with the long-term use of a winter rye cover crop. Agricultural Water Management. 172: 40-50. <a href="https://doi.org/10.1016/j.agwat.2016.04.006" target="_blank">https://doi.org/10.1016/j.agwat.2016.04.006</a></strong></p>
+<p>Basche, A.D., S.A. Archontoulis, T.K. Kaspar, D.B. Jaynes, T.B. Parkin and F.E. Miguez. 2016, Simulating long-term impacts of cover crops and climate change on crop production and environmental outcomes in the Midwestern United States. Agriculture, Ecosystems & Environment. 218: 95-106. <a href="https://doi.org/10.1016/j.agee.2015.11.011" target="_blank">https://doi.org/10.1016/j.agee.2015.11.011</a></p>
+<p><strong>Basche, A.D. and G.E. Roesch-McNally. 2017, Research topics to scale up cover crop use: Reflections from innovative Iowa farmers. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 59A-63A. <a href="https://doi.org/10.2489/jswc.72.3.59A" target="_blank">https://doi.org/10.2489/jswc.72.3.59A</a></strong></p>
+<p><strong>Basso, B., D.W. Hyndman, A.D. Kendall, P.R. Grace and G.P. Robertson. 2015, Can impacts of climate change and agricultural adaptation strategies be accurately quantified if crop models are annually reinitialized? PLoS ONE. 10(6): e0127333. <a href="https://doi.org/10.1371/journal.pone.0127333" target="_blank">https://doi.org/10.1371/journal.pone.0127333</a></strong></p>
+<p>Basso, B., B. Dumont, D. Cammarano, A. Pezzuolo, F. Marinello and L. Sartori. 2016, Environmental and economic benefits of variable rate nitrogen fertilization in a nitrate vulnerable zone. Science of the Total Environment. 545-546: 227-235. <a href="https://doi.org/10.1016/j.scitotenv.2015.12.104" target="_blank">https://doi.org/10.1016/j.scitotenv.2015.12.104</a></p>
+<p><strong>Basso, B., B. Dumont, B. Maestrini, I. Shcherbak, G. P. Robertson, J. R. Porter, P. Smith, K. Paustian, P. R. Grace, S. Asseng, S. Bassu, C. Biernath, K. J. Boote, D. Cammarano, G. De Sanctis, J.-L. Durand, F. Ewert, S. Gayler, D. W. Hyndman, J. Kent, P. Martre, C. Nendel, E. Priesack, D. Ripoche, A. C. Ruane, J. Sharp, P. J. Thorburn, J. L. Hatfield, J. W. Jones, and C. Rosenzweig. 2018, Soil organic carbon and nitrogen feedbacks on crop yields under climate change. Agricultural & Environmental Letters. 3: 180026.0 <a href="https://doi.org/10.2134/ael2018.05.0026" target="_blank">https://doi.org/10.2134/ael2018.05.0026</a></strong></p>
+<p><strong>Behler, J., J. Fry, W. Negassa and A.N. Kravchenko. 2017, Impact of cover crop on soil carbon accrual in topographically diverse terrain. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 272-279. <a href="https://doi.org/10.2489/jswc.72.3.272" target="_blank">https://doi.org/10.2489/jswc.72.3.272</a></strong></p>
+<p><strong>Behnke, G.D., C.M. Pittelkow, E.D. Nafziger and M.B. Villamil. 2018, Exploring the relationships between greenhouse gas emissions, yields, and soil properties in cropping systems. Agriculture. 8(5): 62.0 <a href="https://doi.org/10.3390/agriculture8050062" target="_blank">https://doi.org/10.3390/agriculture8050062</a></strong></p>
+<p><strong>Behnke, G.D., S.M. Zuber, C.M. Pittelkow, E.D. Nafziger and M.B. Villamil. 2018, Long-term crop rotation and tillage effects on soil greenhouse gas emissions and crop production in Illinois, USA. Agriculture, Ecosystems & Environment. 261: 62-70. <a href="https://doi.org/10.1016/j.agee.2018.03.007" target="_blank">https://doi.org/10.1016/j.agee.2018.03.007</a></strong></p>
+<p><strong>Bonta, J.V. 2013, Precipitation data considerations for evaluating subdaily changes in rainless periods due to climate change. Journal of Soil and Water Conservation. 68: 238-253. <a href="https://doi.org/10.2489/jswc.68.3.238" target="_blank">https://doi.org/10.2489/jswc.68.3.238</a></strong></p>
+<p><strong>Campbell, B., L. Chen, C. Dygert and W. Dick. 2014, Tillage and crop rotation impacts on greenhouse gas fluxes from two long-term agronomic experimental sites in Ohio. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 543-552. <a href="https://doi.org/10.2489/jswc.69.6.543" target="_blank">https://doi.org/10.2489/jswc.69.6.543</a></strong></p>
+<p>Carlton, J.S., A.S. Mase, C.L. Knutson, M.C. Lemos, T. Haigh, D.P. Todey and L.S. Prokopy. 2016, The effects of extreme drought on climate change beliefs, risk perceptions, and adaptation attitudes. Climatic Change. 135(2): 1-16. <a href="https://doi.org/10.1007/s10584-015-1561-5" target="_blank">https://doi.org/10.1007/s10584-015-1561-5</a></p>
+<p><strong>Castellano, M.J., K.M. Mueller, D.C. Olk, J. Sawyer and J. Six. 2015, Integrating plant litter quality, soil organic matter stabilization and the carbon saturation concept. Global Change Biology. 21(9): 3200-3209. <a href="https://doi.org/10.1111/gcb.12982" target="_blank">https://doi.org/10.1111/gcb.12982</a></strong></p>
+<p><strong>Christianson L., J.C. Tyndall and M. Helmers. 2013, Financial comparison of seven nitrate reduction strategies for Midwestern agricultural drainage. Water Resources and Economics. 2-3: 30-56. <a href="https://doi.org/10.1016/j.wre.2013.09.001" target="_blank">https://doi.org/10.1016/j.wre.2013.09.001</a></strong></p>
+<p>Craft, K.J., M.J. Helmers, R.W. Malone, C.H. Pederson and L.R. Schott. 2017, Effects of subsurface drainage systems on water and nitrogen footprints simulated with RZWQM2. Transactions of the American Society of Agricultural and Biological Engineers. 61(1): 245-261. <a href="https://doi.org/10.13031/trans.12300" target="_blank">https://doi.org/10.13031/trans.12300</a></p>
+<p>Dagnew Teshager, A., P.W. Gassman, S. Secchi and J.T. Schoof. 2017, Simulation of targeted pollutant-mitigation-strategies to reduce nitrate and sediment hotspots in agricultural watershed. Science of the Total Environment. 607-608: 1188-1200. <a href="https://doi.org/10.1016/j.scitotenv.2017.07.048" target="_blank">https://doi.org/10.1016/j.scitotenv.2017.07.048</a></p>
+<p><strong>Daigh, A.L., M.J. Helmers, E. Kladivko, X. Zhou, R. Goeken, J. Cavadini, D. Barker and J. Sawyer. 2014, Soil water during the drought of 2012 as affected by rye cover crop in fields in Iowa and Indiana. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 564-573. <a href="https://doi.org/10.2489/jswc.69.6.564" target="_blank">https://doi.org/10.2489/jswc.69.6.564</a></strong></p>
+<p>Daigh, A.L.M., W. Dick, M. Helmers, R. Lal, J. Lauer, E. Nafziger, C. Pederson, J. Strock and M.B. Villamil, A. Mukherjee and R. Cruse. 2018, Yields and yield stability of no-till and chisel-plow fields in the Midwestern US Corn Belt. Field Crops Research. 218: 243-253. <a href="https://doi.org/10.1016/j.fcr.2017.04.002" target="_blank">https://doi.org/10.1016/j.fcr.2017.04.002</a></p>
+<p>Dunbar, M., A. Gassmann and M. O'Neal. 2016, Increased risk of insect injury to corn following rye cover crop. Journal of Economic Entomology. 109: 1691-1697. <a href="https://doi.org/10.1093/jee/tow101" target="_blank">https://doi.org/10.1093/jee/tow101</a></p>
+<p>Dunbar, M., A. Gassmann and M. O'Neal. 2016, Effects of field history on corn root injury and adult abundance of northern and western corn rootworm (Coleoptera: Chrysomelidae). Journal of Economic Entomology. 163: 2096-2104. <a href="https://doi.org/10.1093/jee/tow163" target="_blank">https://doi.org/10.1093/jee/tow163</a></p>
+<p>Dunbar, M., A. Gassmann and M. O'Neal. 2016, Impacts of rotation schemes on ground-dwelling beneficial arthropods. Environmental Entomology.  1-7. <a href="https://doi.org/10.1093/ee/nvw104" target="_blank">https://doi.org/10.1093/ee/nvw104</a></p>
+<p>Dunbar, M., A. Gassmann and M. O'Neal. 2017, Limited impact of a fall-seeded, spring-terminated rye cover crop on beneficial arthropods. Environmental Entomology. 46(2): 284-290. <a href="https://doi.org/10.1093/ee/nvw177" target="_blank">https://doi.org/10.1093/ee/nvw177</a></p>
+<p><strong>Eigenbrode S., L.W. Morton and T. Martin. 2014, Big interdisciplinarity to address climate change and agriculture: Lessons from three USDA Coordinated Agricultural Projects (CAPs). Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 170A-175A. <a href="https://doi.org/10.2489/jswc.69.6.170A" target="_blank">https://doi.org/10.2489/jswc.69.6.170A</a></strong></p>
+<p>Frescoln, L. and J. Arbuckle. 2015, Changes in perceptions of transdisciplinary science over time. Futures. 73: 136-150. <a href="https://doi.org/10.1016/j.futures.2015.08.008" target="_blank">https://doi.org/10.1016/j.futures.2015.08.008</a></p>
+<p>Fry, J., A.K. Guber, M. Ladoni, J.D. Munoz and A.N. Kravchenko. 2016, The effect of up-scaling soil properties and model parameters on predictive accuracy of DSSAT crop simulation model under variable weather conditions. Geoderma. 287: 105-115. <a href="https://doi.org/10.1016/j.geoderma.2016.08.012" target="_blank">https://doi.org/10.1016/j.geoderma.2016.08.012</a></p>
+<p>G. Araldi-Da-Silva, Y.R. Kandel, G. Han, D.S. Mueller, M.J. Helmers, T.C. Kaspar and L.F.S. Leandro. 2021, Field Studies on the Effect of Rye Cover Crop on Soybean Root Disease and Productivity PhytoFrontiers. TBD TBD <a href="TBD" target="_blank">TBD</a></p>
+<p>Gardezi, M. and J.G. Arbuckle. 2018, Techno-optimism and farmers' attitudes toward climate change adaptation. Environment and Behavior.  1-24. <a href="https://doi.org/10.1177/0013916518793482" target="_blank">https://doi.org/10.1177/0013916518793482</a></p>
+<p>Gardezi, M. and K. Bronson. 2019, Examining the social and biophysical determinants of U.S. Midwestern corn farmers' adoption of precision agriculture. Precision Agriculture.   <a href="https://doi.org/10.1007/s11119-019-09681-7" target="_blank">https://doi.org/10.1007/s11119-019-09681-7</a></p>
+<p><strong>Gardezi, M. and J.G. Arbuckle, Jr. 2019, Spatially representing vulnerability to extreme rain events using Midwestern farmers' objective and perceived attributes of adaptive capacity. Risk Analysis. 39(1): 17-34. <a href="https://doi.org/10.1111/risa.12943" target="_blank">https://doi.org/10.1111/risa.12943</a></strong></p>
+<p>Gardezi, M. and J.G. Arbuckle. 2019, The influence of objective and perceived adaptive capacity on Midwestern farmers' use of cover crops. Weather, Climate and Society. 11(3): 665-679. <a href="https://doi.org/10.1175/WCAS-D-18-0086.1" target="_blank">https://doi.org/10.1175/WCAS-D-18-0086.1</a></p>
+<p>Goeken, R., X. Zhou and M. Helmers. 2015, Comparison of timing and volume of subsurface drainage under perennial forage and row crops in a tile-drained field in Iowa. Transactions of the American Society of Agricultural and Biological Engineers. 58(5): 1193-1200. <a href="https://doi.org/10.13031/trans.58.10054" target="_blank">https://doi.org/10.13031/trans.58.10054</a></p>
+<p><strong>Gold, A.J., D. Parker, R.M. Waskom, J. Dobrowolski, M. O'Neill, P.M. Groffman, K. Addy, M. Barber, S. Batie, B. Benham, M. Bianchi, T. Blewett, C. Evensen, K. Farrell-Poe, C. Gardner, W. Graham, J. Harrison, T. Harter, J. Kushner, R. Lowrance, J. Lund, R. Mahler, M. McClaran, M. McFarland, D. Osmond, J. Pritchett, L. Prokopy, C. Rock, A. Shober, M. Silitonga, D. Swackhamer, J. Thurston, D. Todey, R. Turco, G. Vellidis and L.W. Morton. 2013, Advancing water resource management in agricultural, rural, and urbanizing watersheds: Why land-grant universities matter. Journal of Soil and Water Conservation. 68(4): 337-348. <a href="https://doi.org/10.2489/jswc.68.4.337" target="_blank">https://doi.org/10.2489/jswc.68.4.337</a></strong></p>
+<p>Gonzalez-Ramirez, J., C.L. Kling and A. Valcu. 2012, An overview of carbon offsets from agriculture. Annual Review of Resource Economics. 4: 145-184. <a href="https://doi.org/10.1146/annurev-resource-083110-120016" target="_blank">https://doi.org/10.1146/annurev-resource-083110-120016</a></p>
+<p><strong>Haigh, T., L.W. Morton, L. Prokopy, C. Knutson, M. Lemos, Y. Lo and J. Angel. 2015, Agricultural advisors as climate information intermediaries: Exploring differences in capacity to communicate. Weather, Climate, and Society. 7(1): 83-93. <a href="https://doi.org/10.1175/WCAS-D-12-00036.1" target="_blank">https://doi.org/10.1175/WCAS-D-12-00036.1</a></strong></p>
+<p><strong>Han, G., Y. Kandel, L. Leandro, M. Helmers and D. Mueller. 2017, Influence of drainage on soybean seedling health. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 266-271. <a href="https://doi.org/10.2489/jswc.72.3.266" target="_blank">https://doi.org/10.2489/jswc.72.3.266</a></strong></p>
+<p><strong>Hariharan, J., A. Sengupta, P. Grewal and W.A. Dick. 2017, Functional predictions of microbial communities in soil as affected by long-term tillage practices. Agricultural & Environmental Letters. 2: 170031.0 <a href="https://doi.org/10.2134/ael2017.09.0031" target="_blank">https://doi.org/10.2134/ael2017.09.0031</a></strong></p>
+<p><strong>Haruna, S.I. and N.V. Nkongolo. 2013, Variability of soil physical properties in a clay-loam soil and its implication on soil management practices. ISRN Soil Science. 2013: 1-8. <a href="https://doi.org/10.1155/2013/418586" target="_blank">https://doi.org/10.1155/2013/418586</a></strong></p>
+<p><strong>Haruna, S.I. and N.V. Nkongolo. 2014, Spatial and fractal characterization of soil chemical properties and nutrients across depths in a clay-loam soil. Communications in Soil Science and Plant Analysis. 45(17): 2305-2318. <a href="https://doi.org/10.1080/00103624.2014.932371" target="_blank">https://doi.org/10.1080/00103624.2014.932371</a></strong></p>
+<p><strong>Haruna, S.I. and N.V. Nkongolo. 2015, Effects of tillage, rotation and cover crop on the physical properties of a silt-loam soil. International Agrophysics. 29(2): 137-154. <a href="https://doi.org/10.1515/intag-2015-0030" target="_blank">https://doi.org/10.1515/intag-2015-0030</a></strong></p>
+<p>Haruna, S.I., S.H. Anderson, N.V. Nkongolo, T. Reinbott and S. Zaibon. 2017, Soil thermal properties influenced by perennial biofuel and cover crop management. Soil Science Society of America Journal. 81: 1147-1156. <a href="https://doi.org/10.2136/sssaj2016.10.0345" target="_blank">https://doi.org/10.2136/sssaj2016.10.0345</a></p>
+<p>Haruna, S.I., N.V. Nkongolo, S.H. Anderson, F. Eivazi, and S. Zaibon. 2018, In situ infiltration as influenced by cover crop and tillage management. Journal of Soil and Water Conservation. 73(2): 164-172. <a href="https://doi.org/10.2489/jswc.73.2.164" target="_blank">https://doi.org/10.2489/jswc.73.2.164</a></p>
+<p>Haruna, S.I., S. Anderson, N.V. Nkongolo and S. Zaibon. 2018, Soil hydraulic properties: Influence of tillage and cover crop. Pedosphere. 28(3): 430-442. <a href="https://doi.org/10.1016/S1002-0160(17)60387-4" target="_blank">https://doi.org/10.1016/S1002-0160(17)60387-4</a></p>
+<p><strong>Haruna, S.I. and N.V. Nkongolo. 2020, Influence of cover crop, tillage, and crop rotation management on soil nutrients. Agriculture. 10: 225.0 <a href="https://doi.org/10.3390/agriculture10060225" target="_blank">https://doi.org/10.3390/agriculture10060225</a></strong></p>
+<p><strong>Herzmann, D.E., L.J. Abendroth and L.D Bunderson. 2014, Data management approach to multidisciplinary agricultural research and syntheses. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 180A-185A. <a href="https://doi.org/10.2489/jswc.69.6.180A" target="_blank">https://doi.org/10.2489/jswc.69.6.180A</a></strong></p>
+<p><strong>Iqbal J., M.J. Castellano and T.B. Parkin. 2013, Evaluation of photoacoustic spectroscopy for simultaneous measurement of N2O and CO2 gas concentrations and fluxes at the soil surface. Global Change Biology. 19(1): 327-336. <a href="https://doi.org/10.1111/gcb.12021" target="_blank">https://doi.org/10.1111/gcb.12021</a></strong></p>
+<p><strong>Iqbal, J., T.B. Parkin and M. Castellano. 2013, Accuracy and precision of no instrument is guaranteed: A reply to Rosenstock et al. Global Change Biology. 20(5): 1362-1365. <a href="https://doi.org/10.1111/gcb.12446" target="_blank">https://doi.org/10.1111/gcb.12446</a></strong></p>
+<p>Iqbal, J., M.J. Helmers, X.B. Zhou, T.B. Parkin and M. Castellano. 2014, Denitrification and N2O emissions in annual croplands, perennial grass buffers and restored perennial grasslands. Soil Science Society of America Journal. 79(1): 239-250. <a href="https://doi.org/10.2136/sssaj2014.05.0221" target="_blank">https://doi.org/10.2136/sssaj2014.05.0221</a></p>
+<p><strong>Iqbal, J., D. Mitchell, F. Miguez, J. Sawyer, J. Pantoja, D. Barker and M.J. Castellano. 2015, Does nitrogen fertilizer rate to corn affect N2O emissions from the rotated soybean crop? Journal of Environmental Quality. 44: 711-719. <a href="https://doi.org/10.2134/jeq2014.09.0378" target="_blank">https://doi.org/10.2134/jeq2014.09.0378</a></strong></p>
+<p><strong>Iqbal, J., M. Necpalova, S.V. Archontoulis, R.P. Anex, M. Bourguignon, D. Herzmann, D.C. Mitchell, J.E. Sawyer, Q. Zhu and M.J. Castellano. 2017, Extreme weather-year sequences have non-additive effects on environmental nitrogen losses. Global Change Biology. 24: e303-e317. <a href="https://doi.org/10.1111/gcb.13866" target="_blank">https://doi.org/10.1111/gcb.13866</a></strong></p>
+<p>Jha, M.K., P.W. Gassman and Y. Panagopoulos. 2013, Regional changes in nitrate loadings in the Upper Mississippi River Basin under predicted mid-century climate. Regional Environmental Change. 15: 449-460. <a href="https://doi.org/10.1007/s10113-013-0539-y" target="_blank">https://doi.org/10.1007/s10113-013-0539-y</a></p>
+<p><strong>Jha, M. and P. Gassman. 2013, Changes in hydrology and streamflow as predicted by a modeling experiment forced with climate models. Hydrological Processes. 28: 2772-2781. <a href="https://doi.org/10.1002/hyp.9836" target="_blank">https://doi.org/10.1002/hyp.9836</a></strong></p>
+<p><strong>K. Olson, M. Al-Kaisi, Lal, R. and L.W. Morton. 2017, Soil ecosystem services and intensified cropping systems. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 64A-69A. <a href="https://doi.org/10.2489/jswc.72.3.64A" target="_blank">https://doi.org/10.2489/jswc.72.3.64A</a></strong></p>
+<p><strong>Kazula, M., J. Lauer and F. Arriaga. 2017, Crop rotation effect on selected physical and chemical properties of Wisconsin soils. Journal of Soil and Water Conservation. 72(6): 553-563. <a href="https://doi.org/10.2489/jswc.72.6.553" target="_blank">https://doi.org/10.2489/jswc.72.6.553</a></strong></p>
+<p>Kazula, M. and J. Lauer. 2018, The influence of crop rotation on corn total biomass production. Journal of Soil and Water Conservation. 73: 541-548. <a href="https://doi.org/10.2489/jswc.73.5.541" target="_blank">https://doi.org/10.2489/jswc.73.5.541</a></p>
+<p><strong>Kladivko, E.J., M.J. Helmers, L.J. Abendroth, D. Herzmann, R. Lal, M. Castellano, D.S. Mueller, J.E. Sawyer, R.P. Anex, R.W. Arritt, B. Basso, J.V. Bonta, L. Bowling, R.M. Cruse, N.R. Fausey, J. Frankenberger, P. Gassman, A.J. Gassmann, C.L. Kling, A. Kravchenko, J.G. Lauer, F.E. Miguez, E.D. Nafziger, N. Nkongolo, M. O'Neal, L.B. Owens, P. Owens, P. Scharf, M.J. Shipitalo, J.S. Strock and M.B. Villamil. 2014, Standardized research protocols enable transdisciplinary research of climate variation impacts in corn production systems. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 532-542. <a href="https://doi.org/10.2489/jswc.69.6.532" target="_blank">https://doi.org/10.2489/jswc.69.6.532</a></strong></p>
+<p><strong>Kling, C.L. and A. Valcu. 2013, State level efforts to regulate agricultural sources of water quality impairment. Choices. 28(3): 1-4. <a href="http://www.choicesmagazine.org/magazine/pdf/cmsarticle_326.pdf" target="_blank">http://www.choicesmagazine.org/magazine/pdf/cmsarticle_326.pdf</a></strong></p>
+<p>Kling, C.L., Y. Panagopoulos, A. Valcu, P.W. Gassman, S. Rabotyagov, T. Campbell, M. White, J.G. Arnold, R. Srinivasan, M.K. Jha, J. Richardson, G. Turner and N. Rabalais. 2014, LUMINATE: Linking agricultural land use, local water quality and Gulf of Mexico hypoxia. European Journal of Agricultural Economics. 41(3): 431-459. <a href="https://doi.org/10.1093/erae/jbu009" target="_blank">https://doi.org/10.1093/erae/jbu009</a></p>
+<p>Kobayashi-Leonel, R., D. Mueller, C. Harbach, G. Tylka and L. Leandro. 2017, Susceptibility of cover crop plants to Fusarium virguliforme, causal agent of soybean sudden death syndrome, and Heterodera glycines, the soybean cyst nematode. Journal of Soil and Water Conservation. 72(6): 575-583. <a href="https://doi.org/10.2489/jswc.72.6.575" target="_blank">https://doi.org/10.2489/jswc.72.6.575</a></p>
+<p>Kravchenko, A.N., B. Hildebrandt, T.L. Marsh, W.C. Negassa, A.K. Guber and M.L. Rivers. 2014, Intra-aggregate pore structure influences phylogenetic composition of bacterial community in macroaggregates. Soil Science Society of America Journal. 78: 1924-1939. <a href="https://doi.org/10.2136/sssaj2014.07.0308" target="_blank">https://doi.org/10.2136/sssaj2014.07.0308</a></p>
+<p>Kravchenko, A.N., W. Negassa, A.K. Guber and S. Schimidt. 2014, New approach to measure soil particulate organic matter in intact samples using X-ray computed micro-tomography. Soil Science Society of America Journal. 78: 1177-1185. <a href="https://doi.org/10.2136/sssaj2014.01.0039" target="_blank">https://doi.org/10.2136/sssaj2014.01.0039</a></p>
+<p><strong>Kravchenko, A.N., W.C. Negassa, A.K. Guber and M.L. Rivers. 2015, Protection of soil carbon within macro-aggregates depends on intra-aggregate pore characteristics. Scientific Reports. 5: 16261. <a href="https://doi.org/10.1038/srep16261" target="_blank">https://doi.org/10.1038/srep16261</a></strong></p>
+<p>Kravchenko, A.N. and G.P. Robertson. 2015, Statistical challenges in analyses of chamber-based soil CO2 and N2O emissions data. Soil Science Society of America Journal. 79(1): 200-211. <a href="https://doi.org/10.2136/sssaj2014.08.0325" target="_blank">https://doi.org/10.2136/sssaj2014.08.0325</a></p>
+<p>Kravchenko, A.N. and A.K. Guber. 2016, Soil pores and their contributions to soil carbon processes. Geoderma. 287: 31-39. <a href="https://doi.org/10.1016/j.geoderma.2016.06.027" target="_blank">https://doi.org/10.1016/j.geoderma.2016.06.027</a></p>
+<p><strong>Kumar S., T. Nakajima, E.G. Mbonimpa, S. Gautam, U.R. Somireddy, A. Kadono, R. Lal, R. Chintala, R. Rafique and N. Fausey. 2014, Long-term tillage and drainage influences on soil organic carbon dynamics, aggregate stability, and corn yield. Soil Science and Plant Nutrition. 60(1): 108-118. <a href="https://doi.org/10.1080/00380768.2013.878643" target="_blank">https://doi.org/10.1080/00380768.2013.878643</a></strong></p>
+<p>Kumar, S., A. Kadono, R. Lal and W. Dick. 2012, Long-term tillage and crop rotations for 47-49 years influences hydrological properties of two soils in Ohio. Soil Science Society of America Journal. 76(6): 2195-2207. <a href="https://doi.org/10.2136/sssaj2012.0098" target="_blank">https://doi.org/10.2136/sssaj2012.0098</a></p>
+<p>Kumar, S., A. Kadono, R. Lal and W. Dick. 2012, Long-term no-till impacts on organic carbon and properties of two contrasting soils and corn yields in Ohio. Soil Science Society of America Journal. 76(5): 1798-1809. <a href="https://doi.org/10.2136/sssaj2012.0055" target="_blank">https://doi.org/10.2136/sssaj2012.0055</a></p>
+<p><strong>Kumar, S., T. Nakajima, A. Kadono, R. Lal and N. Fausey. 2014, Long-term tillage and drainage influences on greenhouse gas fluxes from a poorly-drained soil of central Ohio. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 553-563. <a href="https://doi.org/10.2489/jswc.69.6.553" target="_blank">https://doi.org/10.2489/jswc.69.6.553</a></strong></p>
+<p><strong>Ladoni, M., A.N. Kravchenko and G.P. Robertson. 2015, Topography mediates the influence of cover crops on soil nitrate levels in row crop agricultural systems. PLoS ONE. 10(11): e0143358. <a href="https://doi.org/10.1371/journal.pone.0143358" target="_blank">https://doi.org/10.1371/journal.pone.0143358</a></strong></p>
+<p>Ladoni, M., A. Basir and A.N. Kravchenko. 2015, Which soil carbon characteristic is the best for assessing management differences? View from statistical power perspective. Soil Science Society of America Journal. 79: 848-857. <a href="https://doi.org/10.2136/sssaj2014.10.0426" target="_blank">https://doi.org/10.2136/sssaj2014.10.0426</a></p>
+<p>Ladoni, M., A. Basir, G.P. Robertson and A.N. Kravchenko. 2016, Scaling-up: Cover crops differentially influence soil carbon in agricultural fields with diverse topography. Agriculture, Ecosystems & Environment. 225: 93-103. <a href="https://doi.org/10.1016/j.agee.2016.03.021" target="_blank">https://doi.org/10.1016/j.agee.2016.03.021</a></p>
+<p>Lahdou, G.B., L. Bowling, J. Frankenberger and E. Kladivko. 2018, Hydrologic controls of controlled and free draining subsurface drainage systems. Agricultural Water Management. 213: 605-615. <a href="https://doi.org/10.1016/j.agwat.2018.10.038" target="_blank">https://doi.org/10.1016/j.agwat.2018.10.038</a></p>
+<p><strong>Lal, R. 2014, Societal value of soil carbon. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 186A-192A. <a href="https://doi.org/10.2489/jswc.69.6.186A" target="_blank">https://doi.org/10.2489/jswc.69.6.186A</a></strong></p>
+<p><strong>Laws, L. 2017, Agricultural sustainability: Five midwestern row crop farmers share their views. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 53A-58A. <a href="https://doi.org/10.2489/jswc.72.3.53A" target="_blank">https://doi.org/10.2489/jswc.72.3.53A</a></strong></p>
+<p><strong>Leandro, L.F.S., A.E. Robertson, D.S. Mueller and X.B. Yang. 2013, Climatic and environmental trends observed during epidemic and non-epidemic years of soybean sudden death syndrome in Iowa. Plant Health Progress.   <a href="https://doi.org/10.1094/PHP-2013-0529-01-RS" target="_blank">https://doi.org/10.1094/PHP-2013-0529-01-RS</a></strong></p>
+<p><strong>Lekies, K.S. and R.H. Moore. 2020, Promoting transdisciplinary learning through a summer course on climate, water, and agriculture. Natural Sciences Education. 49: e20023. <a href="https://doi.org/10.1002/nse2.20023" target="_blank">https://doi.org/10.1002/nse2.20023</a></strong></p>
+<p><strong>Li, A., B.D. Duval, R. Anex, P. Scharf, J.M. Ashtekar, P.R. Owens and C. Ellis. 2016, A case study of environmental benefits of sensor-based nitrogen application in corn. Journal of Environmental Quality. 45(2): 675-683. <a href="https://doi.org/10.2134/jeq2015.07.0404" target="_blank">https://doi.org/10.2134/jeq2015.07.0404</a></strong></p>
+<p><strong>Maas, E.D.v.L., R. Lal, K. Coleman, A. Montenegro and W.A. Dick. 2017, Modeling soil organic carbon in corn-based systems in Ohio under climate change. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 191-204. <a href="https://doi.org/10.2489/jswc.72.3.191" target="_blank">https://doi.org/10.2489/jswc.72.3.191</a></strong></p>
+<p><strong>Marcillo, G.S. and F.E. Miguez. 2017, Corn yield response to winter cover crops: An updated meta-analysis. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 226-239. <a href="https://doi.org/10.2489/jswc.72.3.226" target="_blank">https://doi.org/10.2489/jswc.72.3.226</a></strong></p>
+<p>Mitchell D.C., M.J. Castellano, J.E. Sawyer and J.L. Pantoja. 2013, Cover crop effects on nitrous oxide emissions: Role of mineralizable carbon. Soil Science Society of America Journal. 77: 1765-1773. <a href="https://doi.org/10.2136/sssaj2013.02.0074" target="_blank">https://doi.org/10.2136/sssaj2013.02.0074</a></p>
+<p>Mitchell, D.C., M.J. Helmers, T.B. Parkin, X.B. Zhou and M.J. Castellano. 2014, Comparing nitrate sink strength in perennial filter strips at toeslope of cropland watersheds. Journal of Environmental Quality. 44(1): 191-199. <a href="https://doi.org/10.2134/jeq2014.05.0201" target="_blank">https://doi.org/10.2134/jeq2014.05.0201</a></p>
+<p><strong>Morton, L.W., J. Hobbs and J.G. Arbuckle. 2013, Shifts in farmer uncertainty over time about sustainable farming practices and modern farming reliance on commercial fertilizers, insecticides and herbicides. Journal of Soil and Water Conservation. 68(1): 1-12. <a href="https://doi.org/10.2489/jswc.68.1.1" target="_blank">https://doi.org/10.2489/jswc.68.1.1</a></strong></p>
+<p><strong>Morton, L.W. 2014, Achieving water security in agriculture the human factor. Agronomy Journal. 106: 1-4. <a href="https://doi.org/10.2134/agronj14.0039" target="_blank">https://doi.org/10.2134/agronj14.0039</a></strong></p>
+<p><strong>Morton, L.W. 2014, The science of variable climate and agro-ecosystem management. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 207A-212A. <a href="https://doi.org/10.2489/jswc.69.6.207A" target="_blank">https://doi.org/10.2489/jswc.69.6.207A</a></strong></p>
+<p><strong>Morton, L.W., S. Eigenbrode and T. Martin. 2015, The architecture of adaptive integration: Coordinated Agricultural Projects. Ecology and Society. 20(4): 5. <a href="https://doi.org/10.5751/ES-07788-200405" target="_blank">https://doi.org/10.5751/ES-07788-200405</a></strong></p>
+<p><strong>Morton, L.W., J. Hobbs, J. Arbuckle and A. Loy. 2015, Upper Midwest climate variations: Farmer responses to excess water risks. Journal of Environmental Quality. 44(3): 810-822. <a href="https://doi.org/10.2134/jeq2014.08.0352" target="_blank">https://doi.org/10.2134/jeq2014.08.0352</a></strong></p>
+<p><strong>Morton, L.W., J.M McGuire and A.D Cast. 2016, A good farmer pays attention to the weather. Climate Risk Management. 15: 18-31. <a href="https://doi.org/10.1016/j.crm.2016.09.002" target="_blank">https://doi.org/10.1016/j.crm.2016.09.002</a></strong></p>
+<p><strong>Morton, L.W. and L.J. Abendroth. 2017, Crops, climate, culture and change. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 47A-52A. <a href="https://doi.org/10.2489/jswc.72.3.47A" target="_blank">https://doi.org/10.2489/jswc.72.3.47A</a></strong></p>
+<p><strong>Morton, L.W., G. Roesch-McNally and A. Wilke. 2017, Upper Midwest farmer perceptions: Too much uncertainty about impacts of climate change to justify changing current agricultural practices. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 215-225. <a href="https://doi.org/10.2489/jswc.72.3.215" target="_blank">https://doi.org/10.2489/jswc.72.3.215</a></strong></p>
+<p><strong>Mukherjee, A. and R. Lal. 2014, Comparison of soil quality index using three methods. PLoS ONE. 9(8): 1-15. <a href="https://doi.org/10.1371/journal.pone.0105981" target="_blank">https://doi.org/10.1371/journal.pone.0105981</a></strong></p>
+<p>Mukherjee, A. and R. Lal. 2015, Short-term effects of cover cropping on quality of a Typic Argiaquolls in central Ohio. Catena. 131: 125-129. <a href="https://doi.org/10.1016/j.catena.2015.02.025" target="_blank">https://doi.org/10.1016/j.catena.2015.02.025</a></p>
+<p>Mukherjee, A. and R. Lal. 2015, Tillage effects on quality of organic and mineral soils under on-farm conditions in Ohio. Environmental Earth Science. 74: 1815-1822. <a href="https://doi.org/10.1007/s12665-015-4189-x" target="_blank">https://doi.org/10.1007/s12665-015-4189-x</a></p>
+<p>Munoz-Robayo, J.D. and A.N. Kravchenko. 2012, Deriving the optimal scale for relating topographical attributes and cover crop plant biomass. Geomorphology. 179: 197-207. <a href="https://doi.org/10.1016/j.geomorph.2012.08.011" target="_blank">https://doi.org/10.1016/j.geomorph.2012.08.011</a></p>
+<p>Nakajima, T. and R. Lal. 2014, Tillage and drainage management effect on soil gas diffusivity. Soil and Tillage Research. 135: 71-78. <a href="https://doi.org/10.1016/j.still.2013.09.003" target="_blank">https://doi.org/10.1016/j.still.2013.09.003</a></p>
+<p>Nakajima, T. and R. Lal. 2015, Comparison of greenhouse gas emissions monitored with a photoacoustic infrared spectroscopy multi-gas monitor and a gas chromatograph from a Crosby silt loam. Carbon Management. 6(1-2): 69-76. <a href="https://doi.org/10.1080/17583004.2015.1080473" target="_blank">https://doi.org/10.1080/17583004.2015.1080473</a></p>
+<p>Nakajima, T., R. Lal and S. Jiang. 2015, Soil quality index of crosby silt loam in central Ohio. Soil and Tillage Research. 146(B): 323-328. <a href="https://doi.org/10.1016/j.still.2014.10.001" target="_blank">https://doi.org/10.1016/j.still.2014.10.001</a></p>
+<p>Nakajima, T., R. Shrestha and R. Lal. 2016, On-farm assessment of soil quality index on-farm site Ohio and Michigan. Soil Science Society of America Journal. 80(4): 1020-1026. <a href="https://doi.org/10.2136/sssaj2016.01.0003" target="_blank">https://doi.org/10.2136/sssaj2016.01.0003</a></p>
+<p><strong>Necpalova, M., R.P. Anex, A.N. Kravchenko, L.J. Abendroth, S.J. Del Grosso, W.A. Dick, M.J. Helmers, D. Herzmann, J.G. Lauer, E.D. Nafziger, J.E. Sawyer, P.C. Scharf, J.S.Strock and M.B. Villamil. 2014, What does it take to detect a change in soil carbon stock? A regional comparison of minimum detectable difference and experiment duration in the North-Central United States. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 517-531. <a href="https://doi.org/10.2489/jswc.69.6.517" target="_blank">https://doi.org/10.2489/jswc.69.6.517</a></strong></p>
+<p><strong>Necpalova, M., R.P. Anex, M.N. Fienen, S.J. Del Grosso, M.J. Castellano and J.E. Sawyer. 2015, Understanding the DayCent model: Calibration, sensitivity, and identifiability through inverse modeling. Environmental Modeling & Software. 66: 110-130. <a href="https://doi.org/10.1016/j.envsoft.2014.12.011" target="_blank">https://doi.org/10.1016/j.envsoft.2014.12.011</a></strong></p>
+<p>Negassa, W., R. Price, A. Basir, S.S. Snap and A.N. Kravchenko. 2015, Cover crop and tillage system effects on soil CO2 and N2O fluxes at contrasting topographic positions. Soil and Tillage Research. 154: 64-74. <a href="https://doi.org/10.1016/j.still.2015.06.015" target="_blank">https://doi.org/10.1016/j.still.2015.06.015</a></p>
+<p><strong>Negassa, W., A.K. Guber, A.N. Kravchenko, T.L. Marsh, B. Hildebrandt and M.L. Rivers. 2015, Properties of soil pore space regulate pathways of plant residue decomposition and community structure of associated bacteria. PLoS ONE. 10(4): 1-22. <a href="https://doi.org/10.1371/journal.pone.0123999" target="_blank">https://doi.org/10.1371/journal.pone.0123999</a></strong></p>
+<p><strong>Nkongolo, N.V. and S. Sale. 2018, Monitoring soil thermal properties and CO2, CH4 and NO2 emissions in a corn field in central Missouri. Discovery Agriculture. 4: 75-84. <a href="http://discoveryjournals.org/agriculture/current_issue/2018/A10.pdf" target="_blank">http://discoveryjournals.org/agriculture/current_issue/2018/A10.pdf</a></strong></p>
+<p>Obade, V. and R. Lal. 2014, Soil quality evaluation under different land management practices. Environmental Earth Sciences. 72: 4531-4549. <a href="https://doi.org/10.1007/s12665-014-3353-z" target="_blank">https://doi.org/10.1007/s12665-014-3353-z</a></p>
+<p>Obade, V. and R. Lal. 2014, Using meta-analyses to assess pedo-variability under different land uses and soil management in central Ohio, USA. Geoderma. 232-234: 56-68. <a href="https://doi.org/10.1016/j.geoderma.2014.04.030" target="_blank">https://doi.org/10.1016/j.geoderma.2014.04.030</a></p>
+<p>Obade, V. 2017, Quantifying the interactions of land management practices and agricultural productivity using a soil quality index. Soil Use and Management. 33: 639-652. <a href="https://doi.org/10.1111/sum.12379" target="_blank">https://doi.org/10.1111/sum.12379</a></p>
+<p><strong>Obade, V. 2019, Integrating management information with soil quality dynamics to monitor agricultural productivity. Science of The Total Environment. 651(2): 2036-2043. <a href="https://doi.org/10.1016/j.scitotenv.2018.10.106" target="_blank">https://doi.org/10.1016/j.scitotenv.2018.10.106</a></strong></p>
+<p><strong>Olson, K., M. Al-Kaisi, R. Lal and B. Lowery. 2014, Examining the paired comparison method approach for determining soil organic carbon sequestration rates. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 193A-197A. <a href="https://doi.org/10.2489/jswc.69.6.193A" target="_blank">https://doi.org/10.2489/jswc.69.6.193A</a></strong></p>
+<p><strong>Panagopoulos, Y., P.W. Gassman, R. Arritt, D.E. Herzmann, T. Campbell, M.K. Jha, C.L. Kling, R. Srinivasan, M. White and J.G. Arnold. 2014, Surface water quality and cropping systems sustainability under a changing climate in the Upper Mississippi River Basin. Journal of Soil and Water Conservation, Special Issue for Climate and Agriculture. 69(6): 483-494. <a href="https://doi.org/10.2489/jswc.69.6.483" target="_blank">https://doi.org/10.2489/jswc.69.6.483</a></strong></p>
+<p>Panagopoulos, Y., P.W. Gassman, R.W. Arritt, D.E. Herzmann, T.D. Campbell, A. Valcu, M.K. Jha, C.L. Kling, R. Srinivasan, M. White and J.G. Arnold. 2015, Impacts of climate change on hydrology, water quality and crop productivity in the Ohio-Tennessee River Basin. International Journal of Agricultural and Biological Engineering. 8(3): 36-53. <a href="https://ijabe.org/index.php/ijabe/article/view/1497/pdf_1" target="_blank">https://ijabe.org/index.php/ijabe/article/view/1497/pdf_1</a></p>
+<p>Panagopoulos, Y., P.W. Gassman, T. Campbell, M.K. Jha, C.L. Kling, R. Srinivasan, M. White and J.G. Arnold. 2015, Towards the development of an integrated modeling system for the Corn Belt: A refined regional modeling approach. Journal of Hydrology. 524: 348-366. <a href="https://doi.org/10.1016/j.jhydrol.2015.02.039" target="_blank">https://doi.org/10.1016/j.jhydrol.2015.02.039</a></p>
+<p>Panagopoulos, Y., P.W. Gassman, C.L. Kling, R. Cibin and I. Chaubey. 2017, Water quality assessment of large-scale bioenergy cropping scenarios for the Upper Mississippi and Ohio-Tennessee River basins. Journal of the American Water Resources Association. 53(6): 1355-1367. <a href="https://doi.org/10.1111/1752-1688.12594" target="_blank">https://doi.org/10.1111/1752-1688.12594</a></p>
+<p>Panday D. and N.V. Nkongolo. 2016, Comparison of models for predicting pore space indices and their relationships with CO2 and N2O fluxes in a corn-soybean field. Canadian Journal of Soil Science. 96: 328-335. <a href="https://doi.org/10.1139/CJSS-2015-0074" target="_blank">https://doi.org/10.1139/CJSS-2015-0074</a></p>
+<p><strong>Panday D. and N.V. Nkongolo. 2021, No tillage improved soil pore space indices under cover crop and crop rotation. Soil Systems. 5(3): 38.0 <a href="https://doi.org/10.3390/soilsystems5030038" target="_blank">https://doi.org/10.3390/soilsystems5030038</a></strong></p>
+<p><strong>Panday, D. and N.V. Nkongolo. 2015, Soil water potential control of the relationship between moisture and greenhouse gases fluxes in corn-soybean field. Climate. 3(3): 689-696. <a href="https://doi.org/10.3390/cli3030689" target="_blank">https://doi.org/10.3390/cli3030689</a></strong></p>
+<p><strong>Pantoja, J.L., K.P. Woli, J.E. Sawyer and D.W. Barker. 2015, Corn nitrogen fertilization requirement and corn soybean productivity with a rye cover crop. Soil Science Society of America Journal. 79(5): 1482-1495. <a href="https://doi.org/10.2136/sssaj2015.02.0084" target="_blank">https://doi.org/10.2136/sssaj2015.02.0084</a></strong></p>
+<p><strong>Pantoja, J.L. and J.E. Sawyer. 2016, Winter rye cover crop biomass production, degradation, and nitrogen recycling. Agronomy Journal. 108(2): 841-853. <a href="https://doi.org/10.2134/agronj2015.0336" target="_blank">https://doi.org/10.2134/agronj2015.0336</a></strong></p>
+<p><strong>Pease, L.A., N.R. Fausey, J.F. Martin and L.C. Brown. 2017, Projected climate change effects on subsurface drainage and the performance of controlled drainage in the Western Lake Erie Basin. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 240-250. <a href="https://doi.org/10.2489/jswc.72.3.240" target="_blank">https://doi.org/10.2489/jswc.72.3.240</a></strong></p>
+<p><strong>Pease, L.A., N.R. Fausey, J.F. Martin and L.C. Brown. 2017, Weather, landscape, and management effects on nitrate and soluble phosphorus concentrations in subsurface drainage discharge in the Western Lake Erie Basin. Transactions of the American Society of Agricultural and Biological Engineers. 61(1): 223-232. <a href="https://doi.org/10.13031/trans.12287" target="_blank">https://doi.org/10.13031/trans.12287</a></strong></p>
+<p><strong>Prokopy L., J.G. Arbuckle, A.P. Barnes, V.R. Haden, A. Hogan, M.T. Niles and J.C. Tyndall. 2015, Farmers and climate change: A cross-national comparison of beliefs and risk perceptions in high income countries. Environmental Management. 56: 492-504. <a href="https://doi.org/10.1007/s00267-015-0504-2" target="_blank">https://doi.org/10.1007/s00267-015-0504-2</a></strong></p>
+<p>Prokopy, L., L. Morton, J. Arbuckle, A. Mase and A. Wilke. 2014, Agricultural stakeholder views on climate change: Implications for conducting research and outreach. Bulletin of the American Meteorological Society. 96(2): 81-90. <a href="https://doi.org/10.1175/BAMS-D-13-00172.1" target="_blank">https://doi.org/10.1175/BAMS-D-13-00172.1</a></p>
+<p>Rabotyagov, S., A. Valcu and C. Kling. 2013, Reversing property rights: practice-based approaches for controlling agricultural nonpoint-source water pollution when emissions aggregate nonlinearly. American Journal of Agricultural Economics. 96(2): 397-419. <a href="https://doi.org/10.1093/ajae/aat094" target="_blank">https://doi.org/10.1093/ajae/aat094</a></p>
+<p>Rabotyagov, S., A. Valcu, C.L. Kling, P.W. Gassman, N.N. Rabalais and R.E. Turner. 2014, The economics of dead zones: causes, impacts, policy challenges, and a model of the Gulf of Mexico hypoxic zone. Review of Environmental Economics and Policy. 8(1): 58-79. <a href="https://doi.org/10.1093/reep/ret024" target="_blank">https://doi.org/10.1093/reep/ret024</a></p>
+<p>Rabotyagov, S., T. Campbell, M. White, J. Arnold, J. Atwood, L. Norfleet, C. Kling, P. Gassman, A. Valcu, J. Richardson, G. Turner and N. Rabalais. 2014, Cost-effective targeting of conservation investments to reduce the northern Gulf of Mexico hypoxic zone. Proceedings of the National Academy of Sciences. 111(52): 18530-18535. <a href="https://doi.org/10.1073/pnas.1405837111" target="_blank">https://doi.org/10.1073/pnas.1405837111</a></p>
+<p><strong>Rabotyagov, S.S., A. Valcu, C.L. Kling, T. Campbell, P.W. Gassman and M. Jha. 2014, An improved reverse auction for addressing water quality in agricultural watersheds using coupled simulation-optimization models. Frontiers of Economics in China. 9(1): 25-51. <a href="http://journal.hep.com.cn/fec/EN/10.3868/s060-003-014-0003-1" target="_blank">http://journal.hep.com.cn/fec/EN/10.3868/s060-003-014-0003-1</a></strong></p>
+<p>Rabotyagov, S., A. Valcu and C.L. Kling. 2016, Resilient provision of ecosystem services from agricultural landscapes: Tradeoffs involving means and variances of water quality improvements. American Journal of Agricultural Economics. 98(5): 1295:1313. <a href="https://doi.org/10.1093/ajae/aaw068" target="_blank">https://doi.org/10.1093/ajae/aaw068</a></p>
+<p><strong>Rafique, R., M.N. Fienen, T.B. Parkin and R.P. Anex. 2013, Nitrous oxide emissions from cropland: A procedure for calibrating the DAYCENT biogeochemical model using inverse modeling. Water, Air, & Soil Pollution. 224: 1677 (1-15). <a href="https://doi.org/10.1007/s11270-013-1677-z" target="_blank">https://doi.org/10.1007/s11270-013-1677-z</a></strong></p>
+<p>Rai, D. and N.V. Nkongolo. 2018, Comparison between a photo-acoustic analyzer system (PAS) and gas chromatograph (GC) for measuring CO2 and N2O emissions in a corn/soybean field. Transactions of the Kansas Academy of Science. 121(3-4): 351-360. <a href="https://doi.org/10.1660/062.121.0405" target="_blank">https://doi.org/10.1660/062.121.0405</a></p>
+<p>Reinhart, B.D., J.R. Frankenberger, C.H. Hay and M.J.Helmers. 2019, Simulated water quality and irrigation benefits from drainage water recycling at two tile-drained sites in the U.S. Midwest. Agricultural Water Management. 223: 105699.0 <a href="https://doi.org/10.1016/j.agwat.2019.105699" target="_blank">https://doi.org/10.1016/j.agwat.2019.105699</a></p>
+<p><strong>Roesch-McNally, G.E., J.G. Arbuckle and J.C. Tyndall. 2016, What would farmers do? Adaptation intentions under a Corn Belt climate change scenario. Agriculture and Human Values.  1-14. <a href="https://doi.org/10.1007/s10460-016-9719-y" target="_blank">https://doi.org/10.1007/s10460-016-9719-y</a></strong></p>
+<p><strong>Roesch-McNally, G.E., A.D. Basche, J.G. Arbuckle, J.C. Tyndall, F.E. Miguez, T. Bowman and R.M. Clay. 2017, The trouble with cover crops: Farmers' experiences with overcoming barriers to adoption. Renewable Agriculture and Food Systems.  1-12. <a href="https://doi.org/10.1017/S1742170517000096" target="_blank">https://doi.org/10.1017/S1742170517000096</a></strong></p>
+<p>Roesch-McNally, G., J.G. Arbuckle and J.C. Tyndall. 2017, Soil as social-ecological feedback: Examining the "ethic" of soil stewardship among Corn Belt farmers. Rural Sociology. 83(1): 145-173. <a href="https://doi.org/10.1111/ruso.12167" target="_blank">https://doi.org/10.1111/ruso.12167</a></p>
+<p>Roesch-McNally, G.E., J.G. Arbuckle and J.C. Tyndall. 2018, Barriers to implementing climate resilient agricultural strategies: The case of crop diversification in the U.S. Corn Belt. Global Environmental Change. 48: 206-215. <a href="https://doi.org/10.1016/j.gloenvcha.2017.12.002" target="_blank">https://doi.org/10.1016/j.gloenvcha.2017.12.002</a></p>
+<p>Roley, S., J. Tank, J.C. Tyndall and J. Witter. 2016, How cost-effective are cover crops, wetlands, and two-stage ditches for nitrogen removal in the Mississippi River Basin? Water Resources and Economics. 15: 43-56. <a href="https://doi.org/10.1016/j.wre.2016.06.003" target="_blank">https://doi.org/10.1016/j.wre.2016.06.003</a></p>
+<p><strong>Rorick, J.D. and E.J. Kladivko. 2017, Cereal rye cover crop effects on soil carbon and physical properties in southeastern Indiana. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 260-265. <a href="https://doi.org/10.2489/jswc.72.3.260" target="_blank">https://doi.org/10.2489/jswc.72.3.260</a></strong></p>
+<p>Saadat, S., L. Bowling, J. Frankenberger and K. Brooks. 2017, Estimating drain flow from measured water table depth in layered soils under free and controlled drainage. Journal of Hydrology. 556: 339-348. <a href="https://doi.org/10.1016/j.jhydrol.2017.11.001" target="_blank">https://doi.org/10.1016/j.jhydrol.2017.11.001</a></p>
+<p>Saadat, S., J. Frankenberger, L. Bowling and K. Brooks. 2017, Effect of controlled drainage on water table recession rate. Transactions of the American Society of Agricultural and Biological Engineers. 60(3): 1-9. <a href="https://doi.org/10.13031/trans.11922" target="_blank">https://doi.org/10.13031/trans.11922</a></p>
+<p>Saadat, S., L. Bowling, J. Frankenberger and E. Kladivko. 2018, Nitrate and phosphorus transport through subsurface drains under free and controlled drainage. Water Research. 142: 196-207. <a href="https://doi.org/10.1016/j.watres.2018.05.040" target="_blank">https://doi.org/10.1016/j.watres.2018.05.040</a></p>
+<p>Saadat, S., J. Frankenberger, L. Bowling and S. Ale. 2020, Evaluation of surface ponding and runoff generation in a seasonally frozen drained agricultural field. Journal of Hydrology. 588: 124985.0 <a href="https://doi.org/10.1016/j.jhydrol.2020.124985" target="_blank">https://doi.org/10.1016/j.jhydrol.2020.124985</a></p>
+<p>Scharf, P.C., D.K. Shannon, H.L. Palm, K.A. Sudduth, S.T. Drummond, N.R. 
+Kitchen, L.J. Mueller, V.C. Hubbard and L.F. Oliveira. 2011, Sensor-based nitrogen applications out-performed producer-chosen rates for corn in on-farm demonstrations. Agronomy Journal. 103: 1683-1691. <a href="https://doi.org/10.2134/agronj2011.0164" target="_blank">https://doi.org/10.2134/agronj2011.0164</a></p>
+<p><strong>Schilling, K., P. Gassman, C. Kling, T. Campbell, M. Jha and C. Wolter. 2013, The potential for agricultural land use change to reduce flood risk in a large Midwestern watershed, U.S.A. Hydrological Processes. 28: 3314-3325. <a href="https://doi.org/10.1002/hyp.9865" target="_blank">https://doi.org/10.1002/hyp.9865</a></strong></p>
+<p><strong>Schott, L., A. Lagzdins, A. Daigh, C. Pederson, G. Brenneman and M. Helmers. 2017, Drainage water management effects over five years on water tables, drainage, and yields in southeast Iowa. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 251-259. <a href="https://doi.org/10.2489/jswc.72.3.251" target="_blank">https://doi.org/10.2489/jswc.72.3.251</a></strong></p>
+<p><strong>Schott, L., A. Lagzdins, A.L.M. Daigh, C. Pederson, G. Brenneman and M.J. Helmers. 2017, Drainage water management effect on corn planting date in southeast Iowa. Journal of Soil and Water Conservation. 72(6): 564-574. <a href="https://doi.org/10.2489/jswc.72.6.564" target="_blank">https://doi.org/10.2489/jswc.72.6.564</a></strong></p>
+<p><strong>Sengupta, A. and W.A. Dick. 2015, Bacterial community diversity in soil under two tillage practices as determined by pyrosequencing. Microbial Ecology. 70(3): 853-859. <a href="https://doi.org/10.1007/s00248-015-0609-4" target="_blank">https://doi.org/10.1007/s00248-015-0609-4</a></strong></p>
+<p>Sengupta, A. and W.A. Dick. 2017, Methanotrophic bacterial diversity in two diverse soils under varying land-use practices as determined by high-throughput sequencing of the pmoA gene. Applied Soil Ecology. 119: 35-45 <a href="https://doi.org/10.1016/j.apsoil.2017.05.031" target="_blank">https://doi.org/10.1016/j.apsoil.2017.05.031</a></p>
+<p>Toosi, E.R., A.N. Kravchenko, A.K. Guber and M.L. Rivers. 2017, Pore characteristics regulate priming and fate of carbon from plant residue. Soil Biology & Biochemistry. 113: 219-230. <a href="https://doi.org/10.1016/j.soilbio.2017.06.014" target="_blank">https://doi.org/10.1016/j.soilbio.2017.06.014</a></p>
+<p>Toosi, E.R., A.N. Kravchenko, M.M. Quigley, J. Mao and M.L. Rivers. 2017, Effects of management and pore characteristics on organic matter composition of macroaggregates, evidence from X-ray u-tomography, FTIR and 13C-NMR. European Journal of Soil Science. 68: 200-211. <a href="https://doi.org/10.1111/ejss.12411" target="_blank">https://doi.org/10.1111/ejss.12411</a></p>
+<p>Tyndall, J.C. and G. Roesch. 2014, A standardized approach to the financial analysis of structural water quality BMPs. Journal of Extension. 52(3): 1-12. <a href="http://www.joe.org/joe/2014june/a10.php" target="_blank">http://www.joe.org/joe/2014june/a10.php</a></p>
+<p><strong>Tyndall, J., J.G. Arbuckle, T. Haigh, C. Knutson, L.W. Morton, L.S. Prokopy and M. Widhalm. 2015, New atlas features Corn Belt farmers' perspectives on agriculture and climate. Journal of Extension. 53(1): 1-4. <a href="http://www.joe.org/joe/2015february/pdf/JOE_v53_1tt9.pdf" target="_blank">http://www.joe.org/joe/2015february/pdf/JOE_v53_1tt9.pdf</a></strong></p>
+<p><strong>Valcu-Lisman, A., C.L. Kling and P.W. Gassman. 2016, The optimality of using marginal land for bioenergy crops: Tradeoffs between food, fuel, and environmental services. Agricultural and Resource Economics Review. 45(2): 217-245. <a href="https://doi.org/10.1017/age.2016.20" target="_blank">https://doi.org/10.1017/age.2016.20</a></strong></p>
+<p><strong>Valcu-Lisman, A.M., P.W. Gassman, R. Arritt, T. Campbell and D.E. Herzmann. 2017, Cost-effectiveness of reverse auctions for watershed nutrient reductions in the presence of climate variability: An empirical approach for the Boone River watershed. Journal of Soil and Water Conservation, Special Issue on Sustainable Corn Production Systems. 72(3): 280-295. <a href="https://doi.org/10.2489/jswc.72.3.280" target="_blank">https://doi.org/10.2489/jswc.72.3.280</a></strong></p>
+<p><strong>Walia M.K. and W.A. Dick. 2017, Soil chemistry and nutrient concentrations in perennial ryegrass as influenced by gypsum and carbon amendments. Journal of Soil Science and Plant Nutrition. 16(3): 832-847. <a href="https://doi.org/10.4067/S0718-95162016005000059" target="_blank">https://doi.org/10.4067/S0718-95162016005000059</a></strong></p>
+<p>Walia, M.K. and W.A. Dick. 2018, Selected soil physical properties and aggregate-associated carbon and nitrogen as influenced by gypsum, crop residue, and glucose. Geoderma. 320: 67-73. <a href="https://doi.org/10.1016/j.geoderma.2018.01.022" target="_blank">https://doi.org/10.1016/j.geoderma.2018.01.022</a></p>
+<p>Walia, M.K. and W.A. Dick. 2019, Gypsum and carbon amendments influence leachate quality from two soils in Ohio, USA. Soil Science Society of America Journal. 83: 212-220. <a href="https://doi.org/10.2136/sssaj2018.06.0220" target="_blank">https://doi.org/10.2136/sssaj2018.06.0220</a></p>
+<p><strong>Waring, E.R., A. Lagzdins, C. Pederson and M.J. Helmers. 2020, Influence of no-till and a winter rye cover crop on nitrate losses from tile-drained row-crop agriculture in Iowa. Journal of Environmental Quality. NA. 1-12. <a href="https://doi.org/10.1002/jeq2.20056" target="_blank">https://doi.org/10.1002/jeq2.20056</a></strong></p>
+<p><strong>Wilke, A.K. and L.W. Morton. 2015, Climatologists' patterns of conveying climate science to the agricultural community. Agriculture and Human Values. 32: 99-110. <a href="https://doi.org/10.1007/s10460-014-9531-5" target="_blank">https://doi.org/10.1007/s10460-014-9531-5</a></strong></p>
+<p><strong>Wilke, A.K. and L.W. Morton. 2015, Communicating climate science: Components for engaging the agricultural audiences. Science Communication. 37(3): 371-395. <a href="https://doi.org/10.1177/1075547015581927" target="_blank">https://doi.org/10.1177/1075547015581927</a></strong></p>
+<p><strong>Wilke, A.K. and L.W. Morton. 2016, Analog years: Connecting climate science and agricultural tradition to better manage landscapes of the future. Climate Risk Management. 15: 32-44 <a href="https://doi.org/10.1016/j.crm.2016.10.001" target="_blank">https://doi.org/10.1016/j.crm.2016.10.001</a></strong></p>
+<p>Woli, K., J. Pantoja and J. Sawyer. 2016, Soil inorganic nitrogen with incubation of rye cover crop biomass. Communications in Soil Science and Plant Analysis. 47: 2558-2572. <a href="https://doi.org/10.1080/00103624.2016.1254795" target="_blank">https://doi.org/10.1080/00103624.2016.1254795</a></p>
+<p><strong>Zuber, S.M., G.D. Behnke, E.D. Nafziger and M.B. Villamil. 2015, Crop rotation and tillage effects on soil physical and chemical properties in Illinois. Agronomy Journal. 107(3): 1-8. <a href="https://doi.org/10.2134/agronj14.0465" target="_blank">https://doi.org/10.2134/agronj14.0465</a></strong></p>
+<p>Zuber, S. M. and M. B. Villamil. 2016, Meta-analysis approach to assess effect of tillage on microbial biomass and enzyme activities. Soil Biology and Biochemistry. 97: 176-187. <a href="https://doi.org/10.1016/j.soilbio.2016.03.011" target="_blank">https://doi.org/10.1016/j.soilbio.2016.03.011</a></p>
+<p>Zuber, S.M., G.D. Behnke, E.D. Nafziger and M.B. Villamil. 2017, Multivariate assessment of soil quality indicators for crop rotation and tillage in Illinois. Soil and Tillage Research. 174: 147-155. <a href="https://doi.org/10.1016/j.still.2017.07.007" target="_blank">https://doi.org/10.1016/j.still.2017.07.007</a></p>
+<p><strong>Zuber, S.M., G.D. Behnke, E.D. Nafziger and M.B. Villamil. 2018, Carbon and nitrogen content of soil organic matter and microbial biomass under long-term crop rotation and tillage in Illinois, USA. Agriculture. 8(3): 37.0 <a href="https://doi.org/10.3390/agriculture8030037" target="_blank">https://doi.org/10.3390/agriculture8030037</a></strong></p>
+
+
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="p2">
+<p><blockquote>Many biophysical and social science graduate students were
+supported by and contributed to the scientific discoveries and publications of
+the Sustainable Corn CAP team. Their theses and dissertations are provided here
+via links to their major University library. If a web link is not provided,
+contact <a href="mailto:isudatateam@iastate.edu">isudatateam@iastate.edu</a>
+for a PDF copy.</blockquote></p>
+
+
+<p>Abendroth, L.J. 2019, Characterizing climate change in the Midwest: Magnitude of warming and plausibility of adaptation strategies for maize-based systems. Graduate Theses and Dissertations, Iowa State University. 17633. <a href="https://lib.dr.iastate.edu/etd/17633" target="_blank">https://lib.dr.iastate.edu/etd/17633</a></p>
+<p>Acharya, S. 2016, Effect of tillage, cover crop and crop rotation on the growth and yield of soybean. MS Thesis, Lincoln University, Jefferson City, MO. </p>
+<p>Ali, H. 2016, The effect of tillage, cover crop and crop rotation on soil properties and greenhouse gases emissions from a corn/soybean field. MS Thesis, Lincoln University, Jefferson City, MO. </p>
+<p>Araldi da Silva, G. 2019, Studies on the impact of cover crops on soybean productivity and root diseases. Graduate Theses and Dissertations, Iowa State University. Order No. 13810644. <a href="https://search-proquest-com.proxy.lib.iastate.edu/docview/2301891955?accountid=10906" target="_blank">https://search-proquest-com.proxy.lib.iastate.edu/docview/2301891955?accountid=10906</a></p>
+<p>Ashtekar, J. 2014, Digital methods for field scale soil mapping. Purdue University, ProQuest, UMI Dissertations Publishing, 2014. 3667972. <a href="http://search.proquest.com/docview/1647472847" target="_blank">http://search.proquest.com/docview/1647472847</a></p>
+<p>Bailey, R. 2015, Impact of herbicide management strategy on nitrous oxide (N2O) emissions in Midwest crop production systems. Proquest Dissertations & Theses, University of Wisconsin, Madison, WI. <a href="https://search.library.wisc.edu/catalog/9912165000402121" target="_blank">https://search.library.wisc.edu/catalog/9912165000402121</a></p>
+<p>Basche, A. 2015, Climate-smart agriculture in Midwest agriculture: Evaluating the benefits and tradeoffs of cover crops. Graduate Theses and Dissertations, Iowa State University. Paper 14755. <a href="http://lib.dr.iastate.edu/etd/14755/" target="_blank">http://lib.dr.iastate.edu/etd/14755/</a></p>
+<p>Beehler, J. 2016, The effect of cover crop on soil carbon and soil water retention in topographically diverse terrain. ProQuest Dissertations & Theses, Michigan State University, East Lansing, MI. <a href="https://search.proquest.com/docview/1864668289" target="_blank">https://search.proquest.com/docview/1864668289</a></p>
+<p>Brooks, K.A. 2013, Measurement of drain flow, soil moisture, and water table to assess drainage water management. Purdue University, ProQuest, UMI Dissertations Publishing, 2013. 1544120. <a href="http://search.proquest.com/docview/1433826301" target="_blank">http://search.proquest.com/docview/1433826301</a></p>
+<p>Campbell, B.D. 2012, Carbon budgets and greenhouse gas emissions associated with two long-term tillage and crop rotation sites in Ohio. Electronic Thesis or Dissertation Center, The Ohio State University. Paper osu1354559256. <a href="http://rave.ohiolink.edu/etdc/view?acc_num=osu1354559256" target="_blank">http://rave.ohiolink.edu/etdc/view?acc_num=osu1354559256</a></p>
+<p>Cavadini, J. 2013, Cover crop bicultures and their effects on phosphorus cycling and soil conservation. Purdue University, ProQuest, UMI Dissertations Publishing, 2013. 1549309. <a href="http://search.proquest.com/docview/1477863598" target="_blank">http://search.proquest.com/docview/1477863598</a></p>
+<p>Chiu, C. 2013, Observation-based algorithm development for subsurface hydrology in northern temperate wetlands. Purdue University, ProQuest, UMI Dissertations Publishing, 2013. 3612937. <a href="http://search.proquest.com/docview/1508833742" target="_blank">http://search.proquest.com/docview/1508833742</a></p>
+<p>Craft, K. 2017, Modeling long-term impacts of alternative subsurface drainage systems and quantifying impacts of cover crops. Graduate Theses and Dissertations, Iowa State University. Paper 10270249. <a href="https://search.proquest.com/docview/1918629615" target="_blank">https://search.proquest.com/docview/1918629615</a></p>
+<p>Daniel, A. 2015, Changes in extreme precipitation events over the central United States in AOGCM-driven regional climate model simulations. Graduate Theses and Dissertations, Iowa State University. Paper 14649. <a href="http://lib.dr.iastate.edu/etd/14649/" target="_blank">http://lib.dr.iastate.edu/etd/14649/</a></p>
+<p>Dunbar, M. 2016, Effects of diversity on beneficial and pest arthropods. Graduate Theses and Dissertations, Iowa State University. Paper 15119. <a href="http://lib.dr.iastate.edu/etd/15119/" target="_blank">http://lib.dr.iastate.edu/etd/15119/</a></p>
+<p>Eidson, C. 2015, Soil quality and corn-soybean yields as affected by winter rye at three sites in the U.S. Corn Belt. Electronic Thesis or Dissertation Center, The Ohio State University. Paper osu1431010393. <a href="http://rave.ohiolink.edu/etdc/view?acc_num=osu1431010393" target="_blank">http://rave.ohiolink.edu/etdc/view?acc_num=osu1431010393</a></p>
+<p>Frank, T. 2015, Cereal rye and oilseed radish cover crop effects on soil properties and nitrogen cycling in Indiana. Purdue University, ProQuest, UMI Dissertations Publishing, 2015. 1602677. <a href="https://docs.lib.purdue.edu/open_access_theses/1107/" target="_blank">https://docs.lib.purdue.edu/open_access_theses/1107/</a></p>
+<p>Frescoln, L. 2015, A longitudinal panel study of participants' attitudes and behaviors towards transdisciplinary science. Graduate Theses and Dissertations, Iowa State University. Paper 14348. <a href="http://lib.dr.iastate.edu/etd/14348/" target="_blank">http://lib.dr.iastate.edu/etd/14348/</a></p>
+<p>Gardezi, S.M. 2017, Rethinking adaptive capacity: A study of Midwestern US corn farmers Graduate Theses and Dissertations, Iowa State University. Paper 15519. <a href="http://lib.dr.iastate.edu/etd/15519" target="_blank">http://lib.dr.iastate.edu/etd/15519</a></p>
+<p>Goeken, R. 2013, Effects of perennial and cover crops on hydrology in Iowa. Graduate Theses and Dissertations, Iowa State University. Paper 13322. <a href="http://lib.dr.iastate.edu/etd/13322/" target="_blank">http://lib.dr.iastate.edu/etd/13322/</a></p>
+<p>Gonzalez-Ramirez, M. 2016, Three essays on environmental economics and intra-household decision making. Graduate Theses and Dissertations, Iowa State University. Paper 10167697. <a href="http://lib.dr.iastate.edu/etd/15705" target="_blank">http://lib.dr.iastate.edu/etd/15705</a></p>
+<p>Gu, L. 2014, The life cycle assessment of corn-based cropping systems with and without cover crop. Proquest Dissertations & Theses, University of Wisconsin, Madison, WI. <a href="https://search.library.wisc.edu/catalog/9910204220602121" target="_blank">https://search.library.wisc.edu/catalog/9910204220602121</a></p>
+<p>Gu, L. 2017, Climate change adaptation of corn production in the US Midwest : evaluating the benefits and tradeoffs of cover crops. Proquest Dissertations & Theses, University of Wisconsin, Madison, WI. <a href="https://depot.library.wisc.edu/repository/fedora/1711.dl:SRQQUODNOECPY8G/datastreams/REF/content" target="_blank">https://depot.library.wisc.edu/repository/fedora/1711.dl:SRQQUODNOECPY8G/datastreams/REF/content</a></p>
+<p>Halter, K. 2013, Nitrogen cycling with oilseed radish cover crop in Indiana crop rotations. Purdue University, ProQuest, UMI Dissertations Publishing, 2013. 1549365. <a href="http://search.proquest.com/docview/1490583531" target="_blank">http://search.proquest.com/docview/1490583531</a></p>
+<p>Haruna, S. 2013, Effects of tillage, cover crop, and corn-soybean rotation on the chemical and physical properties of a silt loam soil. MS Thesis, Lincoln University, Jefferson City, MO. </p>
+<p>Haruna, S. 2016, Influence of cover crop and tillage management practices on soil physical and hydraulic properties. PhD Dissertation, University of Missouri, Columbia, MO. </p>
+<p>Hobbs, J. 2014, Characterizing diurnal and interannual variability in the atmosphere through physical and stochastic models. Graduate Theses and Dissertations, Iowa State University. Paper 13648. <a href="http://lib.dr.iastate.edu/etd/13648/" target="_blank">http://lib.dr.iastate.edu/etd/13648/</a></p>
+<p>Hughes, C. 2015, Understanding yield effects of controlled drainage through soil moisture excess and deficit metrics. Purdue University, ProQuest, UMI Dissertations Publishing, 2016. 10053972. <a href="https://docs.lib.purdue.edu/open_access_theses/1059/" target="_blank">https://docs.lib.purdue.edu/open_access_theses/1059/</a></p>
+<p>Johnson, A. 2016, Agricultural labor in Midwestern United States specialty cropping systems. Graduate Theses and Dissertations, Iowa State University. Paper 10167674. <a href="http://lib.dr.iastate.edu/etd/15730" target="_blank">http://lib.dr.iastate.edu/etd/15730</a></p>
+<p>Johnson, R. 2016, On-farm assessment of soil properties under different management practices in West-Central Ohio. Electronic Thesis or Dissertation Center, The Ohio State University. Paper osu1461092609. <a href="http://rave.ohiolink.edu/etdc/view?acc_num=osu1461092609" target="_blank">http://rave.ohiolink.edu/etdc/view?acc_num=osu1461092609</a></p>
+<p>Kazula, M. 2016, Effect of long-term crop rotation on productivity, greenhouse gas emission, and soil properties. Proquest Dissertations & Theses, University of Wisconsin, Madison, WI. <a href="https://search.proquest.com/docview/1932221238" target="_blank">https://search.proquest.com/docview/1932221238</a></p>
+<p>Kobayashi-Leonel, R. 2016, Studies on cover crops and sudden death syndrome of soybean. Graduate Theses and Dissertations, Iowa State University. Paper 10243897. <a href="https://search.proquest.com/docview/1860239932" target="_blank">https://search.proquest.com/docview/1860239932</a></p>
+<p>Kurth, E. 2017, Three field studies to examine cropping management effects on: runoff quantity and quality; soil water content and temperature; and selected soil quality indicators. Electronic Thesis or Dissertation Center, The Ohio State University. Paper osu1511961519903924. <a href="http://rave.ohiolink.edu/etdc/view?acc_num=osu1511961519903924" target="_blank">http://rave.ohiolink.edu/etdc/view?acc_num=osu1511961519903924</a></p>
+<p>Ladoni, M. 2014, Interactive effects of cover crops and topography on soil organic carbon and mineral nitrogen. ProQuest Dissertations & Theses, Michigan State University, East Lansing, MI. <a href="https://search.proquest.com/docview/1666836965" target="_blank">https://search.proquest.com/docview/1666836965</a></p>
+<p>Lahdou, G.B. 2014, Systematic analysis of drainage events in free draining and managed subsurface drainage systems. Purdue University, ProQuest, UMI Dissertations Publishing, 2014. 1571959. <a href="https://docs.lib.purdue.edu/open_access_theses/408/" target="_blank">https://docs.lib.purdue.edu/open_access_theses/408/</a></p>
+<p>Lee, C. 2017, Regional variability of subsurface drainage in the U.S. Corn Belt. Purdue University, ProQuest, UMI Dissertations Publishing, 2017. Order No. 10273841. <a href="https://docs.lib.purdue.edu/dissertations/AAI10273841/" target="_blank">https://docs.lib.purdue.edu/dissertations/AAI10273841/</a></p>
+<p>Li, A. 2014, Model-based life cycle environmental impacts analysis of agricultural managements on corn production. Proquest Dissertations & Theses, University of Wisconsin, Madison, WI. <a href="https://search.library.wisc.edu/catalog/9910204262102121" target="_blank">https://search.library.wisc.edu/catalog/9910204262102121</a></p>
+<p>Loy, A. 2013, Diagnostics for mixed/hierarchical linear models. Graduate Theses and Dissertations, Iowa State University. Paper 13277. <a href="http://lib.dr.iastate.edu/etd/13277/" target="_blank">http://lib.dr.iastate.edu/etd/13277/</a></p>
+<p>Maas, E. 2017, The cascading effects of climate change on soil organic matter. Electronic Thesis or Dissertation Center, The Ohio State University. Paper osu1492076671912468. <a href="http://rave.ohiolink.edu/etdc/view?acc_num=osu1492076671912468" target="_blank">http://rave.ohiolink.edu/etdc/view?acc_num=osu1492076671912468</a></p>
+<p>Marcillo, G. 2018, Cover crop effects on maize productivity: Insights from statistical and process-based models. Graduate Theses and Dissertations, Iowa State University. Paper 16633. <a href="http://lib.dr.iastate.edu/etd/16633" target="_blank">http://lib.dr.iastate.edu/etd/16633</a></p>
+<p>Mebruer, B.D. 2012, Effect of tillage on greenhouse gas emission from corn and soybean fields in central Missouri. MS Thesis, Lincoln University, Jefferson City, MO. </p>
+<p>Mitchell, D. 2012, Nitrogen sources and sinks in Iowa soils: biogeochemical links between carbon inputs, nitrate leaching, and nitrous oxide emissions. Graduate Theses and Dissertations, Iowa State University. Paper 12900. <a href="http://lib.dr.iastate.edu/etd/12900/" target="_blank">http://lib.dr.iastate.edu/etd/12900/</a></p>
+<p>Munoz, J. 2013, The role of topography and cover crops in Michigan agricultural ecosystems and its potential effect under future climate scenarios. ProQuest Dissertations & Theses, Michigan State University, East Lansing, MI. </p>
+<p>Panday, D. 2016, Relationship between soil pore space indices and greenhouse gases fluxes in a corn-soybean field at Freeman farm, Missouri. MS Thesis, Lincoln University, Jefferson City, MO. </p>
+<p>Pantoja, J. 2013, Effect of corn stover harvest and winter rye cover crop on corn nitrogen fertilization. Graduate Theses and Dissertations, Iowa State University. Paper 13042. <a href="http://lib.dr.iastate.edu/etd/13042/" target="_blank">http://lib.dr.iastate.edu/etd/13042/</a></p>
+<p>Patel, S. 2016, Rye cover crop biomass, nutrient composition and crop management practices to enhance corn yield. Graduate Theses and Dissertations, Iowa State University. Paper 10167822. <a href="https://search.proquest.com/docview/1845054380" target="_blank">https://search.proquest.com/docview/1845054380</a></p>
+<p>Pease, L. 2016, Characterization of agricultural subsurface drainage water quality and controlled drainage in the Western Lake Erie Basin. Electronic Thesis or Dissertation Center, The Ohio State University. Paper osu1461329788. <a href="http://rave.ohiolink.edu/etdc/view?acc_num=osu1461329788" target="_blank">http://rave.ohiolink.edu/etdc/view?acc_num=osu1461329788</a></p>
+<p>Quigley, M. 2019, Contribution of soil pores to the processing and protection of soil carbon at micro-scale. ProQuest Dissertations & Theses, Michigan State University, East Lansing, MI. Order No. 13865024. <a href="https://search.proquest.com/docview/2217940044?accountid=10906" target="_blank">https://search.proquest.com/docview/2217940044?accountid=10906</a></p>
+<p>Rai, D. 2016, Comparison of four methods for measuring CO2 and N2O emission in a corn and soybean field. MS Thesis, Lincoln University, Jefferson City, MO. </p>
+<p>Roberts, R. 2020, Influence of cereal rye spring termination timing and herbicide type on soil nitrate and litter composition. Graduate Theses and Dissertations, Iowa State University. Paper #####. <a href="https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=9216&context=etd" target="_blank">https://lib.dr.iastate.edu/cgi/viewcontent.cgi?article=9216&context=etd</a></p>
+<p>Roesch-McNally, G. 2016, Agricultural transformations: climate change adaptation and farmer decision making. Graduate Theses and Dissertations, Iowa State University. Paper 15051. <a href="http://lib.dr.iastate.edu/etd/15051/" target="_blank">http://lib.dr.iastate.edu/etd/15051/</a></p>
+<p>Rorick, J. 2016, Cereal rye cover crop effects on soil physical and chemical properties in southeastern Indiana. Purdue University, ProQuest, UMI Dissertations Publishing, 2016. 10247677. <a href="https://docs.lib.purdue.edu/dissertations/AAI10247677/" target="_blank">https://docs.lib.purdue.edu/dissertations/AAI10247677/</a></p>
+<p>Saadat, S. 2018, Evaluation of hydrological processes and environmental impacts of free and controlled subsurface drainage. Purdue University, ProQuest, UMI Dissertations Publishing, 2019. <a href="TBD" target="_blank">TBD</a></p>
+<p>Sale, S. 2013, Monitoring greenhouse gas emissions and soil thermal properties in a central Missouri corn field. MS Thesis, Lincoln University, Jefferson City, MO. </p>
+<p>Schott, L. 2015, Effects of drainage water management in Southeast Iowa. Graduate Theses and Dissertations, Iowa State University. Paper 14863. <a href="http://lib.dr.iastate.edu/etd/14863/" target="_blank">http://lib.dr.iastate.edu/etd/14863/</a></p>
+<p>Sengupta, A. 2015, Studying methanotrophic bacterial diversity in Ohio soils using high-throughput sequence analysis. Electronic Thesis or Dissertation Center, The Ohio State University. Paper osu1436956336. <a href="http://rave.ohiolink.edu/etdc/view?acc_num=osu1436956336" target="_blank">http://rave.ohiolink.edu/etdc/view?acc_num=osu1436956336</a></p>
+<p>Sharma, M. 2016, Effect of tillage, rotation and cover cropping on growth and yield of corn. MS Thesis, Lincoln University, Jefferson City, MO. </p>
+<p>Valcu, A. 2013, Agricultural nonpoint source pollution and water quality trading: Empirical analysis under imperfect cost information and measurement error. Graduate Theses and Dissertations, Iowa State University. Paper 13444. <a href="http://lib.dr.iastate.edu/etd/13444/" target="_blank">http://lib.dr.iastate.edu/etd/13444/</a></p>
+<p>Walia, M. 2015, Gypsum and carbon amendment's influence on soil properties, greenhouse gas emissions, growth and nutrient uptake of Ryegrass (Lolium perenne). Electronic Thesis or Dissertation Center, The Ohio State University. Paper osu1437140322. <a href="http://rave.ohiolink.edu/etdc/view?acc_num=osu1437140322" target="_blank">http://rave.ohiolink.edu/etdc/view?acc_num=osu1437140322</a></p>
+<p>Waring, E. 2016, Quantifying the impacts of a winter cereal rye cover crop and no-till on soil moisture, soil temperature, and nitrate loss via subsurface drainage. Graduate Theses and Dissertations, Iowa State University. Paper 10271440. <a href="https://search.proquest.com/docview/1918970236" target="_blank">https://search.proquest.com/docview/1918970236</a></p>
+<p>Wilke, A. 2013, Climatologists' methods of climate science communication to agriculture in the North Central Region of the United States. Graduate Theses and Dissertations, Iowa State University. Paper 13185. <a href="http://lib.dr.iastate.edu/etd/13185/" target="_blank">http://lib.dr.iastate.edu/etd/13185/</a></p>
+<p>Wilke, A. 2016, Temporal reference and intergenerational timescales of agricultural conservation under variable climate. Graduate Theses and Dissertations, Iowa State University. Paper 10244636. <a href="https://search.proquest.com/docview/1872302972" target="_blank">https://search.proquest.com/docview/1872302972</a></p>
+<p>Williams, J. 2013, Effect of tillage, crop rotation, and cover crop on the growth and yield of corn and soybean. MS Thesis, Lincoln University, Jefferson City, MO. </p>
+<p>Zaworski, E. 2014, Effects of ILeVO(r) on soybean sudden death syndrome and soybean cyst nematode. Graduate Theses and Dissertations, Iowa State University. Paper 14261. <a href="http://lib.dr.iastate.edu/etd/14261/" target="_blank">http://lib.dr.iastate.edu/etd/14261/</a></p>
+<p>Zuber, S. 2013, Long-term effect of crop rotation and tillage on soil properties. Graduate Dissertations and Theses, University of Illinois, Urbana-Champaign, IL. <a href="http://hdl.handle.net/2142/46708" target="_blank">http://hdl.handle.net/2142/46708</a></p>
+<p>Zuber, S. 2016, Carbon and nitrogen cycling and soil quality under long-term crop rotation and tillage. Graduate Dissertations and Theses, University of Illinois, Urbana-Champaign, IL. <a href="http://hdl.handle.net/2142/97241" target="_blank">http://hdl.handle.net/2142/97241</a></p>
+
+
+    </div>
+
+    <div role="tabpanel" class="tab-pane" id="p3">
+<p><blockquote>The Sustainable Corn CAP published a technical report series highlighting
+the team’s research, extension, education, and management findings. These are available
+in electronic and print format:</blockquote></p>
+    <ul>
+    <li><a href="https://store.extension.iastate.edu/product/14878" target="_blank">Climate and Managing Corn-Soybean
+    Agroecosystems 1: Findings, Implications and Recommendations</a></li>
+    <li><a href="https://store.extension.iastate.edu/product/15130" target="_blank">Climate and Managing Corn-Soybean
+    Agroecosystems 2: Findings, Implications and Recommendations</a></li>
+    <li><a href="https://store.extension.iastate.edu/product/14504" target="_blank">Climate Change and Agricultural Extension;
+    Building Capacity for Land Grant Extension Services to Address the Agricultural Impacts of Climate Change
+    and the Adaptive Management Needs of Agricultural Stakeholders (vol. 3)</a></li>
+    <li><a href="https://store.extension.iastate.edu/product/14913" target="_blank">Agri-Climate Education; Preparing
+    the Next Generation (vol. 4)</a></li>
+    <li><a href="https://store.extension.iastate.edu/product/15140" target="_blank">Project and Research Management:
+    Integrating Systems, Data, and People in Multidisciplinary Work (vol. 5)</a></li>
+    </ul>
+
+<p>Project Director, Lois Wright Morton, co-published a primer for project directors of large teams.
+This publication is hosted on the USDA NIFA website:</p>
+    <ul>
+    <li><a href="https://nifa.usda.gov/leading-transdisciplinary-projects" target="_blank">Leading Large Transdisciplinary
+    Projects Addressing Social-Ecological Systems: A Primer for Project Directors</a></li>
+    </ul>
+
+    </div>
+</div>
+
+        </div>
+    <div role="tabpanel" class="tab-pane" id="wdata">
+
+<p>Data originating from research sites that have subsurface tile drainage installed are included here.
+They are not included under the Research Data tab because data are collected on a time series basis with
+the user selecting the aggregation preferred for export. Please note that additional data such as management
+operations, plot identifiers, data dictionary, and site history for these drainage research sites are included
+under the Research Data tab. This supporting data must be downloaded to properly interpret and synthesize water
+data contained here.</p>
+
+<p>Datasets include:</p>
+<ul>
+<li><a href="/cscap/plot_tileflow.phtml" target="_blank">Tile Flow</a></li>
+<li><a href="/cscap/plot_watertable.phtml" target="_blank">Water Table Depth</a></li>
+<li><a href="/cscap/plot_waterquality.phtml" target="_blank">Water Quality</a></li>
+<li><a href="/cscap/plot_decagon.phtml" target="_blank">Decagon - Soil Moisture and Temperature</a></li>
+</ul>
+
+<p>Tile flow and water quality data for the BRADFORD.A experimental site are not included here due to conditions
+that are distinct from other drainage sites. Drainage tile were installed in the clay layer of the soil profile
+which impacted the amount of water through the system and out from the site. Contact <a href="mailto:isudatateam@iastate.edu">
+isudatateam@iastate.edu</a> for access to this data.</p>
+
+    </div><!-- ./wdata -->
+    <div role="tabpanel" class="tab-pane" id="wxdata">
+    <br />
+<ul class="nav nav-tabs" role="tablist">
+ <li role="presentation" class="active"><a href="#wx2" aria-controls="wx2" role="tab" data-toggle="tab">Nearby Weather Station</a></li>
+ <li role="presentation"><a href="#wx1" aria-controls="wx1" role="tab" data-toggle="tab">On-Site Weather</a></li>
+</ul>
+
+<div class="tab-content">
+
+
+ <div role="tabpanel" class="tab-pane active" id="wx2">
+<p>Supplementary weather data are available for Sustainable Corn CAP research sites
+and are provided from nearby weather networks. These data are most appropriate
+to use with these research sites because of proximity. The data are collected
+from a variety of sources, including the National Climatic Data Center,
+National Weather Service, and State Climatologists with curation and
+management by Iowa Environmental Mesonet. These entities revise their
+data and will produce updated values that are reprocessed into this archive.</p>
+
+<p>Documentation on this dataset can be found
+<a href="https://mesonet.agron.iastate.edu/info/datasets/climodat.html" target="_blank">here</a></p>
+
+<form method="GET" id="wxform" action="https://mesonet.agron.iastate.edu/cgi-bin/request/coop.py">
+<input type="hidden" name="network" value="IACLIMATE" id="network" />
+
+<p><strong>Select Research Site(s):</strong></p>
+<select id="station" name="station[]" size="5" multiple="" class="select">
+<option value="WI4961">ARL [Arlington, WI] -- WI4961 MADISON DANE RGNL AP</option>
+<option value="MO1791">BRADFORD.A [Columbia, MO] -- MO1791 COLUMBIA RGNL AP</option>
+<option value="MO1791">BRADFORD.B1 [Columbia, MO] -- MO1791 COLUMBIA RGNL AP</option>
+<option value="MO1791">BRADFORD.B2 [Columba, MO] -- MO1791 COLUMBIA RGNL AP</option>
+<option value="MO1791">BRADFORD.C [Columbia, MO] -- MO1791 COLUMBIA RGNL AP</option>
+<option value="IN2825">DPAC [Farmland, IN] -- IN2825 FARMLAND 5 NNW</option>
+<option value="MO4271">FREEMAN [Jefferson City, MO] -- MO4271 JEFFERSON CITY WTP</option>
+<option value="IA6719">GILMORE [Gilmore City, IA] -- IA6719 POCAHONTAS</option>
+<option value="MN8323">HICKS.B [Tracy, MN] -- MN8323 TRACY</option>
+<option value="MN8323">HICKS.G [Tracy, MN] -- MN8323 TRACY</option>
+<option value="MN8323">HICKS.P [Tracy, MN] -- MN8323 TRACY</option>
+<option value="OH3874">HOYTVILLE.LTR [Custar, OH] -- OH3874 HOYTVILLE 2 NE</option>
+<option value="IA0200">ISUAG [Boone, IA] -- IA0200 AMES-8-WSW</option>
+<option value="IA0200">ISUAG.USB [Boone, IA] -- IA0200 AMES-8-WSW</option>
+<option value="MI3504">KELLOGG [Hickory Corners, MI] -- MI3504 Gull Lake Biological Station</option>
+<option value="WI4546">LAN [Lancaster, WI] -- WI4546 LANCASTER 4 WSW</option>
+<option value="WI8241">MAR [Marshfield, WI] -- WI8241 STRATFORD 1 NW</option>
+<option value="MI2395">MASON [East Lansing, MI] -- MI2395 EAST LANSING 4 S</option>
+<option value="OH1905">NAEW.WS109 [Coshocton, OH] -- OH1905 COSHOCTON AG RSCH STN</option>
+<option value="OH1905">NAEW.WS111 [Coshocton, OH] -- OH1905 COSHOCTON AG RSCH STN</option>
+<option value="OH1905">NAEW.WS113 [Coshocton, OH] -- OH1905 COSHOCTON AG RSCH STN</option>
+<option value="OH1905">NAEW.WS118 [Coshocton, OH] -- OH1905 COSHOCTON AG RSCH STN</option>
+<option value="IL5768">NWREC [Monmouth, IL] -- IL5768 MONMOUTH</option>
+<option value="IL3717">ORR [Perry, IL] -- IL3717 Griggsville</option>
+<option value="IN6435">SEPAC [Butlerville, IN] -- IN6435 NORTH VERNON 2 ESE</option>
+<option value="IA8688">SERF [Crawfordsville, IA] -- IA8688 WASHINGTON</option>
+<option value="OH4551">STJOHNS [St. Johns, OH] -- OH4551 LIMA WWTP</option>
+<option value="OHTCMH">WATERMAN [Columbus, OH] -- OHTCMH Columbus Area</option>
+<option value="OH9312">WOOSTER.COV [Wooster, OH] -- OH9312 WOOSTER EXP STN</option>
+<option value="OH9312">WOOSTER.LTR [Wooster, OH] -- OH9312 WOOSTER EXP STN</option>
+</select>
+
+<br />
+<p><strong>Select Time Period:</strong></p>
+
+<table><tr><th></th><th>Year</th><th>Month</th><th>Day</th></tr>
+<tr><td>Start:</td>
+<td><select id="year1" name="year1">
+<option value='1951' selected="selected">1951</option><option value='1952' >1952</option><option value='1953' >1953</option>
+<option value='1954' >1954</option><option value='1955' >1955</option><option value='1956' >1956</option>
+<option value='1957' >1957</option><option value='1958' >1958</option><option value='1959' >1959</option>
+<option value='1960' >1960</option><option value='1961' >1961</option><option value='1962' >1962</option>
+<option value='1963' >1963</option><option value='1964' >1964</option><option value='1965' >1965</option>
+<option value='1966' >1966</option><option value='1967' >1967</option><option value='1968' >1968</option>
+<option value='1969' >1969</option><option value='1970' >1970</option><option value='1971' >1971</option>
+<option value='1972' >1972</option><option value='1973' >1973</option><option value='1974' >1974</option>
+<option value='1975' >1975</option><option value='1976' >1976</option><option value='1977' >1977</option>
+<option value='1978' >1978</option><option value='1979' >1979</option><option value='1980' >1980</option>
+<option value='1981' >1981</option><option value='1982' >1982</option><option value='1983' >1983</option>
+<option value='1984' >1984</option><option value='1985' >1985</option><option value='1986' >1986</option>
+<option value='1987' >1987</option><option value='1988' >1988</option><option value='1989' >1989</option>
+<option value='1990' >1990</option><option value='1991' >1991</option><option value='1992' >1992</option>
+<option value='1993' >1993</option><option value='1994' >1994</option><option value='1995' >1995</option>
+<option value='1996' >1996</option><option value='1997' >1997</option><option value='1998' >1998</option>
+<option value='1999' >1999</option><option value='2000' >2000</option><option value='2001' >2001</option>
+<option value='2002' >2002</option><option value='2003' >2003</option><option value='2004' >2004</option>
+<option value='2005' >2005</option><option value='2006' >2006</option><option value='2007' >2007</option>
+<option value='2008' >2008</option><option value='2009' >2009</option><option value='2010' >2010</option>
+<option value='2011' >2011</option><option value='2012'>2012</option><option value='2013' >2013</option>
+<option value='2014'>2014</option>
+<option value='2015'>2015</option>
+<option value='2016'>2016</option>
+<option value='2017'>2017</option>
+</select></td>
+<td><select id="month1" name="month1">
+<option value='1' selected="selected">January</option>
+<option value='2' >February</option>
+<option value='3' >March</option>
+<option value='4' >April</option>
+<option value='5' >May</option>
+<option value='6' >June</option>
+<option value='7' >July</option>
+<option value='8' >August</option>
+<option value='9' >September</option>
+<option value='10' >October</option>
+<option value='11' >November</option>
+<option value='12' >December</option>
+</select>
+</td>
+<td><select id="day1" name="day1">
+<option value="1" selected="selected">1</option>
+<option value="2" >2</option><option value="3" >3</option><option value="4" >4</option>
+<option value="5" >5</option><option value="6" >6</option><option value="7" >7</option>
+<option value="8" >8</option><option value="9" >9</option><option value="10" >10</option>
+<option value="11" >11</option><option value="12" >12</option><option value="13" >13</option>
+<option value="14" >14</option><option value="15" >15</option><option value="16" >16</option>
+<option value="17" >17</option><option value="18" >18</option><option value="19" >19</option>
+<option value="20" >20</option><option value="21" >21</option><option value="22" >22</option>
+<option value="23" >23</option><option value="24" >24</option><option value="25" >25</option>
+<option value="26" >26</option><option value="27" >27</option><option value="28" >28</option>
+<option value="29" >29</option><option value="30" >30</option><option value="31" >31</option>
+</select></td>
+</tr>
+<tr><td>End:</td>
+<td><select id="year2" name="year2">
+<option value='1951' >1951</option><option value='1952' >1952</option><option value='1953' >1953</option>
+<option value='1954' >1954</option><option value='1955' >1955</option><option value='1956' >1956</option>
+<option value='1957' >1957</option><option value='1958' >1958</option><option value='1959' >1959</option>
+<option value='1960' >1960</option><option value='1961' >1961</option><option value='1962' >1962</option>
+<option value='1963' >1963</option><option value='1964' >1964</option><option value='1965' >1965</option>
+<option value='1966' >1966</option><option value='1967' >1967</option><option value='1968' >1968</option>
+<option value='1969' >1969</option><option value='1970' >1970</option><option value='1971' >1971</option>
+<option value='1972' >1972</option><option value='1973' >1973</option><option value='1974' >1974</option>
+<option value='1975' >1975</option><option value='1976' >1976</option><option value='1977' >1977</option>
+<option value='1978' >1978</option><option value='1979' >1979</option><option value='1980' >1980</option>
+<option value='1981' >1981</option><option value='1982' >1982</option><option value='1983' >1983</option>
+<option value='1984' >1984</option><option value='1985' >1985</option><option value='1986' >1986</option>
+<option value='1987' >1987</option><option value='1988' >1988</option><option value='1989' >1989</option>
+<option value='1990' >1990</option><option value='1991' >1991</option><option value='1992' >1992</option>
+<option value='1993' >1993</option><option value='1994' >1994</option><option value='1995' >1995</option>
+<option value='1996' >1996</option><option value='1997' >1997</option><option value='1998' >1998</option>
+<option value='1999' >1999</option><option value='2000' >2000</option><option value='2001' >2001</option>
+<option value='2002' >2002</option><option value='2003' >2003</option><option value='2004' >2004</option>
+<option value='2005' >2005</option><option value='2006' >2006</option><option value='2007' >2007</option>
+<option value='2008' >2008</option><option value='2009' >2009</option><option value='2010' >2010</option>
+<option value='2011' >2011</option><option value='2012'>2012</option><option value='2013' >2013</option>
+<option value='2014'>2014</option>
+<option value='2015'>2015</option>
+<option value='2016'>2016</option><option value='2017' selected="selected">2017</option>
+</select></td>
+<td><select id="month2" name="month2">
+<option value='1' selected="selected">January</option>
+<option value='2' >February</option>
+<option value='3' >March</option>
+<option value='4' >April</option>
+<option value='5' >May</option>
+<option value='6' >June</option>
+<option value='7' >July</option>
+<option value='8' >August</option>
+<option value='9' >September</option>
+<option value='10' >October</option>
+<option value='11' >November</option>
+<option value='12' >December</option>
+</select></td>
+<td><select id="day2" name="day2">
+<option value="1" selected="selected">1</option>
+<option value="2" >2</option><option value="3" >3</option><option value="4" >4</option>
+<option value="5" >5</option><option value="6" >6</option><option value="7" >7</option>
+<option value="8" >8</option><option value="9" >9</option><option value="10" >10</option>
+<option value="11" >11</option><option value="12" >12</option><option value="13" >13</option>
+<option value="14" >14</option><option value="15" >15</option><option value="16" >16</option>
+<option value="17" >17</option><option value="18" >18</option><option value="19" >19</option>
+<option value="20" >20</option><option value="21" >21</option><option value="22" >22</option>
+<option value="23" >23</option><option value="24" >24</option><option value="25" >25</option>
+<option value="26" >26</option><option value="27" >27</option><option value="28" >28</option>
+<option value="29" >29</option><option value="30" >30</option><option value="31" >31</option>
+</select></td>
+</tr>
+</table>
+
+<p><strong>Select Data Variables</strong>:
+<br /><i>Date and Day of Year are included automatically in the export.
+To select multiple data, hold CTRL key down while selecting options here.</i>
+<br /><select size=5 name="vars[]" MULTIPLE class="select">0
+  <option value="high">Variable: High Air Temperature [F]</option>
+  <option value="highc">Variable: High Air Temperature [C]</option>
+  <option value="low">Variable: Low Air Temperature [F]</option>
+  <option value="lowc">Variable: Low Air Temperature [C]</option>
+  <option value="precip">Variable: Precipitation (rain+melted snow) [inch]</option>
+  <option value="precipmm">Variable: Precipitation (rain+melted snow) [mm]</option>
+  <option value="merra_srad">Variable: Solar Radiation from MERRA (shortwave down at ground) [MJ m-2 dy-1]</option>
+  <option value="gdd_50_86">Computed: Growing Degree Days (base=50,max=86) [F]</option>
+</select></p>
+
+<p><strong>Optional: Specialized Model Formats for Export</strong>:
+<br /><i>These are specialized formats typically used for modelling and
+their choice dictates the variables to be included.</i>
+<br />
+<select size="5" name="model">
+  <option value="apsim">Model: APSIM MET File</option>
+  <option value="century">Model: Century (Monthly Format)</option>
+  <option value="daycent">Model: DailyDayCent (no extra drivers)</option>
+  <option value="dndc">Model: DNDC</option>
+  <option value="salus">Model: SALUS</option>
+  <option value="swat">Model: SWAT (daily precip and temperature)</option>
+</select></p>
+
+<input type="hidden" name="what" value="download" />
+
+<p><strong>Data Delimitation:</strong>
+<br />How shall the output values be separated?
+<br><select name="delim">
+    <option value="comma">Comma
+    <option value="space">Space
+    <option value="tab">Tab
+   </select></p>
+
+<p>The downloaded data file name will contain the weather station identifiers
+if you request data from 9 or less sites.  For requests over 9 sites,
+the filename will simply be "changeme". Refer to the drop-down above for reminder as to
+which site it corresponds with.</p>
+
+<p><input type="submit" value="Request Data" /></p>
+</form>
+  </div><!--./wx2-->
+
+ <div role="tabpanel" class="tab-pane" id="wx1">
+
+<p>On-site weather stations existed at some research sites to provide finer
+resolution weather data as compared to the networked weather data which can
+be a mile or more away. This on-site weather data is especially valuable for
+precipitation amounts as that will vary more spatially than temperature or
+wind.</p>
+
+<p>On-site weather stations tend to be less robust of instrumentation however
+than the weather data included under the first tab. It is recommended to use
+this on-site data as a secondary data set to refine the networked data. It
+is expected that the temperature and wind values will be near identical
+between the stations but the precipitation amounts will vary.</p>
+
+<form method="GET" id="wxform2" action="wxdl.py">
+
+<p><strong>Select Research Site(s):</strong>
+<br />
+<select name="stations" size="5" multiple="" class="select">
+<option value="ARL">ARL [Arlington, WI] -- 2011-2015</option>
+<option value="DPAC">DPAC [Farmland, IN] -- 2011-Sep 2015</option>
+<option value="HICKS.P">HICKS.P [Tracy, MN] -- 2011-2015</option>
+<option value="LAN">LAN [Lancaster, WI] -- 2011-2014</option>
+<option value="MAR">MAR [Marshfield, WI] -- 2011-2014</option>
+<option value="NWREC">NWREC [Monmouth, IL] -- 2011-2015</option>
+<option value="ORR">ORR [Perry, IL] -- 2011-2015</option>
+<option value="SEPAC">SEPAC [Butlerville, IN] -- 2011-2015</option>
+<option value="SERF">SERF [Crawfordsville, IA] -- 2011-2015</option>
+<option value="STJOHNS">STJOHNS [St Johns, OH] -- 2011-2014</option>
+</select>
+</p>
+<p><strong>Select Time Period:</strong>
+
+<table><tr><th></th><th>Year</th><th>Month</th><th>Day</th></tr>
+<tr><td>Start:</td>
+<td><select id="year1" name="year1">
+<option value='2011' >2011</option><option value='2012'>2012</option><option value='2013' >2013</option>
+<option value='2014'>2014</option>
+<option value='2015'>2015</option>
+</select></td>
+<td><select id="month1" name="month1">
+<option value='1' selected="selected">January</option>
+<option value='2' >February</option>
+<option value='3' >March</option>
+<option value='4' >April</option>
+<option value='5' >May</option>
+<option value='6' >June</option>
+<option value='7' >July</option>
+<option value='8' >August</option>
+<option value='9' >September</option>
+<option value='10' >October</option>
+<option value='11' >November</option>
+<option value='12' >December</option>
+</select>
+</td>
+<td><select id="day1" name="day1">
+<option value="1" selected="selected">1</option>
+<option value="2" >2</option><option value="3" >3</option><option value="4" >4</option>
+<option value="5" >5</option><option value="6" >6</option><option value="7" >7</option>
+<option value="8" >8</option><option value="9" >9</option><option value="10" >10</option>
+<option value="11" >11</option><option value="12" >12</option><option value="13" >13</option>
+<option value="14" >14</option><option value="15" >15</option><option value="16" >16</option>
+<option value="17" >17</option><option value="18" >18</option><option value="19" >19</option>
+<option value="20" >20</option><option value="21" >21</option><option value="22" >22</option>
+<option value="23" >23</option><option value="24" >24</option><option value="25" >25</option>
+<option value="26" >26</option><option value="27" >27</option><option value="28" >28</option>
+<option value="29" >29</option><option value="30" >30</option><option value="31" >31</option>
+</select></td>
+</tr>
+<tr><td>End:</td>
+<td><select id="year2" name="year2">
+<option value='2011' >2011</option><option value='2012'>2012</option><option value='2013' >2013</option>
+<option value='2014'>2014</option>
+<option value='2015' selected="selected">2015</option>
+</select></td>
+<td><select id="month2" name="month2">
+<option value='1'>January</option>
+<option value='2' >February</option>
+<option value='3' >March</option>
+<option value='4' >April</option>
+<option value='5' >May</option>
+<option value='6' >June</option>
+<option value='7' >July</option>
+<option value='8' >August</option>
+<option value='9' >September</option>
+<option value='10' >October</option>
+<option value='11' >November</option>
+<option value='12' selected="selected">December</option>
+</select></td>
+<td><select id="day2" name="day2">
+<option value="1">1</option>
+<option value="2" >2</option><option value="3" >3</option><option value="4" >4</option>
+<option value="5" >5</option><option value="6" >6</option><option value="7" >7</option>
+<option value="8" >8</option><option value="9" >9</option><option value="10" >10</option>
+<option value="11" >11</option><option value="12" >12</option><option value="13" >13</option>
+<option value="14" >14</option><option value="15" >15</option><option value="16" >16</option>
+<option value="17" >17</option><option value="18" >18</option><option value="19" >19</option>
+<option value="20" >20</option><option value="21" >21</option><option value="22" >22</option>
+<option value="23" >23</option><option value="24" >24</option><option value="25" >25</option>
+<option value="26" >26</option><option value="27" >27</option><option value="28" >28</option>
+<option value="29" >29</option><option value="30" >30</option><option value="31" selected="selected">31</option>
+</select></td>
+</tr>
+</table>
+
+</p>
+<!--
+<p><strong>Select Data Variables:</strong>
+<br /><i>Date and Day of Year are included automatically in the export.
+To select multiple data, hold CTRL key down while selecting options here.</i>
+<br /><select size=5 name="vars" MULTIPLE class="select">0
+  <option value="high">Variable: High Air Temperature [F]</option>
+  <option value="highc">Variable: High Air Temperature [C]</option>
+  <option value="low">Variable: Low Air Temperature [F]</option>
+  <option value="lowc">Variable: Low Air Temperature [C]</option>
+  <option value="precip">Variable: Precipitation (rain+melted snow) [inch]</option>
+  <option value="precipmm">Variable: Precipitation (rain+melted snow) [mm]</option>
+  <option value="srad">Variable: Solar Radiation [MJ m-2 dy-1]</option>
+  <option value="gdd_50_86">Computed: Growing Degree Days (base=50,max=86) [F]</option>
+</select>
+</p>
+-->
+<br />
+
+<br /><input type="submit" value="Request Data">
+</p>
+
+</form>
+
+ </div><!--./wx1-->
+
+
+</div><!--./tab-content-->
+    </div>
+    <div role="tabpanel" class="tab-pane" id="sdata">
+
+<div class="clearfix"><p>&nbsp;</p></div>
+
+<p>Social economic research was conducted and included a survey of 4,778 farmers
+in 11 Corn Belt states and 156 one-hour, in-person farmer interviews. The data
+cannot be released due to anonymity issues but are available in aggregated
+format across watersheds in the region. These aggregated data and maps are
+available in two publications:</p>
+
+<p><a href="https://store.extension.iastate.edu/Product/14459" target="_blank">
+Farmer Perspectives on Agriculture and Weather Variability in the Corn Belt: A Statistical Atlas, Volume 1</a></p>
+
+<p>This first atlas (Volume 1) provides data regarding farmer beliefs and
+concerns about climate change, attitudes toward adaptation and mitigation,
+perceived capacity to deal with the impacts and recent experiences with extreme
+weather events. Delineated by watershed, this collection of tables and maps
+provides the results of a USDA-NIFA-supported survey, conducted in 2012, of
+4,778 farmers in 11 Corn-belt states.</p>
+
+<p><a href="https://store.extension.iastate.edu/Product/14458" target="_blank">
+Farmer Perspectives on Agricultural Practices, Information, and Weather Variability in the Corn Belt: A Statistical Atlas, Volume 2</a></p>
+
+<p>This second atlas (Volume 2) provides additional results from a 2012 survey of
+4,778 farmers in 11 Corn-belt states. Here, the focus is upon farmers'
+specific behaviors, beliefs about climate and weather, and the tools they
+utilize to make farm decisions. You will find information covering timing of
+farming practices and farming decisions, whether and how farmers use weather
+information when making farming decisions; a detailed look at the influence of
+agricultural advisors in farmer decision making processes; farmers' personal
+experiences regarding weather and risks; and plans and efforts of farmers to
+adapt to and manage for weather and climate variability and risk.</p>
+
+    </div>
+</div>
+
+</div>
+
+</div>
+
+<div class="clearfix"></div>
+<p>&nbsp;</p>
+<img src="/images/logos/web_logos.png" class="img img-responsive">
+</div></div>
+</div><!--/.container-->
+</main>
+<!-- footer -->
+<footer role="contentinfo">
+    <div class="container" id="iem-footer">
+        <div class="row">
+
+            <!-- footer-associates -->
+            <section class="footer-associates col-sm-12 col-md-3">
+                <ul>
+                    <li><a href="https://iastate.edu"><img src="https://cdn.theme.iastate.edu/img/isu-stacked.svg" class="wordmark-isu" alt="Iowa State University"></a></li>
+                    <li><a href="https://www.ag.iastate.edu">College of Ag</a></li>
+                    <li><a href="https://www.agron.iastate.edu">Department of Agronomy</a></li>
+                </ul>
+            </section>
+
+            <!-- footer-contact -->
+            <section class="footer-contact col-sm-12 col-md-3">
+                <p>
+                    <strong>Department of Agronomy</strong><br>
+                    <a href="https://maps.google.com/?q=716+Farm+House+Ln+Ames,+IA+50011">716 Farm House Ln<br>
+                        Ames, IA 50011</a>
+                </p>
+                <a href="mailto:akrherz@iastate.edu">akrherz@iastate.edu</a><br>
+                <a href="tel:515-294-5978">515-294-5978 phone</a>
+            </section>
+
+            <!-- footer-social -->
+            <section class="footer-social col-sm-12 col-md-3">
+                <ul class=" labeled">
+                    <li><a href="https://github.com/isudatateam/datateam"><span class="fa fa-external-link-square" aria-label="hidden"></span>Github</a></li>
+                </ul>
+            </section>
+
+            <!-- footer-legal -->
+            <section class="footer-legal col-sm-12 col-md-3">
+                <p>Copyright &copy; 2001-2017<br>
+                    Iowa State University<br>
+                    of Science and Technology<br>
+                    All rights reserved.</p>
+                <ul>
+                    <li><a href="https://www.policy.iastate.edu/policy/discrimination">Non-discrimination Policy</a></li>
+                    <li><a href="https://www.policy.iastate.edu/electronicprivacy">Privacy Policy</a></li>
+                    <li><a href="https://digitalaccess.iastate.edu">Digital Access &amp; Accessibility</a></li>
+                </ul>
+            </section>
+
+        </div>
+    </div>
+</footer>
+<!-- /footer -->
+
+
+
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="/vendor/jquery/1.11.3/jquery-1.11.3.min.js"></script>
+<script src="/vendor/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="/vendor/iastate-v2.0.1/js/vendor/bootstrap-submenu.min.js"></script>
+<script src="/vendor/iastate-v2.0.1/js/iastate.js"></script>
+
+<script src="/vendor/jquery-ui/1.11.4/jquery-ui.js"></script>
+<script src="dl.js?v=8"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108623031-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-108623031-1');
+</script></body>
+
+</html>

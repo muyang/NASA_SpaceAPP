@@ -1,0 +1,18 @@
+{
+  "name": "code_proc-historical-yields.R",
+  "path": "data-raw/yields/code_proc-historical-yields.R",
+  "sha": "7064094047e977a87832410dceb81c5c4513acd1",
+  "size": 1280,
+  "url": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/yields/code_proc-historical-yields.R?ref=01476a18c01115f70f154cf7e94c1951205fbda1",
+  "html_url": "https://github.com/vanichols/maRsden/blob/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/code_proc-historical-yields.R",
+  "git_url": "https://api.github.com/repos/vanichols/maRsden/git/blobs/7064094047e977a87832410dceb81c5c4513acd1",
+  "download_url": "https://raw.githubusercontent.com/vanichols/maRsden/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/code_proc-historical-yields.R",
+  "type": "file",
+  "content": "IyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIwojIGNyZWF0ZWQ6IG9jdCAyMCAy\nMDIwCiMKIyBwdXJwb3NlOiBwcm9jZXNzIGhpc3RvcmljYWwgY29ybiB5aWVs\nZHMgcmVjZWl2ZWQgZnJvbSBNTAojCiMgTk9URVM6IGZpbmFsIGRhdGEgbXVz\ndCBiZSBpbiBEUlkgTWcvaGEKIwojIGxhc3QgdXBkYXRlZDoKIwojIyMjIyMj\nIyMjIyMjIyMjIyMjIyMjIyMjCgoKIyMjIyMgQ2xlYXIgZW52aXJvbm1lbnQg\nYW5kIGxvYWQgcGFja2FnZXMgIyMjIyMKcm0obGlzdD1scygpKQpsaWJyYXJ5\nKGRwbHlyKQpsaWJyYXJ5KHRpZHlyKQpsaWJyYXJ5KHJlYWRyKQpsaWJyYXJ5\nKGdncGxvdDIpCmxpYnJhcnkobHVicmlkYXRlKQpsaWJyYXJ5KHN0cmluZ3Ip\nCmxpYnJhcnkoamFuaXRvcikgIy0tdXNlZCB0byBjbGVhbiBkYXRhCmxpYnJh\ncnkocmVhZHhsKQoKcGsgPC0gcmVhZF9jc3YoImRhdGEtcmF3L3Bsb3RrZXkv\ncGxvdGtleS5jc3YiKQoKIy0tZmluYWwgZGVzaXJlZCBwcm9kIGZvciByZWYK\ncmVhZF9jc3YoImRhdGEtcmF3L3lpZWxkcy9tcnNfY29ybnlsZHMuY3N2IikK\nCiMgY29ybiAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0t\nLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoKZGhpcyA8LSByZWFk\nX2V4Y2VsKCJkYXRhLXJhdy95aWVsZHMvcmF3L01hcnNkZW4gMjAwMy0xNyBD\nb3JuIFlpZWxkcy54bHN4Iiwgc2tpcCA9IDUpICU+JQogIGNsZWFuX25hbWVz\nKCkgJT4lCiAgcmVuYW1lKGhhcnZfY3JvcCA9ICJ0cnQiKQoKIy0tcGxvdHMg\nb25seSBzdGFydCBpbiAyMDEyLCBuZWVkIHRvIHVwZGF0ZSB0aGF0Li4uCgpk\nYXQgPC0KICBwayAlPiUKICBsZWZ0X2pvaW4oZGhpcyAlPiUgbXV0YXRlKGJs\nb2NrID0gcGFzdGUwKCJiIiwgYmxvY2spKSkgJT4lCiAgbXV0YXRlKHlpZWxk\nX01naGEgPSBtZ19oYV8xNV81X3BlcmNlbnRfbW9pc3R1cmUgKiAoMS0wLjE1\nNSkpICU+JQogIGZpbHRlcighaXMubmEoeWllbGRfTWdoYSkpCgojLS12aXog\nY2hlY2sKZGF0ICU+JQogIGdncGxvdChhZXMoeWVhciwgeWllbGRfTWdoYSwg\nY29sb3IgPSByb3RfdHJ0LCBzaGFwZSA9IGhhcnZfY3JvcCkpICsKICBnZW9t\nX3BvaW50KCkgKwogIGdlb21fbGluZSgpICsKICBmYWNldF9ncmlkKC5+Ymxv\nY2spCgojLS1rZWVwIG9ubHkgcGxvdF9pZCBhbmQgeWllbGRzCmRhdDIgPC0K\nICBkYXQgJT4lCiAgc2VsZWN0KHBsb3RfaWQsIHlpZWxkX01naGEpCgoKZGF0\nMiAlPiUgIHdyaXRlX2NzdigiZGF0YS1yYXcveWllbGRzL3Jhdy9yZF9jb3Ju\neWxkLTIwMTItMjAxNy5jc3YiKQo=\n",
+  "encoding": "base64",
+  "_links": {
+    "self": "https://api.github.com/repos/vanichols/maRsden/contents/data-raw/yields/code_proc-historical-yields.R?ref=01476a18c01115f70f154cf7e94c1951205fbda1",
+    "git": "https://api.github.com/repos/vanichols/maRsden/git/blobs/7064094047e977a87832410dceb81c5c4513acd1",
+    "html": "https://github.com/vanichols/maRsden/blob/01476a18c01115f70f154cf7e94c1951205fbda1/data-raw/yields/code_proc-historical-yields.R"
+  }
+}

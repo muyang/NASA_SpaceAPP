@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-15",
+  "api_url": "https://api.figshare.com/v2/articles/search",
+  "method": "POST public metadata search",
+  "query": {"search_for":"\"Sustainable corn CAP\"","page_size":100},
+  "http_status": 403,
+  "data_acquired": false,
+  "portal": "https://datateam.agron.iastate.edu/cscap/dl/",
+  "portal_submission": "Not submitted: asks for email and usage agreement; no false identity or unsolicited contact used",
+  "other_repository_attempts": "Original USDA landing pages returned empty bodies; recorded as failures in sources.json"
+}

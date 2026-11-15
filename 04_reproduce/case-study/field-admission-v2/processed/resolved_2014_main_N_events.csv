@@ -1,0 +1,5 @@
+year,date,trt,nutrient,amount_lb_N_ac,amount_kg_N_ha,source_file,sheet,row,basis,scope
+2014,2014-04-21,C2,N,100,112.08511560000001,raw/field-logs/Marsden-field-activities-Woods-2013-2018.xlsx,2014,4,explicit nutrient N; do not multiply by UAN fraction,"main mineral N event, not complete all-subplot nutrient ledger"
+2014,2014-06-11,C2,N,50,56.042557800000004,raw/field-logs/Marsden-field-activities-Woods-2013-2018.xlsx,2014,25,explicit nutrient N; do not multiply by UAN fraction,"main mineral N event, not complete all-subplot nutrient ledger"
+2014,2014-06-11,C3,N,25,28.021278900000002,raw/field-logs/Marsden-field-activities-Woods-2013-2018.xlsx,2014,25,explicit nutrient N; do not multiply by UAN fraction,"main mineral N event, not complete all-subplot nutrient ledger"
+2014,2014-06-11,C4,N,25,28.021278900000002,raw/field-logs/Marsden-field-activities-Woods-2013-2018.xlsx,2014,25,explicit nutrient N; do not multiply by UAN fraction,"main mineral N event, not complete all-subplot nutrient ledger"

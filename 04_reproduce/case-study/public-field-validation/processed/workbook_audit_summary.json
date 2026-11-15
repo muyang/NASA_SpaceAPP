@@ -1,0 +1,12 @@
+{
+  "checks_passed": 86,
+  "corn_raw_rows": 384,
+  "corn_reproduced_plot_years": 228,
+  "max_dry_mass_reconstruction_error_Mg_ha": 5.000000413701855e-09,
+  "raw_corn_bu_mass_conversion": 0.06271,
+  "analysis_declared_corn_conversion": 0.06277,
+  "conversion_note": "Historical workbook rounded conversion differs from the declared standard by about 0.096%; primary protocol remains unchanged and results are expressed from standardized mass. Do not silently relabel those as verbatim source bushels.",
+  "additional_soy_harvest_subdivision_rows": 72,
+  "additional_soy_admission": "Not fitted or included in the frozen primary backtest. Later workbooks retain a note naming 2018 for no herbicide split; clarify true later-year management and field flags first.",
+  "complete_process_input_gate": false
+}

@@ -1,0 +1,8 @@
+[package]
+name = "fieldshift-field-replay"
+version = "0.1.0"
+edition = "2021"
+description = "Source-record-driven 2014 field diagnostic, not an operational recommendation model"
+
+[dependencies]
+fieldshift-eo-rs = { path = "../../../fieldshift-eo-rs" }

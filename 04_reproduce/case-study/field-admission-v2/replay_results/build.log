@@ -1,0 +1,4 @@
+     Locking 1 package to latest compatible version
+   Compiling fieldshift-eo-rs v0.3.0 (/Volumes/mac/Users/mac/Repos/NASA/fieldshift-eo-rs)
+   Compiling fieldshift-field-replay v0.1.0 (/Volumes/mac/Users/mac/Repos/NASA/case-study/field-admission-v2/rust)
+    Finished `release` profile [optimized] target(s) in 3.18s

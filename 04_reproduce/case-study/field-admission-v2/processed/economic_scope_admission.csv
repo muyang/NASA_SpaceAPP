@@ -1,0 +1,18 @@
+category,source_support,verified_common_field_year_cost,missing_cost_is_zero
+seed,2014 corn and soybean source-log seed prices,False,False
+fertilizer,not closed as a common field-year line-item ledger,False,False
+manure_material,not closed as a common field-year line-item ledger,False,False
+manure_haul,"some total-load transport charges, field allocation missing",False,False
+application,not closed as a common field-year line-item ledger,False,False
+tillage,not closed as a common field-year line-item ledger,False,False
+crop_protection_material,not closed as a common field-year line-item ledger,False,False
+labor,not closed as a common field-year line-item ledger,False,False
+machinery_ownership,not closed as a common field-year line-item ledger,False,False
+drying,not closed as a common field-year line-item ledger,False,False
+storage,not closed as a common field-year line-item ledger,False,False
+transport,not closed as a common field-year line-item ledger,False,False
+land,not closed as a common field-year line-item ledger,False,False
+insurance,not closed as a common field-year line-item ledger,False,False
+finance,not closed as a common field-year line-item ledger,False,False
+oat_straw,not closed as a common field-year line-item ledger,False,False
+terminal_stock,not closed as a common field-year line-item ledger,False,False
