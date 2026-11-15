@@ -1,5 +1,5 @@
 {
-  "selection": "One current briefing, one self-contained English demo, final evidence tables and minimal reproducible diagnostic. No candidate run selected as a validated optimum.",
+  "selection": "One current briefing, one self-contained English demo organized by a research knowledge graph, final evidence and a minimal reproducible diagnostic. Research links do not establish causality or a validated optimum.",
   "files": [
     {
       "path": "01_briefing/Research_Brief_CN.md",
@@ -21,15 +21,15 @@
     },
     {
       "path": "02_demo/README.md",
-      "bytes": 1793,
-      "sha256": "283e49bfc3db0b3ed18ab5a2ca544b66986d2dbd51a675f3c554100a8cbc9e28",
-      "origin": "curated_or_authored_for_peer_briefing; English offline demo rebuild"
+      "bytes": 2150,
+      "sha256": "d9a68503121d5b34dbf0dcd19d10073076cffdf31af8cbb62bbf93f78ce3ed70",
+      "origin": "curated_or_authored_for_peer_briefing; research knowledge graph"
     },
     {
       "path": "02_demo/index.html",
-      "bytes": 950050,
-      "sha256": "e6719369d493c18098f3eff966fc5f58107a29085b1004c440c578c8cc92a1db",
-      "origin": "curated_or_authored_for_peer_briefing; English offline demo rebuild"
+      "bytes": 975502,
+      "sha256": "5d0f4c658061bb58fbb2d251b761e55faa677615dfafdd843f7f51b3e2b2f26b",
+      "origin": "curated_or_authored_for_peer_briefing; research knowledge graph"
     },
     {
       "path": "02_demo/planner/evidence.html",
@@ -1089,15 +1089,33 @@
     },
     {
       "path": "04_reproduce/demo/build_demo.py",
-      "bytes": 7007,
-      "sha256": "78cc8930fe77e4b1d5b5ff8ef07fb7cad1d7074d0719d43150eb9ae0cd741b6a",
-      "origin": "curated_or_authored_for_peer_briefing; English offline demo rebuild"
+      "bytes": 7320,
+      "sha256": "1c86a3e6b5b32b46b7e9712759b5c42553dc1ec402a300c87ea71a65d41d5c9e",
+      "origin": "curated_or_authored_for_peer_briefing; research knowledge graph"
+    },
+    {
+      "path": "04_reproduce/demo/graph.css",
+      "bytes": 4010,
+      "sha256": "888ddf0b98e7ccd8254ed6363bb1739a03de61b468f57f060076d86647446c42",
+      "origin": "curated_or_authored_for_peer_briefing; research knowledge graph"
+    },
+    {
+      "path": "04_reproduce/demo/graph.js",
+      "bytes": 8117,
+      "sha256": "0c93a1b0a1bde9ed8c9c2e993b3ec193d59dc0af9d49b4abf655929231990ea2",
+      "origin": "curated_or_authored_for_peer_briefing; research knowledge graph"
     },
     {
       "path": "04_reproduce/demo/map_paths.json",
       "bytes": 754238,
       "sha256": "33e346a51331ab9126aabde75de4502c7e2e79c500facc559fbd3c41d28e590c",
       "origin": "curated_or_authored_for_peer_briefing; English offline demo rebuild"
+    },
+    {
+      "path": "04_reproduce/demo/research_graph.json",
+      "bytes": 12325,
+      "sha256": "0f2c5a1586cf037cf6d2b4f2ab84ad56c3638ae8fc34c5e484c4945a4d7ef1f3",
+      "origin": "curated_or_authored_for_peer_briefing; research knowledge graph"
     },
     {
       "path": "04_reproduce/demo/style.css",
@@ -1107,9 +1125,9 @@
     },
     {
       "path": "04_reproduce/demo/template.html",
-      "bytes": 13379,
-      "sha256": "7c6ad62949eb3152d7ea68782eda9267ef0465b356bc5967474ccd4a92616ae7",
-      "origin": "curated_or_authored_for_peer_briefing; English offline demo rebuild"
+      "bytes": 14682,
+      "sha256": "255f805262f8fd5ecfa477c65f004a77d4e73cf3028dae2d394819fda532ab37",
+      "origin": "curated_or_authored_for_peer_briefing; research knowledge graph"
     },
     {
       "path": "04_reproduce/fieldshift-eo-rs/Cargo.lock",
@@ -1167,9 +1185,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 2581,
-      "sha256": "21369f88a6a99635a2cee4de3dd04b91cb0580596b8a2c5284e052f10d88a771",
-      "origin": "curated_or_authored_for_peer_briefing; English offline demo rebuild"
+      "bytes": 2596,
+      "sha256": "a1e216fcec20de6b5d50f986ac5fe3edd512d4fb6236e938e987bf0a872beea6",
+      "origin": "curated_or_authored_for_peer_briefing; research knowledge graph"
     }
   ]
 }

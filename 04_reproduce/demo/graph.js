@@ -1,0 +1,40 @@
+// Research knowledge graph: fixed semantic layout, no network or force simulation.
+const KG=D.graph,kgNodes=new Map(KG.nodes.map(n=>[n.id,n])),kgTypes=new Map(KG.types.map(t=>[t.id,t]));
+const guided={Q1:['Q1','D1','M1','E7','G3'],Q2:['Q2','D3','M2','E4','G2','G3'],Q3:['Q3','D3','M3','E3','G1','G3'],Q4:['Q4','D3','M3','E5','G1','G3'],Q5:['Q5','D5','M4','E6','G2','G3']};
+let kgSelected='Q3',kgFocus='all';const kgMobile=matchMedia('(max-width:800px)');
+function nodeLabel(id){return kgNodes.get(id).label.replace(/\n/g,' ');}
+function nodeInfo(n){let claims=(n.evidence||[]).map(id=>D.evidence.find(e=>e.id===id)).filter(Boolean),first=claims[0];return {...n,summary:n.summary||first?.support||'',limit:n.limit||first?.limit||'',sources:[...(n.sources||[]),...claims.flatMap(e=>e.sources)].filter((s,i,a)=>a.findIndex(x=>x.url===s.url)===i)};}
+$('#kg-focus').innerHTML='<option value="all">Full research framework</option>'+KG.questions.map(q=>`<option value="${q.id}">${q.id} · ${esc(q.label)}</option>`).join('');
+$('#kg-node-picker').innerHTML=KG.types.map(t=>`<optgroup label="${esc(t.label)}">${KG.nodes.filter(n=>n.type===t.id).map(n=>`<option value="${n.id}">${esc(nodeLabel(n.id))}</option>`).join('')}</optgroup>`).join('');
+$('#kg-legend').innerHTML=KG.types.map(t=>`<span><i style="background:${t.color}"></i>${esc(t.label)}</span>`).join('');
+function kgVisible(){if(kgMobile.matches){let q=kgFocus==='all'?'Q3':kgFocus;let ids=[...guided[q]];if(!ids.includes(kgSelected))ids.push(kgSelected);return ids.map(id=>kgNodes.get(id));}return KG.nodes.filter(n=>kgFocus==='all'||KG.paths[kgFocus].includes(n.id)||n.id===kgSelected);}
+function drawGraph(){let mobile=kgMobile.matches;$('#kg-focus option[value="all"]').disabled=mobile;if(mobile&&kgFocus==='all')kgFocus='Q3';let nodes=kgVisible(),visible=new Set(nodes.map(n=>n.id)),positions=new Map(),width=mobile?360:1080,height=mobile?nodes.length*94+30:700;
+ if(mobile){nodes.forEach((n,i)=>positions.set(n.id,{x:43,y:16+i*94,w:274,h:64}));}
+ else{let maxRows=Math.max(...KG.types.map(t=>nodes.filter(n=>n.type===t.id).length));height=112+maxRows*82;KG.types.forEach((t,col)=>{let group=nodes.filter(n=>n.type===t.id),gap=82,start=74+(maxRows-group.length)*gap/2;group.forEach((n,i)=>positions.set(n.id,{x:15+col*216,y:start+i*gap,w:185,h:64}));});}
+ let active=new Set([kgSelected]);KG.edges.forEach(e=>{if(e.from===kgSelected)active.add(e.to);if(e.to===kgSelected)active.add(e.from);});
+ let out=`<defs><marker id="kg-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9" fill="none" stroke="#7e9583" stroke-width="1.5"/></marker><marker id="kg-arrow-active" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0 1 L9 5 L0 9" fill="none" stroke="#966232" stroke-width="1.5"/></marker></defs>`;
+ if(!mobile)out+=KG.types.map((t,i)=>`<text x="${15+i*216+92}" y="30" text-anchor="middle" class="kg-col-title">${esc(t.label)}</text>`).join('');
+ const edges=KG.edges.filter(e=>visible.has(e.from)&&visible.has(e.to));
+ for(const e of edges){let a=positions.get(e.from),b=positions.get(e.to),selected=e.from===kgSelected||e.to===kgSelected;let d;
+  if(mobile){if(b.y===a.y+a.h+30){d=`M${a.x+a.w/2},${a.y+a.h} L${b.x+b.w/2},${b.y}`;}else{let side=22;d=`M${a.x},${a.y+a.h/2} C${side},${a.y+a.h/2} ${side},${b.y+b.h/2} ${b.x},${b.y+b.h/2}`;}}
+  else if(a.x===b.x){d=`M${a.x+a.w},${a.y+a.h/2} C${a.x+a.w+26},${a.y+a.h/2} ${b.x+b.w+26},${b.y+b.h/2} ${b.x+b.w},${b.y+b.h/2}`;}
+  else{let x1=a.x+a.w,y1=a.y+a.h/2,x2=b.x,y2=b.y+b.h/2;d=`M${x1},${y1} C${x1+38},${y1} ${x2-38},${y2} ${x2},${y2}`;}
+  out+=`<path class="kg-edge ${selected?'active':''}" data-from="${e.from}" data-to="${e.to}" d="${d}" marker-end="url(#${selected?'kg-arrow-active':'kg-arrow'})"><title>${esc(nodeLabel(e.from)+' → '+e.relation+' → '+nodeLabel(e.to))}</title></path>`;
+  if(mobile&&b.y===a.y+a.h+30)out+=`<text class="kg-edge-label" x="${a.x+a.w/2+8}" y="${a.y+a.h+20}">${esc(e.relation)}</text>`;
+ }
+ for(const n of nodes){let p=positions.get(n.id),lines=n.label.split('\n'),type=kgTypes.get(n.type),chosen=n.id===kgSelected;out+=`<g class="kg-node ${chosen?'selected':''} ${active.has(n.id)?'connected':''}" data-kg-node="${n.id}" role="button" tabindex="0" aria-label="${esc(type.label+': '+nodeLabel(n.id)+'. '+n.status)}" aria-pressed="${chosen}" transform="translate(${p.x},${p.y})"><rect width="${p.w}" height="${p.h}" rx="8" fill="${type.color}"/><text x="${p.w/2}" y="${lines.length===1?36:27}" text-anchor="middle">${lines.map((l,i)=>`<tspan x="${p.w/2}" dy="${i?20:0}">${esc(l)}</tspan>`).join('')}</text><title>${esc(n.status)}</title></g>`;}
+ let svg=$('#research-graph');svg.setAttribute('viewBox',`0 0 ${width} ${height}`);svg.innerHTML=out;svg.classList.toggle('mobile-trace',mobile);
+ document.querySelectorAll('[data-kg-node]').forEach(g=>{g.addEventListener('click',()=>selectGraphNode(g.dataset.kgNode));g.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();selectGraphNode(g.dataset.kgNode,true);}});});
+ $('#kg-focus').value=kgFocus;$('#kg-node-picker').value=kgSelected;$('#kg-view-note').textContent=mobile?'Question trace · choose a question or node to explore its connections.':'Select a node to highlight its direct connections. Choose a question to focus the framework.';
+}
+function selectGraphNode(id,restoreFocus=false){kgSelected=id;if(kgMobile.matches&&id.startsWith('Q'))kgFocus=id;drawGraph();graphDetail();if(restoreFocus)document.querySelector(`[data-kg-node="${id}"]`)?.focus();}
+function graphDetail(){let n=nodeInfo(kgNodes.get(kgSelected)),type=kgTypes.get(n.type),relations=KG.edges.filter(e=>e.from===n.id||e.to===n.id),incoming=relations.filter(e=>e.to===n.id),outgoing=relations.filter(e=>e.from===n.id);const connections=(edges,dir)=>edges.map(e=>{let other=dir==='in'?e.from:e.to;return `<button class="kg-relation" data-kg-related="${other}"><span>${esc(e.relation)} ${dir==='in'?'←':'→'}</span><strong>${esc(nodeLabel(other))}</strong></button>`;}).join('');
+ $('#kg-detail').innerHTML=`<p class="chart-kicker">${esc(type.label.toUpperCase())} · ${n.id}</p><h3>${esc(nodeLabel(n.id))}</h3><span class="tag">${esc(n.status)}</span><p class="kg-summary">${esc(n.summary)}</p>${n.scope?`<p class="small"><strong>Support:</strong> ${esc(n.scope)}</p>`:''}<p class="small warning">${esc(n.limit)}</p><a class="button secondary kg-open" id="kg-open-section" href="#${n.section}">Open linked analysis →</a>${n.evidence?.length?`<div class="kg-claims">${n.evidence.map(id=>`<button data-kg-claim="${id}">${id} · View evidence</button>`).join('')}</div>`:''}<details class="kg-connections" open><summary>Typed relationships · ${relations.length}</summary>${incoming.length?`<p class="small">Incoming</p>${connections(incoming,'in')}`:''}${outgoing.length?`<p class="small">Outgoing</p>${connections(outgoing,'out')}`:''}</details>${n.sources.length?`<details class="kg-sources"><summary>Sources and provenance</summary>${n.sources.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)} ↗</a>`).join('')}</details>`:''}`;
+ document.querySelectorAll('[data-kg-related]').forEach(b=>b.onclick=()=>selectGraphNode(b.dataset.kgRelated));document.querySelectorAll('[data-kg-claim]').forEach(b=>b.onclick=()=>{state.evidence=b.dataset.kgClaim;renderEvidence();location.hash='methods';});
+}
+$('#kg-focus').onchange=e=>{kgFocus=e.target.value;if(kgFocus!=='all')kgSelected=kgFocus;else kgSelected='Q3';drawGraph();graphDetail();};
+$('#kg-node-picker').onchange=e=>selectGraphNode(e.target.value);
+$('#kg-reset').onclick=()=>{kgFocus=kgMobile.matches?'Q3':'all';kgSelected='Q3';drawGraph();graphDetail();};
+$('#kg-download').onclick=()=>download(JSON.stringify({...KG,nodes:KG.nodes.map(nodeInfo)},null,2),'Field_Shift_Research_Knowledge_Graph.json','application/json');
+kgMobile.addEventListener('change',()=>{if(kgMobile.matches&&kgFocus==='all')kgFocus='Q3';drawGraph();graphDetail();});
+if(kgMobile.matches)kgFocus='Q3';drawGraph();graphDetail();

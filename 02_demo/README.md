@@ -1,8 +1,10 @@
 # Field Shift · Research Explorer
 
-Open `index.html` directly in a browser. The English demo is one self-contained file (about 960 KB) with no runtime requests for map tiles, libraries, fonts or data. A local HTTP server is optional.
+Open `index.html` directly in a browser. The English demo is one self-contained file (under 1 MB) with no runtime requests for map tiles, libraries, fonts or data. A local HTTP server is optional.
 
-The page includes:
+The page starts with a research knowledge graph. Choose a question, inspect a node, follow typed relationships, open a linked analysis or evidence panel, and download the enriched graph JSON. The full framework uses 24 nodes; small screens show readable question traces. Arrows describe research dependencies and provenance, not demonstrated causality.
+
+The page also includes:
 
 - An interactive county map: research sites, climate resemblance and data provenance; search, zoom, pan and county details.
 - Farmer constraint inputs, three illustrative rotation discussions and a downloadable memo. Unknowns remain unknown; no recommendation score is generated.

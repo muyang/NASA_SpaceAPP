@@ -1,0 +1,68 @@
+{
+  "version": "research-framework-1",
+  "date": "2026-11-15",
+  "meaning": "Directed links describe research provenance, analytical dependencies and review requirements; they do not establish causal effects.",
+  "types": [
+    {"id":"question","label":"Research question","color":"#e9e3d2"},
+    {"id":"data","label":"Data and context","color":"#e2eadc"},
+    {"id":"method","label":"Analysis method","color":"#dfe9e6"},
+    {"id":"evidence","label":"Evidence claim","color":"#e8e9d7"},
+    {"id":"gate","label":"Decision gate","color":"#f0e2d4"}
+  ],
+  "questions": [
+    {"id":"Q1","label":"Pressure identification"},
+    {"id":"Q2","label":"Rotation-function matching"},
+    {"id":"Q3","label":"Fair strategy comparison"},
+    {"id":"Q4","label":"Scale and uncertainty"},
+    {"id":"Q5","label":"Farmer trade-offs and review"}
+  ],
+  "nodes": [
+    {"id":"Q1","type":"question","label":"Pressure\nidentification","status":"Research question","summary":"Which environmental pressures are supported at the study location and scale?","scope":"Regional climate context and local records; pressure alone does not determine a rotation.","limit":"A climate resemblance class is not a measured field stress or crop-suitability probability.","section":"landscape","evidence":["E7"]},
+    {"id":"Q2","type":"question","label":"Rotation-function\nmatching","status":"Research question","summary":"Which cover, nitrogen, root or sequence functions fit local soil, water and operations?","scope":"Agronomic functions must be checked against management, equipment and markets.","limit":"A crop label or historic system contrast does not isolate a crop-function effect.","section":"planner","evidence":["E1","E2","E4"]},
+    {"id":"Q3","type":"question","label":"Fair strategy\ncomparison","status":"Research question","summary":"How can the current rotation and at least two alternatives be compared on common physical and economic supports?","scope":"Separate observed trials, process diagnostics and historical financial estimates.","limit":"A model diagnostic or point-estimate financial order is not an operational recommendation.","section":"trials","evidence":["E1","E3","E5","E6"]},
+    {"id":"Q4","type":"question","label":"Scale and\nuncertainty","status":"Research question","summary":"How sensitive are conclusions to data support, missing inputs and assumptions?","scope":"Native resolution, depth mapping, time splits, PTF and initial-water assumptions remain explicit.","limit":"Scenario ranges are not confidence intervals; repeated plot dates do not create independent weather years.","section":"model","evidence":["E3","E5","E7"]},
+    {"id":"Q5","type":"question","label":"Farmer trade-offs\nand review","status":"Research question","summary":"How should farmer priorities shape a transparent discussion while retaining local expertise?","scope":"Resource constraints, market outlets, costs and adviser review.","limit":"Real farmer usability participants remain zero; preferences do not validate a model.","section":"planner","evidence":["E6"]},
+    {"id":"D1","type":"data","label":"NASA environment\nand climate context","status":"Mixed spatial supports","summary":"NASA POWER supplies regional forcing and climate context. The national table separates POWER samples, IDW fill and study anchors.","scope":"3,107 county records; 3,098 outlines. Other NASA resources considered are not automatically admitted as model inputs.","limit":"Regional or interpolated information is not field-station ground truth.","section":"landscape","evidence":["E7"],"sources":[{"label":"NASA POWER","url":"https://power.larc.nasa.gov/"}]},
+    {"id":"D2","type":"data","label":"Observed trials\nand county yields","status":"Observed / published","summary":"Marsden plot records, PFI treatment summaries and USDA county observations support comparisons at different scales.","scope":"Plot, farm-strip summary and county aggregate evidence are kept separate.","limit":"Raw PFI strip/sensor data are unavailable; county yields cannot verify individual field management.","section":"trials","evidence":["E1","E2","E4","E5"]},
+    {"id":"D3","type":"data","label":"Soil and\nmanagement logs","status":"Partly verified","summary":"Measured 2014 soil layers and original operation logs improve input traceability and resolve major nitrogen-basis errors.","scope":"Eight 0–100 cm profiles, 40 layers and 1,168 source log clusters, including 40 date conflicts.","limit":"Measured retention, dated initial states, drainage and a complete unique event ledger remain open.","section":"model","evidence":["E3"]},
+    {"id":"D4","type":"data","label":"Farmer conditions\nand priorities","status":"User-entered / unvalidated","summary":"Water, equipment, crop use, oat outlets and the discussion priority can be entered in this demo.","scope":"Temporary page inputs, not independently checked farm records.","limit":"No actual farmer usability results are supplied.","section":"planner","evidence":[]},
+    {"id":"D5","type":"data","label":"Costs, buyers\nand macro scenarios","status":"Incomplete current records","summary":"Historical budget estimates provide context. Current buyer terms and full incremental field accounts are prerequisites for decision appraisal.","scope":"Prices, climate, policy or trade shocks may be explicit scenarios.","limit":"No verified event probabilities, geopolitical causal effects or current farm profit forecast are claimed.","section":"economics","evidence":["E6"]},
+    {"id":"M1","type":"method","label":"Units, support\nand harmonization","status":"Applied with assumptions","summary":"Preserve spatial and temporal support, normalize grain moisture basis and map soil-water depths transparently.","scope":"Regional climate, trial observations, soil horizons and county data retain separate meanings.","limit":"Resampling or a unit conversion cannot create new ground observations.","section":"methods","evidence":["E1","E3","E7"]},
+    {"id":"M2","type":"method","label":"Agronomic rules\nand constraints","status":"Discussion checks","summary":"Check water, establishment, termination, crop use and market constraints before discussing alternatives.","scope":"Current corn–soybean plus rye and oats/red-clover discussion options; ROTOR/CropRota inform the constraint concept.","limit":"Unknowns stay unknown; a high score cannot offset an unavailable machine or missing buyer.","section":"planner","evidence":["E4"],"sources":[{"label":"ROTOR","url":"https://doi.org/10.1016/j.eja.2006.09.002"},{"label":"CropRota","url":"https://doi.org/10.1016/j.eja.2011.02.004"}]},
+    {"id":"M3","type":"method","label":"Rust replay\nand holdout checks","status":"Diagnostic, not validated","summary":"An independent simplified water–C–N model and separate historical tests expose process and transfer errors.","scope":"32 source-driven field runs; temporal and leave-one-year-out county diagnostics.","limit":"Not official APSIM; conservation and fitting are not independent predictive validation.","section":"model","evidence":["E3","E5"]},
+    {"id":"M4","type":"method","label":"CBA, MCA\nand sensitivity","status":"Partial / proposed appraisal","summary":"Compare full-cycle incremental accounts, physical criteria and farmer-defined preferences after feasibility checks.","scope":"Historical financial estimates and declared price sensitivities are available; full field CBA and MCA are not.","limit":"Missing costs are not zero. Grid-case counts are not probabilities or a farmer ranking.","section":"economics","evidence":["E6"]},
+    {"id":"E1","type":"evidence","label":"E1 · Marsden\nsystem contrasts","status":"Local observed comparison","section":"trials","evidence":["E1"]},
+    {"id":"E2","type":"evidence","label":"E2 · PFI\nrye outcomes","status":"Published farm summaries","section":"trials","evidence":["E2"]},
+    {"id":"E3","type":"evidence","label":"E3 · Field replay\nyield / water bias","status":"Validation not passed","section":"model","evidence":["E3"]},
+    {"id":"E4","type":"evidence","label":"E4 · County crop\nand product context","status":"Sampled / aggregate context","section":"landscape","evidence":["E4"]},
+    {"id":"E5","type":"evidence","label":"E5 · Transfer\nvalidation limits","status":"Mostly negative skill","section":"model","evidence":["E5"]},
+    {"id":"E6","type":"evidence","label":"E6 · Conditional\nhistorical returns","status":"Historical point estimates","section":"economics","evidence":["E6"]},
+    {"id":"E7","type":"evidence","label":"E7 · Climate\nresemblance / coverage","status":"Spatial screening only","section":"landscape","evidence":["E7"]},
+    {"id":"G1","type":"gate","label":"Independent\nvalidation gate","status":"Not passed","summary":"Independent effect validation must establish adequate water, phenology, yield and rotation-difference performance.","scope":"Full-cycle, multi-year evidence with declared baselines and support.","limit":"Current field replay bias and county transfer limits prevent operational model claims.","section":"model","evidence":["E3","E5"]},
+    {"id":"G2","type":"gate","label":"Local feasibility\nand accounts gate","status":"Needs local records","summary":"Confirm real water and operations, complete incremental costs and a usable outlet before appraisal.","scope":"Current farm conditions, buyer terms and comparable cycle accounts.","limit":"Historic system means do not replace verified local feasibility or a full CBA.","section":"planner","evidence":["E4","E6"]},
+    {"id":"G3","type":"gate","label":"Farmer / adviser\nreview gate","status":"Pending real participation","summary":"Farmers and local advisers review evidence, uncertainty and priorities before testing a change.","scope":"Human judgment and a real field trial remain part of the research design.","limit":"No operational recommendation rank is issued; actual farmer usability participants remain zero.","section":"methods","evidence":[]}
+  ],
+  "edges": [
+    {"from":"Q1","to":"D1","relation":"requires"},{"from":"Q1","to":"D3","relation":"requires"},
+    {"from":"Q2","to":"D2","relation":"requires"},{"from":"Q2","to":"D3","relation":"requires"},{"from":"Q2","to":"D4","relation":"requires"},
+    {"from":"Q3","to":"D2","relation":"requires"},{"from":"Q3","to":"D3","relation":"requires"},{"from":"Q3","to":"D5","relation":"requires"},
+    {"from":"Q4","to":"D1","relation":"audits"},{"from":"Q4","to":"D3","relation":"audits"},
+    {"from":"Q5","to":"D4","relation":"requires"},{"from":"Q5","to":"D5","relation":"requires"},
+    {"from":"D1","to":"M1","relation":"processed by"},{"from":"D1","to":"M3","relation":"forces"},
+    {"from":"D2","to":"M1","relation":"checked by"},{"from":"D2","to":"M3","relation":"evaluates"},
+    {"from":"D3","to":"M1","relation":"checked by"},{"from":"D3","to":"M2","relation":"constrains"},{"from":"D3","to":"M3","relation":"parameterizes"},
+    {"from":"D4","to":"M2","relation":"constrains"},{"from":"D4","to":"M4","relation":"sets preferences"},{"from":"D5","to":"M4","relation":"informs"},
+    {"from":"M1","to":"E1","relation":"supports audit"},{"from":"M1","to":"E2","relation":"preserves limits"},{"from":"M1","to":"E4","relation":"preserves support"},{"from":"M1","to":"E7","relation":"supports audit"},
+    {"from":"M2","to":"E4","relation":"uses context"},{"from":"M3","to":"E3","relation":"produces diagnostic"},{"from":"M3","to":"E5","relation":"produces diagnostic"},{"from":"M4","to":"E6","relation":"compares conditionally"},
+    {"from":"E1","to":"G1","relation":"informs, not transfers"},{"from":"E2","to":"G1","relation":"informs, not transfers"},{"from":"E3","to":"G1","relation":"reveals open gate"},{"from":"E5","to":"G1","relation":"reveals open gate"},
+    {"from":"E4","to":"G2","relation":"informs review"},{"from":"E6","to":"G2","relation":"informs, not closes"},{"from":"E7","to":"G3","relation":"guides where to look"},
+    {"from":"G1","to":"G3","relation":"must be reviewed"},{"from":"G2","to":"G3","relation":"must be reviewed"}
+  ],
+  "paths": {
+    "Q1":["Q1","D1","D3","M1","E7","G3"],
+    "Q2":["Q2","D2","D3","D4","M1","M2","E1","E2","E4","G1","G2"],
+    "Q3":["Q3","D2","D3","D5","M1","M3","M4","E1","E3","E5","E6","G1","G2","G3"],
+    "Q4":["Q4","D1","D3","M1","M3","E3","E5","E7","G1","G3"],
+    "Q5":["Q5","D4","D5","M2","M4","E6","G2","G3"]
+  }
+}

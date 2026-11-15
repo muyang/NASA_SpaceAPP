@@ -25,7 +25,11 @@ def main():
  process=ROOT/'04_reproduce/case-study/field-admission-v2/processed'
  data={'counties':counties,'map':[{k:r[k] for k in ['fips','path','cx','cy']} for r in json.loads((HERE/'map_paths.json').read_text())],'states':[],'sites':sites,'cards':cards,'annual':rows(E/'marsden_annual_contrasts.csv'),'contrasts':rows(E/'contrast_summary.csv'),'pfi':rows(E/'pfi_2022_farm_summary.csv'),'finance':rows(E/'historical_financial_point_order.csv'),'yieldMetrics':rows(process/'field_replay_yield_metrics.csv'),'waterMetrics':rows(process/'field_replay_water_metrics.csv'),'facts':json.loads((E/'summary_facts.json').read_text()),'evidence':evidence}
  data['evidenceData']={'E1':{'contrasts':data['contrasts'],'annual':data['annual']},'E2':data['pfi'],'E3':data['facts']['latest_process'],'E4':cards,'E5':rows(E/'historical_validation_series.csv'),'E6':data['finance'],'E7':{'source_counts':data['facts']['final_screening_csv_source_counts'],'records':len(counties),'outlines':len(data['map'])}}
+ data['graph']=json.loads((HERE/'research_graph.json').read_text())
+ ids={n['id'] for n in data['graph']['nodes']}
+ assert len(ids)==len(data['graph']['nodes'])
+ assert all(e['from'] in ids and e['to'] in ids for e in data['graph']['edges'])
  assert len(counties)==3107 and len(data['map'])==3098
- template=(HERE/'template.html').read_text();output=template.replace('/*STYLE*/',(HERE/'style.css').read_text()).replace('/*DATA*/',json.dumps(data,ensure_ascii=False,separators=(',',':'),allow_nan=False).replace('<','\\u003c')).replace('/*SCRIPT*/',(HERE/'app.js').read_text())
+ template=(HERE/'template.html').read_text();output=template.replace('/*STYLE*/',(HERE/'style.css').read_text()+'\n'+(HERE/'graph.css').read_text()).replace('/*DATA*/',json.dumps(data,ensure_ascii=False,separators=(',',':'),allow_nan=False).replace('<','\\u003c')).replace('/*SCRIPT*/',(HERE/'app.js').read_text()+'\n'+(HERE/'graph.js').read_text())
  OUT.write_text(output);print(json.dumps({'output':str(OUT),'bytes':OUT.stat().st_size,'counties':len(counties),'outlines':len(data['map']),'external_runtime_requests':0}))
 if __name__=='__main__':main()
